@@ -1,0 +1,18 @@
+for each row in stats
+	get: RootTemplate (this is the GUID ), Value, Weight, ComboCategory,
+		Strength, Finess, Intelligence, Constitution,Memory,Wits,Vitality,Armor
+		PiercingResistance, PhysicalResistance, FireResistance, EarthResistance,WaterResistance,AirResistance, PoisoNResistance
+
+
+RECIPE
+id	fk_ingredient_id	fk_result_id
+
+RECIPERESULT
+id	name	category	fk_item_details
+
+INGREDIENT
+id	name	category	fk_item_details
+
+ITEMDETAILS
+id	display_name	guid	value	weight	description
+

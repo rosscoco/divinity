@@ -1,0 +1,33 @@
+{
+  "name": "divinity",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parser": "node src/data/parser/index.js"
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "csv-parse": "^3.0.0",
+    "express": "^4.16.3",
+    "fast-csv": "^2.4.1",
+    "morgan": "^1.9.1",
+    "save-dev": "^2.0.0",
+    "sequelize": "^4.38.1",
+    "sqlite3": "^4.0.2",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.9.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
