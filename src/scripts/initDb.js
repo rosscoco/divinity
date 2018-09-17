@@ -20,7 +20,21 @@ async function getIngredientsForRecipe(ingredArr, options) {
 	});
 }
 
+function parseIngredients() {
+	const ingredients = {};
 
+	RECIPES.forEach((recipeJSON) => {
+		if (recipeJSON.ingredients.length === 0) return;
+		for (let i = 0; i < recipeJSON.ingredients.length; i++) {
+			ingredients[recipeJSON.ingredients[i]] = {
+				name: recipeJSON.ingredients[i],
+				type: recipeJSON.ingredientTypes[i]
+			};
+		}
+	});
+
+	return db.Ingredient.bulkCreate(Object.values(ingredients));
+}
 function parseRecipes() {
 	db.sequelize.transaction((t) => {
 		const promiseList = [];
@@ -29,15 +43,19 @@ function parseRecipes() {
 			recipeName = { name: recipeJson.results[0] };
 
 			const dbCreateRecipe = getIngredientsForRecipe(recipeJson.ingredients, { transaction: t })
-				.then(ingredArr => new Promise((resolve, reject) => {
-					const ingredients = ingredArr;
-					db.RecipeResult.create(recipeName, { transaction: t })
-						.then(recipe => resolve(recipe, ingredients))
-						.error(err => reject(err));
-				}))
-				.then((createdRecipe, ingredients) => {
-					ingredients.forEach((data) => {
-						createdRecipe.setIngredients(data.id, { transaction: t });
+				.then((ingredArr) => {
+					const p = new Promise((resolve, reject) => {
+						const ingredients = ingredArr;
+						const name = recipeName;
+						db.RecipeResult.create(name, { transaction: t })
+							.then(recipe => resolve({ recipe, ingredients }))
+							.error(err => reject(err));
+					});
+					return p;
+				})
+				.then((createRecipeResult) => {
+					createRecipeResult.ingredients.forEach((data) => {
+						createRecipeResult.recipe.setIngredients(data.id, { transaction: t });
 					});
 				});
 			promiseList.push(dbCreateRecipe);
@@ -55,6 +73,5 @@ db.sequelize.sync({
 	 force: true
 }).then(() => {
 	console.log('models created');
-	parseIngredients();
-	parseRecipes();
+	parseIngredients().then(() => parseRecipes());
 });
