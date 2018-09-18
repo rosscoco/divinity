@@ -10,6 +10,7 @@ module.exports = {
         "comma-dangle":0,
         "func-names":0,
         "consistent-return":0,
+        "no-debugger":0,
         "indent": ["error", "tab", { "MemberExpression": 1 }],
       }
 };

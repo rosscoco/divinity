@@ -1,11 +1,24 @@
 /* eslint-disable no-await-in-loop */
+
 const { Op } = require('sequelize');
 const db = require('../model/db');
 const RECIPES = require('../../data/output/ParsedItemCombos.json');
 // const ITEMDETAILS = require('../../data/output/ItemGUID.json');
 
 
-async function getIngredientsForRecipe(ingredArr, options) {
+function forceRecipeIds(jsonArr) {
+	let inc = 0;
+	const newJson = jsonArr.map((json) => {
+		const dataWithId = { id: ++inc };
+		Object.assign(dataWithId, json);
+		return dataWithId;
+	});
+
+	return newJson;
+}
+
+async function getIngredientsForRecipe(ingredArr, dbRecipe, options) {
+	const recipe = dbRecipe;
 	return new Promise((resolve, reject) => {
 		db.Ingredient.findAll({
 			where: {
@@ -13,14 +26,18 @@ async function getIngredientsForRecipe(ingredArr, options) {
 					[Op.or]: ingredArr	// Sequelize OR clause
 				}
 			}
-		}, options).then((foundIng) => {
-			if (foundIng.length === 0) reject(new Error('No Ingredients found for recipe'));
-			resolve(foundIng);
+		}, options).then((ingredients) => {
+			if (ingredients.length === 0) reject(new Error('No Ingredients found for recipe'));
+			resolve({ ingredients, recipe });
 		});
-	});
+	})
+		.catch((err) => {
+			debugger;
+			console.log(err);
+		});
 }
 
-function parseIngredients() {
+function dbCreateIngredients() {
 	const ingredients = {};
 
 	RECIPES.forEach((recipeJSON) => {
@@ -36,61 +53,61 @@ function parseIngredients() {
 	return db.Ingredient.bulkCreate(Object.values(ingredients));
 }
 
-function forceRecipeIds(jsonArr) {
-	let inc = 0;
-	const newJson = jsonArr.map((json) => {
-		const dataWithId = { id: ++inc };
-		Object.assign(dataWithId, json);
-		return dataWithId;
+function dbJoinIngredientsToRecipe(data, options) {
+	const promises = [];
+	data.ingredients.forEach((ingredient) => {
+		const p = data.recipe.addIngredient(ingredient.id, options)
+			.catch((err) => {
+				console.log(`Error setting recipe ingredient ${err}`);
+			});
+		promises.push(p);
 	});
-
-	return newJson;
+	return Promise.all(promises);
 }
 
-function parseRecipes() {
+
+function dbCreateRecipe(data, options) {
+	const recipeJson = data;
+	return db.RecipeResult.create({ name: recipeJson.name, id: recipeJson.id }, options)
+		.then(dbRecipe => getIngredientsForRecipe(recipeJson.ingredients, dbRecipe, options))
+		.then(ingredients => dbJoinIngredientsToRecipe(ingredients, options))
+		.catch((err) => {
+			debugger;
+			console.log(err);
+		});
+}
+
+function createRecipes() {
 	const recipesWithId = forceRecipeIds(RECIPES);
+	const promiseList = [];
+	db.sequelize.transaction((transaction) => {
+		const options = { transaction };
 
-	db.sequelize.transaction((t) => {
-		const promiseList = [];
-		let recipeName;
-		RECIPES.forEach((recipeJson) => {
-			recipeName = { name: recipeJson.results[0] };
-
-			const dbGetIngredientIds = getIngredientsForRecipe(recipeJson.ingredients, { transaction: t });
-			promiseList.push(dbGetIngredientIds);
-			dbGetIngredientIds
-				.then((ingredArr) => {
-					const createRecipe = new Promise((resolve, reject) => {
-						const ingredients = ingredArr;
-						const name = recipeName;
-						db.RecipeResult.create(name, { transaction: t })
-							.then(recipe => resolve({ recipe, ingredients }))
-							.error(err => reject(err));
-					});
-					promiseList.push(createRecipe);
-				})
-				.then((createRecipeResult) => {
-					createRecipeResult.ingredients.forEach((data) => {
-						createRecipeResult.recipe.setIngredients(data.id, { transaction: t });
-					});
-				})
-				.catch((e) => {
-					console.log(e);
-				});
-			// promiseList.push(dbCreateRecipe);
+		recipesWithId.forEach((recipeJSON) => {
+			promiseList.push(dbCreateRecipe(recipeJSON, options)
+				.catch((err) => {
+					debugger;
+					console.log(err);
+				}));
 		});
 
-
 		return Promise.all(promiseList)
-			.then(() => {
-				console.log('Success???');
+			.catch((err) => {
+				debugger;
+				console.log(err);
 			});
 	});
 }
 
+
 db.sequelize.sync({
-	 force: true
+	force: true
 }).then(() => {
 	console.log('models created');
-	parseIngredients().then(() => parseRecipes());
+	dbCreateIngredients()
+		.then(() => createRecipes())
+		.catch((err) => {
+			debugger;
+			console.log(err);
+		});
 });

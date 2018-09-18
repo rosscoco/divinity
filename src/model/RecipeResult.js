@@ -1,6 +1,12 @@
 module.exports = function (sequelize, Datatypes) {
 	const RecipeResult = sequelize.define('RecipeResult', {
-		name: Datatypes.STRING,
+		id: {
+			primaryKey: true,
+			type: Datatypes.INTEGER
+		},
+		name: {
+			type: Datatypes.STRING,
+		}
 	});
 
 	RecipeResult.associate = (models) => {

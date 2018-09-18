@@ -5,6 +5,7 @@
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dbseed": "node src/scripts/initDb.js",
     "parser": "node src/data/parser/index.js"
   },
   "dependencies": {
@@ -31,3 +32,4 @@
   "author": "",
   "license": "ISC"
 }
+
