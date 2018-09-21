@@ -1,0 +1,756 @@
+Name	Parent	ItemGroup	ModifierType	Act	Level	Requirements	IsTwoHanded	AttackAPCost	Damage Type	Damage	Damage Range	DamageBoost	DamageFromBase	CriticalDamage	CriticalChance	WeaponRange	CleavePercentage	CleaveAngle	Durability	DurabilityDegradeSpeed	Value	Weight	Movement	Initiative	WeaponType	AnimType	Slot	Projectile	IgnoreVisionBlock	StrengthBoost	FinesseBoost	IntelligenceBoost	ConstitutionBoost	MemoryBoost	WitsBoost	TwoHanded	SingleHanded	Ranged	DualWielding	Perseverance	Leadership	PainReflection	WarriorLore	RangerLore	RogueLore	FireSpecialist	WaterSpecialist	AirSpecialist	EarthSpecialist	Necromancy	Polymorph	Summoning	Sourcery	Telekinesis	Sneaking	Thievery	Loremaster	Repair	Barter	Persuasion	Luck	Fire	Earth	Water	Air	Poison	SightBoost	HearingBoost	VitalityBoost	ChanceToHitBoost	APMaximum	APStart	APRecovery	AccuracyBoost	DodgeBoost	ComboCategory	Reflection	MaxSummons	LifeSteal	Skills	Talents	Tags	ExtraProperties	Flags	Boosts	InventoryTab	NeedsIdentification	Charges	MaxCharges	ItemColor	RuneSlots	RuneSlots_V1	ObjectCategory	MinAmount	MaxAmount	Priority	Unique	MinLevel	MaxLevel	Comment	
+NoWeapon			Item	1	1	Strength 0	No	2	Physical	0	30		20	150	0	80			0	0	0		20		None		Weapon																																																													0			0	0									
+Damage_Burning			Item						Fire	1	5		30																																																																											0													
+Damage_Necrofire			Item						Fire	1	5		45																																																																											0													
+Damage_Poisoned			Item						Poison	1	5		30																																																																											0													
+Damage_Bleeding			Item						Piercing	1	5		35																																																																											0													
+Damage_Acid			Item						Corrosive	1	5		50																																																																											0													
+Damage_Suffocating			Item						Magic	1	5		50																																																																											0													
+Damage_Totem_Armor_Strip			Item						Magic	1	5		250		0																																																																									0													
+Damage_Explode			Item						Fire	1	5		200																																																																											0													
+Damage_Remorse			Item						Piercing	1	5																																																																													0													
+Damage_KneeBreaker			Skill						Piercing	1	5		20																																																																											0													
+Damage_DeathWish			Skill						Piercing	1	5		0																																																																											0													
+Damage_Pain			Skill						Piercing	1	5		130																																																																											0													
+DamageSurface_Fire			Item						Fire	1	5		17																																																																											0													
+DamageSurface_Necrofire			Item						Fire	1	5		25																																																																											0													
+DamageSurface_Static			Item						Air	1	5		15																																																																											0													
+DamageSurface_StaticCursed			Item						Air	1	5		20																																																																											0													
+DamageSurface_Ooze			Item						Poison	1	5		17																																																																											0													
+DamageSurface_CloudPoison			Item						Poison	1	5		17																																																																											0													
+DamageSurface_Deathfog			Item						Piercing	1	0		6000																																																																											0													
+DamageSurface_Lava			Item						Fire	1	10		4000																																																																											0													
+DamageSurface_CloudExplosion			Item						Fire	1	5		30																																																																											0													
+DamageSurface_FrostExplosion			Item						Water	1	5		150																																																																											0													
+DamageSurface_Steam			Item						Water	1	5		10																																																																											0													
+DamageSurface_Smoke			Item						Magic	1	15																																																																													0	0												
+Status_Arrowhead_Fire			Item						Fire	1	5		40																																																																																								
+Status_Arrowhead_Water			Item						Water	1	5		40																																																																																								
+Status_Arrowhead_Poison			Item						Poison	1	5		40																																																																																								
+Status_Arrowhead_Electric			Item						Air	1	5		40																																																																																								
+Status_Arrowhead_Blood			Item						Physical	1	5		30																																																																																								
+Status_Arrowhead_Oil			Item						Earth	1	5		40																																																																																								
+Status_FireBrand			Item						Fire	1	5		20																																																																																								
+Status_VenomCoating			Item						Poison	1	5		40																																																																																								
+Status_SiphonPoison			Item						Poison	1	5		5																																																																																								
+Skill_FlamingCrescendo			Skill						Fire	2	10		175																																																																																								
+_Unarmed		WPN_Unarmed	Item	1		Strength 0	No	2	Physical	0	5		55	150	0	80			0	0	0	0	0		None	Unarmed	Weapon																																																											Hidden		0	0	DefaultGray	0	0									
+_NpcUnarmed	_Unarmed									2																																																																																											
+_Daggers		Daggers	Item	1		Finesse 12	No	2	Physical	0	5		55	150	0	80			20	6	25	500	0		Knife		Weapon																																																											Equipment		0	0	DefaultGray	0	0									
+_NpcDaggers	_Daggers									2																																																																																											
+WPN_Dagger	_Daggers				0																																																																							Dagger,CuttingTool																	Dagger	1	1	1		1			
+WPN_CraftedDagger	_Daggers	WPN_CraftedDagger			0																15																																																							Dagger,CuttingTool																									
+WPN_Dagger_Arena_A	_Daggers				0																																																																							Dagger,CuttingTool								Unbreakable																	
+WPN_Dagger_Arena_B	_Daggers				0																																																																							Dagger,CuttingTool								Unbreakable																	
+WPN_Wooden_Stake	_Daggers				1																1																																																																									1	1	1		1			
+FUR_Rich_Fork_A	_Daggers	FUR_Rich_Fork_A			0								30								50																																																																																
+FUR_Rich_Knife_A	_Daggers	FUR_Rich_Knife_A			0								30								58																																																							Knife,CuttingTool																		1	1	2					
+TOOL_Shears_A	_Daggers	TOOL_Shears_A			1								30								4																																																							CuttingTool																	Junk	1	1	1		1			
+FUR_Cutlery_Knife_A	_Daggers	FUR_Rich_Knife_A			1								30								1																																																							Knife,CuttingTool																		1	1	1		1			
+WPN_Toy_WoodenSword	_Daggers	WPN_Toy_WoodenSword			1								30								3																																																																									1	1	1		1			
+_Swords		Swords_1H	Item	1		Strength 12	No	2	Physical	0	10		67	150	0	120			20	6	55	2500	0		Sword		Weapon																																																											Equipment		0	0	DefaultGray	0	0									
+_NpcSwords	_Swords									2																																																																																											
+WPN_Sword_1H	_Swords				0																																																																							Sword,CuttingTool																	Sword	1	1	1		1			
+WPN_Sword_Arena_A	_Swords				0																																																																							Sword,CuttingTool																									
+WPN_CraftedSword_1H	_Swords	WPN_CraftedSword_1H			0																25																																																							Sword,CuttingTool																									
+WPN_Cheat_Sword_1H_RuneSlot1	_Swords				1																																																																															Unbreakable							1	1									
+WPN_Cheat_Sword_1H_RuneSlot2	_Swords				1																																																																															Unbreakable							2	2									
+WPN_Cheat_Sword_1H_RuneSlot3	_Swords				1																																																																															Unbreakable							3	3									
+WPN_Cheat_Sword_1H_Fire	_Swords				1																																																																															Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_Sword_1H_Water	_Swords				5																																																																															Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_Sword_1H_Poison	_Swords				10																																																																															Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_Sword_1H_Earth	_Swords				15																																																																															Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_Sword_1H_Air	_Swords				20																																																																															Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_Sword_1H_Damage	_Swords				5																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+_Axes		Axes_1H	Item	1		Strength 12	No	2	Physical	0	15		67	150	0	120			20	6	65	3000	0		Axe		Weapon																																																											Equipment		0	0	DefaultGray	0	0									
+_NpcAxes	_Axes									2																																																																																											
+WPN_Axe_1H	_Axes				0																																																																							Axe,CuttingTool														DefaultGray			Axe	1	1	1		1			
+WPN_CraftedAxe_1H	_Axes	WPN_CraftedAxe_1H			0																30																																																							Axe,CuttingTool																									
+WPN_Cleaver	_Axes	WPN_Cleaver			3																40	2000																																																						Axe,CuttingTool																	Junk	1	1	1		4	8		
+WPN_Cheat_Axe_1H_Fire	_Axes				1																																																																															Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_Axe_1H_Water	_Axes				5																																																																															Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_Axe_1H_Poison	_Axes				15																																																																															Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_Axe_1H_Earth	_Axes				20																																																																															Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_Axe_1H_Air	_Axes				5																																																																															Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_Axe_1H_Damage	_Axes				10																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+_Clubs		Maces_1H	Item	1		Strength 12	No	2	Physical	0	5		67	150	0	120			20	6	40	3500	0		Club		Weapon																																																											Equipment		0	0	DefaultGray	0	0									
+_NpcClubs	_Clubs									2																																																																																											
+WPN_Mace_1H	_Clubs				0																																																																							Club,Hammer																	Club	1	1	1		1			
+FUR_Pan	_Clubs	FUR_Pan			1								30								1	2000																																																						Club,Hammer																	Junk	1	1	2		1			
+WPN_Common_Mace_1H_C	_Clubs	WPN_Common_Mace_1H_C			1																1	1000																																																						Club,Hammer																	Junk	1	1	1		2			
+WPN_Common_Mace_1H_A	_Clubs	WPN_Common_Mace_1H_A			1																2	1000																																																						Club,Hammer																									
+WPN_Branch_A	_Clubs				1																1	500																																																						Club,Hammer																									
+WPN_Branch_A_Nails	_Clubs				2																3	600																																																						Club																									
+WPN_Cheat_Club_1H_Fire	_Clubs				1																																																																															Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_Club_1H_Water	_Clubs				5																																																																															Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_Club_1H_Poison	_Clubs				15																																																																															Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_Club_1H_Earth	_Clubs				20																																																																															Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_Club_1H_Air	_Clubs				5																																																																															Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_Club_1H_Damage	_Clubs				10																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+_TwoHandedSwords		Swords_2H	Item	1		Strength 12	Yes	2	Physical	0	10		105	150	0	150			20	6	75	6000	0		Sword		Weapon																																																					Target_HeavyAttack						Equipment		0	0	DefaultGray	0	0									
+_NpcTwoHandedSwords	_TwoHandedSwords									2																																																																																											
+WPN_Sword_2H	_TwoHandedSwords				0																																																																							TwoHandedSword,CuttingTool																	TwoHandedSword	1	1	1		1			
+WPN_CraftedSword_2H	_TwoHandedSwords				0																20																																																							TwoHandedSword,CuttingTool																									
+WPN_Cheat_TwoHandedSword_1H_Fire	_TwoHandedSwords				1																																																																															Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_TwoHandedSword_1H_Water	_TwoHandedSwords				5																																																																															Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_TwoHandedSword_1H_Poison	_TwoHandedSwords				15																																																																															Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_TwoHandedSword_1H_Earth	_TwoHandedSwords				20																																																																															Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_TwoHandedSword_1H_Air	_TwoHandedSwords				5																																																																															Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_TwoHandedSword_1H_Damage	_TwoHandedSwords				10																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+WPN_Cheat_Sword_2H_RuneSlot1	_TwoHandedSwords				1																																																																															Unbreakable							1	1									
+WPN_Cheat_Sword_2H_RuneSlot2	_TwoHandedSwords				1																																																																															Unbreakable							2	2									
+WPN_Cheat_Sword_2H_RuneSlot3	_TwoHandedSwords				1																																																																															Unbreakable							3	3									
+_TwoHandedAxes		Axes_2H	Item	1		Strength 12	Yes	2	Physical	0	15		105	150	0	150			20	6	90	6000	0		Axe		Weapon																																																					Target_HeavyAttack						Equipment		0	0	DefaultGray	0	0									
+_NpcTwoHandedAxes	_TwoHandedAxes									2																																																																																											
+WPN_Axe_2H	_TwoHandedAxes				0																																																																							TwoHandedAxe,CuttingTool																	TwoHandedAxe	1	1	1		1			
+WPN_CraftedAxe_2H	_TwoHandedAxes	WPN_CraftedAxe_2H			0																35																																																							TwoHandedAxe,CuttingTool																									
+WPN_Common_Axe_2H_A	_TwoHandedAxes	WPN_Common_Axe_2H_A			4								70								2																																																							TwoHandedAxe,CuttingTool																	Junk	1	1	1		4			
+WPN_Cheat_TwoHandedAxe_1H_Fire	_TwoHandedAxes				1																																																																															Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_TwoHandedAxe_1H_Water	_TwoHandedAxes				5																																																																															Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_TwoHandedAxe_1H_Poison	_TwoHandedAxes				15																																																																															Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_TwoHandedAxe_1H_Earth	_TwoHandedAxes				20																																																																															Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_TwoHandedAxe_1H_Air	_TwoHandedAxes				5																																																																															Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_TwoHandedAxe_1H_Damage	_TwoHandedAxes				10																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+_TwoHandedMaces		Maces_2H	Item	1		Strength 12	Yes	2	Physical	0	5		105	150	0	150			20	6	50	6000	0		Club		Weapon																																																					Target_HeavyAttack						Equipment		0	0	DefaultGray	0	0									
+_NpcTwoHandedMaces	_TwoHandedMaces									2																																																																																											
+WPN_Mace_2H	_TwoHandedMaces				0																																																																							TwoHandedMaces,Hammer																	TwoHandedMace	1	1	1		1			
+WPN_CraftedMace_2H	_TwoHandedMaces	WPN_CraftedMace_2H			0																20																																																							TwoHandedMaces,Hammer																									
+WPN_CraftedMace_2H_B	_TwoHandedMaces	WPN_CraftedMace_2H_B			0																19																																																							TwoHandedMaces,Hammer																									
+TOOL_Broom_A	_TwoHandedMaces	TOOL_Broom_A			1								40								1																																																																								Junk	1	1	1		1			
+WPN_2HMace_Arena_A	_TwoHandedMaces				0																																																																							TwoHandedMaces,Hammer								Unbreakable																	
+WPN_2HMace_Arena_B	_TwoHandedMaces				6																																																																							TwoHandedMaces,Hammer								Unbreakable																	
+WPN_Cheat_TwoHandedMace_1H_Fire	_TwoHandedMaces				1																																																																															Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_TwoHandedMace_1H_Water	_TwoHandedMaces				5																																																																															Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_TwoHandedMace_1H_Poison	_TwoHandedMaces				15																																																																															Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_TwoHandedMace_1H_Earth	_TwoHandedMaces				20																																																																															Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_TwoHandedMace_1H_Air	_TwoHandedMaces				5																																																																															Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_TwoHandedMace_1H_Damage	_TwoHandedMaces				10																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+_Spears		Spears_2H	Item	1		Finesse 12	Yes	2	Physical	0	5		100	150	0	250			20	6	60	2000	0		Spear		Weapon																																																					Target_HeavyAttack						Equipment		0	0	DefaultGray	0	0									
+_NpcSpears	_Spears									2																																																																																											
+WPN_Spear	_Spears				0																																																																							Spear																	Spear	1	1	1		1			
+WPN_PrimitiveHarpoon	_Spears	WPN_Common_Spear_2H_A			0																4																																																							Spear																									
+WPN_Pitchfork	_Spears	WPN_Pitchfork			1																1																																																							Spear																	Junk	1	1	1		10			
+TOOL_FishingRod_A	_Spears	TOOL_FishingRod_A			1								40								2	500																																																						FishingRod																	Junk	1	1	1		1	9		
+WPN_Cheat_TwoHandedSpear_1H_Fire	_Spears				1																																																																															Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_TwoHandedSpear_1H_Water	_Spears				5																																																																															Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_TwoHandedSpear_1H_Poison	_Spears				15																																																																															Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_TwoHandedSpear_1H_Earth	_Spears				20																																																																															Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_TwoHandedSpear_1H_Air	_Spears				5																																																																															Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_TwoHandedSpear_1H_Damage	_Spears				10																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+_Staffs		Staves_2H	Item	1		Intelligence 12	Yes	2	Physical	0	20		95	150	0	150			20	6	100	2500	0		Staff		Weapon																																																					Projectile_StaffOfMagus						Equipment		0	0	DefaultGray	0	0									
+_Staffs_Fire	_Staffs				0				Fire																																																																			Staff							Ignite;Melt																		
+_Staffs_Water	_Staffs				0				Water																																																																			Staff							Freeze																		
+_Staffs_Poison	_Staffs				0				Poison																																																																			Staff							Contaminate																		
+_Staffs_Earth	_Staffs				0				Earth																																																																			Staff							Oilify																		
+_Staffs_Air	_Staffs				0				Air																																																																			Staff																									
+_NpcStaffs	_Staffs				0					2																																																																																											
+_NpcStaffs_Fire	_Staffs_Fire				0					2																																																																																											
+_NpcStaffs_Water	_Staffs_Water				0					2																																																																																											
+_NpcStaffs_Poison	_Staffs_Poison				0					2																																																																																											
+_NpcStaffs_Earth	_Staffs_Earth				0					2																																																																																											
+_NpcStaffs_Air	_Staffs_Air				0					2																																																																																											
+WPN_Staff_Fire	_Staffs_Fire				0																																																																							Staff																	StaffFire	1	1	1		1			
+WPN_Staff_Water	_Staffs_Water				0																																																																							Staff																	StaffWater	1	1	1		1			
+WPN_Staff_Poison	_Staffs_Poison				0																																																																							Staff																	StaffPoison	1	1	1		1			
+WPN_Staff_Air	_Staffs_Air				0																																																																							Staff																	StaffAir	1	1	1		1			
+WPN_Staff_Earth	_Staffs_Earth				0																																																																							Staff																									
+WPN_Staff_Arena	_Staffs				6				Fire																																																																			Staff																									
+WPN_CraftedStaff_Fire	_Staffs_Fire	WPN_CraftedStaff_Fire			0																48																																																							Staff																									
+WPN_CraftedStaff_Water	_Staffs_Water	WPN_CraftedStaff_Water			0																48																																																							Staff																									
+WPN_CraftedStaff_Poison	_Staffs_Poison	WPN_CraftedStaff_Poison			0																48																																																							Staff																									
+WPN_CraftedStaff_Air	_Staffs_Air	WPN_CraftedStaff_Air			0																48																																																							Staff																									
+WPN_Cheat_Staffs_1H_Fire	_Spears				1																																																																															Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_Staffs_1H_Water	_Spears				5																																																																															Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_Staffs_1H_Poison	_Spears				15																																																																															Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_Staffs_1H_Earth	_Spears				20																																																																															Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_Staffs_1H_Air	_Spears				5																																																																															Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_Staffs_1H_Damage	_Spears				10																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+_Bows		Bows	Item	1		Finesse 12	Yes	2	Physical	0	20		90	150	0	1300			0	6	75	2000	0		Bow		Weapon	04bdf5e2-3c6a-4711-b516-1a275ccbd710	Yes																																																									Equipment		0	0	DefaultGray	0	0									
+_NpcBows	_Bows									2																																																																																											
+WPN_Bow	_Bows				0																																																																							Bow																	Bow	1	1	1		1			
+WPN_CraftedBow	_Bows	WPN_CraftedBow			0																28																																																							Bow																									
+WPN_Bow_Arena_A	_Bows				0																																																																							Bow								Unbreakable																	
+WPN_Bow_Arena_B	_Bows				6																																																																							Bow								Unbreakable																	
+WPN_Cheat_Bows_1H_Fire	_Bows				1																							8efaf767-7d66-4f4d-8c8e-5cb4a3d2e0f6																																																								Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_Bows_1H_Water	_Bows				5																							cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																								Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_Bows_1H_Poison	_Bows				15																							94fabe05-2334-430f-bb74-5959de40b4b1																																																								Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_Bows_1H_Earth	_Bows				20																							beca2252-26fc-4c8b-94c6-a64df1ffe1d9																																																								Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_Bows_1H_Air	_Bows				5																							183717cc-5910-454d-b352-f4696a11d089																																																								Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_Bows_1H_Damage	_Bows				10																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+_Crossbows		Crossbows	Item	1		Finesse 12	Yes	2	Physical	0	5		100	150	0	1300			0	6	100	3000	-100		Crossbow		Weapon	c18e979b-b3be-4a62-bbec-cbe53fcf0e15	Yes																																													5												Equipment		0	0	DefaultGray	0	0									
+_NpcCrossbows	_Crossbows									2																																																																																											
+WPN_Crossbow	_Crossbows				0																																																																							Crossbow																	Crossbow	1	1	1		1			
+WPN_CraftedCrossbow	_Crossbows	WPN_CraftedCrossbow			0																34																																																							Crossbow																									
+WPN_Crossbow_Arena	_Crossbows				6																																																																							Crossbow																									
+WPN_Crossbow_Barklista	_Crossbows	EMPTY			0																																																																																																
+WPN_Cheat_Crossbows_1H_Fire	_Crossbows				1																							f35fee72-e632-4cf7-afd7-4091529c1f05																																																								Unbreakable	_Boost_Weapon_Damage_Fire_Medium																
+WPN_Cheat_Crossbows_1H_Water	_Crossbows				5																							d5324fb6-943e-40ea-857f-1a028659d20b																																																								Unbreakable	_Boost_Weapon_Damage_Water_Medium																
+WPN_Cheat_Crossbows_1H_Poison	_Crossbows				15																							b136c5e6-a464-4a17-bc56-aa94211f0b4f																																																								Unbreakable	_Boost_Weapon_Damage_Poison_Medium																
+WPN_Cheat_Crossbows_1H_Earth	_Crossbows				20																							5e4d1a64-8547-4b7a-a698-249bd4b3e62d																																																								Unbreakable	_Boost_Weapon_Damage_Earth_Medium																
+WPN_Cheat_Crossbows_1H_Air	_Crossbows				5																							42df1e59-137d-4bc6-8bb0-4b6cd2748c82																																																								Unbreakable	_Boost_Weapon_Damage_Air_Medium																
+WPN_Cheat_Crossbows_1H_Damage	_Crossbows				10																																																																															Unbreakable	_Boost_Weapon_Damage_Bonus_Medium																
+_Wands		Wands_1H	Item	1		Intelligence 12	No	2	Fire	0	15		55	150	0	1300			0	10	70	1000	0		Wand		Weapon																																																											Equipment		0	0	DefaultGray	0	0									
+_Wands_Fire	_Wands				0				Fire																			ecdb61db-7c28-4917-ac1b-ccbfaf23a331																																																							Ignite;CreateSurface,1,,Fire																		
+_Wands_Air	_Wands				0				Air																			434846a8-9a5e-4df2-b9c4-66bb24e80379																																																							Electrify																		
+_Wands_Water	_Wands				0				Water																			019229b6-5741-4aeb-b4fc-c4a3bf2758fb																																																							CreateSurface,1,,WaterFrozen																		
+_Wands_Poison	_Wands				0				Poison																			dc9aa8b4-04d9-47ba-9bb1-5c480f1b978c																																																							CreateSurface,1,,Poison																		
+_NpcWands_Fire	_Wands_Fire				0					2																																																																																											
+_NpcWands_Air	_Wands_Air				0					2																																																																																											
+_NpcWands_Water	_Wands_Water				0					2																																																																																											
+_NpcWands_Poison	_Wands_Poison				0					2																																																																																											
+WPN_Wand_Fire	_Wands_Fire				0																																																																																								WandFire	1	1	1		1			
+WPN_Wand_Air	_Wands_Air				0																																																																																								WandAir	1	1	1		1			
+WPN_Wand_Water	_Wands_Water				0																																																																																								WandWater	1	1	1		1			
+WPN_Wand_Poison	_Wands_Poison				0																																																																																								WandPoison	1	1	1		1			
+WPN_CraftedWand_Fire	_Wands_Fire	WPN_CraftedWand_Fire			0								40								31																																																																																
+WPN_CraftedWand_Air	_Wands_Air	WPN_CraftedWand_Air			0								40								31																																																																																
+WPN_CraftedWand_Water	_Wands_Water	WPN_CraftedWand_Water			0								40								31																																																																																
+WPN_CraftedWand_Poison	_Wands_Poison	WPN_CraftedWand_Poison			0								40								31																																																																																
+WPN_Wand_Arena_A	_Wands_Fire				0																																																																															Unbreakable																	
+WPN_Wand_Arena_B	_Wands_Fire				0																																																																															Unbreakable																	
+WPN_Wand_Purging	_Wands_Fire	WPN_Wand_Purging			0																																																																											Target_SourceDisruption								4	4												
+WPN_Wand_Purging_Inert	_Wands_Fire	WPN_Wand_Purging			0																																																																																																
+_Placeholders																			0																																																																					0	0		0	0									
+_Placeholder_OneHanded	_Swords	EMPTY			1		No																		Sword																																																											Unbreakable		Hidden															
+_Placeholder_TwoHanded_Generic	_TwoHandedAxes	EMPTY			1		Yes																		Sword																																																											Unbreakable		Hidden															
+_Placeholder_TwoHanded_Sword	_TwoHandedSwords	EMPTY			1		Yes																		Axe																																																											Unbreakable		Hidden															
+_Placeholder_SmallWeapon	_Daggers	EMPTY			1		No																		Knife																																																											Unbreakable		Hidden															
+_Placeholder_Bows	_Bows	EMPTY			1		No																		Bow																																																											Unbreakable		Hidden															
+_Placeholder_Crossbows	_Crossbows	EMPTY			1		No																		Crossbow																																																											Unbreakable		Hidden															
+_Placeholder_PoleArms	_Spears	EMPTY			1		Yes																		Spear																																																											Unbreakable		Hidden															
+_Placeholder_Unarmed	_Daggers	EMPTY			1		No																		None																																																											Unbreakable		Hidden															
+_Placeholder_Staves	_Staffs	EMPTY			1		Yes																		Staff																																																											Unbreakable		Hidden															
+_Placeholder_Wands	_Wands	EMPTY			1		No																		Wand			ecdb61db-7c28-4917-ac1b-ccbfaf23a331																																																								Unbreakable		Hidden															
+_Summons_Weapons			Item				No	2											0																																																																					0	0		0	0									
+_Summon_BonePile	_NpcSwords	EMPTY			0		Yes						100			150									None																																																											Unbreakable		Hidden															
+_Summon_FireSlug	_NpcClubs	EMPTY			0		No		Fire				100			70			10						None																																																										BURNING,100,2	Unbreakable	_Enemy_Boost_FireDamage	Hidden															
+_Summon_Voidwoken_A	_NpcDaggers	EMPTY			0		No					-10													None																																																											Unbreakable		Hidden															
+_Summon_Cat	_NpcDaggers	EMPTY			0		No				5		30												None																																																											Unbreakable		Hidden															
+_Summon_BloatedCorpse	_NpcClubs	EMPTY			0								50												None																																																											Unbreakable		Hidden															
+_Summon_Incarnate	_NpcDaggers	EMPTY			0		No				10		50												None																																																											Unbreakable		Hidden															
+_Summon_Incarnate_Fire_Infused	_Summon_Incarnate				0				Fire																																																																																												
+_Summon_Incarnate_NecroFire_Infused	_Summon_Incarnate				0				Fire																																																																																												
+_Summon_Incarnate_Water_Infused	_Summon_Incarnate				0				Water																																																																																												
+_Summon_Incarnate_BlessedIce_Infused	_Summon_Incarnate				0				Water																																																																																												
+_Summon_Incarnate_Poison_Infused	_Summon_Incarnate				0				Poison																																																																																												
+_Summon_Incarnate_Earth_Infused	_Summon_Incarnate				0				Earth																																																																																												
+_Summon_Incarnate_Acid_Infused	_Summon_Incarnate				0				Poison																																																																																												
+_Summon_Incarnate_Electric_Infused	_Summon_Incarnate				0				Air																																																																																												
+_Summon_Incarnate_CursedElectric_Infused	_Summon_Incarnate				0				Air																																																																																												
+_Summon_Incarnate_Blood_Infused	_Summon_Incarnate				0				Physical			10																																																																																									
+_Summon_Incarnate_Giant	_Summon_Incarnate											50																																																																																									
+_Summon_Incarnate_Fire_Infused_Giant	_Summon_Incarnate_Fire_Infused				0							50																																																																																									
+_Summon_Incarnate_NecroFire_Infused_Giant	_Summon_Incarnate_NecroFire_Infused				0							50																																																																																									
+_Summon_Incarnate_Water_Infused_Giant	_Summon_Incarnate_Water_Infused				0							50																																																																																									
+_Summon_Incarnate_BlessedIce_Infused_Giant	_Summon_Incarnate_BlessedIce_Infused				0							50																																																																																									
+_Summon_Incarnate_Poison_Infused_Giant	_Summon_Incarnate_Poison_Infused				0							50																																																																																									
+_Summon_Incarnate_Earth_Infused_Giant	_Summon_Incarnate_Earth_Infused				0							50																																																																																									
+_Summon_Incarnate_Acid_Infused_Giant	_Summon_Incarnate_Acid_Infused				0							50																																																																																									
+_Summon_Incarnate_Electric_Infused_Giant	_Summon_Incarnate_Electric_Infused				0							50																																																																																									
+_Summon_Incarnate_CursedElectric_Infused_Giant	_Summon_Incarnate_CursedElectric_Infused				0							50																																																																																									
+_Summon_Incarnate_Blood_Infused_Giant	_Summon_Incarnate_Blood_Infused				0							65																																																																																									
+_Summon_Plant	_NpcTwoHandedSwords	EMPTY			0		No	2	Poison				125						10						None	None																																																									POISONED,30,2	Unbreakable		Hidden															
+_Summon_Totem_Wood	_Wands	EMPTY			0	Intelligence 0		1	Physical	0	10		80															f17f6dbb-bdee-47dd-9c3a-beafa52c5115																																																										Hidden															
+_Summon_Totem_Fire	_Summon_Totem_Wood								Fire																			4e826aea-e44c-45b7-b220-5f4562e33227																																																							Ignite;																		
+_Summon_Totem_Water	_Summon_Totem_Wood								Water																			3adad18b-8b8f-4330-b6d9-b3899a3f3e5d																																																							WET,100,1																		
+_Summon_Totem_Air	_Summon_Totem_Wood								Air																			e6d896aa-1a2a-4b76-808f-5aff63e5130c																																																							Electrify;																		
+_Summon_Totem_Earth	_Summon_Totem_Wood								Earth			10																00aaf396-71e6-475d-82ca-fb656d9c3b5c																																																																									
+_Summon_Totem_Poison	_Summon_Totem_Wood								Poison																			c5bedba4-2d1e-4e7f-8513-a2af57238810																																																							POISONED,100,1																		
+_Summon_Totem_Blood	_Summon_Totem_Wood								Physical																			d47cf2f9-c38d-459c-aeeb-8356b0f877b2																																																							BLEEDING,100,1																		
+_Summon_Totem_Bone	_Summon_Totem_Wood								Physical			50																8a7f6929-6eda-4d33-bb2e-ec993bb92b02																																																							BLEEDING,100,1																		
+_Summon_Totem_Source	_Summon_Totem_Wood								Piercing																			d47cf2f9-c38d-459c-aeeb-8356b0f877b2																																																																									
+_Summon_Condor	_NpcDaggers	EMPTY							Piercing																None																																																																												
+_Specific_Enemy_Attacks																																																																																								0	0		0	0									
+_GEN_SilentMonk	_NpcDaggers	WPN_Unarmed			0																																																																																																
+_GEN_SilentMonk_Unarmed	_Unarmed	WPN_Unarmed			0																																																																																																
+_GEN_SilentMonk_Staff	_NpcStaffs_Earth				0																																																																																																
+_GEN_SilentMonk_Spear	_NpcSpears	WPN_Humans_Spear_2H_A		1	0																																																																														MUTED,50,2																		
+_GEN_SilentWatcher_Club_2H	_NpcTwoHandedMaces	WPN_Humans_Mace_2H_A		1	0							80																																																																																									
+_GEN_SilentWatcher_Sword_2H	_NpcTwoHandedSwords	WPN_Sword_2H_Human_01		1	0							110																																																																																									
+_GEN_SilentWatcher_Bow	_NpcBows	WPN_Bow_Human_02		1	0							60																																																																														HumansBowCommon											
+_GEN_Magister_Melee_Club	_NpcClubs	WPN_Mace_1H_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Magister_Melee_Sword	_NpcSwords	WPN_Sword_1H_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Magister_Melee_Axe	_NpcAxes	WPN_Axe_1H_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Magister_Melee_Sword_2H	_NpcTwoHandedSwords	WPN_Sword_2H_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Magister_Melee_Dagger	_NpcDaggers	WPN_Dagger_2H_Human_01		1	0								100																																																																													HumansCommon											
+_GEN_Magister_Melee_Staff	_NpcStaffs_Air	WPN_Staff_Human_03		1	0																																																																																					HumansStaffBCommon											
+_GEN_Magister_Ranged_Bow	_NpcBows	WPN_Bow_Human_01		1	0																																																																																					HumansBowCommon											
+_GEN_Magister_Ranged_Bow_X	_NpcCrossbows	WPN_Crossbow_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Magister_Ranged_Wand_Fire	_NpcWands_Fire	WPN_Wand_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Magister_Ranged_Wand_Water	_NpcWands_Water	WPN_Wand_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Magister_Ranged_Wand_Air	_NpcWands_Air	WPN_Wand_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Magister_Ranged_Wand_Poison	_NpcWands_Poison	WPN_Wand_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Brutes_Unarmed	_NpcUnarmed	WPN_Unarmed			0			2																																																																																		HumansCommon											
+_GEN_Brutes_Knife	_NpcDaggers	WPN_Dagger_2H_Human_03			0																																																																																					HumansCommon											
+_GEN_Brutes_Club_2H	_NpcTwoHandedMaces	WPN_Mace_2H_Common_02		1	0		Yes																																																																																			HumansCommon											
+_GEN_Brutes_Axe_2H	_NpcTwoHandedAxes	WPN_Axe_2H_Human_02		1	0		Yes																																																																																			HumansCommon											
+_GEN_Brutes_Staff	_NpcStaffs_Poison	WPN_Staff_Human_01		1	0																																																																																					HumansBowCommon											
+_GEN_Brutes_Bow	_NpcBows	WPN_Bow_Human_03		1	0																																																																																					HumansCommon											
+_GEN_Brutes_Ranged_Wand_Fire	_NpcWands_Fire	WPN_Wand_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Brutes_Ranged_Wand_Water	_NpcWands_Water	WPN_Wand_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Brutes_Ranged_Wand_Air	_NpcWands_Air	WPN_Wand_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Brutes_Ranged_Wand_Poison	_NpcWands_Poison	WPN_Wand_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Brutes_Melee_Sword_2H	_NpcTwoHandedSwords	WPN_Sword_2H_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Brutes_Melee_Sword	_NpcSwords	WPN_Sword_1H_Human_01		1	0																																																																																					HumansCommon											
+_GEN_Brutes_Melee_Axe	_NpcAxes	WPN_Axe_1H_Human_01		1	0																																																																																																
+_GEN_Brutes_Pitchfork	_NpcSpears	WPN_Pitchfork			0																																																																							Spear																									
+_Animals_Weapons								2																																																																																0	0		0	0									
+_Crab	_NpcDaggers	EMPTY			0		No	2					100						10						Club																																																											Unbreakable		Hidden															
+_GiantCrab	_NpcClubs	EMPTY			0		Yes												10						Club																																																										KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_Beetle_Fire_A	_NpcClubs	EMPTY			0		No	2					120						10						None																																																										BURNING,15,2	Unbreakable	_Enemy_Boost_FireDamage_Large	Hidden															
+_Animals_Beetle_Green_A	_NpcClubs	EMPTY			0		No	2					120						10						None																																																										POISONED,15,2	Unbreakable	_Enemy_Boost_PoisonDamage_Large	Hidden															
+_Animals_Beetle_Sand_A	_NpcClubs	EMPTY			0		No	2											10						None																																																										POISONED,15,2	Unbreakable		Hidden															
+_Animals_Bear_A	_NpcClubs	EMPTY			0		No	2											10						None																																																										KNOCKED_DOWN,10,1	Unbreakable		Hidden															
+_Animals_Bear_A_Voidwoken	_NpcClubs	EMPTY			0		No	2					180				40	150	10						None																																																										DECAYING_TOUCH,50,3; KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_BoarWild_A	_NpcClubs	EMPTY			0		No	2											10						None																																																											Unbreakable		Hidden															
+_Animals_BoarWild_A_Strong	_NpcClubs	EMPTY			0		No	2											10						None																																																										CRIPPLED,20,2	Unbreakable		Hidden															
+_Animals_BoarWild_A_Zombie_A	_NpcClubs	EMPTY			0		No	2											10						None																																																										POISONED,15,2	Unbreakable		Hidden															
+_Animals_BoarWild_A_Zombie_A_Strong	_NpcClubs	EMPTY			0		No	2											10						None																																																										POISONED,20,2	Unbreakable		Hidden															
+_Animals_Boar_A	_NpcClubs	EMPTY			0		No	2											10						None																																																											Unbreakable		Hidden															
+_Animals_Boar_A_Strong	_NpcClubs	EMPTY			0		No	2											10						None																																																											Unbreakable		Hidden															
+_Animals_Boar_A_Zombie_A	_NpcClubs	EMPTY			0		No	2											10						None																																																										POISONED,20,2	Unbreakable		Hidden															
+_Animals_Boar_A_Zombie_A_Strong	_NpcClubs	EMPTY			0		No	2											10						None																																																										POISONED,25,2	Unbreakable		Hidden															
+_Animals_Boar_A_Void_A	_NpcClubs	EMPTY			0		No	2					120						10						None																																																										CRIPPLED,30,2	Unbreakable		Hidden															
+_Animals_Bull_A	_NpcClubs	EMPTY			0		No	2											10						None																																																										KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_Bull_B	_NpcClubs	EMPTY			0		No	2											10						None																																																										KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_Cat_A	_NpcSwords	EMPTY			0		No	2											10						None																																																										CHARMED,15,1	Unbreakable		Hidden															
+_Animals_Cat_Skeleton_A	_NpcDaggers	EMPTY			0		No	2											10						None																																																										BLEEDING,5,1	Unbreakable		Hidden															
+_Animals_Chicken_A	_NpcDaggers	EMPTY			0		No	2											10						None																																																											Unbreakable		Hidden															
+_Animals_Cow_A	_NpcClubs	EMPTY			0		No	2											10						None																																																										KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_Cow_B	_NpcClubs	EMPTY			0		No	2											10						None																																																										KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_Cow_C	_NpcClubs	EMPTY			0		No	2											10						None																																																										KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_Cow_D	_NpcClubs	EMPTY			0		No	2											10						None																																																										KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_Crab_A	_NpcDaggers	EMPTY			0		No	2					100						10						Club																																																											Unbreakable		Hidden															
+_Animals_Crocodile_A	_NpcUnarmed	EMPTY			0		No	2					120			200			10																																																																BLEEDING,5,2	Unbreakable		Hidden															
+_Animals_Frog_A	_NpcUnarmed	EMPTY			0		No	2					100			120			10																																																																	Unbreakable	_Enemy_Boost_PoisonDamage	Hidden															
+_Animals_Frog_B	_NpcUnarmed	EMPTY			0		No	2					100			120			10																																																																SLEEPING,5,2	Unbreakable		Hidden															
+_Animals_Frog_Void	_NpcUnarmed	EMPTY			0		No	2					110			120			10																																																																CURSED,15,2	Unbreakable	_Enemy_Boost_PoisonDamage	Hidden															
+_Animals_Turtle_A	_NpcUnarmed	EMPTY			0		No	2					100			100			10																																																																	Unbreakable		Hidden															
+_Animals_Turtle_A_Large	_NpcUnarmed	EMPTY			0		No	2					125			250			10																																																																	Unbreakable		Hidden															
+_Animals_BurrowedCrab_A	_NpcClubs	EMPTY			0		No												10						Club																																																											Unbreakable		Hidden															
+_Animals_Crab_Giant_A	_NpcClubs	EMPTY			0		Yes												10						Club																																																										KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_Crab_Giant_A_Strong	_NpcClubs	EMPTY			0		Yes						150						10						Club																																																										KNOCKED_DOWN,50,1	Unbreakable		Hidden															
+_Animals_Deer_A	_NpcClubs	EMPTY			0		No												10						None																																																										KNOCKED_DOWN,20,1	Unbreakable		Hidden															
+_Animals_Deer_A_Enhanced_A	_NpcClubs	EMPTY			0		No												10						None																																																										KNOCKED_DOWN,30,1	Unbreakable		Hidden															
+_Animals_Deer_A_Void_A	_NpcClubs	EMPTY			0		No						70						10						None																																																										KNOCKED_DOWN,35,1	Unbreakable		Hidden															
+_Animals_Dog_A	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										BLEEDING,10,4	Unbreakable		Hidden															
+_Animals_Dragon_A	_NpcDaggers	EMPTY			0		No	2					100			250			10						None																																																										BLEEDING,5,2	Unbreakable		Hidden															
+_Animals_SourceHound_A	_NpcUnarmed	EMPTY			0		No	2					100						10																																																																BLEEDING,20,4	Unbreakable		Hidden															
+_Animals_AttackDog_A	_NpcUnarmed	EMPTY			0		No	2					100						10																																																																BLEEDING,20,4	Unbreakable		Hidden															
+_Animals_Dog_A_Zombie_A	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										BLEEDING,10,4	Unbreakable		Hidden															
+_Animals_Dog_A_Zombie_A_Strong	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										BLEEDING,20,4	Unbreakable		Hidden															
+_Animals_Dog_Labrador_A	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										BLEEDING,10,4	Unbreakable		Hidden															
+_Animals_Pig_A	_NpcClubs	EMPTY			0		No	2											10						None																																																											Unbreakable		Hidden															
+_Animals_Rabbit_A	_NpcDaggers	EMPTY			0		No	2											10						None																																																											Unbreakable		Hidden															
+_Animals_Rat_A	_NpcDaggers	EMPTY			0		No	2											10						None																																																										DISEASED,20,4	Unbreakable		Hidden															
+_Animals_Rat_A_Strong	_NpcDaggers	EMPTY			0		No	2											10						None																																																										DISEASED,35,4	Unbreakable		Hidden															
+_Animals_Rat_King_A	_NpcDaggers	EMPTY			0		No	2					110						10						None																																																										INFECTIOUS_DISEASED,15,2	Unbreakable		Hidden															
+_Animals_Rat_King_A_Strong	_NpcDaggers	EMPTY			0		No	2					125						10						None																																																										INFECTIOUS_DISEASED,15,2	Unbreakable		Hidden															
+_Animals_Cat_Slain_A	_NpcSwords	EMPTY			0		No												10						None																																																										CHILLED,20,2	Unbreakable		Hidden															
+_Animals_Slug_Poison	_NpcClubs	EMPTY			0		No		Poison							70			10						None																																																										POISONED,100,2	Unbreakable	_Enemy_Boost_PoisonDamage	Hidden															
+_Animals_Slug_Flesh	_NpcClubs	EMPTY			0		No		Physical			150	100			70			10						None																																																											Unbreakable		Hidden															
+_Animals_Slug_Oil	_NpcClubs	EMPTY			0		No		Earth							70			10						None																																																											Unbreakable	_Enemy_Boost_EarthDamage	Hidden															
+_Animals_Slug_Water	_NpcClubs	EMPTY			0		No		Water			10	125			70			10						None																																																										WET,100,2	Unbreakable	_Enemy_Boost_WaterDamage	Hidden															
+_Animals_Slug_Fire	_NpcClubs	EMPTY			0		No		Fire				50			70			10						None																																																										BURNING,100,2	Unbreakable	_Enemy_Boost_FireDamage	Hidden															
+_Animals_RoosterMechanic_A	_NpcDaggers	EMPTY			0		No												10						None																																																											Unbreakable		Hidden															
+_Animals_RatMechanic_Alpha	_NpcBows	EMPTY			0														10						Bow																																																											Unbreakable		Hidden															
+_Animals_RatMechanic_Beta	_NpcDaggers	EMPTY			0		No												10						None																																																											Unbreakable		Hidden															
+_Animals_RoosterMechanic_B	_NpcDaggers	EMPTY			0		No												10						None																																																											Unbreakable		Hidden															
+_Animals_Rooster_A	_NpcDaggers	EMPTY			0		No												10						None																																																											Unbreakable		Hidden															
+_Animals_Sheep_A	_NpcClubs	EMPTY			0		No	2											10						None																																																											Unbreakable		Hidden															
+_Animals_Sheep_B	_NpcClubs	EMPTY			0		No	2											10						None																																																											Unbreakable		Hidden															
+_Animals_Spider	_NpcUnarmed	EMPTY			0														10						Club																																																											Unbreakable		Hidden															
+_Animals_Spider_Poison	_NpcUnarmed	EMPTY			0				Physical				100						10						Club																																																											Unbreakable	_Enemy_Boost_PoisonDamage_Large	Hidden															
+_Animals_Spider_Poison_B	_NpcUnarmed	EMPTY			0				Physical				60						10						Club																																																											Unbreakable	_Enemy_Boost_PoisonDamage	Hidden															
+_Animals_Sea_Spider_Boss	_NpcUnarmed	EMPTY			0		Yes												10						None	TwoHanded_Sword																																																										Unbreakable		Hidden															
+_Animals_WereSheep_A	_NpcSwords	EMPTY			0		No												10						None																																																											Unbreakable		Hidden															
+_Animals_Wolf_A	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										BLEEDING,20,2	Unbreakable		Hidden															
+_Animals_Wolf_Disease	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										DISEASED,20,2	Unbreakable		Hidden															
+_Animals_Wolf_Blind	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										BLIND,20,2	Unbreakable		Hidden															
+_Animals_Wolf_Fear	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										FEAR,20,2	Unbreakable		Hidden															
+_Animals_Wolf_Freeze	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										FROZEN,20,2	Unbreakable		Hidden															
+_Animals_Wolf_A_Strong	_Animals_Wolf_A	EMPTY										10																																																																			20				BLEEDING,35,2																		
+_Animals_Wolf_A_Black	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										BLEEDING,5,2	Unbreakable		Hidden															
+_Animals_Wolf_A_Black_Strong	_NpcDaggers	EMPTY			0		No	2					125						10						None																																																										BLEEDING,10,2	Unbreakable		Hidden															
+_Animals_Wolf_A_Black_StrongBoss	_NpcDaggers	EMPTY			0		No	2					125						10						None																																																										BLEEDING,15,2	Unbreakable		Hidden															
+_Animals_Wolf_A_White	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										BLEEDING,5,2;CHILLED,10,2	Unbreakable		Hidden															
+_Animals_Wolf_A_White_Strong	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										BLEEDING,10,2;CHILLED,10,2	Unbreakable		Hidden															
+_Animals_Wolf_A_Zombie_A	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										POISONED,5,2	Unbreakable	_Enemy_Boost_PoisonDamage	Hidden															
+_Animals_Wolf_A_Zombie_A_Strong	_NpcDaggers	EMPTY			0		No	2					100						10						None																																																										POISONED,10,3	Unbreakable		Hidden															
+_Animals_Tiger_A	_NpcDaggers	EMPTY			0		No	2					135						10						None																																																										BLEEDING,10,2	Unbreakable		Hidden															
+_Animals_Tiger_A_Enhanced_A	_NpcDaggers	EMPTY			0		No	2					125						10						None																																																										BLEEDING,20,2	Unbreakable		Hidden															
+_Animals_Tiger_A_Blood_A	_NpcDaggers	EMPTY			0		No	2					150						10						None																																																										BLEEDING,25,2;DISEASED,20,2	Unbreakable		Hidden															
+_Animals_Voidwoken_Drillworm_A	_NpcSwords	EMPTY			0		No	2					200			300			10						None																																																											Unbreakable		Hidden															
+_Animals_Voidwoken_Merman_A	_NpcSwords	EMPTY			0		No	2					200			200			10						None																																																											Unbreakable		Hidden															
+_Animals_Voidwoken_Merman_A_Strong	_NpcSwords	EMPTY			0		No	2				130	200			200			10						None																																																											Unbreakable		Hidden															
+_Animals_Voidling	_NpcUnarmed	WPN_Unarmed			0		No	2					50			80			10						None																																																											Unbreakable		Hidden															
+_Animals_OilSpitter_A	_NpcSwords	EMPTY			0		No	2					125			150			10						None																																																											Unbreakable		Hidden															
+_Animals_Pentaceratops_A	_NpcClubs	EMPTY			0		No	2					150			150	40	90	10						None																																																										KNOCKED_DOWN,80,1	Unbreakable		Hidden															
+_Animals_Salamander_A	_NpcClubs	EMPTY			0		No	2								150			10						None																																																											Unbreakable		Hidden															
+_Animals_Salamander_Fire_A	_NpcClubs	EMPTY			0		No	2								150			10						None																																																											Unbreakable		Hidden															
+_Animals_Salamander_Poison_A	_NpcClubs	EMPTY			0		No	2								150			10						None																																																											Unbreakable		Hidden															
+_Animals_Salamander_Voidwoken	_NpcClubs	EMPTY			0		No	2								150			10						None																																																											Unbreakable		Hidden															
+_Animals_GiantInsect	_NpcClubs	EMPTY			0		No	2					140			150			10						None																																																										POISONED,20,2	Unbreakable	_Enemy_Boost_PoisonDamage	Hidden															
+_Animals_GiantInsect_Winged	_NpcCrossbows	EMPTY			0		No	2	Poison				140						10						Crossbow			f2d5c247-4553-4022-a1c4-a62ab53d314f																																																								Unbreakable		Hidden															
+_Animals_GiantInsect_Blue	_NpcClubs	EMPTY			0		No	2					120			150			10						None																																																										FROZEN,20,2	Unbreakable	_Enemy_Boost_WaterDamage	Hidden															
+_Animals_GiantInsect_Blue_Winged	_NpcCrossbows	EMPTY			0		No	2	Air				120						10						Crossbow			c006bdc1-14cb-440e-a8cb-fd55f04b3d1e																																																							STUNNED,20,2	Unbreakable	_Enemy_Boost_AirDamage	Hidden															
+_Animals_GiantInsect_Black	_NpcClubs	EMPTY			0		No	2					150			150			10						None																																																										CURSED,30,2	Unbreakable		Hidden															
+_Animals_GiantInsect_Black_Winged	_NpcCrossbows	EMPTY			0		No	2	Fire				150						10						Crossbow			e34bf76c-87df-4c1c-bbb4-bc48a046ac5b																																																							BURNING,100,2;CURSED,30,2	Unbreakable		Hidden															
+_Animals_GiantInsect_AirClaw	_NpcClubs	EMPTY			0		No	1	Magic				200			150			10						None																																																										STUNNED,90,2	Unbreakable	_Enemy_Boost_AirDamage	Hidden															
+_Animals_GiantInsect_AirClaw_Winged	_NpcCrossbows	EMPTY			0		No	1	Magic				200						10						Crossbow			c006bdc1-14cb-440e-a8cb-fd55f04b3d1e																																																							FROZEN,90,2	Unbreakable	_Enemy_Boost_WaterDamage	Hidden															
+_Animals_VampireBat	_NpcDaggers	EMPTY			0		No	2					200			150			10						None																																																						70				CURSED,30,2;FEAR,10,1	Unbreakable		Hidden															
+_Animals_VampireBat_Strong	_Animals_VampireBat	EMPTY										25																																																																			50						_Boost_Weapon_Damage_ArmourPiercing																
+_Animals_VampireBat_Boss	_Animals_VampireBat	EMPTY										70				160																																																															20						_Boost_Weapon_Damage_ArmourPiercing																
+_Voidwoken_Alan_A_Boss	_NpcSwords	EMPTY			0		No	2				75	150			180			10						None																																																											Unbreakable		Hidden															
+_Raanaar_Hound_A	_NpcDaggers	EMPTY			0		No	2					150			140	40	45	10						None																																																										CRIPPLED,20,2	Unbreakable		Hidden															
+_Voidwoken_Grunt_Melee	_NpcDaggers	EMPTY			0		No	2					200						10						None																																																						20				DECAYING_TOUCH,40,2;	Unbreakable		Hidden															
+_Voidwoken_Grunt_Ranged	_NpcDaggers	EMPTY			0		No	2					120						10						None																																																											Unbreakable		Hidden															
+_Undead_Weapons								2																																																																																	0		0	0									
+_Undead_Skeleton_Dagger_1H	_NpcDaggers	WPN_Undead_Dagger_01			0		No												10						Knife	SmallWeapons																																																										Unbreakable		Hidden															
+_Undead_Skeleton_Sword_1H	_NpcSwords	WPN_Undead_Sword_1H_01			0		No												10						Sword																																																											Unbreakable		Hidden															
+_Undead_Skeleton_Sword_2H	_NpcTwoHandedSwords	WPN_Undead_Sword_2H_01			0		Yes												10						Sword	TwoHanded_Sword																																																										Unbreakable		Hidden															
+_Undead_Skeleton_Axe_1H	_NpcAxes	WPN_Undead_Axe_1H_01			0		No												10						Axe																																																											Unbreakable		Hidden															
+_Undead_Skeleton_Axe_2H	_NpcTwoHandedAxes	WPN_Undead_Axe_2H_01			0		Yes												10						Axe	TwoHanded																																																										Unbreakable		Hidden															
+_Undead_Skeleton_Club_1H	_NpcClubs	WPN_Undead_Club_1H_01			0		No												10						Club																																																											Unbreakable		Hidden															
+_Undead_Skeleton_Staff_Fire	_NpcStaffs_Fire	WPN_Undead_Staff			0		Yes												10						Staff																																																											Unbreakable	_Enemy_Boost_FireDamage	Hidden															
+_Undead_Skeleton_Staff_Water	_NpcStaffs_Water	WPN_Undead_Staff			0		Yes												10						Staff																																																											Unbreakable	_Enemy_Boost_WaterDamage	Hidden															
+_Undead_Skeleton_Staff_Air	_NpcStaffs_Air	WPN_Undead_Staff			0		Yes												10						Staff																																																											Unbreakable	_Enemy_Boost_AirDamage	Hidden															
+_Undead_Skeleton_Staff_Earth	_NpcStaffs_Earth	WPN_Undead_Staff			0		Yes												10						Staff																																																											Unbreakable	_Enemy_Boost_EarthDamage	Hidden															
+_Undead_Skeleton_Bow	_NpcBows	WPN_Undead_Bow			0														10						Bow																																																											Unbreakable		Hidden															
+_Undead_Skeleton_Unarmed	_NpcUnarmed	EMPTY			0		No																																																																													Unbreakable		Hidden															
+_Undead_Bonepile_AlanBird_A	_NpcSwords	EMPTY			0		No	2					200			200			10						None																																																											Unbreakable		Hidden															
+_Undead_Bonepile_Hand_A	_NpcDaggers	EMPTY			0		No	2					40						10						None																																																										BLEEDING,10,2	Unbreakable		Hidden															
+_Undead_Bonepile_Spider_A	_NpcSwords	EMPTY			0				Poison							150			10						None																																																										INFECTIOUS_DISEASED,20,5	Unbreakable	_Enemy_Boost_PoisonDamage	Hidden															
+_Undead_Ghost_HumanMite_A	_NpcClubs	EMPTY			0		No	2								150			10						None																																																											Unbreakable		Hidden															
+_Undead_Scarecrow_A	_NpcSwords	EMPTY			0		No	2	Earth				150			200			10						None																																																											Unbreakable	_Enemy_Boost_EarthDamage_Large	Hidden															
+_Burning_Witch_A	_NpcSwords	EMPTY			0		No	2	Piercing			50				180			10						None																																																										BURNING,30,2	Unbreakable	_Enemy_Boost_FireDamage_Large	Hidden															
+_Undead_FireSkeleton_Pikeman	_NpcSpears	Spears_2H			0		Yes												10						Spear																																																										BURNING,10,2	Unbreakable	_Enemy_Boost_FireDamage	Hidden															
+_Undead_FireSkeleton_Sword_Shield	_NpcSwords	WPN_Undead_Sword_1H_01			0		No												10						Sword																																																										BURNING,10,2	Unbreakable	_Enemy_Boost_FireDamage	Hidden															
+_Undead_FireSkeleton_2HAxe	_NpcTwoHandedAxes	WPN_Undead_Axe_2H_01			0		Yes												10						Axe																																																										BURNING,10,2;CRIPPLED,15,2	Unbreakable	_Enemy_Boost_FireDamage	Hidden															
+_Undead_Bonepile_Troll_A_Strong	_Undead_Bonepile_Troll_A									4																																																																																											
+_Undead_FireSkeleton_2HSword	_NpcTwoHandedSwords	WPN_Undead_Sword_2H_01			0		Yes												10						Sword																																																										BURNING,10,2;KNOCKED_DOWN,15,1	Unbreakable	_Enemy_Boost_FireDamage	Hidden															
+_Undead_FireSkeleton_Mage	_NpcStaffs_Fire	WPN_Undead_Staff			0		Yes												10						Staff																																																										BURNING,10,2	Unbreakable		Hidden															
+_Undead_FireSkeleton_Ranger	_NpcBows	Bows			0														10						Bow																																																										BURNING,10,2	Unbreakable	_Enemy_Boost_FireDamage	Hidden															
+_Undead_SkeletonKing_Ranger	_NpcBows	Bows			0														10						Bow																																																											Unbreakable	_Enemy_Boost_FireDamage	Hidden															
+_Undead_Skeleton_Fire_Dagger	_NpcDaggers	Daggers			0														10						Knife	SmallWeapons																																																										Unbreakable		Hidden															
+_Undead_Skeleton_Metal_A	_NpcClubs	EMPTY			0								200						10						None																																																										CRIPPLED,30,2;KNOCKED_DOWN,30,1	Unbreakable		Hidden															
+_Undead_FrostSkeleton_Bow	_Undead_Skeleton_Bow				0																				Bow																																																										FROZEN,20,2	Unbreakable	_Enemy_Boost_WaterDamage																
+_Undead_FrostSkeleton_Dagger	_Undead_Skeleton_Dagger_1H				0																				Knife																																																										FROZEN,20,2	Unbreakable	_Enemy_Boost_WaterDamage																
+_Undead_Zombie_A	_NpcClubs	EMPTY			0							150							10						None																																																										POISONED,20,2	Unbreakable		Hidden															
+_Undead_Zombie_B	_NpcClubs	EMPTY			0														10						None																																																										POISONED,20,2	Unbreakable		Hidden															
+_Undead_Zombie_C	_NpcClubs	EMPTY			0							40							10						None																																																										BLEEDING,20,2	Unbreakable		Hidden															
+_Undead_Zombie_A_Headless_A	_NpcClubs	EMPTY			0		No												10						None																																																										DISEASED,20,2	Unbreakable		Hidden															
+_Undead_Zombie_A_Headless_A_Strong	_NpcClubs	EMPTY			0		No												10						None																																																										INFECTIOUS_DISEASED,20,10	Unbreakable		Hidden															
+_Undead_Zombie_Electrified	_NpcClubs	EMPTY			0				Air			150							10						None																																																										STUNNED,40,2	Unbreakable	_Enemy_Boost_AirDamage	Hidden															
+_Generic_Enemy_Weapons								2																																																																																0			0	0									
+_GEN_Automaton	_NpcClubs	EMPTY			0							15				150	20	150	10						None																																																											Unbreakable	_Enemy_Boost_AirDamage_Large	Hidden															
+_GEN_Automaton_Ranged	_NpcCrossbows	EMPTY			0	Strength 0	No					15							10						Crossbow			a82ad074-de99-45e1-bfe9-4bf2549c1659																																																								Unbreakable	_Enemy_Boost_FireDamage_Large	Hidden															
+_Troll_Weapons								2																																																																																0	0		0	0									
+_Creatures_Troll_A	_NpcTwoHandedAxes	EMPTY			0		Yes					50							10						None																																																										KNOCKED_DOWN,80,1	Unbreakable		Hidden															
+_Undead_Bonepile_Troll_A	_Creatures_Troll_A																																																																																																				
+_Misc_Weapons								2																																																																																0	0		0	0									
+_Statue_A_Voidwoken	_NpcSpears	EMPTY			0		Yes					175							10						None																																																							Target_NULLSKILL			KNOCKED_DOWN,30,1	Unbreakable	_Enemy_Boost_EarthDamage	Hidden															
+_Statue_A_Voidwoken_GameMaster	_NpcSpears	EMPTY			0		Yes					175							10						None																																																										KNOCKED_DOWN,30,1	Unbreakable	_Enemy_Boost_EarthDamage	Hidden															
+_Demon_Weapons								2																																																																																0	0		0	0									
+_ElementalDevil_A	_NpcDaggers	EMPTY			0		No	2					125						10						None																																																										BLEEDING,10,2	Unbreakable		Hidden															
+_Demon_Hound_A	_NpcDaggers	EMPTY			0		No	2											10						None																																																										CRIPPLED,20,2	Unbreakable		Hidden															
+_Demon_Caster_A	_Unarmed	EMPTY			0		Yes	2					180						10						None	Unarmed																																																									BLEEDING,80,2;CURSED,40,2	Unbreakable		Hidden															
+_Nightmare_Werewolf_A	_NpcTwoHandedSwords	EMPTY			0		No	2					80				20	150	10						None	Unarmed																																																									KNOCKED_DOWN,30,2	Unbreakable	_Enemy_Boost_EarthDamage	Hidden															
+_Demon_Grunt_A_Unarmed	_NpcUnarmed	EMPTY			0		No																																																																													Unbreakable		Hidden															
+_Demon_Grunt_A_Dagger_1H	_NpcDaggers	WPN_Undead_Dagger_01			0		No												10						Knife	SmallWeapons																																																										Unbreakable		Hidden															
+_Demon_Grunt_A_Sword_1H	_NpcSwords	WPN_Undead_Sword_1H_01			0		No												10						Sword																																																											Unbreakable		Hidden															
+_Demon_Grunt_A_Sword_2H	_NpcTwoHandedSwords	WPN_Undead_Sword_2H_01			0		Yes												10						Sword	TwoHanded_Sword																																																										Unbreakable		Hidden															
+_Demon_Grunt_A_Bow	_NpcBows	WPN_Undead_Bow			0														10						Bow																																																											Unbreakable		Hidden															
+_Elemental_Blood_Heart_A	_NpcClubs	EMPTY			0		No	2				165				100			10						None																																																						35				DISARMED,20,2	Unbreakable		Hidden															
+_Purged_Weapons								2																																																																																0	0		0	0									
+_Jumperdog_A	_NpcDaggers	EMPTY			0		No	2					120						10						None																																																										BLEEDING,20,2	Unbreakable		Hidden															
+_Purged_Paincaster_A	_NpcDaggers	EMPTY			0		No	2											10						None																																																											Unbreakable		Hidden															
+_Ghoul_A_Unarmed	_NpcUnarmed	EMPTY			0		No	2																																																																												Unbreakable		Hidden															
+_Ghoul_A_Unarmed_Strong	_NpcUnarmed	EMPTY			0		No	2				10							10																																																																	Unbreakable		Hidden															
+_Ghoul_A_Dagger_1H	_NpcDaggers	WPN_Undead_Dagger_01			0		No	2											10						Knife	SmallWeapons																																																										Unbreakable		Hidden															
+_Ghoul_A_Sword_1H	_NpcSwords	WPN_Undead_Sword_1H_01			0		No	2											10						Sword																																																											Unbreakable		Hidden															
+_Ghoul_A_Sword_2H	_NpcTwoHandedSwords	WPN_Undead_Sword_2H_01			0		Yes	2											10						Sword	TwoHanded_Sword																																																										Unbreakable		Hidden															
+_Ghoul_A_Bow	_NpcBows	WPN_Undead_Bow			0			2											10						Bow																																																											Unbreakable		Hidden															
+_ShamblingMound_Weapons								2																																																																																0	0		0	0									
+_ShamblingMound_Brute_A	_NpcClubs	EMPTY			0		No	2				80		200		140			10						None																																																										DISARMED,20,1	Unbreakable		Hidden															
+_ShamblingMound_FlowerBig_A	_NpcSwords	EMPTY			0		No	2											10						None	None																																																									POISONED,30,2	Unbreakable		Hidden															
+_ShamblingMound_Flower_A	_NpcDaggers	EMPTY			0		No	2											10						None																																																										POISONED,10,3	Unbreakable		Hidden															
+_ShamblingMound_Grunt_A	_NpcClubs	EMPTY			0		No	2											10						None																																																										POISONED,30,2	Unbreakable		Hidden															
+_ShamblingMound_Ranger_A	_NpcBows	EMPTY			0			2											10						Bow																																																										POISONED,30,2	Unbreakable		Hidden															
+_ShamblingMound_Tank_A	_NpcSwords	EMPTY			0		Yes	2											10						None	TwoHanded_Sword																																																										Unbreakable		Hidden															
+_Tree_Ancestor_A	_NpcSwords	EMPTY			0		Yes	2					100						10						None	TwoHanded_Sword																																																										Unbreakable		Hidden															
+_Creatures_Kraken_A	_Creatures_Troll_A																																																																															EMPTY																					
+_EnemyBoosts																																																																																								0	0		0	0									
+_BOOSTS_Weapon			Boost	1	1					-1																																																																														0													
+_Enemy_Boost_WaterDamage	_BOOSTS_Weapon								Water				30																																																																																								
+_Enemy_Boost_FireDamage	_BOOSTS_Weapon								Fire				30																																																																																								
+_Enemy_Boost_EarthDamage	_BOOSTS_Weapon								Earth				30																																																																																								
+_Enemy_Boost_AirDamage	_BOOSTS_Weapon								Air				30																																																																																								
+_Enemy_Boost_PoisonDamage	_BOOSTS_Weapon								Poison				30																																																																																								
+_Enemy_Boost_WaterDamage_Large	_BOOSTS_Weapon								Water				60																																																																																								
+_Enemy_Boost_FireDamage_Large	_BOOSTS_Weapon								Fire				60																																																																																								
+_Enemy_Boost_EarthDamage_Large	_BOOSTS_Weapon								Earth				60																																																																																								
+_Enemy_Boost_AirDamage_Large	_BOOSTS_Weapon								Air				60																																																																																								
+_Enemy_Boost_PoisonDamage_Large	_BOOSTS_Weapon								Poison				60																																																																																								
+_CharacterCreationWeapons																																																																																								0	0		0	0									
+WPN_Battlemage_Axe_1H_Lizards	_Axes	WPN_Battlemage_Axe_1H_Lizards			10	Strength 0																																																																																															
+WPN_Battlemage_Axe_1H_Elves	_Axes	WPN_Battlemage_Axe_1H_Elves			10	Strength 0																																																																																															
+WPN_Battlemage_Axe_1H_Dwarves	_Axes	WPN_Battlemage_Axe_1H_Dwarves			10	Strength 0																																																																																															
+WPN_Battlemage_Axe_1H_Humans	_Axes	WPN_Battlemage_Axe_1H_Humans			10	Strength 0																																																																																															
+WPN_Cleric_Mace_1H_Lizards	_Clubs	WPN_Cleric_Mace_1H_Lizards			10	Strength 0																																																																																															
+WPN_Cleric_Mace_1H_Elves	_Clubs	WPN_Cleric_Mace_1H_Elves			10	Strength 0																																																																																															
+WPN_Cleric_Mace_1H_Dwarves	_Clubs	WPN_Cleric_Mace_1H_Dwarves			10	Strength 0																																																																																															
+WPN_Cleric_Mace_1H_Humans	_Clubs	WPN_Cleric_Mace_1H_Humans			10	Strength 0																																																																																															
+WPN_Enchanter_Wand_Lizards	_Wands_Water	WPN_Enchanter_Wand_Lizards			10	Intelligence 0																																																																																															
+WPN_Enchanter_Wand_Elves	_Wands_Water	WPN_Enchanter_Wand_Elves			10	Intelligence 0																																																																																															
+WPN_Enchanter_Wand_Dwarves	_Wands_Water	WPN_Enchanter_Wand_Dwarves			10	Intelligence 0																																																																																															
+WPN_Enchanter_Wand_Humans	_Wands_Water	WPN_Enchanter_Wand_Humans			10	Intelligence 0																																																																																															
+WPN_Enchanter_Staff_Lizards	_Staffs_Air	WPN_Enchanter_Staff_Lizards			10	Intelligence 0																																																																																															
+WPN_Enchanter_Staff_Elves	_Staffs_Air	WPN_Enchanter_Staff_Elves			10	Intelligence 0																																																																																															
+WPN_Enchanter_Staff_Dwarves	_Staffs_Air	WPN_Enchanter_Staff_Dwarves			10	Intelligence 0																																																																																															
+WPN_Enchanter_Staff_Humans	_Staffs_Air	WPN_Enchanter_Staff_Humans			10	Intelligence 0																																																																																															
+WPN_Fighter_Sword_1H_Lizards	_Swords	WPN_Fighter_Sword_1H_Lizards			10	Strength 0																																																																																															
+WPN_Fighter_Sword_1H_Elves	_Swords	WPN_Fighter_Sword_1H_Elves			10	Strength 0																																																																																															
+WPN_Fighter_Sword_1H_Dwarves	_Swords	WPN_Fighter_Sword_1H_Dwarves			10	Strength 0																																																																																															
+WPN_Fighter_Sword_1H_Humans	_Swords	WPN_Fighter_Sword_1H_Humans			10	Strength 0																																																																																															
+WPN_Inquisitor_Mace_2H_Lizards	_TwoHandedMaces	WPN_Inquisitor_Mace_2H_Lizards			10	Intelligence 0																																																																																															
+WPN_Inquisitor_Mace_2H_Elves	_TwoHandedMaces	WPN_Inquisitor_Mace_2H_Elves			10	Intelligence 0																																																																																															
+WPN_Inquisitor_Mace_2H_Dwarves	_TwoHandedMaces	WPN_Inquisitor_Mace_2H_Dwarves			10	Intelligence 0																																																																																															
+WPN_Inquisitor_Mace_2H_Humans	_TwoHandedMaces	WPN_Inquisitor_Mace_2H_Humans			10	Intelligence 0																																																																																															
+WPN_Knight_Sword_2H_Lizards	_TwoHandedSwords	WPN_Knight_Sword_2H_Lizards			10	Strength 0																																																																																															
+WPN_Knight_Sword_2H_Elves	_TwoHandedSwords	WPN_Knight_Sword_2H_Elves			10	Strength 0																																																																																															
+WPN_Knight_Sword_2H_Dwarves	_TwoHandedSwords	WPN_Knight_Sword_2H_Dwarves			10	Strength 0																																																																																															
+WPN_Knight_Sword_2H_Humans	_TwoHandedSwords	WPN_Knight_Sword_2H_Humans			10	Strength 0																																																																																															
+WPN_Metamorph_Spear_Lizards	_Spears	WPN_Metamorph_Spear_Lizards			10	Finesse 0																																																																																															
+WPN_Metamorph_Spear_Elves	_Spears	WPN_Metamorph_Spear_Elves			10	Finesse 0																																																																																															
+WPN_Metamorph_Spear_Dwarves	_Spears	WPN_Metamorph_Spear_Dwarves			10	Finesse 0																																																																																															
+WPN_Metamorph_Spear_Humans	_Spears	WPN_Metamorph_Spear_Humans			10	Finesse 0																																																																																															
+WPN_Ranger_Bow_Lizards	_Bows	WPN_Ranger_Bow_Lizards			10	Finesse 0																																																																																															
+WPN_Ranger_Bow_Elves	_Bows	WPN_Ranger_Bow_Elves			10	Finesse 0																																																																																															
+WPN_Ranger_Bow_Dwarves	_Bows	WPN_Ranger_Bow_Dwarves			10	Finesse 0																																																																																															
+WPN_Ranger_Bow_Humans	_Bows	WPN_Ranger_Bow_Humans			10	Finesse 0																																																																																															
+WPN_Rogue_Dagger_Lizards	_Daggers	WPN_Rogue_Dagger_Lizards			10	Finesse 0																																																																																															
+WPN_Rogue_Dagger_Elves	_Daggers	WPN_Rogue_Dagger_Elves			10	Finesse 0																																																																																															
+WPN_Rogue_Dagger_Dwarves	_Daggers	WPN_Rogue_Dagger_Dwarves			10	Finesse 0																																																																																															
+WPN_Rogue_Dagger_Humans	_Daggers	WPN_Rogue_Dagger_Humans			10	Finesse 0																																																																																															
+WPN_Shadowblade_Dagger_Lizards	_Daggers	WPN_Shadowblade_Dagger_Lizards			10	Finesse 0																																																																																															
+WPN_Shadowblade_Dagger_Elves	_Daggers	WPN_Shadowblade_Dagger_Elves			10	Finesse 0																																																																																															
+WPN_Shadowblade_Dagger_Dwarves	_Daggers	WPN_Shadowblade_Dagger_Dwarves			10	Finesse 0																																																																																															
+WPN_Shadowblade_Dagger_Humans	_Daggers	WPN_Shadowblade_Dagger_Humans			10	Finesse 0																																																																																															
+WPN_Conjurer_Wand_Lizards	_Wands_Fire	WPN_Conjurer_Wand_Lizards			10	Intelligence 0																																																																																															
+WPN_Conjurer_Wand_Elves	_Wands_Fire	WPN_Conjurer_Wand_Elves			10	Intelligence 0																																																																																															
+WPN_Conjurer_Wand_Dwarves	_Wands_Fire	WPN_Conjurer_Wand_Dwarves			10	Intelligence 0																																																																																															
+WPN_Conjurer_Wand_Humans	_Wands_Fire	WPN_Conjurer_Wand_Humans			10	Intelligence 0																																																																																															
+WPN_Wayfarer_Crossbow_Lizards	_Crossbows	WPN_Wayfarer_Crossbow_Lizards			10	Finesse 0																																																																																															
+WPN_Wayfarer_Crossbow_Elves	_Crossbows	WPN_Wayfarer_Crossbow_Elves			10	Finesse 0																																																																																															
+WPN_Wayfarer_Crossbow_Dwarves	_Crossbows	WPN_Wayfarer_Crossbow_Dwarves			10	Finesse 0																																																																																															
+WPN_Wayfarer_Crossbow_Humans	_Crossbows	WPN_Wayfarer_Crossbow_Humans			10	Finesse 0																																																																																															
+WPN_Witch_Wand_Lizards	_Wands_Fire	WPN_Witch_Wand_Lizards			10	Intelligence 0																																																																																															
+WPN_Witch_Wand_Elves	_Wands_Fire	WPN_Witch_Wand_Elves			10	Intelligence 0																																																																																															
+WPN_Witch_Wand_Dwarves	_Wands_Fire	WPN_Witch_Wand_Dwarves			10	Intelligence 0																																																																																															
+WPN_Witch_Wand_Humans	_Wands_Fire	WPN_Witch_Wand_Humans			10	Intelligence 0																																																																																															
+WPN_Witch_Dagger_Lizards	_Daggers	WPN_Witch_Dagger_Lizards			10	Finesse 0																																																																																															
+WPN_Witch_Dagger_Elves	_Daggers	WPN_Witch_Dagger_Elves			10	Finesse 0																																																																																															
+WPN_Witch_Dagger_Dwarves	_Daggers	WPN_Witch_Dagger_Dwarves			10	Finesse 0																																																																																															
+WPN_Witch_Dagger_Humans	_Daggers	WPN_Witch_Dagger_Humans			10	Finesse 0																																																																																															
+WPN_Wizard_Wand_Lizards	_Wands_Poison	WPN_Wizard_Wand_Lizards			10	Intelligence 0																																																																																															
+WPN_Wizard_Wand_Elves	_Wands_Poison	WPN_Wizard_Wand_Elves			10	Intelligence 0																																																																																															
+WPN_Wizard_Wand_Dwarves	_Wands_Poison	WPN_Wizard_Wand_Dwarves			10	Intelligence 0																																																																																															
+WPN_Wizard_Wand_Humans	_Wands_Poison	WPN_Wizard_Wand_Humans			10	Intelligence 0																																																																																															
+_SKILLS																																																																																									0		0	0									
+_EoC_Spell_Attack	_SKILLS		Item	1	1					-1																																																																																											
+_Boosts																																																																																								0	0		0	0									
+_Boost_Weapon_EmptyRuneSlot	_BOOSTS_Weapon																																																																																										1	1									
+_Boost_Weapon_Damage_Air_Small	_BOOSTS_Weapon								Air				5								10							183717cc-5910-454d-b352-f4696a11d089																																																																									
+_Boost_Weapon_Damage_Air	_BOOSTS_Weapon								Air				10								13							183717cc-5910-454d-b352-f4696a11d089																																																							SHOCKED,5,1																		
+_Boost_Weapon_Damage_Air_Large	_BOOSTS_Weapon								Air				20								20							183717cc-5910-454d-b352-f4696a11d089																																																							SHOCKED,15,1																		
+_Boost_Weapon_Damage_Air_Medium	_BOOSTS_Weapon								Air				15								17							183717cc-5910-454d-b352-f4696a11d089																																																							SHOCKED,10,1																		
+_Boost_Weapon_Damage_ArmourPiercing_Small	_BOOSTS_Weapon								Piercing				5								8																																																																																
+_Boost_Weapon_Damage_ArmourPiercing	_BOOSTS_Weapon								Piercing				10								10																																																																																
+_Boost_Weapon_Damage_ArmourPiercing_Large	_BOOSTS_Weapon								Piercing				20								13																																																																																
+_Boost_Weapon_Damage_ArmourPiercing_Medium	_BOOSTS_Weapon								Piercing				15								11																																																																																
+_Boost_Weapon_Damage_Bonus	_BOOSTS_Weapon											10									8																																																																																
+_Boost_Weapon_Damage_Bonus_Large	_BOOSTS_Weapon											15									12																																																																																
+_Boost_Weapon_Damage_Bonus_Medium	_BOOSTS_Weapon											12									9																																																																																
+_Boost_Weapon_Damage_Poison_Small	_BOOSTS_Weapon								Poison				5								10							94fabe05-2334-430f-bb74-5959de40b4b1																																																																									
+_Boost_Weapon_Damage_Poison	_BOOSTS_Weapon								Poison				10								13							94fabe05-2334-430f-bb74-5959de40b4b1																																																							POISONED,10,1																		
+_Boost_Weapon_Damage_Poison_Large	_BOOSTS_Weapon								Poison				20								20							94fabe05-2334-430f-bb74-5959de40b4b1																																																							POISONED,20,2																		
+_Boost_Weapon_Damage_Poison_Medium	_BOOSTS_Weapon								Poison				15								18							94fabe05-2334-430f-bb74-5959de40b4b1																																																							POISONED,20,1																		
+_Boost_Weapon_Damage_Earth_Small	_BOOSTS_Weapon								Earth				5								10							beca2252-26fc-4c8b-94c6-a64df1ffe1d9																																																																									
+_Boost_Weapon_Damage_Earth	_BOOSTS_Weapon								Earth				10								13							beca2252-26fc-4c8b-94c6-a64df1ffe1d9																																																							SLOWED,10,1																		
+_Boost_Weapon_Damage_Earth_Large	_BOOSTS_Weapon								Earth				20								20							beca2252-26fc-4c8b-94c6-a64df1ffe1d9																																																							SLOWED,20,2																		
+_Boost_Weapon_Damage_Earth_Medium	_BOOSTS_Weapon								Earth				15								18							beca2252-26fc-4c8b-94c6-a64df1ffe1d9																																																							SLOWED,20,1																		
+_Boost_Weapon_Damage_Fire_Small	_BOOSTS_Weapon								Fire				5								10							8efaf767-7d66-4f4d-8c8e-5cb4a3d2e0f6																																																																									
+_Boost_Weapon_Damage_Fire	_BOOSTS_Weapon								Fire				10								13							8efaf767-7d66-4f4d-8c8e-5cb4a3d2e0f6																																																							BURNING,10,1																		
+_Boost_Weapon_Damage_Fire_Large	_BOOSTS_Weapon								Fire				20								20							8efaf767-7d66-4f4d-8c8e-5cb4a3d2e0f6																																																							BURNING,20,2																		
+_Boost_Weapon_Damage_Fire_Medium	_BOOSTS_Weapon								Fire				11								18							8efaf767-7d66-4f4d-8c8e-5cb4a3d2e0f6																																																							BURNING,20,1																		
+_Boost_Weapon_Damage_MagicArmourRefill	_BOOSTS_Weapon																				8																																																																																
+_Boost_Weapon_Damage_MagicArmourRefill_Large	_BOOSTS_Weapon																				12																																																																																
+_Boost_Weapon_Damage_MagicArmourRefill_Medium	_BOOSTS_Weapon																				10																																																																																
+_Boost_Weapon_Damage_Vampiric	_BOOSTS_Weapon																				12																																																																																
+_Boost_Weapon_Damage_Vampiric_Large	_BOOSTS_Weapon																				19																																																																																
+_Boost_Weapon_Damage_Vampiric_Medium	_BOOSTS_Weapon																				15																																																																																
+_Boost_Weapon_Damage_Water_Small	_BOOSTS_Weapon								Water				5								10							cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																																									
+_Boost_Weapon_Damage_Water	_BOOSTS_Weapon								Water				10								13							cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																							CHILLED,5,1																		
+_Boost_Weapon_Damage_Water_Large	_BOOSTS_Weapon								Water				20								20							cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																							CHILLED,15,1																		
+_Boost_Weapon_Damage_Water_Medium	_BOOSTS_Weapon								Water				15								18							cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																							CHILLED,10,1																		
+_Boost_Weapon_Primary_Finesse	_BOOSTS_Weapon																				12										1																																																																						
+_Boost_Weapon_Primary_Finesse_Large	_BOOSTS_Weapon																				16										3																																																																						
+_Boost_Weapon_Primary_Finesse_Medium	_BOOSTS_Weapon																				14										2																																																																						
+_Boost_Weapon_Primary_Intelligence	_BOOSTS_Weapon																				12											1																																																																					
+_Boost_Weapon_Primary_Intelligence_Large	_BOOSTS_Weapon																				16											3																																																																					
+_Boost_Weapon_Primary_Intelligence_Medium	_BOOSTS_Weapon																				14											2																																																																					
+_Boost_Weapon_Primary_Strength	_BOOSTS_Weapon																				12									1																																																																							
+_Boost_Weapon_Primary_Strength_Large	_BOOSTS_Weapon																				16									3																																																																							
+_Boost_Weapon_Primary_Strength_Medium	_BOOSTS_Weapon																				14									2																																																																							
+_Boost_Weapon_Ability_TwoHanded	_BOOSTS_Weapon																				9															1																																																																	
+_Boost_Weapon_Ability_OneHanded	_BOOSTS_Weapon																				9																1																																																																
+_Boost_Weapon_Ability_DualWielding	_BOOSTS_Weapon																				9																		1																																																														
+_Boost_Weapon_Ability_Ranged	_BOOSTS_Weapon																				9																	1																																																															
+_Boost_Weapon_Ability_WarriorLore	_BOOSTS_Weapon																				9																						1																																																										
+_Boost_Weapon_Ability_RangerLore	_BOOSTS_Weapon																				9																							1																																																									
+_Boost_Weapon_Ability_RogueLore	_BOOSTS_Weapon																				9																								1																																																								
+_Boost_Weapon_Ability_FireSpecialist	_BOOSTS_Weapon																				9																									1																																																							
+_Boost_Weapon_Ability_WaterSpecialist	_BOOSTS_Weapon																				9																										1																																																						
+_Boost_Weapon_Ability_AirSpecialist	_BOOSTS_Weapon																				9																											1																																																					
+_Boost_Weapon_Ability_EarthSpecialist	_BOOSTS_Weapon																				9																												1																																																				
+_Boost_Weapon_Ability_Necromancy	_BOOSTS_Weapon																				9																													1																																																			
+_Boost_Weapon_Ability_Polymorph	_BOOSTS_Weapon																				9																														1																																																		
+_Boost_Weapon_Ability_Summoning	_BOOSTS_Weapon																				9																															1																																																	
+_Boost_Weapon_Ability_Telekinesis	_BOOSTS_Weapon																				9																																	1																																															
+_Boost_Weapon_Ability_Sneaking	_BOOSTS_Weapon																				9																																		1																																														
+_Boost_Weapon_Secondary_Vitality_Small	_BOOSTS_Weapon																				5																																																10																																
+_Boost_Weapon_Secondary_Vitality_Normal	_BOOSTS_Weapon																				6																																																20																																
+_Boost_Weapon_Secondary_Dodge_Small	_BOOSTS_Weapon																				5																																																						3																										
+_Boost_Weapon_Secondary_Dodge_Normal	_BOOSTS_Weapon																				6																																																						7																										
+_Boost_Weapon_Secondary_Initiative_Small	_BOOSTS_Weapon																				5			3																																																																													
+_Boost_Weapon_Secondary_Initiative_Normal	_BOOSTS_Weapon																				6			6																																																																													
+_Boost_Weapon_Secondary_Accuracy	_BOOSTS_Weapon																				6																																																					5																											
+_Boost_Weapon_Secondary_Accuracy_Large	_BOOSTS_Weapon																				8																																																					15																											
+_Boost_Weapon_Secondary_Accuracy_Huge	_BOOSTS_Weapon																				9																																																					20																											
+_Boost_Weapon_Secondary_Accuracy_Medium	_BOOSTS_Weapon																				7																																																					10																											
+_Boost_Weapon_Secondary_Accuracy_TwoHanded	_BOOSTS_Weapon																				6																																																					10																											
+_Boost_Weapon_Secondary_CriticalChance_Small	_BOOSTS_Weapon														1						6																																																																																
+_Boost_Weapon_Secondary_CriticalChance	_BOOSTS_Weapon														5						8																																																																																
+_Boost_Weapon_Secondary_CriticalChance_Large	_BOOSTS_Weapon														7						9																																																																																
+_Boost_Weapon_Secondary_CriticalChance_Medium	_BOOSTS_Weapon														6						7																																																																																
+_Boost_Weapon_Secondary_CriticalChance_TwoHanded	_BOOSTS_Weapon														10						8																																																																																
+_Boost_Weapon_Secondary_CriticalChance_Large_TwoHanded	_BOOSTS_Weapon														14						9																																																																																
+_Boost_Weapon_Secondary_CriticalChance_Medium_TwoHanded	_BOOSTS_Weapon														12						7																																																																																
+_Boost_Weapon_Secondary_CriticalModifier_Small	_BOOSTS_Weapon													10							6																																																																																
+_Boost_Weapon_Secondary_CriticalModifier	_BOOSTS_Weapon													15							8																																																																																
+_Boost_Weapon_Secondary_CriticalModifier_Large	_BOOSTS_Weapon													25							9																																																																																
+_Boost_Weapon_Secondary_CriticalModifier_Medium	_BOOSTS_Weapon													20							7																																																																																
+_Boost_Weapon_Skill_SerratedEdge	_BOOSTS_Weapon																				10																																																											Target_SerratedEdge																					
+_Boost_Weapon_Skill_Snipe_Bow	_BOOSTS_Weapon																				10																																																											Projectile_Snipe																					
+_Boost_Weapon_Skill_Snipe_Crossbow	_BOOSTS_Weapon																				10																																																											Projectile_Snipe																					
+_Boost_Weapon_Skill_SkyShot_Bow	_BOOSTS_Weapon																				10																																																											Projectile_SkyShot																					
+_Boost_Weapon_Skill_SkyShot_Crossbow	_BOOSTS_Weapon																				10																																																											Projectile_SkyShot																					
+_Boost_Weapon_Skill_Whirlwind	_BOOSTS_Weapon																				10																																																											Shout_Whirlwind																					
+_Boost_Weapon_Status_Set_Bleeding	_BOOSTS_Weapon																				8																																																														BLEEDING,10,1																		
+_Boost_Weapon_Status_Set_Bleeding_TwoHanded	_BOOSTS_Weapon																				8																																																														BLEEDING,20,1																		
+_Boost_Weapon_Status_Set_Acid	_BOOSTS_Weapon																				8																																																														ACID,10,1																		
+_Boost_Weapon_Status_Set_Acid_TwoHanded	_BOOSTS_Weapon																				8																																																														ACID,20,1																		
+_Boost_Weapon_Status_Set_Suffocating	_BOOSTS_Weapon																				8																																																														SUFFOCATING,10,1																		
+_Boost_Weapon_Status_Set_Suffocating_TwoHanded	_BOOSTS_Weapon																				8																																																														SUFFOCATING,20,1																		
+_Boost_Weapon_Status_Set_Crippled	_BOOSTS_Weapon																				8																																																														CRIPPLED,10,1																		
+_Boost_Weapon_Status_Set_Crippled_TwoHanded	_BOOSTS_Weapon																				8																																																														CRIPPLED,20,1																		
+_Boost_Weapon_Status_Set_Disarmed	_BOOSTS_Weapon																				8																																																														DISARMED,10,1																		
+_Boost_Weapon_Status_Set_Disarmed_TwoHanded	_BOOSTS_Weapon																				8																																																														DISARMED,20,1																		
+_Boost_Weapon_Status_Set_Muted	_BOOSTS_Weapon																				8																																																														MUTED,10,1																		
+_Boost_Weapon_Status_Set_Muted_TwoHanded	_BOOSTS_Weapon																				8																																																														MUTED,20,1																		
+_Boost_Weapon_Status_Set_Blind	_BOOSTS_Weapon																				8																																																														BLIND,10,1																		
+_Boost_Weapon_Status_Set_Blind_TwoHanded	_BOOSTS_Weapon																				8																																																														BLIND,20,1																		
+_Boost_Weapon_Status_Set_Bleeding_Dagger	_BOOSTS_Weapon																				8																																																														BLEEDING,15,1																		
+_Boost_Weapon_Status_Set_Crippled_Mace	_BOOSTS_Weapon																				8																																																														CRIPPLED,15,1																		
+_Boost_Weapon_Status_Set_Fear	_BOOSTS_Weapon																				10																																																														FEAR,10,1																		
+_Boost_Weapon_Status_Set_KnockDown	_BOOSTS_Weapon																				10																																																														KNOCKED_DOWN,15,1																		
+_Boost_Weapon_Status_Set_Petrify	_BOOSTS_Weapon																				10																																																														PETRIFIED,15,2																		
+_Boost_Weapon_Status_Set_Poisoned	_BOOSTS_Weapon																				8																																																														POISONED,15,3																		
+_Boost_Weapon_Special_Unbreakable	_BOOSTS_Weapon																		10		8																																																															Unbreakable																	
+_Boost_Weapon_Special_Glass_Sword	_BOOSTS_Weapon											200							1	10	30																																																															Unrepairable																	
+_Boost_Weapon_Crafting_Damage_Poison	_BOOSTS_Weapon								Poison				10								4							94fabe05-2334-430f-bb74-5959de40b4b1																																																							POISONED,10,2																		
+_Boost_Weapon_Cleave	_BOOSTS_Weapon																15	150																																																																																			
+_Boost_Weapon_Cleave_Large	_BOOSTS_Weapon																25	150																																																																																			
+_Boost_Weapon_Cleave_TwoHanded	_BOOSTS_Weapon																30	150																																																																																			
+_Boost_Weapon_Cleave_Large_TwoHanded	_BOOSTS_Weapon																50	150																																																																																			
+_Boost_Weapon_LifeSteal	_BOOSTS_Weapon																																																																														5																						
+_Boost_Weapon_LifeSteal_Large	_BOOSTS_Weapon																																																																														7																						
+_Boost_Weapon_LifeSteal_TwoHanded	_BOOSTS_Weapon																																																																														10																						
+_Boost_Weapon_LifeSteal_Large_TwoHanded	_BOOSTS_Weapon																																																																														14																						
+_Boosts_Runes_Weapon	_BOOSTS_Weapon																																																																																																				
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Small	_BOOSTS_Weapon								Fire				9															8efaf767-7d66-4f4d-8c8e-5cb4a3d2e0f6																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Small	_BOOSTS_Weapon								Air				9															183717cc-5910-454d-b352-f4696a11d089																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Small	_BOOSTS_Weapon								Water				9															cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Small	_BOOSTS_Weapon								Earth				9															beca2252-26fc-4c8b-94c6-a64df1ffe1d9																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Small	_BOOSTS_Weapon								Poison				9															94fabe05-2334-430f-bb74-5959de40b4b1																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Small	_BOOSTS_Weapon								Physical				9																																																																																								
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Medium	_BOOSTS_Weapon								Fire				11															8efaf767-7d66-4f4d-8c8e-5cb4a3d2e0f6																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Medium	_BOOSTS_Weapon								Air				11															183717cc-5910-454d-b352-f4696a11d089																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Medium	_BOOSTS_Weapon								Water				11															cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Medium	_BOOSTS_Weapon								Earth				11															beca2252-26fc-4c8b-94c6-a64df1ffe1d9																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Medium	_BOOSTS_Weapon								Poison				11															94fabe05-2334-430f-bb74-5959de40b4b1																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Medium	_BOOSTS_Weapon								Physical				11																																																																																								
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Large	_BOOSTS_Weapon								Fire				13															8efaf767-7d66-4f4d-8c8e-5cb4a3d2e0f6																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Large	_BOOSTS_Weapon								Air				13															183717cc-5910-454d-b352-f4696a11d089																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Large	_BOOSTS_Weapon								Water				13															cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Large	_BOOSTS_Weapon								Earth				13															beca2252-26fc-4c8b-94c6-a64df1ffe1d9																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Large	_BOOSTS_Weapon								Poison				13															94fabe05-2334-430f-bb74-5959de40b4b1																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Large	_BOOSTS_Weapon								Physical				13																																																																																								
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Giant	_BOOSTS_Weapon								Fire				15															8efaf767-7d66-4f4d-8c8e-5cb4a3d2e0f6																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Giant	_BOOSTS_Weapon								Air				15															183717cc-5910-454d-b352-f4696a11d089																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Giant	_BOOSTS_Weapon								Water				15															cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Giant	_BOOSTS_Weapon								Earth				15															beca2252-26fc-4c8b-94c6-a64df1ffe1d9																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Giant	_BOOSTS_Weapon								Poison				15															94fabe05-2334-430f-bb74-5959de40b4b1																																																																									
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Giant	_BOOSTS_Weapon								Physical				15																																																																																								
+_Boosts_Framed_Runes_Weapon	_BOOSTS_Weapon																																																																																																				
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Small_Framed_Power	_BOOSTS_Weapon								Fire				9																			2																																																																					
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Medium_Framed_Power	_BOOSTS_Weapon								Fire				11																			2																																																																					
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Large_Framed_Power	_BOOSTS_Weapon								Fire				13																			2																																																																					
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Giant_Framed_Power	_BOOSTS_Weapon								Fire				15																			2																																																																					
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Small_Framed_Power	_BOOSTS_Weapon								Water				9																			2																																																																					
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Medium_Framed_Power	_BOOSTS_Weapon								Water				11																			2																																																																					
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Large_Framed_Power	_BOOSTS_Weapon								Water				13																			2																																																																					
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Giant_Framed_Power	_BOOSTS_Weapon								Water				15																			2																																																																					
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Small_Framed_Power	_BOOSTS_Weapon								Air				9																		2																																																																						
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Medium_Framed_Power	_BOOSTS_Weapon								Air				11																		2																																																																						
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Large_Framed_Power	_BOOSTS_Weapon								Air				13																		2																																																																						
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Giant_Framed_Power	_BOOSTS_Weapon								Air				15																		2																																																																						
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Small_Framed_Power	_BOOSTS_Weapon								Earth				9																	2																																																																							
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Medium_Framed_Power	_BOOSTS_Weapon								Earth				11																	2																																																																							
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Large_Framed_Power	_BOOSTS_Weapon								Earth				13																	2																																																																							
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Giant_Framed_Power	_BOOSTS_Weapon								Earth				15																	2																																																																							
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Small_Framed_Power	_BOOSTS_Weapon								Poison				9																		2																																																																						
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Medium_Framed_Power	_BOOSTS_Weapon								Poison				11																		2																																																																						
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Large_Framed_Power	_BOOSTS_Weapon								Poison				13																		2																																																																						
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Giant_Framed_Power	_BOOSTS_Weapon								Poison				15																		2																																																																						
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Small_Framed_Power	_BOOSTS_Weapon								Physical				9																	2																																																																							
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Medium_Framed_Power	_BOOSTS_Weapon								Physical				11																	2																																																																							
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Large_Framed_Power	_BOOSTS_Weapon								Physical				13																	2																																																																							
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Giant_Framed_Power	_BOOSTS_Weapon								Physical				15																	2																																																																							
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Small_Framed_Transforming	_BOOSTS_Weapon								Fire				9																									1																																																															
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Medium_Framed_Transforming	_BOOSTS_Weapon								Fire				11																									1																																																															
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Large_Framed_Transforming	_BOOSTS_Weapon								Fire				13																									1																																																															
+_Boost_Weapon_Rune_LOOT_Rune_Flame_Giant_Framed_Transforming	_BOOSTS_Weapon								Fire				15																									1																																																															
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Small_Framed_Transforming	_BOOSTS_Weapon								Water				9																								1																																																																
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Medium_Framed_Transforming	_BOOSTS_Weapon								Water				11																								1																																																																
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Large_Framed_Transforming	_BOOSTS_Weapon								Water				13																								1																																																																
+_Boost_Weapon_Rune_LOOT_Rune_Frost_Giant_Framed_Transforming	_BOOSTS_Weapon								Water				15																								1																																																																
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Small_Framed_Transforming	_BOOSTS_Weapon								Air				9																										1																																																														
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Medium_Framed_Transforming	_BOOSTS_Weapon								Air				11																										1																																																														
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Large_Framed_Transforming	_BOOSTS_Weapon								Air				13																										1																																																														
+_Boost_Weapon_Rune_LOOT_Rune_Thunder_Giant_Framed_Transforming	_BOOSTS_Weapon								Air				15																										1																																																														
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Small_Framed_Transforming	_BOOSTS_Weapon								Earth				9																							1																																																																	
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Medium_Framed_Transforming	_BOOSTS_Weapon								Earth				11																							1																																																																	
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Large_Framed_Transforming	_BOOSTS_Weapon								Earth				13																							1																																																																	
+_Boost_Weapon_Rune_LOOT_Rune_Rock_Giant_Framed_Transforming	_BOOSTS_Weapon								Earth				15																							1																																																																	
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Small_Framed_Transforming	_BOOSTS_Weapon								Poison				9																											1																																																													
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Medium_Framed_Transforming	_BOOSTS_Weapon								Poison				11																											1																																																													
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Large_Framed_Transforming	_BOOSTS_Weapon								Poison				13																											1																																																													
+_Boost_Weapon_Rune_LOOT_Rune_Venom_Giant_Framed_Transforming	_BOOSTS_Weapon								Poison				15																											1																																																													
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Small_Framed_Transforming	_BOOSTS_Weapon								Physical				9																						2																																																																		
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Medium_Framed_Transforming	_BOOSTS_Weapon								Physical				11																						2																																																																		
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Large_Framed_Transforming	_BOOSTS_Weapon								Physical				13																						2																																																																		
+_Boost_Weapon_Rune_LOOT_Rune_Masterwork_Giant_Framed_Transforming	_BOOSTS_Weapon								Physical				15																						2																																																																		
+_Boost_Weapon_Rune_LOOT_Source_Orb	_BOOSTS_Weapon																																																																															Shout_VenomousAura																					
+_Boost_Weapon_Damage_Chill	_BOOSTS_Weapon								Water				10								13							cb9b39f1-8809-4c8c-90b5-97f9281c608a																																																							CHILLED,100,1																		

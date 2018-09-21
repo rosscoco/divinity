@@ -23,4 +23,4 @@ function extract(data) {
 	return item;
 }
 
-module.exports = { extract, name };
+module.exports = extract;

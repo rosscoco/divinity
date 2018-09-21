@@ -1,0 +1,1136 @@
+Name	Parent	ItemGroup	ModifierType	Act	Level	Slot	Requirements	Armor Defense Value	ArmorBoost	Magic Armor Value	MagicArmorBoost	Durability	DurabilityDegradeSpeed	Value	Weight	Movement	Initiative	Fire	Air	Water	Earth	Poison	Piercing	Physical	StrengthBoost	FinesseBoost	IntelligenceBoost	ConstitutionBoost	MemoryBoost	WitsBoost	SingleHanded	TwoHanded	Ranged	DualWielding	Perseverance	Leadership	PainReflection	WarriorLore	RangerLore	RogueLore	Sourcery	FireSpecialist	WaterSpecialist	AirSpecialist	EarthSpecialist	Necromancy	Polymorph	Summoning	Telekinesis	Sneaking	Thievery	Loremaster	Repair	Barter	Persuasion	Luck	SightBoost	HearingBoost	VitalityBoost	MagicPointsBoost	ChanceToHitBoost	APMaximum	APStart	APRecovery	AccuracyBoost	DodgeBoost	CriticalChance	Reflection	MaxSummons	Skills	Talents	Tags	ExtraProperties	Flags	Boosts	ComboCategory	InventoryTab	ArmorType	ItemColor	NeedsIdentification	Charges	MaxCharges	RuneSlots	RuneSlots_V1	ObjectCategory	MinAmount	MaxAmount	Priority	Unique	MinLevel	MaxLevel	Comment	
+_Armors			Item			Breast		0		0		0	5	68		0	0	0	0	0	0	0	0	0																																																					Equipment						0	0									
+_ClothArmor		ClothUpperBody	Item	1		Breast		30		0		0	2	6	1000	0	0	0	0	0	0	0	0	0																																																					Equipment	Cloth	Burnished Bronze				0	0									
+ARM_Civilian_UpperBody	_ClothArmor				0												0																																																											ClothArmor,Upperbody									ClothUpperBody	1	1	1		1			
+ARM_Cloth_UpperBody_Crafted	_ClothArmor	ClothUpperBodyCrafted			0												0																																																											ClothArmor,Upperbody																	
+ARM_Purge_UpperBody	_ClothArmor	ARM_Purge_UpperBody			1			0						3																																																														RobeArmor,Upperbody			White Prisoner Robe														
+_ClothLowerBody		ClothLowerBody	Item	1		Leggings		30		0		0	2	5	700	0	0	0	0	0	0	0	0	0																																																					Equipment	Cloth	Burnished Bronze				0	0									
+ARM_Civilian_LowerBody	_ClothLowerBody				0											10																																																												ClothPants,Pants									ClothLowerBody	1	1	1		1			
+ARM_Purge_LowerBody	_ClothLowerBody	ARM_Purge_LowerBody			1			0																																																																				RobeArmor,Pants			White Prisoner Robe														
+_ClothBoots		ClothBoots	Item	1		Boots		30		0		0	2	3	500	0	0	0	0	0	0	0	0	0																																																					Equipment	Cloth	Burnished Bronze				0	0									
+ARM_Civilian_Boots	_ClothBoots				0									2																																																														ClothBoots,ArmorShoes									ClothBoots	1	1	1		1			
+ARM_Purge_Boots	_ClothBoots	ARM_Purge_Boots			0			0						2																																																														ClothBoots,ArmorShoes			White Prisoner Robe														
+_ClothGloves		ClothGloves	Item	1		Gloves		30		0		0	2	5	300	0	0	0	0	0	0	0	0	0																																																					Equipment	Cloth	Burnished Bronze				0	0									
+ARM_Civilian_Gloves	_ClothGloves				0																																																																							ClothGloves,Gloves									ClothGloves	1	1	1		1			
+ARM_Purge_Gloves	_ClothGloves	ARM_Purge_Gloves			0			0																																																																				ClothGloves,Gloves			White Prisoner Robe														
+_ClothHelmet		ClothHelmet	Item	1		Helmet		30		0		0	2	4	300	0	0	0	0	0	0	0	0	0																																																					Equipment	Cloth	Burnished Bronze				0	0									
+ARM_Civilian_Helmet	_ClothHelmet				0																																																																							ClothHelmet,Helmet									ClothHelmet	1	1	1		1			
+ARM_Purge_Helmet	_ClothHelmet	ARM_Purge_Helmet			0			0																																																																				ClothHelmet,Helmet			White Prisoner Robe														
+ARM_ShapeshifterMask	_ClothHelmet	ARM_ShapeshifterMask			0			0		0				1200																																																								Shout_PolymorphIntoHuman;Shout_PolymorphIntoLizard;Shout_PolymorphIntoElf;Shout_PolymorphIntoDwarf;Shout_CancelPolymorphism						ClothHelmet,Helmet																	
+ARM_ShapeshifterMask_Human	_ClothHelmet	ARM_ShapeshifterMask_Human			0			0		0				400																																																								Shout_PolymorphIntoHuman;Shout_CancelPolymorphism						ShapeshifterMaskHuman																	
+ARM_ShapeshifterMask_Dwarf	_ClothHelmet	ARM_ShapeshifterMask_Dwarf			0			0		0				400																																																								Shout_PolymorphIntoDwarf;Shout_CancelPolymorphism						ShapeshifterMaskDwarf																	
+ARM_ShapeshifterMask_Elf	_ClothHelmet	ARM_ShapeshifterMask_Elf			0			0		0				400																																																								Shout_PolymorphIntoElf;Shout_CancelPolymorphism						ShapeshifterMaskElf																	
+ARM_ShapeshifterMask_Lizard	_ClothHelmet	ARM_ShapeshifterMask_Lizard			0			0		0				400																																																								Shout_PolymorphIntoLizard;Shout_CancelPolymorphism						ShapeshifterMaskLizard																	
+ARM_Bicorne	_ClothHelmet	EMPTY			0									200																																																																	Battlemage														
+_LightUpperBody		LightUpperBody	Item	1		Breast	Finesse 12	55		35		0	2	90	3000	0	0	0	0	0	0	0	0	0																																																					Equipment	Leather	Burnished Bronze				0	0									
+ARM_Light_UpperBody	_LightUpperBody				0																																																																							ArmorLeather,Upperbody									LightUpperBody	1	1	1		1			
+ARM_Light_UpperBody_Leather_Crafted	_LightUpperBody	LightUpperBodyLeatherCrafted			0																																																																							ArmorLeather,Upperbody																	
+ARM_Light_UpperBody_Chain_Crafted	_LightUpperBody	LightUpperBodyChainCrafted			0																																																																							ArmorLeather,Upperbody																	
+ARM_Light_UpperBody_Cheat_RuneSlot1	_LightUpperBody				0																																																																							ArmorLeather,Upperbody							1	1									
+ARM_Light_UpperBody_Cheat_RuneSlot2	_LightUpperBody				0																																																																							ArmorLeather,Upperbody							2	2									
+ARM_Light_UpperBody_Cheat_RuneSlot3	_LightUpperBody				0																																																																							ArmorLeather,Upperbody							3	3									
+ARM_REFERENCE_Light_UpperBody	ARM_Light_UpperBody				0		Finesse 0							0	0																																																																						REFERENCE_LightUpperBody	1	1	1		1			
+_LightLowerBody		LightLowerBody	Item	1		Leggings	Finesse 12	50		30		0	2	50	2500	0	0	0	0	0	0	0	0	0																																																					Equipment	Leather	Burnished Bronze				0	0									
+ARM_Light_LowerBody	_LightLowerBody				0																																																																							PantsLeather,Pants									LightLowerBody	1	1	1		1			
+ARM_REFERENCE_Light_LowerBody	ARM_Light_LowerBody				0		Finesse 0							0	0																																																																						REFERENCE_LightLowerBody	1	1	1		1			
+_LightBoots		LightBoots	Item	1		Boots	Finesse 12	50		30		0	2	16	1000	0	0	0	0	0	0	0	0	0																																																					Equipment	Leather	Burnished Bronze				0	0									
+ARM_Light_Boots	_LightBoots				0																																																																							BootsLeather,ArmorShoes									LightBoots	1	1	1		1			
+ARM_REFERENCE_Light_Boots	ARM_Light_Boots				0		Finesse 0							0	0																																																																						REFERENCE_LightBoots	1	1	1		1			
+_LightGloves		LightGloves	Item	1		Gloves	Finesse 12	50		30		0	2	13	1000	0	0	0	0	0	0	0	0	0																																																					Equipment	Leather	Burnished Bronze				0	0									
+ARM_Light_Gloves	_LightGloves				0																																																																							GlovesLeather,Gloves									LightGloves	1	1	1		1			
+ARM_REFERENCE_Light_Gloves	ARM_Light_Gloves				0		Finesse 0							0	0																																																																						REFERENCE_LightGloves	1	1	1		1			
+_LightHelmet		LightHelmet	Item	1		Helmet	Finesse 12	50		30		0	2	31	1500	0	0	0	0	0	0	0	0	0																																																					Equipment	Leather	Burnished Bronze				0	0									
+ARM_Light_Helmet	_LightHelmet				0																																																																							HelmetLeather,Helmet									LightHelmet	1	1	1		1			
+ARM_REFERENCE_Light_Helmet	ARM_Light_Helmet				0		Finesse 0							0	0																																																																						REFERENCE_LightHelmet	1	1	1		1			
+_HeavyUpperBody		HeavyUpperBody	Item	1		Breast	Strength 12	90		15		0	2	140	5000	0	0	0	0	0	0	0	0	0																																																					Equipment	Plate	Burnished Bronze				0	0									
+ARM_Heavy_UpperBody	_HeavyUpperBody				0																																																																							ArmorScale,Upperbody									HeavyUpperBody	1	1	1		1			
+ARM_Heavy_UpperBody_Scale_Crafted	_HeavyUpperBody	HeavyUpperBodyScaleCrafted			0																																																																							ArmorScale,Upperbody																	
+ARM_Heavy_UpperBody_Plate_Crafted	_HeavyUpperBody	HeavyUpperBodyPlateCrafted			0																																																																							ArmorScale,Upperbody																	
+ARM_REFERENCE_Heavy_UpperBody	ARM_Heavy_UpperBody				0		Strength 0							0	0																																																																						REFERENCE_HeavyUpperBody	1	1	1		1			
+_HeavyLowerBody		HeavyLowerBody	Item	1		Leggings	Strength 12	90		15		0	2	75	3500	0	0	0	0	0	0	0	0	0																																																					Equipment	Plate	Burnished Bronze				0	0									
+ARM_Heavy_LowerBody	_HeavyLowerBody				0																																																																							PantsScale,Pants									HeavyLowerBody	1	1	1		1			
+ARM_REFERENCE_Heavy_LowerBody	ARM_Heavy_LowerBody				0		Strength 0							0	0																																																																						REFERENCE_HeavyLowerBody	1	1	1		1			
+_HeavyBoots		HeavyBoots	Item	1		Boots	Strength 12	90		15		0	2	35	2000	0	0	0	0	0	0	0	0	0																																																					Equipment	Plate	Burnished Bronze				0	0									
+ARM_Heavy_Boots	_HeavyBoots				0																																																																							BootsScale,ArmorShoes									HeavyBoots	1	1	1		1			
+ARM_REFERENCE_Heavy_Boots	ARM_Heavy_Boots				0		Strength 0							0	0																																																																						REFERENCE_HeavyBoots	1	1	1		1			
+_HeavyGloves		HeavyGloves	Item	1		Gloves	Strength 12	90		15		0	2	25	2000	0	0	0	0	0	0	0	0	0																																																					Equipment	Plate	Burnished Bronze				0	0									
+ARM_Heavy_Gloves	_HeavyGloves				0																																																																							GlovesScale,Gloves									HeavyGloves	1	1	1		1			
+ARM_REFERENCE_Heavy_Gloves	ARM_Heavy_Gloves				0		Strength 0							0	0																																																																						REFERENCE_HeavyGloves	1	1	1		1			
+_HeavyHelmet		HeavyHelmet	Item	1		Helmet	Strength 12	90		15		0	2	52	2500	0	0	0	0	0	0	0	0	0																																																					Equipment	Plate	Burnished Bronze				0	0									
+ARM_Heavy_Helmet	_HeavyHelmet				0																																																																							HelmetScale,Helmet									HeavyHelmet	1	1	1		1			
+ARM_REFERENCE_Heavy_Helmet	ARM_Heavy_Helmet				0		Strength 0							0	0																																																																						REFERENCE_HeavyHelmet	1	1	1		1			
+_MageUpperBody		MageUpperBody	Item	1		Breast	Intelligence 12	15		90		0	2	120	1000	0	0	0	0	0	0	0	0	0																																																					Equipment	Robe	Burnished Bronze				0	0									
+ARM_Mage_UpperBody	_MageUpperBody				0																																																																							RobeArmor,Upperbody									MageUpperBody	1	1	1		1			
+ARM_Mage_UpperBody_Crafted	_MageUpperBody	MageUpperBodyCrafted			0																																																																							RobeArmor,Upperbody																	
+ARM_REFERENCE_Mage_UpperBody	ARM_Mage_UpperBody				0		Intelligence 0							0	0																																																																						REFERENCE_MageUpperBody	1	1	1		1			
+_MageLowerBody		MageLowerBody	Item	1		Leggings	Intelligence 12	15		90		0	2	55	700	0	0	0	0	0	0	0	0	0																																																					Equipment	Robe	Burnished Bronze				0	0									
+ARM_Mage_LowerBody	_MageLowerBody				0																																																																							PantsMage,Pants									MageLowerBody	1	1	1		1			
+ARM_REFERENCE_Mage_LowerBody	ARM_Mage_LowerBody				0		Intelligence 0							0	0																																																																						REFERENCE_MageLowerBody	1	1	1		1			
+_MageBoots		MageBoots	Item	1		Boots	Intelligence 12	15		90		0	2	23	500	0	0	0	0	0	0	0	0	0																																																					Equipment	Robe	Burnished Bronze				0	0									
+ARM_Mage_Boots	_MageBoots				0																																																																							BootsMage,ArmorShoes									MageBoots	1	1	1		1			
+ARM_REFERENCE_Mage_Boots	ARM_Mage_Boots				0		Intelligence 0							0	0																																																																						REFERENCE_MageBoots	1	1	1		1			
+_MageGloves		MageGloves	Item	1		Gloves	Intelligence 12	15		90		0	2	19	300	0	0	0	0	0	0	0	0	0																																																					Equipment	Robe	Burnished Bronze				0	0									
+ARM_Mage_Gloves	_MageGloves				0																																																																							GlovesMage,Gloves									MageGloves	1	1	1		1			
+ARM_REFERENCE_Mage_Gloves	ARM_Mage_Gloves				0		Intelligence 0							0	0																																																																						REFERENCE_MageGloves	1	1	1		1			
+_MageHelmet		MageHelmet	Item	1		Helmet	Intelligence 12	15		90		0	2	50	300	0	0	0	0	0	0	0	0	0																																																					Equipment	Robe	Burnished Bronze				0	0									
+ARM_Mage_Helmet	_MageHelmet				0																																																																							HelmetMage,Helmet									MageHelmet	1	1	1		1			
+ARM_REFERENCE_Mage_Helmet	ARM_Mage_Helmet				0		Intelligence 0							0	0																																																																						REFERENCE_MageHelmet	1	1	1		1			
+_Belts		Belts	Item	1		Belt		100				0	4	21	300	0	0	0	0	0	0	0	0	0																																																					Equipment		Burnished Bronze				0	0									
+ARM_Belt	_Belts				0																																																																							ArmorBelt									Belt			1		1			
+_Rings		Rings	Item	1		Ring		0		100		0	2	100	50	0	0	0	0	0	0	0	0	0																																																					Equipment						0	0									
+ARM_Ring	_Rings				0																																																																							ArmorRing									Ring	1	1	1		1			
+_Amulets		Amulets	Item	1		Amulet		0		100		0	2	130	70	0	0	0	0	0	0	0	0	0																																																					Equipment						0	0									
+ARM_Amulet	_Amulets				0																																																																							ArmorAmulet									Amulet	1	1	1		1			
+ARM_Amulet_Cheat_RuneSlot1	_Amulets				0																																																																														1	1									
+ARM_Amulet_Cheat_RuneSlot2	_Amulets				0																																																																														2	2									
+ARM_Amulet_Cheat_RuneSlot3	_Amulets				0																																																																														3	3									
+ARM_SourceCollar	_Amulets				0					0			0	0	0																																																										SELF:ONEQUIP:SOURCE_MUTED	Unbreakable																			
+ARM_SourceCollar_Broken	_Amulets				0					0			0	0	0																																																											Unbreakable																			
+_Wings		Wings	Item	1		Wings						0	0	0	0	0	0	0	0	0	0	0	0	0																																																		Unbreakable									0	0									
+ARM_Wings	_Wings				1																																																																																								
+ARM_SpiderLegs	_Wings	SpiderLegs			1																																																																																								
+_Overhead		InnerDemon	Item	1		Overhead						0	0	0	0	0	0	0	0	0	0	0	0	0																																																		Unbreakable									0	0									
+ARM_InnerDemon	_Overhead				1																																																																																								
+_Horns		Horns	Item	1		Horns		0		0		0	0	0	0	0	0	0	0	0	0	0	0	0																																																		Unbreakable									0	0									
+ARM_Horns	_Horns				1																																																																																								
+ARM_MedusaHead	_Horns	MedusaHead			1																																																																																								
+_Crafted																																																																																			0	0									
+ARM_Wood_Torso_Barrel_A	_ClothArmor				1			20						10	5000	-100		-5																																																												None															
+ARM_CraftedRobe_Trethon	_MageUpperBody	ARM_CraftedRobe_Trethon			0									1200				3	3	3	3	3					1																																																	RobeArmor,Upperbody			Tenebrium										1				
+FUR_Bucket_A	_ClothHelmet	FUR_Bucket_A			2			50						0	500		-1																																																																				Junk	1	1	1		1			
+UNI_Halloween_Pumpkin_A	_ClothHelmet				2			50						0	500			4																																																							FEAR,5,1																				
+_CharacterCreation																																																																																			0	0									
+ARM_Battlemage_UpperBody	_MageUpperBody	ARM_Battlemage_UpperBody			0																																																																										Battlemage														
+ARM_Battlemage_LowerBody	_MageLowerBody	ARM_Battlemage_LowerBody			0																																																																										Battlemage														
+ARM_Battlemage_Gloves	_MageGloves	ARM_Battlemage_Gloves			0																																																																										Battlemage														
+ARM_Battlemage_Boots	_MageBoots	ARM_Battlemage_Boots			0																																																																										Battlemage														
+ARM_Battlemage_Helmet	_MageHelmet	ARM_Battlemage_Helmet			0																																																																										Battlemage														
+ARM_Cleric_UpperBody	_HeavyUpperBody	ARM_Cleric_UpperBody			0																																																																										Cleric														
+ARM_Cleric_LowerBody	_HeavyLowerBody	ARM_Cleric_LowerBody			0																																																																										Cleric														
+ARM_Cleric_Gloves	_HeavyGloves	ARM_Cleric_Gloves			0																																																																										Cleric														
+ARM_Cleric_Boots	_HeavyBoots	ARM_Cleric_Boots			0																																																																										Cleric														
+ARM_Cleric_Helmet	_HeavyHelmet	ARM_Cleric_Helmet			0																																																																										Cleric														
+ARM_Enchanter_UpperBody	_MageUpperBody	ARM_Enchanter_UpperBody			0																																																																										Enchanter														
+ARM_Enchanter_LowerBody	_MageLowerBody	ARM_Enchanter_LowerBody			0																																																																										Enchanter														
+ARM_Enchanter_Gloves	_MageGloves	ARM_Enchanter_Gloves			0																																																																										Enchanter														
+ARM_Enchanter_Boots	_MageBoots	ARM_Enchanter_Boots			0																																																																										Enchanter														
+ARM_Enchanter_Helmet	_MageHelmet	ARM_Enchanter_Helmet			0																																																																										Enchanter														
+ARM_Fighter_UpperBody	_HeavyUpperBody	ARM_Fighter_UpperBody			0																																																																										Fighter														
+ARM_Fighter_LowerBody	_HeavyLowerBody	ARM_Fighter_LowerBody			0																																																																										Fighter														
+ARM_Fighter_Gloves	_HeavyGloves	ARM_Fighter_Gloves			0																																																																										Fighter														
+ARM_Fighter_Boots	_HeavyBoots	ARM_Fighter_Boots			0																																																																										Fighter														
+ARM_Fighter_Helmet	_HeavyHelmet	ARM_Fighter_Helmet			0																																																																										Fighter														
+ARM_Inquisitor_UpperBody	_MageUpperBody	ARM_Inquisitor_UpperBody			0																																																																										Inquisitor														
+ARM_Inquisitor_LowerBody	_MageLowerBody	ARM_Inquisitor_LowerBody			0																																																																										Inquisitor														
+ARM_Inquisitor_Gloves	_MageGloves	ARM_Inquisitor_Gloves			0																																																																										Inquisitor														
+ARM_Inquisitor_Boots	_MageBoots	ARM_Inquisitor_Boots			0																																																																										Inquisitor														
+ARM_Inquisitor_Helmet	_MageHelmet	ARM_Inquisitor_Helmet			0																																																																										Inquisitor														
+ARM_Knight_UpperBody	_HeavyUpperBody	ARM_Knight_UpperBody			0																																																																										Knight														
+ARM_Knight_LowerBody	_HeavyLowerBody	ARM_Knight_LowerBody			0																																																																										Knight														
+ARM_Knight_Gloves	_HeavyGloves	ARM_Knight_Gloves			0																																																																										Knight														
+ARM_Knight_Boots	_HeavyBoots	ARM_Knight_Boots			0																																																																										Knight														
+ARM_Knight_Helmet	_HeavyHelmet	ARM_Knight_Helmet			0																																																																										Knight														
+ARM_Metamorph_UpperBody	_HeavyUpperBody	ARM_Metamorph_UpperBody			0																																																																										Metamorph														
+ARM_Metamorph_LowerBody	_HeavyLowerBody	ARM_Metamorph_LowerBody			0																																																																										Metamorph														
+ARM_Metamorph_Gloves	_HeavyGloves	ARM_Metamorph_Gloves			0																																																																										Metamorph														
+ARM_Metamorph_Boots	_HeavyBoots	ARM_Metamorph_Boots			0																																																																										Metamorph														
+ARM_Metamorph_Helmet	_HeavyHelmet	ARM_Metamorph_Helmet			0																																																																										Metamorph														
+ARM_Ranger_UpperBody	_LightUpperBody	ARM_Ranger_UpperBody			0																																																																										Ranger														
+ARM_Ranger_LowerBody	_LightLowerBody	ARM_Ranger_LowerBody			0																																																																										Ranger														
+ARM_Ranger_Gloves	_LightGloves	ARM_Ranger_Gloves			0																																																																										Ranger														
+ARM_Ranger_Boots	_LightBoots	ARM_Ranger_Boots			0																																																																										Ranger														
+ARM_Ranger_Helmet	_LightHelmet	ARM_Ranger_Helmet			0																																																																										Ranger														
+ARM_Rogue_UpperBody	_LightUpperBody	ARM_Rogue_UpperBody			0																																																																										Rogue														
+ARM_Rogue_LowerBody	_LightLowerBody	ARM_Rogue_LowerBody			0																																																																										Rogue														
+ARM_Rogue_Gloves	_LightGloves	ARM_Rogue_Gloves			0																																																																										Rogue														
+ARM_Rogue_Boots	_LightBoots	ARM_Rogue_Boots			0																																																																										Rogue														
+ARM_Rogue_Helmet	_LightHelmet	ARM_Rogue_Helmet			0																																																																										Rogue														
+ARM_Shadowblade_UpperBody	_LightUpperBody	ARM_Shadowblade_UpperBody			0																																																																										Shadowblade														
+ARM_Shadowblade_LowerBody	_LightLowerBody	ARM_Shadowblade_LowerBody			0																																																																										Shadowblade														
+ARM_Shadowblade_Gloves	_LightGloves	ARM_Shadowblade_Gloves			0																																																																										Shadowblade														
+ARM_Shadowblade_Boots	_LightBoots	ARM_Shadowblade_Boots			0																																																																										Shadowblade														
+ARM_Shadowblade_Helmet	_LightHelmet	ARM_Shadowblade_Helmet			0																																																																										Shadowblade														
+ARM_Conjurer_UpperBody	_LightUpperBody	ARM_Conjurer_UpperBody			0																																																																										Conjurer														
+ARM_Conjurer_LowerBody	_LightLowerBody	ARM_Conjurer_LowerBody			0																																																																										Conjurer														
+ARM_Conjurer_Gloves	_LightGloves	ARM_Conjurer_Gloves			0																																																																										Conjurer														
+ARM_Conjurer_Boots	_LightBoots	ARM_Conjurer_Boots			0																																																																										Conjurer														
+ARM_Conjurer_Helmet	_LightHelmet	ARM_Conjurer_Helmet			0																																																																										Conjurer														
+ARM_Wayfarer_UpperBody	_LightUpperBody	ARM_Wayfarer_UpperBody			0																																																																										Wayfarer														
+ARM_Wayfarer_LowerBody	_LightLowerBody	ARM_Wayfarer_LowerBody			0																																																																										Wayfarer														
+ARM_Wayfarer_Gloves	_LightGloves	ARM_Wayfarer_Gloves			0																																																																										Wayfarer														
+ARM_Wayfarer_Boots	_LightBoots	ARM_Wayfarer_Boots			0																																																																										Wayfarer														
+ARM_Wayfarer_Helmet	_LightHelmet	ARM_Wayfarer_Helmet			0																																																																										Wayfarer														
+ARM_Witch_UpperBody	_MageUpperBody	ARM_Witch_UpperBody			0																																																																										Witch														
+ARM_Witch_LowerBody	_MageLowerBody	ARM_Witch_LowerBody			0																																																																										Witch														
+ARM_Witch_Gloves	_MageGloves	ARM_Witch_Gloves			0																																																																										Witch														
+ARM_Witch_Boots	_MageBoots	ARM_Witch_Boots			0																																																																										Witch														
+ARM_Witch_Helmet	_MageHelmet	ARM_Witch_Helmet			0																																																																										Witch														
+ARM_Wizard_UpperBody	_MageUpperBody	ARM_Wizard_UpperBody			0																																																																										Wizard														
+ARM_Wizard_LowerBody	_MageLowerBody	ARM_Wizard_LowerBody			0																																																																										Wizard														
+ARM_Wizard_Gloves	_MageGloves	ARM_Wizard_Gloves			0																																																																										Wizard														
+ARM_Wizard_Boots	_MageBoots	ARM_Wizard_Boots			0																																																																										Wizard														
+ARM_Wizard_Helmet	_MageHelmet	ARM_Wizard_Helmet			0																																																																										Wizard														
+_Origins																																																																																			0	0									
+ARM_Beast_UpperBody	_ClothArmor	ARM_Beast_UpperBody			0																																																																																								
+ARM_Beast_LowerBody	_ClothLowerBody	ARM_Beast_LowerBody			0																																																																																								
+ARM_Beast_Boots	_ClothBoots	ARM_Beast_Boots			0																																																																																								
+ARM_Beast_Gloves	_ClothGloves	ARM_Beast_Gloves			0																																																																																								
+ARM_Fane_UpperBody	_ClothArmor	ARM_Fane_UpperBody			0																																																																																								
+ARM_Fane_LowerBody	_ClothLowerBody	ARM_Fane_LowerBody			0																																																																																								
+ARM_Fane_Boots	_ClothBoots	ARM_Fane_Boots			0																																																																																								
+ARM_Fane_Gloves	_ClothGloves	ARM_Fane_Gloves			0																																																																																								
+ARM_Ifan_UpperBody	_ClothArmor	ARM_Ifan_UpperBody			0																																																																																								
+ARM_Ifan_LowerBody	_ClothLowerBody	ARM_Ifan_LowerBody			0																																																																																								
+ARM_Ifan_Boots	_ClothBoots	ARM_Ifan_Boots			0																																																																																								
+ARM_Ifan_Gloves	_ClothGloves	ARM_Ifan_Gloves			0																																																																																								
+ARM_Lohse_UpperBody	_ClothArmor	ARM_Lohse_UpperBody			0																																																																																								
+ARM_Lohse_LowerBody	_ClothLowerBody	ARM_Lohse_LowerBody			0																																																																																								
+ARM_Lohse_Boots	_ClothBoots	ARM_Lohse_Boots			0																																																																																								
+ARM_Lohse_Gloves	_ClothGloves	ARM_Lohse_Gloves			0																																																																																								
+ARM_RedPrince_UpperBody	_ClothArmor	ARM_RedPrince_UpperBody			0																																																																																								
+ARM_RedPrince_LowerBody	_ClothLowerBody	ARM_RedPrince_LowerBody			0																																																																																								
+ARM_RedPrince_Boots	_ClothBoots	ARM_RedPrince_Boots			0																																																																																								
+ARM_RedPrince_Gloves	_ClothGloves	ARM_RedPrince_Gloves			0																																																																																								
+ARM_Sebille_UpperBody	_ClothArmor	ARM_Sebille_UpperBody			0																																																																																								
+ARM_Sebille_LowerBody	_ClothLowerBody	ARM_Sebille_LowerBody			0																																																																																								
+ARM_Sebille_Boots	_ClothBoots	ARM_Sebille_Boots			0																																																																																								
+ARM_Sebille_Gloves	_ClothGloves	ARM_Sebille_Gloves			0																																																																																								
+_ArenaGear																																																																																			0	0									
+ARM_Leather_UpperBody_Arena	_LightUpperBody				0																																																																					Unbreakable		ArmorLeather			ArenaLobby														
+ARM_Plate_UpperBody_Arena	_HeavyUpperBody				0																																																																					Unbreakable		ArmorScale			ArenaLobby														
+ARM_Mage_UpperBody_Arena	_MageUpperBody				0																																																																					Unbreakable		RobeArmor			ArenaLobby														
+ARM_Leather_LowerBody_Arena	_LightLowerBody				0																																																																					Unbreakable		PantsLeather			ArenaLobby														
+ARM_Leather_Boots_Arena	_LightBoots				0																																																																					Unbreakable		BootsLeather,ArmorShoes			ArenaLobby														
+ARM_Plate_LowerBody_Arena	_HeavyLowerBody				0																																																																					Unbreakable		PantsPlate			ArenaLobby														
+ARM_Mage_LowerBody_Arena	_MageLowerBody				0																																																																					Unbreakable		PantsMage			ArenaLobby														
+ARM_Plate_Boots_Arena	_HeavyBoots				0																																																																					Unbreakable		BootsPlate,ArmorShoes			ArenaLobby														
+ARM_Mage_Boots_Arena	_MageBoots				0																																																																					Unbreakable		BootsMage,ArmorShoes			ArenaLobby														
+ARM_Leather_Gloves_Arena	_LightGloves				0																																																																					Unbreakable		GlovesLeather			ArenaLobby														
+ARM_Plate_Gloves_Arena	_HeavyGloves				0																																																																					Unbreakable		GlovesPlate			ArenaLobby														
+ARM_Mage_Gloves_Arena	_MageGloves				0																																																																					Unbreakable		GlovesMage			ArenaLobby														
+ARM_Leather_Helmet_Arena	_LightHelmet				0																																																																					Unbreakable		HelmetLeather			ArenaLobby														
+ARM_Plate_Helmet_Arena	_HeavyHelmet				0																																																																					Unbreakable		HelmetPlate			ArenaLobby														
+ARM_Mage_Helmet_Arena	_MageHelmet				0																																																																					Unbreakable		HelmetMage			ArenaLobby														
+_BOOSTS_Armor			Boost	1	1																																																																														0	0									
+_Boost_Armor_All_EmptyRuneSlot	_BOOSTS_Armor																																																																																		1	1									
+_Boost_Armor_All_Armour_Base	_BOOSTS_Armor							7		7				2																																																																															
+_Boost_Armor_All_Armour_Base_Medium	_BOOSTS_Armor							12		12				2																																																																															
+_Boost_Armor_All_Armour_Base_Large	_BOOSTS_Armor							20		20				2																																																																															
+_Boost_Armor_All_Armour_Magical_Base	_BOOSTS_Armor							5		10				2																																																																															
+_Boost_Armor_All_Armour_Magical_Base_Medium	_BOOSTS_Armor							7		15																																																																																			
+_Boost_Armor_All_Armour_Magical_Base_Large	_BOOSTS_Armor							10		25																																																																																			
+_Boost_Armor_All_Armour_Physical_Base	_BOOSTS_Armor							10		5				2																																																																															
+_Boost_Armor_All_Armour_Physical_Base_Medium	_BOOSTS_Armor							15		7				2																																																																															
+_Boost_Armor_All_Armour_Physical_Base_Large	_BOOSTS_Armor							25		10				2																																																																															
+_Boost_Armor_Helmet_Armour_Magical	_BOOSTS_Armor									10				5																																																																															
+_Boost_Armor_Helmet_Armour_Magical_Large	_BOOSTS_Armor									30				9																																																																															
+_Boost_Armor_Helmet_Armour_Magical_Medium	_BOOSTS_Armor									20				7																																																																															
+_Boost_Armor_Amulet_Armour_Magical	_BOOSTS_Armor									10				5																																																																															
+_Boost_Armor_Amulet_Armour_Magical_Large	_BOOSTS_Armor									30				9																																																																															
+_Boost_Armor_Amulet_Armour_Magical_Medium	_BOOSTS_Armor									20				7																																																																															
+_Boost_Armor_Ring_Armour_Magical	_BOOSTS_Armor									10				5																																																																															
+_Boost_Armor_Ring_Armour_Magical_Large	_BOOSTS_Armor									30				9																																																																															
+_Boost_Armor_Ring_Armour_Magical_Medium	_BOOSTS_Armor									20				7																																																																															
+_Boost_Armor_Helmet_Armour_Physical	_BOOSTS_Armor							10						5																																																																															
+_Boost_Armor_Helmet_Armour_Physical_Large	_BOOSTS_Armor							30						9																																																																															
+_Boost_Armor_Helmet_Armour_Physical_Medium	_BOOSTS_Armor							20						7																																																																															
+_Boost_Armor_Helmet_Immunity_Charmed_And_Feared	_BOOSTS_Armor													10																																																												CharmImmunity;FearImmunity																			
+_Boost_Armor_Helmet_Immunity_Muted_And_Blind	_BOOSTS_Armor													10																																																												MuteImmunity;BlindImmunity																			
+_Boost_Armor_Helmet_Primary_Intelligence	_BOOSTS_Armor													12													1																																																																		
+_Boost_Armor_Helmet_Primary_Intelligence_Large	_BOOSTS_Armor													18													3																																																																		
+_Boost_Armor_Helmet_Primary_Intelligence_Medium	_BOOSTS_Armor													14													2																																																																		
+_Boost_Armor_Helmet_Primary_Memory	_BOOSTS_Armor													12															1																																																																
+_Boost_Armor_Helmet_Primary_Memory_Large	_BOOSTS_Armor													18															3																																																																
+_Boost_Armor_Helmet_Primary_Memory_Medium	_BOOSTS_Armor													14															2																																																																
+_Boost_Armor_Helmet_Primary_Strength	_BOOSTS_Armor													12											1																																																																				
+_Boost_Armor_Helmet_Primary_Strength_Large	_BOOSTS_Armor													18											3																																																																				
+_Boost_Armor_Helmet_Primary_Strength_Medium	_BOOSTS_Armor													14											2																																																																				
+_Boost_Armor_Helmet_Primary_Finesse	_BOOSTS_Armor													12												1																																																																			
+_Boost_Armor_Helmet_Primary_Finesse_Large	_BOOSTS_Armor													18												3																																																																			
+_Boost_Armor_Helmet_Primary_Finesse_Medium	_BOOSTS_Armor													14												2																																																																			
+_Boost_Armor_Helmet_Primary_Wits	_BOOSTS_Armor													12																1																																																															
+_Boost_Armor_Helmet_Primary_Wits_Large	_BOOSTS_Armor													18																3																																																															
+_Boost_Armor_Helmet_Primary_Wits_Medium	_BOOSTS_Armor													14																2																																																															
+_Boost_Armor_Helmet_Resistance_Air	_BOOSTS_Armor													6					10																																																																										
+_Boost_Armor_Helmet_Resistance_Air_Large	_BOOSTS_Armor													10					15																																																																										
+_Boost_Armor_Helmet_Resistance_Air_Medium	_BOOSTS_Armor													8					12																																																																										
+_Boost_Armor_Helmet_Resistance_Earth	_BOOSTS_Armor													60							10																																																																								
+_Boost_Armor_Helmet_Resistance_Earth_Large	_BOOSTS_Armor													10							15																																																																								
+_Boost_Armor_Helmet_Resistance_Earth_Medium	_BOOSTS_Armor													8							12																																																																								
+_Boost_Armor_Helmet_Resistance_Fire	_BOOSTS_Armor													6				10																																																																											
+_Boost_Armor_Helmet_Resistance_Fire_Large	_BOOSTS_Armor													10				15																																																																											
+_Boost_Armor_Helmet_Resistance_Fire_Medium	_BOOSTS_Armor													8				12																																																																											
+_Boost_Armor_Helmet_Resistance_Poison	_BOOSTS_Armor													6								10																																																																							
+_Boost_Armor_Helmet_Resistance_Poison_Large	_BOOSTS_Armor													10								15																																																																							
+_Boost_Armor_Helmet_Resistance_Poison_Medium	_BOOSTS_Armor													8								12																																																																							
+_Boost_Armor_Helmet_Resistance_Water	_BOOSTS_Armor													6						10																																																																									
+_Boost_Armor_Helmet_Resistance_Water_Large	_BOOSTS_Armor													10						15																																																																									
+_Boost_Armor_Helmet_Resistance_Water_Medium	_BOOSTS_Armor													8						12																																																																									
+_Boost_Armor_Helmet_Skill_BloodBubble	_BOOSTS_Armor													9																																																								Target_BloodBubble																							
+_Boost_Armor_Helmet_Skill_Fireblood	_BOOSTS_Armor													9																																																								Target_Fireblood																							
+_Boost_Armor_Helmet_Skill_FlamingTongues	_BOOSTS_Armor													9																																																								Shout_FlamingTongues																							
+_Boost_Armor_Helmet_Skill_FlamingDaggers	_BOOSTS_Armor													10																																																								Projectile_FlamingDaggers																							
+_Boost_Armor_Helmet_Skill_Fortify	_BOOSTS_Armor													10																																																								Target_Fortify																							
+_Boost_Armor_Helmet_Skill_LightningBolt	_BOOSTS_Armor													11																																																								Projectile_LightningBolt																							
+_Boost_Armor_Helmet_Skill_PyroclasticRock	_BOOSTS_Armor													10																																																								Projectile_PyroclasticRock																							
+_Boost_Armor_Helmet_Skill_ShockingTouch	_BOOSTS_Armor													9																																																								Target_ShockingTouch																							
+_Boost_Armor_Helmet_Skill_Water	_BOOSTS_Armor													9																																																								Rain_Water																							
+_Boost_Armor_Helmet_Skill_WinterBlast	_BOOSTS_Armor													12																																																								Target_WinterBlast																							
+_Boost_Armor_Helmet_Skill_BurnMyEyes	_BOOSTS_Armor													12																																																								Target_BurnMyEyes																							
+_Boost_Armor_Upperbody_Armour_Magical	_BOOSTS_Armor									20				5																																																																															
+_Boost_Armor_Upperbody_Armour_Magical_Large	_BOOSTS_Armor									40				9																																																																															
+_Boost_Armor_Upperbody_Armour_Magical_Medium	_BOOSTS_Armor									30				7																																																																															
+_Boost_Armor_Upperbody_Armour_Physical	_BOOSTS_Armor							20						5																																																																															
+_Boost_Armor_Upperbody_Armour_Physical_Large	_BOOSTS_Armor							40						9																																																																															
+_Boost_Armor_Upperbody_Armour_Physical_Medium	_BOOSTS_Armor							30						7																																																																															
+_Boost_Armor_Upperbody_Immunity_Burning_And_Warm	_BOOSTS_Armor													10																																																												BurnImmunity;WarmImmunity																			
+_Boost_Armor_Upperbody_Immunity_Poisoned_And_Bleeding	_BOOSTS_Armor													10																																																												PoisonImmunity;BleedingImmunity																			
+_Boost_Armor_Upperbody_Primary_Finesse	_BOOSTS_Armor													12												1																																																																			
+_Boost_Armor_Upperbody_Primary_Finesse_Large	_BOOSTS_Armor													18												3																																																																			
+_Boost_Armor_Upperbody_Primary_Finesse_Medium	_BOOSTS_Armor													14												2																																																																			
+_Boost_Armor_Upperbody_Primary_Strength	_BOOSTS_Armor													12											1																																																																				
+_Boost_Armor_Upperbody_Primary_Strength_Large	_BOOSTS_Armor													18											3																																																																				
+_Boost_Armor_Upperbody_Primary_Strength_Medium	_BOOSTS_Armor													14											2																																																																				
+_Boost_Armor_Upperbody_Primary_Intelligence	_BOOSTS_Armor													12													1																																																																		
+_Boost_Armor_Upperbody_Primary_Intelligence_Large	_BOOSTS_Armor													18													3																																																																		
+_Boost_Armor_Upperbody_Primary_Intelligence_Medium	_BOOSTS_Armor													14													2																																																																		
+_Boost_Armor_Upperbody_Primary_Constitution	_BOOSTS_Armor													12														1																																																																	
+_Boost_Armor_Upperbody_Primary_Constitution_Large	_BOOSTS_Armor													18														3																																																																	
+_Boost_Armor_Upperbody_Primary_Constitution_Medium	_BOOSTS_Armor													14														2																																																																	
+_Boost_Armor_Upperbody_Reflect_As_Air_Damage	_BOOSTS_Armor													12																																																						10::Air:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Fire_Damage	_BOOSTS_Armor													12																																																						10::Fire:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Water_Damage	_BOOSTS_Armor													12																																																						10::Water:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Earth_Damage	_BOOSTS_Armor													12																																																						10::Earth:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Air_Damage_Medium	_BOOSTS_Armor													15																																																						20::Air:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Fire_Damage_Medium	_BOOSTS_Armor													15																																																						20::Fire:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Water_Damage_Medium	_BOOSTS_Armor													15																																																						20::Water:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Earth_Damage_Medium	_BOOSTS_Armor													15																																																						20::Earth:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Air_Damage_High	_BOOSTS_Armor													18																																																						30::Air:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Fire_Damage_High	_BOOSTS_Armor													18																																																						30::Fire:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Water_Damage_High	_BOOSTS_Armor													18																																																						30::Water:melee																									
+_Boost_Armor_Upperbody_Reflect_As_Earth_Damage_High	_BOOSTS_Armor													18																																																						30::Earth:melee																									
+_Boost_Armor_Upperbody_Reflect_Burn	_BOOSTS_Armor													10																																																												BurnContact																			
+_Boost_Armor_Upperbody_Reflect_Chill	_BOOSTS_Armor													10																																																												ChillContact																			
+_Boost_Armor_Upperbody_Reflect_Poison	_BOOSTS_Armor													10																																																												PoisonContact																			
+_Boost_Armor_Upperbody_Reflect_Freeze	_BOOSTS_Armor													15																																																												FreezeContact																			
+_Boost_Armor_Upperbody_Reflect_Stun	_BOOSTS_Armor													15																																																												StunContact																			
+_Boost_Armor_Upperbody_Resistance_Air	_BOOSTS_Armor													6					10																																																																										
+_Boost_Armor_Upperbody_Resistance_Air_Large	_BOOSTS_Armor													10					15																																																																										
+_Boost_Armor_Upperbody_Resistance_Air_Medium	_BOOSTS_Armor													8					12																																																																										
+_Boost_Armor_Upperbody_Resistance_Earth	_BOOSTS_Armor													6							10																																																																								
+_Boost_Armor_Upperbody_Resistance_Earth_Large	_BOOSTS_Armor													10							15																																																																								
+_Boost_Armor_Upperbody_Resistance_Earth_Medium	_BOOSTS_Armor													8							12																																																																								
+_Boost_Armor_Upperbody_Resistance_Fire	_BOOSTS_Armor													6				10																																																																											
+_Boost_Armor_Upperbody_Resistance_Fire_Large	_BOOSTS_Armor													10				15																																																																											
+_Boost_Armor_Upperbody_Resistance_Fire_Medium	_BOOSTS_Armor													8				12																																																																											
+_Boost_Armor_Upperbody_Resistance_Poison	_BOOSTS_Armor													6								10																																																																							
+_Boost_Armor_Upperbody_Resistance_Poison_Large	_BOOSTS_Armor													10								15																																																																							
+_Boost_Armor_Upperbody_Resistance_Poison_Medium	_BOOSTS_Armor													8								12																																																																							
+_Boost_Armor_Upperbody_Resistance_Water	_BOOSTS_Armor													6						10																																																																									
+_Boost_Armor_Upperbody_Resistance_Water_Large	_BOOSTS_Armor													10						15																																																																									
+_Boost_Armor_Upperbody_Resistance_Water_Medium	_BOOSTS_Armor													8						12																																																																									
+_Boost_Armor_Upperbody_Secondary_MovementSpeed	_BOOSTS_Armor													5		50																																																																													
+_Boost_Armor_Upperbody_Secondary_MovementSpeed_Large	_BOOSTS_Armor													7		100																																																																													
+_Boost_Armor_Upperbody_Secondary_MovementSpeed_Medium	_BOOSTS_Armor													6		75																																																																													
+_Boost_Armor_Upperbody_Secondary_Vitality	_BOOSTS_Armor													5																																													10																																		
+_Boost_Armor_Upperbody_Secondary_Vitality_Large	_BOOSTS_Armor													7																																													20																																		
+_Boost_Armor_Upperbody_Secondary_Vitality_Medium	_BOOSTS_Armor													6																																													15																																		
+_Boost_Armor_Pants_Armour_Magical	_BOOSTS_Armor									20				5																																																																															
+_Boost_Armor_Pants_Armour_Magical_Large	_BOOSTS_Armor									40				9																																																																															
+_Boost_Armor_Pants_Armour_Magical_Medium	_BOOSTS_Armor									30				7																																																																															
+_Boost_Armor_Pants_Armour_Physical	_BOOSTS_Armor							20						5																																																																															
+_Boost_Armor_Pants_Armour_Physical_Large	_BOOSTS_Armor							40						9																																																																															
+_Boost_Armor_Pants_Armour_Physical_Medium	_BOOSTS_Armor							30						7																																																																															
+_Boost_Armor_Pants_Immunity_Frozen_And_Chilled	_BOOSTS_Armor													8																																																												FreezeImmunity;ChilledImmunity																			
+_Boost_Armor_Pants_Immunity_KnockedDown_And_Crippled	_BOOSTS_Armor													8																																																												KnockdownImmunity;CrippledImmunity																			
+_Boost_Armor_Pants_Primary_Constitution	_BOOSTS_Armor													12														1																																																																	
+_Boost_Armor_Pants_Primary_Constitution_Large	_BOOSTS_Armor													18														3																																																																	
+_Boost_Armor_Pants_Primary_Constitution_Medium	_BOOSTS_Armor													14														2																																																																	
+_Boost_Armor_Pants_Primary_Wits	_BOOSTS_Armor													12																1																																																															
+_Boost_Armor_Pants_Primary_Wits_Large	_BOOSTS_Armor													18																3																																																															
+_Boost_Armor_Pants_Primary_Wits_Medium	_BOOSTS_Armor													14																2																																																															
+_Boost_Armor_Pants_Resistance_Air	_BOOSTS_Armor													6					10																																																																										
+_Boost_Armor_Pants_Resistance_Air_Large	_BOOSTS_Armor													10					15																																																																										
+_Boost_Armor_Pants_Resistance_Air_Medium	_BOOSTS_Armor													8					12																																																																										
+_Boost_Armor_Pants_Resistance_Earth	_BOOSTS_Armor													6							10																																																																								
+_Boost_Armor_Pants_Resistance_Earth_Large	_BOOSTS_Armor													10							15																																																																								
+_Boost_Armor_Pants_Resistance_Earth_Medium	_BOOSTS_Armor													8							12																																																																								
+_Boost_Armor_Pants_Resistance_Fire	_BOOSTS_Armor													6				10																																																																											
+_Boost_Armor_Pants_Resistance_Fire_Large	_BOOSTS_Armor													10				15																																																																											
+_Boost_Armor_Pants_Resistance_Fire_Medium	_BOOSTS_Armor													8				12																																																																											
+_Boost_Armor_Pants_Resistance_Poison	_BOOSTS_Armor													6								10																																																																							
+_Boost_Armor_Pants_Resistance_Poison_Large	_BOOSTS_Armor													10								15																																																																							
+_Boost_Armor_Pants_Resistance_Poison_Medium	_BOOSTS_Armor													8								12																																																																							
+_Boost_Armor_Pants_Resistance_Water	_BOOSTS_Armor													6						10																																																																									
+_Boost_Armor_Pants_Resistance_Water_Large	_BOOSTS_Armor													10						15																																																																									
+_Boost_Armor_Pants_Resistance_Water_Medium	_BOOSTS_Armor													8						12																																																																									
+_Boost_Armor_Pants_Secondary_Dodge	_BOOSTS_Armor													5																																																				3																											
+_Boost_Armor_Pants_Secondary_Dodge_Large	_BOOSTS_Armor													7																																																				7																											
+_Boost_Armor_Pants_Secondary_Dodge_Medium	_BOOSTS_Armor													6																																																				5																											
+_Boost_Armor_Pants_Secondary_MovementSpeed	_BOOSTS_Armor													5		50																																																																													
+_Boost_Armor_Pants_Secondary_MovementSpeed_Large	_BOOSTS_Armor													7		100																																																																													
+_Boost_Armor_Pants_Secondary_MovementSpeed_Medium	_BOOSTS_Armor													6		75																																																																													
+_Boost_Armor_Pants_Skill_BloodBubble	_BOOSTS_Armor													9																																																								Target_BloodBubble																							
+_Boost_Armor_Pants_Skill_Fireblood	_BOOSTS_Armor													9																																																								Target_Fireblood																							
+_Boost_Armor_Pants_Skill_FlamingTongues	_BOOSTS_Armor													9																																																								Shout_FlamingTongues																							
+_Boost_Armor_Pants_Skill_FirstAid	_BOOSTS_Armor													9																																																								Target_FirstAid																							
+_Boost_Armor_Pants_Skill_FlamingDaggers	_BOOSTS_Armor													10																																																								Projectile_FlamingDaggers																							
+_Boost_Armor_Pants_Skill_Fortify	_BOOSTS_Armor													10																																																								Target_Fortify																							
+_Boost_Armor_Pants_Skill_LightningBolt	_BOOSTS_Armor													11																																																								Projectile_LightningBolt																							
+_Boost_Armor_Pants_Skill_PyroclasticRock	_BOOSTS_Armor													10																																																								Projectile_PyroclasticRock																							
+_Boost_Armor_Pants_Skill_ShockingTouch	_BOOSTS_Armor													9																																																								Target_ShockingTouch																							
+_Boost_Armor_Pants_Skill_Water	_BOOSTS_Armor													9																																																								Rain_Water																							
+_Boost_Armor_Pants_Skill_WinterBlast	_BOOSTS_Armor													12																																																								Target_WinterBlast																							
+_Boost_Armor_Pants_Secondary_Vitality	_BOOSTS_Armor													5																																													10																																		
+_Boost_Armor_Pants_Secondary_Vitality_Large	_BOOSTS_Armor													7																																													20																																		
+_Boost_Armor_Pants_Secondary_Vitality_Medium	_BOOSTS_Armor													6																																													15																																		
+_Boost_Armor_Pants_Secondary_Initiative	_BOOSTS_Armor													5			2																																																																												
+_Boost_Armor_Pants_Secondary_Initiative_Large	_BOOSTS_Armor													7			6																																																																												
+_Boost_Armor_Pants_Secondary_Initiative_Medium	_BOOSTS_Armor													6			4																																																																												
+_Boost_Armor_Gloves_Armour_Magical	_BOOSTS_Armor									20				5																																																																															
+_Boost_Armor_Gloves_Armour_Magical_Large	_BOOSTS_Armor									40				9																																																																															
+_Boost_Armor_Gloves_Armour_Magical_Medium	_BOOSTS_Armor									30				7																																																																															
+_Boost_Armor_Gloves_Armour_Physical	_BOOSTS_Armor							20						5																																																																															
+_Boost_Armor_Gloves_Armour_Physical_Large	_BOOSTS_Armor							40						9																																																																															
+_Boost_Armor_Gloves_Armour_Physical_Medium	_BOOSTS_Armor							30						7																																																																															
+_Boost_Armor_Gloves_Immunity_Slow_And_Sleeping	_BOOSTS_Armor													8																																																												SlowedImmunity;SleepingImmunity																			
+_Boost_Armor_Gloves_Immunity_Stunned_And_Petrified	_BOOSTS_Armor													8																																																												StunImmunity;PetrifiedImmunity																			
+_Boost_Armor_Gloves_Primary_Finesse	_BOOSTS_Armor													12												1																																																																			
+_Boost_Armor_Gloves_Primary_Finesse_Large	_BOOSTS_Armor													18												3																																																																			
+_Boost_Armor_Gloves_Primary_Finesse_Medium	_BOOSTS_Armor													14												2																																																																			
+_Boost_Armor_Gloves_Primary_Strength	_BOOSTS_Armor													12											1																																																																				
+_Boost_Armor_Gloves_Primary_Strength_Large	_BOOSTS_Armor													18											3																																																																				
+_Boost_Armor_Gloves_Primary_Strength_Medium	_BOOSTS_Armor													14											2																																																																				
+_Boost_Armor_Gloves_Primary_Wits	_BOOSTS_Armor													12																1																																																															
+_Boost_Armor_Gloves_Primary_Wits_Large	_BOOSTS_Armor													18																3																																																															
+_Boost_Armor_Gloves_Primary_Wits_Medium	_BOOSTS_Armor													14																2																																																															
+_Boost_Armor_Gloves_Skill_BloodBubble	_BOOSTS_Armor													9																																																								Target_BloodBubble																							
+_Boost_Armor_Gloves_Skill_Fireblood	_BOOSTS_Armor													9																																																								Target_Fireblood																							
+_Boost_Armor_Gloves_Skill_FlamingTongues	_BOOSTS_Armor													9																																																								Shout_FlamingTongues																							
+_Boost_Armor_Gloves_Skill_FlamingDaggers	_BOOSTS_Armor													10																																																								Projectile_FlamingDaggers																							
+_Boost_Armor_Gloves_Skill_LightningBolt	_BOOSTS_Armor													11																																																								Projectile_LightningBolt																							
+_Boost_Armor_Gloves_Skill_PyroclasticRock	_BOOSTS_Armor													10																																																								Projectile_PyroclasticRock																							
+_Boost_Armor_Gloves_Skill_Water	_BOOSTS_Armor													9																																																								Rain_Water																							
+_Boost_Armor_Gloves_Skill_WinterBlast	_BOOSTS_Armor													12																																																								Target_WinterBlast																							
+_Boost_Armor_Gloves_Skill_ShockingTouch	_BOOSTS_Armor													9																																																								Target_ShockingTouch																							
+_Boost_Armor_Gloves_Skill_Restoration	_BOOSTS_Armor																																																																					Target_Restoration																							
+_Boost_Armor_Gloves_Skill_Fortify	_BOOSTS_Armor													11																																																								Target_Fortify																							
+_Boost_Armor_Gloves_Skill_FrostyShell	_BOOSTS_Armor																																																																					Target_FrostyShell																							
+_Boost_Armor_Gloves_Skill_FirstAid	_BOOSTS_Armor																																																																					Target_FirstAid																							
+_Boost_Armor_Gloves_Resistance_Air	_BOOSTS_Armor													6					10																																																																										
+_Boost_Armor_Gloves_Resistance_Air_Large	_BOOSTS_Armor													10					15																																																																										
+_Boost_Armor_Gloves_Resistance_Air_Medium	_BOOSTS_Armor													8					12																																																																										
+_Boost_Armor_Gloves_Resistance_Earth	_BOOSTS_Armor													60							10																																																																								
+_Boost_Armor_Gloves_Resistance_Earth_Large	_BOOSTS_Armor													10							15																																																																								
+_Boost_Armor_Gloves_Resistance_Earth_Medium	_BOOSTS_Armor													8							12																																																																								
+_Boost_Armor_Gloves_Resistance_Fire	_BOOSTS_Armor													6				10																																																																											
+_Boost_Armor_Gloves_Resistance_Fire_Large	_BOOSTS_Armor													10				15																																																																											
+_Boost_Armor_Gloves_Resistance_Fire_Medium	_BOOSTS_Armor													8				12																																																																											
+_Boost_Armor_Gloves_Resistance_Poison	_BOOSTS_Armor													6								10																																																																							
+_Boost_Armor_Gloves_Resistance_Poison_Large	_BOOSTS_Armor													10								15																																																																							
+_Boost_Armor_Gloves_Resistance_Poison_Medium	_BOOSTS_Armor													8								12																																																																							
+_Boost_Armor_Gloves_Resistance_Water	_BOOSTS_Armor													6						10																																																																									
+_Boost_Armor_Gloves_Resistance_Water_Large	_BOOSTS_Armor													10						15																																																																									
+_Boost_Armor_Gloves_Resistance_Water_Medium	_BOOSTS_Armor													8						12																																																																									
+_Boost_Armor_Gloves_Secondary_Initiative	_BOOSTS_Armor													5			2																																																																												
+_Boost_Armor_Gloves_Secondary_Vitality	_BOOSTS_Armor													5																																													10																																		
+_Boost_Armor_Amulet_Resistance_Air	_BOOSTS_Armor													6					10																																																																										
+_Boost_Armor_Amulet_Resistance_Air_Large	_BOOSTS_Armor													10					15																																																																										
+_Boost_Armor_Amulet_Resistance_Air_Medium	_BOOSTS_Armor													8					12																																																																										
+_Boost_Armor_Amulet_Resistance_Earth	_BOOSTS_Armor													6							10																																																																								
+_Boost_Armor_Amulet_Resistance_Earth_Large	_BOOSTS_Armor													10							15																																																																								
+_Boost_Armor_Amulet_Resistance_Earth_Medium	_BOOSTS_Armor													8							12																																																																								
+_Boost_Armor_Amulet_Resistance_Fire	_BOOSTS_Armor													6				10																																																																											
+_Boost_Armor_Amulet_Resistance_Fire_Large	_BOOSTS_Armor													10				15																																																																											
+_Boost_Armor_Amulet_Resistance_Fire_Medium	_BOOSTS_Armor													8				12																																																																											
+_Boost_Armor_Amulet_Resistance_Poison	_BOOSTS_Armor													6								10																																																																							
+_Boost_Armor_Amulet_Resistance_Poison_Large	_BOOSTS_Armor													10								15																																																																							
+_Boost_Armor_Amulet_Resistance_Poison_Medium	_BOOSTS_Armor													8								12																																																																							
+_Boost_Armor_Amulet_Resistance_Water	_BOOSTS_Armor													6						10																																																																									
+_Boost_Armor_Amulet_Resistance_Water_Large	_BOOSTS_Armor													10						15																																																																									
+_Boost_Armor_Amulet_Resistance_Water_Medium	_BOOSTS_Armor													8						12																																																																									
+_Boost_Armor_Amulet_Reflect_As_Piercing_Damage	_BOOSTS_Armor													12																																																						10::None:melee																									
+_Boost_Armor_Amulet_Reflect_As_Piercing_Damage_Medium	_BOOSTS_Armor													15																																																						20::None:melee																									
+_Boost_Armor_Amulet_Reflect_As_Piercing_Damage_High	_BOOSTS_Armor													18																																																						30::None:melee																									
+_Boost_Armor_Amulet_Secondary_MovementSpeed	_BOOSTS_Armor													5		50																																																																													
+_Boost_Armor_Amulet_Secondary_MovementSpeed_Large	_BOOSTS_Armor													7		100																																																																													
+_Boost_Armor_Amulet_Secondary_MovementSpeed_Medium	_BOOSTS_Armor													6		75																																																																													
+_Boost_Armor_Boots_Armour_Magical	_BOOSTS_Armor									20				5																																																																															
+_Boost_Armor_Boots_Armour_Magical_Large	_BOOSTS_Armor									40				9																																																																															
+_Boost_Armor_Boots_Armour_Magical_Medium	_BOOSTS_Armor									30				7																																																																															
+_Boost_Armor_Boots_Armour_Physical	_BOOSTS_Armor							20						5																																																																															
+_Boost_Armor_Boots_Armour_Physical_Large	_BOOSTS_Armor							40						9																																																																															
+_Boost_Armor_Boots_Armour_Physical_Medium	_BOOSTS_Armor							30						7																																																																															
+_Boost_Armor_Boots_Primary_Finesse	_BOOSTS_Armor													12												1																																																																			
+_Boost_Armor_Boots_Primary_Finesse_Large	_BOOSTS_Armor													18												3																																																																			
+_Boost_Armor_Boots_Primary_Finesse_Medium	_BOOSTS_Armor													14												2																																																																			
+_Boost_Armor_Boots_Primary_Intelligence	_BOOSTS_Armor													12													1																																																																		
+_Boost_Armor_Boots_Primary_Intelligence_Large	_BOOSTS_Armor													18													3																																																																		
+_Boost_Armor_Boots_Primary_Intelligence_Medium	_BOOSTS_Armor													14													2																																																																		
+_Boost_Armor_Boots_Primary_Wits	_BOOSTS_Armor													12																1																																																															
+_Boost_Armor_Boots_Primary_Wits_Large	_BOOSTS_Armor													18																3																																																															
+_Boost_Armor_Boots_Primary_Wits_Medium	_BOOSTS_Armor													14																2																																																															
+_Boost_Armor_Boots_Secondary_Dodge	_BOOSTS_Armor													5																																																				3																											
+_Boost_Armor_Boots_Secondary_Dodge_Large	_BOOSTS_Armor													7																																																				7																											
+_Boost_Armor_Boots_Secondary_Dodge_Medium	_BOOSTS_Armor													6																																																				5																											
+_Boost_Armor_Boots_Secondary_Initiative	_BOOSTS_Armor													5			2																																																																												
+_Boost_Armor_Boots_Secondary_Initiative_Large	_BOOSTS_Armor													7			6																																																																												
+_Boost_Armor_Boots_Secondary_Initiative_Medium	_BOOSTS_Armor													6			4																																																																												
+_Boost_Armor_Boots_Secondary_MovementSpeed	_BOOSTS_Armor													5		50																																																																													
+_Boost_Armor_Boots_Secondary_MovementSpeed_Large	_BOOSTS_Armor													7		100																																																																													
+_Boost_Armor_Boots_Secondary_MovementSpeed_Medium	_BOOSTS_Armor													6		75																																																																													
+_Boost_Armor_Boots_Skill_BloodBubble	_BOOSTS_Armor													9																																																								Target_BloodBubble																							
+_Boost_Armor_Boots_Skill_BatteringRam	_BOOSTS_Armor													10																																																								Rush_BatteringRam																							
+_Boost_Armor_Boots_Skill_EvasiveManeuver	_BOOSTS_Armor													11																																																								Target_EvasiveManeuver																							
+_Boost_Armor_Boots_Skill_FavourableWind	_BOOSTS_Armor													12																																																								Shout_FavourableWind																							
+_Boost_Armor_Boots_Skill_Haste	_BOOSTS_Armor													13																																																								Target_Haste																							
+_Boost_Armor_Boots_Skill_Fireblood	_BOOSTS_Armor													9																																																								Target_Fireblood																							
+_Boost_Armor_Boots_Skill_FlamingTongues	_BOOSTS_Armor													9																																																								Shout_FlamingTongues																							
+_Boost_Armor_Boots_Skill_FlamingDaggers	_BOOSTS_Armor													10																																																								Projectile_FlamingDaggers																							
+_Boost_Armor_Boots_Skill_Fortify	_BOOSTS_Armor													10																																																								Target_Fortify																							
+_Boost_Armor_Boots_Skill_LightningBolt	_BOOSTS_Armor													11																																																								Projectile_LightningBolt																							
+_Boost_Armor_Boots_Skill_PyroclasticRock	_BOOSTS_Armor													9																																																								Projectile_PyroclasticRock																							
+_Boost_Armor_Boots_Skill_ShockingTouch	_BOOSTS_Armor													9																																																								Target_ShockingTouch																							
+_Boost_Armor_Boots_Skill_Water	_BOOSTS_Armor													9																																																								Rain_Water																							
+_Boost_Armor_Boots_Skill_WinterBlast	_BOOSTS_Armor													12																																																								Target_WinterBlast																							
+_Boost_Armor_Boots_Secondary_Vitality	_BOOSTS_Armor													5																																													10																																		
+_Boost_Armor_Boots_Secondary_Vitality_Large	_BOOSTS_Armor													7																																													20																																		
+_Boost_Armor_Boots_Secondary_Vitality_Medium	_BOOSTS_Armor													6																																													15																																		
+_Boost_Armor_Boots_Resistance_Air	_BOOSTS_Armor													6					10																																																																										
+_Boost_Armor_Boots_Resistance_Air_Large	_BOOSTS_Armor													10					15																																																																										
+_Boost_Armor_Boots_Resistance_Air_Medium	_BOOSTS_Armor													8					12																																																																										
+_Boost_Armor_Boots_Resistance_Earth	_BOOSTS_Armor													60							10																																																																								
+_Boost_Armor_Boots_Resistance_Earth_Large	_BOOSTS_Armor													10							15																																																																								
+_Boost_Armor_Boots_Resistance_Earth_Medium	_BOOSTS_Armor													8							12																																																																								
+_Boost_Armor_Boots_Resistance_Fire	_BOOSTS_Armor													6				10																																																																											
+_Boost_Armor_Boots_Resistance_Fire_Large	_BOOSTS_Armor													10				15																																																																											
+_Boost_Armor_Boots_Resistance_Fire_Medium	_BOOSTS_Armor													8				12																																																																											
+_Boost_Armor_Boots_Resistance_Poison	_BOOSTS_Armor													6								10																																																																							
+_Boost_Armor_Boots_Resistance_Poison_Large	_BOOSTS_Armor													10								15																																																																							
+_Boost_Armor_Boots_Resistance_Poison_Medium	_BOOSTS_Armor													8								12																																																																							
+_Boost_Armor_Boots_Resistance_Water	_BOOSTS_Armor													6						10																																																																									
+_Boost_Armor_Boots_Resistance_Water_Large	_BOOSTS_Armor													10						15																																																																									
+_Boost_Armor_Boots_Resistance_Water_Medium	_BOOSTS_Armor													8						12																																																																									
+_Boost_Armor_Amulet_Primary_Strength	_BOOSTS_Armor													12											1																																																																				
+_Boost_Armor_Amulet_Primary_Strength_Large	_BOOSTS_Armor													18											3																																																																				
+_Boost_Armor_Amulet_Primary_Strength_Medium	_BOOSTS_Armor													14											2																																																																				
+_Boost_Armor_Amulet_Primary_Finesse	_BOOSTS_Armor													12												1																																																																			
+_Boost_Armor_Amulet_Primary_Finesse_Large	_BOOSTS_Armor													18												3																																																																			
+_Boost_Armor_Amulet_Primary_Finesse_Medium	_BOOSTS_Armor													14												2																																																																			
+_Boost_Armor_Amulet_Primary_Constitution	_BOOSTS_Armor													12														1																																																																	
+_Boost_Armor_Amulet_Primary_Constitution_Large	_BOOSTS_Armor													18														3																																																																	
+_Boost_Armor_Amulet_Primary_Constitution_Medium	_BOOSTS_Armor													14														2																																																																	
+_Boost_Armor_Amulet_Primary_Intelligence	_BOOSTS_Armor													12													1																																																																		
+_Boost_Armor_Amulet_Primary_Intelligence_Large	_BOOSTS_Armor													18													3																																																																		
+_Boost_Armor_Amulet_Primary_Intelligence_Medium	_BOOSTS_Armor													14													2																																																																		
+_Boost_Armor_Amulet_Primary_Memory	_BOOSTS_Armor													12															1																																																																
+_Boost_Armor_Amulet_Primary_Memory_Large	_BOOSTS_Armor													18															3																																																																
+_Boost_Armor_Amulet_Primary_Memory_Medium	_BOOSTS_Armor													14															2																																																																
+_Boost_Armor_Amulet_Primary_Wits	_BOOSTS_Armor													12																1																																																															
+_Boost_Armor_Amulet_Primary_Wits_Large	_BOOSTS_Armor													18																3																																																															
+_Boost_Armor_Amulet_Primary_Wits_Medium	_BOOSTS_Armor													14																2																																																															
+_Boost_Armor_Amulet_Skill_Bless	_BOOSTS_Armor													20																																																								Target_Bless																							
+_Boost_Armor_Amulet_Skill_Curse	_BOOSTS_Armor													20																																																								Target_Curse																							
+_Boost_Armor_Amulet_Special_APRecovery	_BOOSTS_Armor													20																																																		1																													
+_Boost_Armor_Ring_Primary_Constitution	_BOOSTS_Armor													12														1																																																																	
+_Boost_Armor_Ring_Primary_Constitution_Large	_BOOSTS_Armor													18														3																																																																	
+_Boost_Armor_Ring_Primary_Constitution_Medium	_BOOSTS_Armor													14														2																																																																	
+_Boost_Armor_Ring_Primary_Intelligence	_BOOSTS_Armor													12													1																																																																		
+_Boost_Armor_Ring_Primary_Intelligence_Large	_BOOSTS_Armor													18													3																																																																		
+_Boost_Armor_Ring_Primary_Intelligence_Medium	_BOOSTS_Armor													14													2																																																																		
+_Boost_Armor_Ring_Primary_Memory	_BOOSTS_Armor													12															1																																																																
+_Boost_Armor_Ring_Primary_Memory_Large	_BOOSTS_Armor													18															3																																																																
+_Boost_Armor_Ring_Primary_Memory_Medium	_BOOSTS_Armor													14															2																																																																
+_Boost_Armor_Ring_Primary_Wits	_BOOSTS_Armor													12																1																																																															
+_Boost_Armor_Ring_Primary_Wits_Large	_BOOSTS_Armor													18																3																																																															
+_Boost_Armor_Ring_Primary_Wits_Medium	_BOOSTS_Armor													14																2																																																															
+_Boost_Armor_Ring_Skill_Bless	_BOOSTS_Armor													20																																																								Target_Bless																							
+_Boost_Armor_Ring_Skill_Curse	_BOOSTS_Armor													20																																																								Target_Curse																							
+_Boost_Armor_Ring_Reflect_As_Physical_Damage	_BOOSTS_Armor													10																																																						10::Crushing:melee																									
+_Boost_Armor_Ring_Reflect_As_Physical_Damage_Medium	_BOOSTS_Armor													12																																																						20::Crushing:melee																									
+_Boost_Armor_Ring_Reflect_As_Physical_Damage_High	_BOOSTS_Armor													15																																																						30::Crushing:melee																									
+_Boost_Armor_Ring_Resistance_Air	_BOOSTS_Armor													6					5																																																																										
+_Boost_Armor_Ring_Resistance_Air_Large	_BOOSTS_Armor													10					15																																																																										
+_Boost_Armor_Ring_Resistance_Air_Medium	_BOOSTS_Armor													8					12																																																																										
+_Boost_Armor_Ring_Resistance_Earth	_BOOSTS_Armor													60							5																																																																								
+_Boost_Armor_Ring_Resistance_Earth_Large	_BOOSTS_Armor													10							15																																																																								
+_Boost_Armor_Ring_Resistance_Earth_Medium	_BOOSTS_Armor													8							12																																																																								
+_Boost_Armor_Ring_Resistance_Fire	_BOOSTS_Armor													6				5																																																																											
+_Boost_Armor_Ring_Resistance_Fire_Large	_BOOSTS_Armor													10				15																																																																											
+_Boost_Armor_Ring_Resistance_Fire_Medium	_BOOSTS_Armor													8				10																																																																											
+_Boost_Armor_Ring_Resistance_Poison	_BOOSTS_Armor													6								5																																																																							
+_Boost_Armor_Ring_Resistance_Poison_Large	_BOOSTS_Armor													10								15																																																																							
+_Boost_Armor_Ring_Resistance_Poison_Medium	_BOOSTS_Armor													8								10																																																																							
+_Boost_Armor_Ring_Resistance_Water	_BOOSTS_Armor													6						5																																																																									
+_Boost_Armor_Ring_Resistance_Water_Large	_BOOSTS_Armor													10						15																																																																									
+_Boost_Armor_Ring_Resistance_Water_Medium	_BOOSTS_Armor													8						10																																																																									
+_Boost_Armor_Belt_Resistance_Air	_BOOSTS_Armor													6					9																																																																										
+_Boost_Armor_Belt_Resistance_Earth	_BOOSTS_Armor													6							9																																																																								
+_Boost_Armor_Belt_Resistance_Fire	_BOOSTS_Armor													6				9																																																																											
+_Boost_Armor_Belt_Resistance_Poison	_BOOSTS_Armor													6								9																																																																							
+_Boost_Armor_Belt_Resistance_Water	_BOOSTS_Armor													6						9																																																																									
+_Boost_Armor_Belt_Resistance_Air_Medium	_BOOSTS_Armor													8					12																																																																										
+_Boost_Armor_Belt_Resistance_Earth_Medium	_BOOSTS_Armor													8							12																																																																								
+_Boost_Armor_Belt_Resistance_Fire_Medium	_BOOSTS_Armor													8				12																																																																											
+_Boost_Armor_Belt_Resistance_Poison_Medium	_BOOSTS_Armor													8								12																																																																							
+_Boost_Armor_Belt_Resistance_Water_Medium	_BOOSTS_Armor													8						12																																																																									
+_Boost_Armor_Belt_Primary_Finesse	_BOOSTS_Armor													12												1																																																																			
+_Boost_Armor_Belt_Primary_Finesse_Large	_BOOSTS_Armor													18												3																																																																			
+_Boost_Armor_Belt_Primary_Finesse_Medium	_BOOSTS_Armor													14												2																																																																			
+_Boost_Armor_Belt_Primary_Memory	_BOOSTS_Armor													12															1																																																																
+_Boost_Armor_Belt_Primary_Memory_Large	_BOOSTS_Armor													18															3																																																																
+_Boost_Armor_Belt_Primary_Memory_Medium	_BOOSTS_Armor													14															2																																																																
+_Boost_Armor_Belt_Primary_Strength	_BOOSTS_Armor													12											1																																																																				
+_Boost_Armor_Belt_Primary_Strength_Large	_BOOSTS_Armor													18											3																																																																				
+_Boost_Armor_Belt_Primary_Strength_Medium	_BOOSTS_Armor													14											2																																																																				
+_Boost_Armor_Belt_Primary_Wits	_BOOSTS_Armor													12																1																																																															
+_Boost_Armor_Belt_Primary_Wits_Large	_BOOSTS_Armor													18																3																																																															
+_Boost_Armor_Belt_Primary_Wits_Medium	_BOOSTS_Armor													14																2																																																															
+_Boost_Armor_Belt_Primary_Constitution	_BOOSTS_Armor													12														1																																																																	
+_Boost_Armor_Belt_Primary_Constitution_Large	_BOOSTS_Armor													18														3																																																																	
+_Boost_Armor_Belt_Primary_Constitution_Medium	_BOOSTS_Armor													14														2																																																																	
+_Boost_Armor_Belt_Secondary_Dodge	_BOOSTS_Armor													5																																																				3																											
+_Boost_Armor_Belt_Secondary_Dodge_Large	_BOOSTS_Armor													7																																																				7																											
+_Boost_Armor_Belt_Secondary_Dodge_Medium	_BOOSTS_Armor													6																																																				5																											
+_Boost_Armor_Belt_Secondary_Initiative	_BOOSTS_Armor													5			2																																																																												
+_Boost_Armor_Belt_Secondary_Initiative_Large	_BOOSTS_Armor													7			6																																																																												
+_Boost_Armor_Belt_Secondary_Initiative_Medium	_BOOSTS_Armor													6			4																																																																												
+_Boost_Armor_Belt_Secondary_Vitality	_BOOSTS_Armor													5																																													9																																		
+_Boost_Armor_Belt_Secondary_Vitality_Large	_BOOSTS_Armor													7																																													17																																		
+_Boost_Armor_Belt_Secondary_Vitality_Medium	_BOOSTS_Armor													6																																													13																																		
+_Boost_Armor_Belt_Armour_Physical	_BOOSTS_Armor							10						5																																																																															
+_Boost_Armor_Belt_Armour_Physical_Large	_BOOSTS_Armor							30						9																																																																															
+_Boost_Armor_Belt_Armour_Physical_Medium	_BOOSTS_Armor							20						7																																																																															
+_Boost_Armor_Amulet_Ability_Air	_BOOSTS_Armor													9																														1																																																	
+_Boost_Armor_Amulet_Ability_Air_Large	_BOOSTS_Armor													12																														2																																																	
+_Boost_Armor_Amulet_Ability_Air_Medium	_BOOSTS_Armor													10																														1																																																	
+_Boost_Armor_Amulet_Ability_Bartering	_BOOSTS_Armor													8																																								1																																							
+_Boost_Armor_Amulet_Ability_Bartering_Large	_BOOSTS_Armor													12																																								1																																							
+_Boost_Armor_Amulet_Ability_Bartering_Medium	_BOOSTS_Armor													10																																								1																																							
+_Boost_Armor_Amulet_Ability_Death	_BOOSTS_Armor													8																																1																																															
+_Boost_Armor_Amulet_Ability_Death_Large	_BOOSTS_Armor													12																																2																																															
+_Boost_Armor_Amulet_Ability_Death_Medium	_BOOSTS_Armor													10																																1																																															
+_Boost_Armor_Amulet_Ability_OneHanded	_BOOSTS_Armor													8																	1																																																														
+_Boost_Armor_Amulet_Ability_OneHanded_Large	_BOOSTS_Armor													12																	2																																																														
+_Boost_Armor_Amulet_Ability_OneHanded_Medium	_BOOSTS_Armor													10																	1																																																														
+_Boost_Armor_Amulet_Ability_TwoHanded	_BOOSTS_Armor													8																		1																																																													
+_Boost_Armor_Amulet_Ability_TwoHanded_Large	_BOOSTS_Armor													12																		2																																																													
+_Boost_Armor_Amulet_Ability_TwoHanded_Medium	_BOOSTS_Armor													10																		1																																																													
+_Boost_Armor_Amulet_Ability_Ranged	_BOOSTS_Armor													8																			1																																																												
+_Boost_Armor_Amulet_Ability_Ranged_Large	_BOOSTS_Armor													12																			2																																																												
+_Boost_Armor_Amulet_Ability_Ranged_Medium	_BOOSTS_Armor													10																			1																																																												
+_Boost_Armor_Amulet_Ability_DualWielding	_BOOSTS_Armor													8																				1																																																											
+_Boost_Armor_Amulet_Ability_DualWielding_Large	_BOOSTS_Armor													12																				2																																																											
+_Boost_Armor_Amulet_Ability_DualWielding_Medium	_BOOSTS_Armor													10																				1																																																											
+_Boost_Armor_Amulet_Ability_Earth	_BOOSTS_Armor													8																															1																																																
+_Boost_Armor_Amulet_Ability_Earth_Large	_BOOSTS_Armor													12																															2																																																
+_Boost_Armor_Amulet_Ability_Earth_Medium	_BOOSTS_Armor													10																															1																																																
+_Boost_Armor_Amulet_Ability_Fire	_BOOSTS_Armor													8																												1																																																			
+_Boost_Armor_Amulet_Ability_Fire_Large	_BOOSTS_Armor													12																												2																																																			
+_Boost_Armor_Amulet_Ability_Fire_Medium	_BOOSTS_Armor													10																												1																																																			
+_Boost_Armor_Amulet_Ability_Hunting	_BOOSTS_Armor													8																									1																																																						
+_Boost_Armor_Amulet_Ability_Hunting_Large	_BOOSTS_Armor													12																									2																																																						
+_Boost_Armor_Amulet_Ability_Hunting_Medium	_BOOSTS_Armor													10																									1																																																						
+_Boost_Armor_Amulet_Ability_Perseverance	_BOOSTS_Armor													8																					1																																																										
+_Boost_Armor_Amulet_Ability_Perseverance_Large	_BOOSTS_Armor													12																					2																																																										
+_Boost_Armor_Amulet_Ability_Perseverance_Medium	_BOOSTS_Armor													10																					1																																																										
+_Boost_Armor_Amulet_Ability_Leadership	_BOOSTS_Armor													8																						1																																																									
+_Boost_Armor_Amulet_Ability_Leadership_Large	_BOOSTS_Armor													12																						2																																																									
+_Boost_Armor_Amulet_Ability_Leadership_Medium	_BOOSTS_Armor													10																						1																																																									
+_Boost_Armor_Amulet_Ability_PainReflection	_BOOSTS_Armor													8																							1																																																								
+_Boost_Armor_Amulet_Ability_PainReflection_Large	_BOOSTS_Armor													12																							2																																																								
+_Boost_Armor_Amulet_Ability_PainReflection_Medium	_BOOSTS_Armor													10																							1																																																								
+_Boost_Armor_Amulet_Ability_Loremaster	_BOOSTS_Armor													8																																						1																																									
+_Boost_Armor_Amulet_Ability_Loremaster_Large	_BOOSTS_Armor													12																																						1																																									
+_Boost_Armor_Amulet_Ability_Loremaster_Medium	_BOOSTS_Armor													10																																						1																																									
+_Boost_Armor_Amulet_Ability_Luck	_BOOSTS_Armor													8																																										1																																					
+_Boost_Armor_Amulet_Ability_Luck_Large	_BOOSTS_Armor													12																																										1																																					
+_Boost_Armor_Amulet_Ability_Luck_Medium	_BOOSTS_Armor													10																																										1																																					
+_Boost_Armor_Amulet_Ability_Persuasion	_BOOSTS_Armor													8																																									1																																						
+_Boost_Armor_Amulet_Ability_Persuasion_Large	_BOOSTS_Armor													12																																									1																																						
+_Boost_Armor_Amulet_Ability_Persuasion_Medium	_BOOSTS_Armor													10																																									1																																						
+_Boost_Armor_Amulet_Ability_Polymorph	_BOOSTS_Armor													8																																	1																																														
+_Boost_Armor_Amulet_Ability_Polymorph_Large	_BOOSTS_Armor													12																																	2																																														
+_Boost_Armor_Amulet_Ability_Polymorph_Medium	_BOOSTS_Armor													10																																	1																																														
+_Boost_Armor_Amulet_Ability_Rogues	_BOOSTS_Armor													8																										1																																																					
+_Boost_Armor_Amulet_Ability_Rogues_Large	_BOOSTS_Armor													12																										2																																																					
+_Boost_Armor_Amulet_Ability_Rogues_Medium	_BOOSTS_Armor													10																										1																																																					
+_Boost_Armor_Amulet_Ability_Sneaking	_BOOSTS_Armor													8																																				1																																											
+_Boost_Armor_Amulet_Ability_Sneaking_Large	_BOOSTS_Armor													12																																				1																																											
+_Boost_Armor_Amulet_Ability_Sneaking_Medium	_BOOSTS_Armor													10																																				1																																											
+_Boost_Armor_Amulet_Ability_Summoning	_BOOSTS_Armor													8																																		1																																													
+_Boost_Armor_Amulet_Ability_Summoning_Large	_BOOSTS_Armor													12																																		2																																													
+_Boost_Armor_Amulet_Ability_Summoning_Medium	_BOOSTS_Armor													10																																		1																																													
+_Boost_Armor_Amulet_Ability_Telekinesis	_BOOSTS_Armor													8																																			1																																												
+_Boost_Armor_Amulet_Ability_Telekinesis_Large	_BOOSTS_Armor													12																																			1																																												
+_Boost_Armor_Amulet_Ability_Telekinesis_Medium	_BOOSTS_Armor													10																																			1																																												
+_Boost_Armor_Amulet_Ability_Lockpicking	_BOOSTS_Armor													8																																					1																																										
+_Boost_Armor_Amulet_Ability_Lockpicking_Large	_BOOSTS_Armor													12																																					1																																										
+_Boost_Armor_Amulet_Ability_Lockpicking_Medium	_BOOSTS_Armor													10																																					1																																										
+_Boost_Armor_Amulet_Ability_Warfare	_BOOSTS_Armor													8																								1																																																							
+_Boost_Armor_Amulet_Ability_Warfare_Large	_BOOSTS_Armor													12																								2																																																							
+_Boost_Armor_Amulet_Ability_Warfare_Medium	_BOOSTS_Armor													10																								1																																																							
+_Boost_Armor_Amulet_Ability_Water	_BOOSTS_Armor													8																													1																																																		
+_Boost_Armor_Amulet_Ability_Water_Large	_BOOSTS_Armor													12																													2																																																		
+_Boost_Armor_Amulet_Ability_Water_Medium	_BOOSTS_Armor													10																													1																																																		
+_Boost_Armor_Boots_Ability_Hunting	_BOOSTS_Armor													8																									1																																																						
+_Boost_Armor_Boots_Ability_Hunting_Large	_BOOSTS_Armor													12																									2																																																						
+_Boost_Armor_Boots_Ability_Hunting_Medium	_BOOSTS_Armor													10																									1																																																						
+_Boost_Armor_Boots_Ability_Luck	_BOOSTS_Armor													8																																										1																																					
+_Boost_Armor_Boots_Ability_Luck_Large	_BOOSTS_Armor													12																																										1																																					
+_Boost_Armor_Boots_Ability_Luck_Medium	_BOOSTS_Armor													10																																										1																																					
+_Boost_Armor_Boots_Ability_Polymorph	_BOOSTS_Armor													8																																	1																																														
+_Boost_Armor_Boots_Ability_Polymorph_Large	_BOOSTS_Armor													12																																	2																																														
+_Boost_Armor_Boots_Ability_Polymorph_Medium	_BOOSTS_Armor													10																																	1																																														
+_Boost_Armor_Boots_Ability_Rogues	_BOOSTS_Armor													8																										1																																																					
+_Boost_Armor_Boots_Ability_Rogues_Large	_BOOSTS_Armor													12																										2																																																					
+_Boost_Armor_Boots_Ability_Rogues_Medium	_BOOSTS_Armor													10																										1																																																					
+_Boost_Armor_Boots_Ability_Sneaking	_BOOSTS_Armor													8																																				1																																											
+_Boost_Armor_Boots_Ability_Sneaking_Large	_BOOSTS_Armor													12																																				1																																											
+_Boost_Armor_Boots_Ability_Sneaking_Medium	_BOOSTS_Armor													10																																				1																																											
+_Boost_Armor_Gloves_Ability_OneHanded	_BOOSTS_Armor													8																	1																																																														
+_Boost_Armor_Gloves_Ability_OneHanded_Large	_BOOSTS_Armor													12																	2																																																														
+_Boost_Armor_Gloves_Ability_OneHanded_Medium	_BOOSTS_Armor													10																	1																																																														
+_Boost_Armor_Gloves_Ability_TwoHanded	_BOOSTS_Armor													8																		1																																																													
+_Boost_Armor_Gloves_Ability_TwoHanded_Large	_BOOSTS_Armor													12																		2																																																													
+_Boost_Armor_Gloves_Ability_TwoHanded_Medium	_BOOSTS_Armor													10																		1																																																													
+_Boost_Armor_Gloves_Ability_Ranged	_BOOSTS_Armor													8																			1																																																												
+_Boost_Armor_Gloves_Ability_Ranged_Large	_BOOSTS_Armor													12																			2																																																												
+_Boost_Armor_Gloves_Ability_Ranged_Medium	_BOOSTS_Armor													10																			1																																																												
+_Boost_Armor_Gloves_Ability_DualWielding	_BOOSTS_Armor													8																				1																																																											
+_Boost_Armor_Gloves_Ability_DualWielding_Large	_BOOSTS_Armor													12																				2																																																											
+_Boost_Armor_Gloves_Ability_DualWielding_Medium	_BOOSTS_Armor													10																				1																																																											
+_Boost_Armor_Gloves_Ability_Telekinesis	_BOOSTS_Armor													8																																			1																																												
+_Boost_Armor_Gloves_Ability_Telekinesis_Large	_BOOSTS_Armor													12																																			1																																												
+_Boost_Armor_Gloves_Ability_Telekinesis_Medium	_BOOSTS_Armor													10																																			1																																												
+_Boost_Armor_Gloves_Ability_Lockpicking	_BOOSTS_Armor													8																																					1																																										
+_Boost_Armor_Gloves_Ability_Lockpicking_Large	_BOOSTS_Armor													12																																					1																																										
+_Boost_Armor_Gloves_Ability_Lockpicking_Medium	_BOOSTS_Armor													10																																					1																																										
+_Boost_Armor_Helmet_Ability_Air	_BOOSTS_Armor													8																														1																																																	
+_Boost_Armor_Helmet_Ability_Air_Large	_BOOSTS_Armor													12																														2																																																	
+_Boost_Armor_Helmet_Ability_Air_Medium	_BOOSTS_Armor													10																														1																																																	
+_Boost_Armor_Helmet_Ability_Bartering	_BOOSTS_Armor													8																																								1																																							
+_Boost_Armor_Helmet_Ability_Bartering_Large	_BOOSTS_Armor													12																																								1																																							
+_Boost_Armor_Helmet_Ability_Bartering_Medium	_BOOSTS_Armor													10																																								1																																							
+_Boost_Armor_Helmet_Ability_Earth	_BOOSTS_Armor													8																															1																																																
+_Boost_Armor_Helmet_Ability_Earth_Large	_BOOSTS_Armor													12																															2																																																
+_Boost_Armor_Helmet_Ability_Earth_Medium	_BOOSTS_Armor													10																															1																																																
+_Boost_Armor_Helmet_Ability_Fire	_BOOSTS_Armor													8																												1																																																			
+_Boost_Armor_Helmet_Ability_Fire_Large	_BOOSTS_Armor													12																												2																																																			
+_Boost_Armor_Helmet_Ability_Fire_Medium	_BOOSTS_Armor													10																												1																																																			
+_Boost_Armor_Helmet_Ability_Death	_BOOSTS_Armor													8																																1																																															
+_Boost_Armor_Helmet_Ability_Death_Large	_BOOSTS_Armor													12																																2																																															
+_Boost_Armor_Helmet_Ability_Death_Medium	_BOOSTS_Armor													10																																1																																															
+_Boost_Armor_Helmet_Ability_Summoning	_BOOSTS_Armor													8																																		1																																													
+_Boost_Armor_Helmet_Ability_Summoning_Large	_BOOSTS_Armor													12																																		2																																													
+_Boost_Armor_Helmet_Ability_Summoning_Medium	_BOOSTS_Armor													10																																		1																																													
+_Boost_Armor_Helmet_Ability_Hunting	_BOOSTS_Armor													8																									1																																																						
+_Boost_Armor_Helmet_Ability_Hunting_Large	_BOOSTS_Armor													12																									2																																																						
+_Boost_Armor_Helmet_Ability_Hunting_Medium	_BOOSTS_Armor													10																									1																																																						
+_Boost_Armor_Helmet_Ability_Rogues	_BOOSTS_Armor													8																										1																																																					
+_Boost_Armor_Helmet_Ability_Rogues_Large	_BOOSTS_Armor													12																										2																																																					
+_Boost_Armor_Helmet_Ability_Rogues_Medium	_BOOSTS_Armor													10																										1																																																					
+_Boost_Armor_Helmet_Ability_Warfare	_BOOSTS_Armor													8																								1																																																							
+_Boost_Armor_Helmet_Ability_Warfare_Large	_BOOSTS_Armor													12																								2																																																							
+_Boost_Armor_Helmet_Ability_Warfare_Medium	_BOOSTS_Armor													10																								1																																																							
+_Boost_Armor_Helmet_Ability_Leadership	_BOOSTS_Armor													8																						1																																																									
+_Boost_Armor_Helmet_Ability_Leadership_Large	_BOOSTS_Armor													12																						2																																																									
+_Boost_Armor_Helmet_Ability_Leadership_Medium	_BOOSTS_Armor													10																						1																																																									
+_Boost_Armor_Helmet_Ability_Loremaster	_BOOSTS_Armor													8																																						1																																									
+_Boost_Armor_Helmet_Ability_Loremaster_Large	_BOOSTS_Armor													12																																						1																																									
+_Boost_Armor_Helmet_Ability_Loremaster_Medium	_BOOSTS_Armor													10																																						1																																									
+_Boost_Armor_Helmet_Ability_Persuasion	_BOOSTS_Armor													8																																									1																																						
+_Boost_Armor_Helmet_Ability_Persuasion_Large	_BOOSTS_Armor													12																																									1																																						
+_Boost_Armor_Helmet_Ability_Persuasion_Medium	_BOOSTS_Armor													10																																									1																																						
+_Boost_Armor_Helmet_Ability_Water	_BOOSTS_Armor													8																													1																																																		
+_Boost_Armor_Helmet_Ability_Water_Large	_BOOSTS_Armor													12																													2																																																		
+_Boost_Armor_Helmet_Ability_Water_Medium	_BOOSTS_Armor													10																													1																																																		
+_Boost_Armor_Pants_Ability_Death	_BOOSTS_Armor													8																																1																																															
+_Boost_Armor_Pants_Ability_Death_Large	_BOOSTS_Armor													12																																2																																															
+_Boost_Armor_Pants_Ability_Death_Medium	_BOOSTS_Armor													10																																1																																															
+_Boost_Armor_Pants_Ability_Ranged	_BOOSTS_Armor													8																			1																																																												
+_Boost_Armor_Pants_Ability_Ranged_Large	_BOOSTS_Armor													12																			2																																																												
+_Boost_Armor_Pants_Ability_Ranged_Medium	_BOOSTS_Armor													10																			1																																																												
+_Boost_Armor_Pants_Ability_Summoning	_BOOSTS_Armor													8																																		1																																													
+_Boost_Armor_Pants_Ability_Summoning_Large	_BOOSTS_Armor													12																																		2																																													
+_Boost_Armor_Pants_Ability_Summoning_Medium	_BOOSTS_Armor													10																																		1																																													
+_Boost_Armor_Pants_Ability_Warfare	_BOOSTS_Armor													8																								1																																																							
+_Boost_Armor_Pants_Ability_Warfare_Large	_BOOSTS_Armor													12																								2																																																							
+_Boost_Armor_Pants_Ability_Warfare_Medium	_BOOSTS_Armor													10																								1																																																							
+_Boost_Armor_Pants_Ability_Perseverance	_BOOSTS_Armor													8																					1																																																										
+_Boost_Armor_Pants_Ability_Perseverance_Large	_BOOSTS_Armor													12																					2																																																										
+_Boost_Armor_Pants_Ability_Perseverance_Medium	_BOOSTS_Armor													10																					1																																																										
+_Boost_Armor_Pants_Ability_Leadership	_BOOSTS_Armor													8																						1																																																									
+_Boost_Armor_Pants_Ability_Leadership_Large	_BOOSTS_Armor													12																						2																																																									
+_Boost_Armor_Pants_Ability_Leadership_Medium	_BOOSTS_Armor													10																						1																																																									
+_Boost_Armor_Pants_Ability_PainReflection	_BOOSTS_Armor													8																							1																																																								
+_Boost_Armor_Pants_Ability_PainReflection_Large	_BOOSTS_Armor													12																							2																																																								
+_Boost_Armor_Pants_Ability_PainReflection_Medium	_BOOSTS_Armor													10																							1																																																								
+_Boost_Armor_Belt_Ability_OneHanded	_BOOSTS_Armor													8																	1																																																														
+_Boost_Armor_Belt_Ability_OneHanded_Large	_BOOSTS_Armor													12																	2																																																														
+_Boost_Armor_Belt_Ability_OneHanded_Medium	_BOOSTS_Armor													10																	1																																																														
+_Boost_Armor_Belt_Ability_TwoHanded	_BOOSTS_Armor													8																		1																																																													
+_Boost_Armor_Belt_Ability_TwoHanded_Large	_BOOSTS_Armor													12																		2																																																													
+_Boost_Armor_Belt_Ability_TwoHanded_Medium	_BOOSTS_Armor													10																		1																																																													
+_Boost_Armor_Belt_Ability_Ranged	_BOOSTS_Armor													8																			1																																																												
+_Boost_Armor_Belt_Ability_Ranged_Large	_BOOSTS_Armor													12																			2																																																												
+_Boost_Armor_Belt_Ability_Ranged_Medium	_BOOSTS_Armor													10																			1																																																												
+_Boost_Armor_Belt_Ability_DualWielding	_BOOSTS_Armor													8																				1																																																											
+_Boost_Armor_Belt_Ability_DualWielding_Large	_BOOSTS_Armor													12																				2																																																											
+_Boost_Armor_Belt_Ability_DualWielding_Medium	_BOOSTS_Armor													10																				1																																																											
+_Boost_Armor_Belt_Ability_Air	_BOOSTS_Armor													8																														1																																																	
+_Boost_Armor_Belt_Ability_Air_Large	_BOOSTS_Armor													12																														2																																																	
+_Boost_Armor_Belt_Ability_Air_Medium	_BOOSTS_Armor													10																														1																																																	
+_Boost_Armor_Belt_Ability_Bartering	_BOOSTS_Armor													8																																								1																																							
+_Boost_Armor_Belt_Ability_Bartering_Large	_BOOSTS_Armor													12																																								1																																							
+_Boost_Armor_Belt_Ability_Bartering_Medium	_BOOSTS_Armor													10																																								1																																							
+_Boost_Armor_Belt_Ability_Death	_BOOSTS_Armor													8																																1																																															
+_Boost_Armor_Belt_Ability_Death_Large	_BOOSTS_Armor													12																																2																																															
+_Boost_Armor_Belt_Ability_Death_Medium	_BOOSTS_Armor													10																																1																																															
+_Boost_Armor_Belt_Ability_Earth	_BOOSTS_Armor													8																															1																																																
+_Boost_Armor_Belt_Ability_Earth_Large	_BOOSTS_Armor													12																															2																																																
+_Boost_Armor_Belt_Ability_Earth_Medium	_BOOSTS_Armor													10																															1																																																
+_Boost_Armor_Belt_Ability_Fire	_BOOSTS_Armor													8																												1																																																			
+_Boost_Armor_Belt_Ability_Fire_Large	_BOOSTS_Armor													12																												2																																																			
+_Boost_Armor_Belt_Ability_Fire_Medium	_BOOSTS_Armor													10																												1																																																			
+_Boost_Armor_Belt_Ability_Hunting	_BOOSTS_Armor													8																									1																																																						
+_Boost_Armor_Belt_Ability_Hunting_Large	_BOOSTS_Armor													12																									2																																																						
+_Boost_Armor_Belt_Ability_Hunting_Medium	_BOOSTS_Armor													10																									1																																																						
+_Boost_Armor_Belt_Ability_Perseverance	_BOOSTS_Armor													8																					1																																																										
+_Boost_Armor_Belt_Ability_Perseverance_Large	_BOOSTS_Armor													12																					2																																																										
+_Boost_Armor_Belt_Ability_Perseverance_Medium	_BOOSTS_Armor													10																					1																																																										
+_Boost_Armor_Belt_Ability_Leadership	_BOOSTS_Armor													8																						1																																																									
+_Boost_Armor_Belt_Ability_Leadership_Large	_BOOSTS_Armor													12																						2																																																									
+_Boost_Armor_Belt_Ability_Leadership_Medium	_BOOSTS_Armor													10																						1																																																									
+_Boost_Armor_Belt_Ability_PainReflection	_BOOSTS_Armor													8																							1																																																								
+_Boost_Armor_Belt_Ability_PainReflection_Large	_BOOSTS_Armor													12																							2																																																								
+_Boost_Armor_Belt_Ability_PainReflection_Medium	_BOOSTS_Armor													10																							1																																																								
+_Boost_Armor_Belt_Ability_Loremaster	_BOOSTS_Armor													8																																						1																																									
+_Boost_Armor_Belt_Ability_Loremaster_Large	_BOOSTS_Armor													12																																						1																																									
+_Boost_Armor_Belt_Ability_Loremaster_Medium	_BOOSTS_Armor													10																																						1																																									
+_Boost_Armor_Belt_Ability_Luck	_BOOSTS_Armor													8																																										1																																					
+_Boost_Armor_Belt_Ability_Luck_Large	_BOOSTS_Armor													12																																										1																																					
+_Boost_Armor_Belt_Ability_Luck_Medium	_BOOSTS_Armor													10																																										1																																					
+_Boost_Armor_Belt_Ability_Persuasion	_BOOSTS_Armor													8																																									1																																						
+_Boost_Armor_Belt_Ability_Persuasion_Large	_BOOSTS_Armor													12																																									1																																						
+_Boost_Armor_Belt_Ability_Persuasion_Medium	_BOOSTS_Armor													10																																									1																																						
+_Boost_Armor_Belt_Ability_Polymorph	_BOOSTS_Armor													8																																	1																																														
+_Boost_Armor_Belt_Ability_Polymorph_Large	_BOOSTS_Armor													12																																	2																																														
+_Boost_Armor_Belt_Ability_Polymorph_Medium	_BOOSTS_Armor													10																																	1																																														
+_Boost_Armor_Belt_Ability_Rogues	_BOOSTS_Armor													8																										1																																																					
+_Boost_Armor_Belt_Ability_Rogues_Large	_BOOSTS_Armor													12																										2																																																					
+_Boost_Armor_Belt_Ability_Rogues_Medium	_BOOSTS_Armor													10																										1																																																					
+_Boost_Armor_Belt_Ability_Sneaking	_BOOSTS_Armor													8																																				1																																											
+_Boost_Armor_Belt_Ability_Sneaking_Large	_BOOSTS_Armor													12																																				1																																											
+_Boost_Armor_Belt_Ability_Sneaking_Medium	_BOOSTS_Armor													10																																				1																																											
+_Boost_Armor_Belt_Ability_Summoning	_BOOSTS_Armor													8																																		1																																													
+_Boost_Armor_Belt_Ability_Summoning_Large	_BOOSTS_Armor													12																																		2																																													
+_Boost_Armor_Belt_Ability_Summoning_Medium	_BOOSTS_Armor													10																																		1																																													
+_Boost_Armor_Belt_Ability_Telekinesis	_BOOSTS_Armor													8																																			1																																												
+_Boost_Armor_Belt_Ability_Telekinesis_Large	_BOOSTS_Armor													12																																			1																																												
+_Boost_Armor_Belt_Ability_Telekinesis_Medium	_BOOSTS_Armor													10																																			1																																												
+_Boost_Armor_Belt_Ability_Lockpicking	_BOOSTS_Armor													8																																					1																																										
+_Boost_Armor_Belt_Ability_Lockpicking_Large	_BOOSTS_Armor													12																																					1																																										
+_Boost_Armor_Belt_Ability_Lockpicking_Medium	_BOOSTS_Armor													10																																					1																																										
+_Boost_Armor_Belt_Ability_Warfare	_BOOSTS_Armor													8																								1																																																							
+_Boost_Armor_Belt_Ability_Warfare_Large	_BOOSTS_Armor													12																								2																																																							
+_Boost_Armor_Belt_Ability_Warfare_Medium	_BOOSTS_Armor													10																								1																																																							
+_Boost_Armor_Belt_Ability_Water	_BOOSTS_Armor													8																													1																																																		
+_Boost_Armor_Belt_Ability_Water_Large	_BOOSTS_Armor													12																													2																																																		
+_Boost_Armor_Belt_Ability_Water_Medium	_BOOSTS_Armor													10																													1																																																		
+_Boost_Armor_Ring_Ability_Air	_BOOSTS_Armor													8																														1																																																	
+_Boost_Armor_Ring_Ability_Air_Large	_BOOSTS_Armor													12																														2																																																	
+_Boost_Armor_Ring_Ability_Air_Medium	_BOOSTS_Armor													10																														1																																																	
+_Boost_Armor_Ring_Ability_Bartering	_BOOSTS_Armor													8																																								1																																							
+_Boost_Armor_Ring_Ability_Bartering_Large	_BOOSTS_Armor													12																																								1																																							
+_Boost_Armor_Ring_Ability_Bartering_Medium	_BOOSTS_Armor													10																																								1																																							
+_Boost_Armor_Ring_Ability_Death	_BOOSTS_Armor													8																																1																																															
+_Boost_Armor_Ring_Ability_Death_Large	_BOOSTS_Armor													12																																2																																															
+_Boost_Armor_Ring_Ability_Death_Medium	_BOOSTS_Armor													10																																1																																															
+_Boost_Armor_Ring_Ability_DualWielding	_BOOSTS_Armor													8																				1																																																											
+_Boost_Armor_Ring_Ability_DualWielding_Large	_BOOSTS_Armor													12																				2																																																											
+_Boost_Armor_Ring_Ability_DualWielding_Medium	_BOOSTS_Armor													10																				1																																																											
+_Boost_Armor_Ring_Ability_Earth	_BOOSTS_Armor													8																															1																																																
+_Boost_Armor_Ring_Ability_Earth_Large	_BOOSTS_Armor													12																															2																																																
+_Boost_Armor_Ring_Ability_Earth_Medium	_BOOSTS_Armor													10																															1																																																
+_Boost_Armor_Ring_Ability_Fire	_BOOSTS_Armor													8																												1																																																			
+_Boost_Armor_Ring_Ability_Fire_Large	_BOOSTS_Armor													12																												2																																																			
+_Boost_Armor_Ring_Ability_Fire_Medium	_BOOSTS_Armor													10																												1																																																			
+_Boost_Armor_Ring_Ability_Hunting	_BOOSTS_Armor													8																									1																																																						
+_Boost_Armor_Ring_Ability_Hunting_Large	_BOOSTS_Armor													12																									2																																																						
+_Boost_Armor_Ring_Ability_Hunting_Medium	_BOOSTS_Armor													10																									1																																																						
+_Boost_Armor_Ring_Ability_Perseverance	_BOOSTS_Armor													8																					1																																																										
+_Boost_Armor_Ring_Ability_Perseverance_Large	_BOOSTS_Armor													12																					2																																																										
+_Boost_Armor_Ring_Ability_Perseverance_Medium	_BOOSTS_Armor													10																					1																																																										
+_Boost_Armor_Ring_Ability_Leadership	_BOOSTS_Armor													8																						1																																																									
+_Boost_Armor_Ring_Ability_Leadership_Large	_BOOSTS_Armor													12																						2																																																									
+_Boost_Armor_Ring_Ability_Leadership_Medium	_BOOSTS_Armor													10																						1																																																									
+_Boost_Armor_Ring_Ability_PainReflection	_BOOSTS_Armor													8																							1																																																								
+_Boost_Armor_Ring_Ability_PainReflection_Large	_BOOSTS_Armor													12																							2																																																								
+_Boost_Armor_Ring_Ability_PainReflection_Medium	_BOOSTS_Armor													10																							1																																																								
+_Boost_Armor_Ring_Ability_Loremaster	_BOOSTS_Armor													8																																						1																																									
+_Boost_Armor_Ring_Ability_Loremaster_Large	_BOOSTS_Armor													12																																						1																																									
+_Boost_Armor_Ring_Ability_Loremaster_Medium	_BOOSTS_Armor													10																																						1																																									
+_Boost_Armor_Ring_Ability_Luck	_BOOSTS_Armor													8																																										1																																					
+_Boost_Armor_Ring_Ability_Luck_Large	_BOOSTS_Armor													12																																										1																																					
+_Boost_Armor_Ring_Ability_Luck_Medium	_BOOSTS_Armor													10																																										1																																					
+_Boost_Armor_Ring_Ability_OneHanded	_BOOSTS_Armor													8																	1																																																														
+_Boost_Armor_Ring_Ability_OneHanded_Large	_BOOSTS_Armor													12																	2																																																														
+_Boost_Armor_Ring_Ability_OneHanded_Medium	_BOOSTS_Armor													10																	1																																																														
+_Boost_Armor_Ring_Ability_Persuasion	_BOOSTS_Armor													8																																									1																																						
+_Boost_Armor_Ring_Ability_Persuasion_Large	_BOOSTS_Armor													12																																									1																																						
+_Boost_Armor_Ring_Ability_Persuasion_Medium	_BOOSTS_Armor													10																																									1																																						
+_Boost_Armor_Ring_Ability_Polymorph	_BOOSTS_Armor													8																																	1																																														
+_Boost_Armor_Ring_Ability_Polymorph_Large	_BOOSTS_Armor													12																																	2																																														
+_Boost_Armor_Ring_Ability_Polymorph_Medium	_BOOSTS_Armor													10																																	1																																														
+_Boost_Armor_Ring_Ability_Ranged	_BOOSTS_Armor													8																			1																																																												
+_Boost_Armor_Ring_Ability_Ranged_Large	_BOOSTS_Armor													12																			2																																																												
+_Boost_Armor_Ring_Ability_Ranged_Medium	_BOOSTS_Armor													10																			1																																																												
+_Boost_Armor_Ring_Ability_Rogues	_BOOSTS_Armor													8																										1																																																					
+_Boost_Armor_Ring_Ability_Rogues_Large	_BOOSTS_Armor													12																										2																																																					
+_Boost_Armor_Ring_Ability_Rogues_Medium	_BOOSTS_Armor													10																										1																																																					
+_Boost_Armor_Ring_Ability_Sneaking	_BOOSTS_Armor													8																																				1																																											
+_Boost_Armor_Ring_Ability_Sneaking_Large	_BOOSTS_Armor													12																																				1																																											
+_Boost_Armor_Ring_Ability_Sneaking_Medium	_BOOSTS_Armor													10																																				1																																											
+_Boost_Armor_Ring_Ability_Summoning	_BOOSTS_Armor													8																																		1																																													
+_Boost_Armor_Ring_Ability_Summoning_Large	_BOOSTS_Armor													12																																		2																																													
+_Boost_Armor_Ring_Ability_Summoning_Medium	_BOOSTS_Armor													10																																		1																																													
+_Boost_Armor_Ring_Ability_Telekinesis	_BOOSTS_Armor													8																																			1																																												
+_Boost_Armor_Ring_Ability_Telekinesis_Large	_BOOSTS_Armor													12																																			1																																												
+_Boost_Armor_Ring_Ability_Telekinesis_Medium	_BOOSTS_Armor													10																																			1																																												
+_Boost_Armor_Ring_Ability_Lockpicking	_BOOSTS_Armor													8																																					1																																										
+_Boost_Armor_Ring_Ability_Lockpicking_Large	_BOOSTS_Armor													12																																					1																																										
+_Boost_Armor_Ring_Ability_Lockpicking_Medium	_BOOSTS_Armor													10																																					1																																										
+_Boost_Armor_Ring_Ability_TwoHanded	_BOOSTS_Armor													8																		1																																																													
+_Boost_Armor_Ring_Ability_TwoHanded_Large	_BOOSTS_Armor													12																		2																																																													
+_Boost_Armor_Ring_Ability_TwoHanded_Medium	_BOOSTS_Armor													10																		1																																																													
+_Boost_Armor_Ring_Ability_Warfare	_BOOSTS_Armor													8																								1																																																							
+_Boost_Armor_Ring_Ability_Warfare_Large	_BOOSTS_Armor													12																								2																																																							
+_Boost_Armor_Ring_Ability_Warfare_Medium	_BOOSTS_Armor													10																								1																																																							
+_Boost_Armor_Ring_Ability_Water	_BOOSTS_Armor													8																													1																																																		
+_Boost_Armor_Ring_Ability_Water_Large	_BOOSTS_Armor													12																													2																																																		
+_Boost_Armor_Ring_Ability_Water_Medium	_BOOSTS_Armor													10																													1																																																		
+_Boost_Armor_Ring_Secondary_Vitality	_BOOSTS_Armor													8																																													20																																		
+_Boost_Armor_Ring_Secondary_Vitality_Medium	_BOOSTS_Armor													12																																													30																																		
+_Boost_Armor_Ring_Secondary_Vitality_Large	_BOOSTS_Armor													10																																													40																																		
+_Boost_Armor_Amulet_Ability_MagicArmorMastery	_BOOSTS_Armor													8																																																																															
+_Boost_Armor_Amulet_Ability_MagicArmorMastery_Large	_BOOSTS_Armor													12																																																																															
+_Boost_Armor_Amulet_Ability_MagicArmorMastery_Medium	_BOOSTS_Armor													10																																																																															
+_Boost_Armor_Amulet_Ability_PhysicalArmorMastery	_BOOSTS_Armor													8																																																																															
+_Boost_Armor_Amulet_Ability_PhysicalArmorMastery_Large	_BOOSTS_Armor													12																																																																															
+_Boost_Armor_Amulet_Ability_PhysicalArmorMastery_Medium	_BOOSTS_Armor													10																																																																															
+_Boost_Armor_Gloves_Ability_Repair	_BOOSTS_Armor													8																																							1																																								
+_Boost_Armor_Gloves_Ability_Repair_Large	_BOOSTS_Armor													12																																							1																																								
+_Boost_Armor_Gloves_Ability_Repair_Medium	_BOOSTS_Armor													10																																							1																																								
+_Boost_Armor_Gloves_Ability_VitalityMastery	_BOOSTS_Armor													8																																																																															
+_Boost_Armor_Gloves_Ability_VitalityMastery_Large	_BOOSTS_Armor													12																																																																															
+_Boost_Armor_Gloves_Ability_VitalityMastery_Medium	_BOOSTS_Armor													10																																																																															
+_Boost_Armor_Helmet_Ability_MagicArmorMastery	_BOOSTS_Armor													8																																																																															
+_Boost_Armor_Helmet_Ability_MagicArmorMastery_Large	_BOOSTS_Armor													12																																																																															
+_Boost_Armor_Helmet_Ability_MagicArmorMastery_Medium	_BOOSTS_Armor													10																																																																															
+_Boost_Armor_Upperbody_Ability_PhysicalArmorMastery	_BOOSTS_Armor													8																																																																															
+_Boost_Armor_Upperbody_Ability_PhysicalArmorMastery_Large	_BOOSTS_Armor													12																																																																															
+_Boost_Armor_Upperbody_Ability_PhysicalArmorMastery_Medium	_BOOSTS_Armor													10																																																																															
+_Boost_Armor_Upperbody_Ability_Air	_BOOSTS_Armor													8																														1																																																	
+_Boost_Armor_Upperbody_Ability_Air_Large	_BOOSTS_Armor													12																														2																																																	
+_Boost_Armor_Upperbody_Ability_Air_Medium	_BOOSTS_Armor													10																														1																																																	
+_Boost_Armor_Upperbody_Ability_Earth	_BOOSTS_Armor													8																															1																																																
+_Boost_Armor_Upperbody_Ability_Earth_Large	_BOOSTS_Armor													12																															2																																																
+_Boost_Armor_Upperbody_Ability_Earth_Medium	_BOOSTS_Armor													10																															1																																																
+_Boost_Armor_Upperbody_Ability_Fire	_BOOSTS_Armor													8																												1																																																			
+_Boost_Armor_Upperbody_Ability_Fire_Large	_BOOSTS_Armor													12																												2																																																			
+_Boost_Armor_Upperbody_Ability_Fire_Medium	_BOOSTS_Armor													10																												1																																																			
+_Boost_Armor_Upperbody_Ability_Death	_BOOSTS_Armor													8																																1																																															
+_Boost_Armor_Upperbody_Ability_Death_Large	_BOOSTS_Armor													12																																2																																															
+_Boost_Armor_Upperbody_Ability_Death_Medium	_BOOSTS_Armor													10																																1																																															
+_Boost_Armor_Upperbody_Ability_Hunting	_BOOSTS_Armor													8																									1																																																						
+_Boost_Armor_Upperbody_Ability_Hunting_Large	_BOOSTS_Armor													12																									2																																																						
+_Boost_Armor_Upperbody_Ability_Hunting_Medium	_BOOSTS_Armor													10																									1																																																						
+_Boost_Armor_Upperbody_Ability_Rogues	_BOOSTS_Armor													8																										1																																																					
+_Boost_Armor_Upperbody_Ability_Rogues_Large	_BOOSTS_Armor													12																										2																																																					
+_Boost_Armor_Upperbody_Ability_Rogues_Medium	_BOOSTS_Armor													10																										1																																																					
+_Boost_Armor_Upperbody_Ability_Warfare	_BOOSTS_Armor													8																								1																																																							
+_Boost_Armor_Upperbody_Ability_Warfare_Large	_BOOSTS_Armor													12																								2																																																							
+_Boost_Armor_Upperbody_Ability_Warfare_Medium	_BOOSTS_Armor													10																								1																																																							
+_Boost_Armor_Upperbody_Ability_Water	_BOOSTS_Armor													8																													1																																																		
+_Boost_Armor_Upperbody_Ability_Water_Large	_BOOSTS_Armor													12																													2																																																		
+_Boost_Armor_Upperbody_Ability_Water_Medium	_BOOSTS_Armor													10																													1																																																		
+_Boost_Armor_Upperbody_Ability_Summoning	_BOOSTS_Armor													8																																		1																																													
+_Boost_Armor_Upperbody_Ability_Summoning_Large	_BOOSTS_Armor													12																																		2																																													
+_Boost_Armor_Upperbody_Ability_Summoning_Medium	_BOOSTS_Armor													10																																		1																																													
+_Boost_Armor_Belt_Ability_Repair	_BOOSTS_Armor													8																																							1																																								
+_Boost_Armor_Belt_Ability_Repair_Large	_BOOSTS_Armor													12																																							1																																								
+_Boost_Armor_Belt_Ability_Repair_Medium	_BOOSTS_Armor													10																																							1																																								
+_Boost_Armor_Ring_Ability_VitalityMastery	_BOOSTS_Armor													8																																																																															
+_Boost_Armor_Ring_Ability_VitalityMastery_Large	_BOOSTS_Armor													12																																																																															
+_Boost_Armor_Ring_Ability_VitalityMastery_Medium	_BOOSTS_Armor													10																																																																															
+_Boost_Armor_Belt_Secondary_CriticalChance	_BOOSTS_Armor													8																																																					2																										
+_Boost_Armor_Belt_Secondary_CriticalChance_Large	_BOOSTS_Armor													12																																																					4																										
+_Boost_Armor_Belt_Secondary_CriticalChance_Medium	_BOOSTS_Armor													10																																																					3																										
+_Boost_Armor_Belt_Secondary_CriticalChance_Small	_BOOSTS_Armor													8																																																					1																										
+_Boost_Armor_Gloves_Secondary_CriticalChance	_BOOSTS_Armor													12																																																					2																										
+_Boost_Armor_Gloves_Secondary_CriticalChance_Large	_BOOSTS_Armor													10																																																					4																										
+_Boost_Armor_Gloves_Secondary_CriticalChance_Medium	_BOOSTS_Armor													8																																																					3																										
+_Boost_Armor_Gloves_Secondary_CriticalChance_Small	_BOOSTS_Armor													4																																																					1																										
+_Boost_Armor_Gloves_Secondary_Accuracy	_BOOSTS_Armor													12																																																					2																										
+_Boost_Armor_Gloves_Secondary_Accuracy_Large	_BOOSTS_Armor													10																																																					4																										
+_Boost_Armor_Gloves_Secondary_Accuracy_Medium	_BOOSTS_Armor													8																																																					3																										
+_Boost_Armor_Boots_Crafting_Special_KnockdownImmunity	_BOOSTS_Armor													10																																																												SlippingImmunity					Pure Mythril														
+_Boost_Armor_Upperbody_Crafting_Special_Ataraxian	_BOOSTS_Armor							10		10				8					10																																																	10::Air:melee																									
+_Boost_Armor_Gloves_Crafting_Special_Ataraxian	_BOOSTS_Armor							10		10				4							10							1																																																																	
+_Boost_Armor_Helmet_Crafting_Special_Ataraxian	_BOOSTS_Armor							10		10				6												1													1																																																						
+_Boost_Armor_Ring_Crafting_Special_Ataraxian	_BOOSTS_Armor							10		10				4								10																		1																																																					
+_Boost_Armor_Amulet_Crafting_Special_Ataraxian	_BOOSTS_Armor							10		10				6				10																																																5	2																										
+_Boost_Armor_Pants_Crafting_Special_Ataraxian	_BOOSTS_Armor							10		10				6					10																												1																																														
+_Boost_Armor_Boots_Crafting_Special_Ataraxian	_BOOSTS_Armor							10		10				4		10																																			1																																										
+_Boost_Armor_Belt_Crafting_Special_Ataraxian	_BOOSTS_Armor							10		10				4											1													1																																																							
+_Boosts_Runes_Armor_Upperbody	_BOOSTS_Armor					Breast																																																																																							
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Small	_Boosts_Runes_Armor_Upperbody																	5																																																																											
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Medium	_Boosts_Runes_Armor_Upperbody																	7																																																																											
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Large	_Boosts_Runes_Armor_Upperbody																	9																																																																											
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Giant	_Boosts_Runes_Armor_Upperbody																	11																																																																											
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Small	_Boosts_Runes_Armor_Upperbody																		5																																																																										
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Medium	_Boosts_Runes_Armor_Upperbody																		7																																																																										
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Large	_Boosts_Runes_Armor_Upperbody																		9																																																																										
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Giant	_Boosts_Runes_Armor_Upperbody																		11																																																																										
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Small	_Boosts_Runes_Armor_Upperbody																			5																																																																									
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Medium	_Boosts_Runes_Armor_Upperbody																			7																																																																									
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Large	_Boosts_Runes_Armor_Upperbody																			9																																																																									
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Giant	_Boosts_Runes_Armor_Upperbody																			11																																																																									
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Small	_Boosts_Runes_Armor_Upperbody																				5																																																																								
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Medium	_Boosts_Runes_Armor_Upperbody																				7																																																																								
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Large	_Boosts_Runes_Armor_Upperbody																				9																																																																								
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Giant	_Boosts_Runes_Armor_Upperbody																				11																																																																								
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Small	_Boosts_Runes_Armor_Upperbody																					5																																																																							
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Medium	_Boosts_Runes_Armor_Upperbody																					7																																																																							
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Large	_Boosts_Runes_Armor_Upperbody																					9																																																																							
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Giant	_Boosts_Runes_Armor_Upperbody																					11																																																																							
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Small	_Boosts_Runes_Armor_Upperbody								9																																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Medium	_Boosts_Runes_Armor_Upperbody								13																																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Large	_Boosts_Runes_Armor_Upperbody								17																																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Giant	_Boosts_Runes_Armor_Upperbody								21																																																																																				
+_Boosts_Framed_Runes_Armor_Upperbody	_Boosts_Runes_Armor_Upperbody																																																																																												
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																	5									2																																																																		
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																	7									2																																																																		
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																	9									2																																																																		
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																	11									2																																																																		
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																			5							2																																																																		
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																			7							2																																																																		
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																			9							2																																																																		
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																			11							2																																																																		
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																		5							2																																																																			
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																		7							2																																																																			
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																		9							2																																																																			
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																		11							2																																																																			
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																				5				2																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																				7				2																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																				9				2																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																				11				2																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																					5				2																																																																			
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																					7				2																																																																			
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																					9				2																																																																			
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody																					11				2																																																																			
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody								9																2																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody								13																2																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody								17																2																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Upperbody								21																2																																																																				
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																	5																					1																																																						
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																	7																					1																																																						
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																	9																					1																																																						
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Flame_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																	11																					1																																																						
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																			5																1																																																									
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																			7																1																																																									
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																			9																1																																																									
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Frost_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																			11																1																																																									
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																		5																					1																																																					
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																		7																					1																																																					
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																		9																					1																																																					
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Thunder_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																		11																					1																																																					
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																				5																	1																																																							
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																				7																	1																																																							
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																				9																	1																																																							
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Rock_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																				11																	1																																																							
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																					5																										1																																													
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																					7																										1																																													
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																					9																										1																																													
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Venom_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody																					11																										1																																													
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody								9																			2																																																																	
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody								13																			2																																																																	
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody								17																			2																																																																	
+_Boost_Armor_Upperbody_Rune_LOOT_Rune_Masterwork_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Upperbody								21																			2																																																																	
+_Boosts_Runes_Armor_Amulet	_BOOSTS_Armor					Amulet																																																																																							
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Small	_Boosts_Runes_Armor_Amulet																																																																		3																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Medium	_Boosts_Runes_Armor_Amulet																																																																		4																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Large	_Boosts_Runes_Armor_Amulet																																																																		5																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Giant	_Boosts_Runes_Armor_Amulet																																																																		6																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Small	_Boosts_Runes_Armor_Amulet																																																																	3																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Medium	_Boosts_Runes_Armor_Amulet																																																																	4																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Large	_Boosts_Runes_Armor_Amulet																																																																	5																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Giant	_Boosts_Runes_Armor_Amulet																																																																	6																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Small	_Boosts_Runes_Armor_Amulet															25																																																																													
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Medium	_Boosts_Runes_Armor_Amulet															50																																																																													
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Large	_Boosts_Runes_Armor_Amulet															75																																																																													
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Giant	_Boosts_Runes_Armor_Amulet															100																																																																													
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Small	_Boosts_Runes_Armor_Amulet																																																										9																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Medium	_Boosts_Runes_Armor_Amulet																																																										11																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Large	_Boosts_Runes_Armor_Amulet																																																										13																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Giant	_Boosts_Runes_Armor_Amulet																																																										15																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Small	_Boosts_Runes_Armor_Amulet																																																																5																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Medium	_Boosts_Runes_Armor_Amulet																																																																8																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Large	_Boosts_Runes_Armor_Amulet																																																																12																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Giant	_Boosts_Runes_Armor_Amulet																																																																16																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Small	_Boosts_Runes_Armor_Amulet										9																																																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Medium	_Boosts_Runes_Armor_Amulet										13																																																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Large	_Boosts_Runes_Armor_Amulet										17																																																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Giant	_Boosts_Runes_Armor_Amulet										21																																																																																		
+_Boosts_Framed_Runes_Armor_Amulet	_Boosts_Runes_Armor_Amulet																																																																																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																										2																																								3																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																										2																																								4																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																										2																																								5																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																										2																																								6																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet															25											2																																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet															50											2																																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet															75											2																																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet															100											2																																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																									2																																								3																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																									2																																								4																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																									2																																								5																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																									2																																								6																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																								2																																		9																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																								2																																		11																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																								2																																		13																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																								2																																		15																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																									2																																							5																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																									2																																							8																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																									2																																							12																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet																									2																																							15																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Small_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet										9														2																																																																				
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Medium_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet										13														2																																																																				
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Large_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet										17														2																																																																				
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Giant_Framed_Power	_Boosts_Framed_Runes_Armor_Amulet										21														2																																																																				
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																									1																									3																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																									1																									4																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																									1																									5																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Flame_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																									1																									6																										
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet															25																											1																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet															50																											1																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet															75																											1																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Frost_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet															100																											1																																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																											1																						3																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																											1																						4																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																											1																						5																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Thunder_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																											1																						6																											
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																												1														9																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																												1														11																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																												1														13																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Rock_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																												1														15																																		
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																													1																			5																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																													1																			8																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																													1																			12																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Venom_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet																																													1																			16																												
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Small_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet										9																		2																																																																
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Medium_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet										13																		2																																																																
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Large_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet										17																		2																																																																
+_Boost_Armor_Amulet_Rune_LOOT_Rune_Masterwork_Giant_Framed_Transforming	_Boosts_Framed_Runes_Armor_Amulet										21																		2																																																																
+_Boost_Armor_Upperbody_Rune_LOOT_Source_Orb	_BOOSTS_Armor					Breast																																																																Shout_MassCleanseWounds																							
+_Boost_Armor_Amulet_Rune_LOOT_Source_Orb	_BOOSTS_Armor					Amulet																																																																Shout_EvasiveAura																							
