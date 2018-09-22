@@ -23,8 +23,8 @@ function extract(data) {
 	const keys = Object.keys(data);
 	keys.forEach((prop) => {
 		if (propertyNames.indexOf(prop) !== -1
-			&& propertyNames.indexOf(prop) !== ''
-			&& propertyNames.indexOf(prop) !== undefined) {
+			&& data[prop] !== ''
+			&& data[prop] !== undefined) {
 			const camelCase = prop.substr(0, 1).toLowerCase() + prop.substr(1);
 			copy[camelCase] = data[prop];
 		}

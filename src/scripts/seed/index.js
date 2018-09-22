@@ -17,11 +17,11 @@ db.sequelize.sync({
 	console.log('models created');
 	// createItemStats(db, ITEMSTATS, ITEMTEXT);
 
-	createItemStats(db, ITEMSTATS, ITEMTEXT)
-		.then(() => createIngredients(db, RECIPES))
-		.then(() => createRecipes(db, RECIPES))
-		.catch((err) => {
-			debugger;
-			console.log(err);
-		});
+	createItemStats(db, ITEMSTATS, ITEMTEXT);
+	// .then(() => createIngredients(db, RECIPES))
+	// .then(() => createRecipes(db, RECIPES))
+	// .catch((err) => {
+	// 	debugger;
+	// 	console.log(err);
+	// });
 });
