@@ -6,8 +6,8 @@ const fs = require('fs');
 // module.exports = function (input, output, extractFunction) {
 module.exports = function (dataFolder, name, extractor) {
 	const foundItems = [];
-	const inPath = path.join(__dirname, dataFolder, 'input', `${name}.txt`);
-	const outPath = path.join(__dirname, dataFolder, 'output', `${name}.json`);
+	const inPath = path.join(dataFolder, 'input', `${name}.txt`);
+	const outPath = path.join(dataFolder, 'output', `${name}.json`);
 	const extract = extractor;
 	const inFile = fs.readFileSync(inPath, 'utf-8');
 

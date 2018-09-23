@@ -9,6 +9,7 @@ module.exports = {
         "no-plusplus":0,
         "comma-dangle":0,
         "func-names":0,
+        "no-prototype-builtins":0,
         "consistent-return":0,
         "no-debugger":0,
         "indent": ["error", "tab", { "MemberExpression": 1 }],

@@ -18,9 +18,19 @@ const weaponProperties = ['ItemGroup', 'ModifierType', 'ComboCategory', 'Tags', 
 
 function extract(data) {
 	const propertyNames = objectProperties.concat(potionProperties).concat(armourProperties).concat(weaponProperties);
-
 	const copy = {};
 	const keys = Object.keys(data);
+
+
+	keys.forEach((prop) => {
+		if (propertyNames.indexOf(prop) !== -1
+			&& data[prop] !== ''
+			&& data[prop] !== undefined) {
+			const camelCase = prop.substr(0, 1).toLowerCase() + prop.substr(1);
+			copy[camelCase] = data[prop];
+		}
+	});
+
 	keys.forEach((prop) => {
 		if (propertyNames.indexOf(prop) !== -1
 			&& data[prop] !== ''
