@@ -14,7 +14,8 @@ module.exports = function (dataFolder, name, extractor) {
 	return new Promise((res, rej) => {
 		csv.fromString(inFile, { headers: true, trim: true, delimiter: '	' })
 			.on('data', (data) => {
-				foundItems.push(extract(data));
+				const item = extract(data);
+				if (item != null) foundItems.push(extract(data));
 			})
 			.on('error', (err) => {
 				rej(err);

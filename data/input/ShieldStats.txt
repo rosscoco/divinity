@@ -1,0 +1,106 @@
+Name	Parent	ItemGroup	ModifierType	Act	Level	Requirements	Armor Defense Value	ArmorBoost	Magic Armor Value	MagicArmorBoost	Blocking	Durability	DurabilityDegradeSpeed	Value	Weight	Movement	Initiative	Slot	Fire	Air	Water	Earth	Poison	Piercing	Physical	StrengthBoost	FinesseBoost	IntelligenceBoost	ConstitutionBoost	MemoryBoost	WitsBoost	SingleHanded	TwoHanded	Ranged	DualWielding	Perseverance	Leadership	PainReflection	RogueLore	WarriorLore	RangerLore	FireSpecialist	WaterSpecialist	AirSpecialist	EarthSpecialist	Sourcery	Necromancy	Polymorph	Summoning	Telekinesis	Sneaking	LockPicking	Loremaster	Repair	Barter	Persuasion	Luck	SightBoost	HearingBoost	VitalityBoost	MagicPointsBoost	ChanceToHitBoost	APMaximum	APStart	APRecovery	AccuracyBoost	DodgeBoost	CriticalChance	Reflection	Bodybuilding	Willpower	MaxSummons	Skills	Talents	Tags	ExtraProperties	Flags	ComboCategory	InventoryTab	ItemColor	NeedsIdentification	Charges	MaxCharges	RuneSlots	RuneSlots_V1	ObjectCategory	MinAmount	MaxAmount	Priority	Unique	MinLevel	MaxLevel	Comment	
+_Shields		Shields	Item	1	1	Constitution 12	90		60		0	0	6	60	5000	0	0	Shield	0	0	0	0	0	0	0																																																Shout_RecoverArmour						Equipment	DefaultGray				0	0									
+NoShield	_Shields		Item	1	1	Constitution 0	0		0		0	0	0	0	0	0	0	Shield	0	0	0	0	0	0	0																																																																					
+WPN_Shield	_Shields				0																																																																									ShieldMetal								Shield	1	1	1		1			
+WPN_CraftedShield	_Shields	WPN_CraftedShield			0									10																																																																																
+WPN_UNIQUE_WithermooreShield	_Shields	WithermooreShield			4									280																																																														_Vitality_ShieldBoost	CrippledImmunity													1				
+WPN_Wood_Shield_A_Round_Shield_CHEAT	_Shields				15							10																																																																		ShieldWood																
+WPN_Arena_Shield_A	_Shields				10																																																																																									
+WPN_Toy_WoodenShield	_Shields	WPN_Toy_WoodenShield			1		50							20	3000																																																																								1	1	1		1			
+WPN_Magister_Shield	_Shields	WPN_Shield_Magister_01			1																																																																																									
+_CharacterCreationShields																																																																															Hidden															
+WPN_Cleric_Shield_Lizards	_Shields	WPN_Cleric_Shield_Lizards			0																																																																																									
+WPN_Cleric_Shield_Elves	_Shields	WPN_Cleric_Shield_Elves			0																																																																																									
+WPN_Cleric_Shield_Dwarves	_Shields	WPN_Cleric_Shield_Dwarves			0																																																																																									
+WPN_Cleric_Shield_Humans	_Shields	WPN_Cleric_Shield_Humans			0																																																																																									
+WPN_Conjurer_Shield_Lizards	_Shields	WPN_Conjurer_Shield_Lizards			0																																																																																									
+WPN_Conjurer_Shield_Elves	_Shields	WPN_Conjurer_Shield_Elves			0																																																																																									
+WPN_Conjurer_Shield_Dwarves	_Shields	WPN_Conjurer_Shield_Dwarves			0																																																																																									
+WPN_Conjurer_Shield_Humans	_Shields	WPN_Conjurer_Shield_Humans			0																																																																																									
+WPN_Fighter_Shield_Lizards	_Shields	WPN_Fighter_Shield_Lizards			0																																																																																									
+WPN_Fighter_Shield_Elves	_Shields	WPN_Fighter_Shield_Elves			0																																																																																									
+WPN_Fighter_Shield_Dwarves	_Shields	WPN_Fighter_Shield_Dwarves			0																																																																																									
+WPN_Fighter_Shield_Humans	_Shields	WPN_Fighter_Shield_Humans			0																																																																																									
+_SpecificEnemyShields																																																																															Hidden															
+_Shield_GEN_Bodyguard	_Shields				2							10				0																																																															Hidden															
+_Shield_GEN_Human_A	_Shields				2							10				0																																																															Hidden															
+_Shield_GEN_Human_B	_Shields	WPN_HumanShield_01			2							10				0																																																															Hidden															
+_Shield_GEN_Dwarven_A	_Shields				2							10				0																																																															Hidden															
+_Shield_GEN_Dwarven_B	_Shields				2							10				0																																																															Hidden															
+_GEN_Magister_Shield	_Shields	WPN_Shield_Magister_01			2							10																																																																			Hidden							Shield								
+_BOOSTS_Shield			Boost																																																																																	0	0									
+_Boost_Shield_Armour_Magical	_BOOSTS_Shield								10					9																																																																																
+_Boost_Shield_Armour_Magical_Large	_BOOSTS_Shield								20					13																																																																																
+_Boost_Shield_Armour_Magical_Medium	_BOOSTS_Shield								15					11																																																																																
+_Boost_Shield_Armour_Physical	_BOOSTS_Shield						10							5																																																																																
+_Boost_Shield_Armour_Physical_Large	_BOOSTS_Shield						20							12																																																																																
+_Boost_Shield_Armour_Physical_Medium	_BOOSTS_Shield						15							10																																																																																
+_Boost_Shield_Armour_All	_BOOSTS_Shield						5		5					10																																																																																
+_Boost_Shield_Armour_All_Medium	_BOOSTS_Shield						10		10					10																																																																																
+_Boost_Shield_Armour_All_Large	_BOOSTS_Shield						15		15					10																																																																																
+_Boost_Shield_Primary_Constitution	_BOOSTS_Shield													12															1																																																																	
+_Boost_Shield_Primary_Constitution_Large	_BOOSTS_Shield													18															3																																																																	
+_Boost_Shield_Primary_Constitution_Medium	_BOOSTS_Shield													14															2																																																																	
+_Boost_Shield_Primary_Strength	_BOOSTS_Shield													12												1																																																																				
+_Boost_Shield_Primary_Strength_Large	_BOOSTS_Shield													18												3																																																																				
+_Boost_Shield_Primary_Strength_Medium	_BOOSTS_Shield													14												2																																																																				
+_Boost_Shield_Primary_Intelligence	_BOOSTS_Shield													12														1																																																																		
+_Boost_Shield_Primary_Intelligence_Large	_BOOSTS_Shield													18														3																																																																		
+_Boost_Shield_Primary_Intelligence_Medium	_BOOSTS_Shield													14														2																																																																		
+_Boost_Shield_Reflect_As_Air_Damage	_BOOSTS_Shield													12																																																							15::Air:melee																									
+_Boost_Shield_Reflect_As_Earth_Damage	_BOOSTS_Shield													12																																																							15::Earth:melee																									
+_Boost_Shield_Reflect_As_Fire_Damage	_BOOSTS_Shield													12																																																							15::Fire:melee																									
+_Boost_Shield_Reflect_As_Physical_Damage	_BOOSTS_Shield													12																																																							15::Physical:melee																									
+_Boost_Shield_Reflect_As_Piercing_Damage	_BOOSTS_Shield													12																																																							15::Piercing:melee																									
+_Boost_Shield_Reflect_As_Water_Damage	_BOOSTS_Shield													12																																																							15::Water:melee																									
+_Boost_Shield_Reflect_As_Air_Damage_Medium	_BOOSTS_Shield													14																																																							30::Air:melee																									
+_Boost_Shield_Reflect_As_Earth_Damage_Medium	_BOOSTS_Shield													14																																																							30::Earth:melee																									
+_Boost_Shield_Reflect_As_Fire_Damage_Medium	_BOOSTS_Shield													14																																																							30::Fire:melee																									
+_Boost_Shield_Reflect_As_Physical_Damage_Medium	_BOOSTS_Shield													14																																																							30::Physical:melee																									
+_Boost_Shield_Reflect_As_Piercing_Damage_Medium	_BOOSTS_Shield													14																																																							30::Piercing:melee																									
+_Boost_Shield_Reflect_As_Water_Damage_Medium	_BOOSTS_Shield													14																																																							30::Water:melee																									
+_Boost_Shield_Reflect_As_Air_Damage_Large	_BOOSTS_Shield													16																																																							40::Air:melee																									
+_Boost_Shield_Reflect_As_Earth_Damage_Large	_BOOSTS_Shield													16																																																							40::Earth:melee																									
+_Boost_Shield_Reflect_As_Fire_Damage_Large	_BOOSTS_Shield													16																																																							40::Fire:melee																									
+_Boost_Shield_Reflect_As_Physical_Damage_Large	_BOOSTS_Shield													16																																																							40::Physical:melee																									
+_Boost_Shield_Reflect_As_Piercing_Damage_Large	_BOOSTS_Shield													16																																																							40::Piercing:melee																									
+_Boost_Shield_Reflect_As_Water_Damage_Large	_BOOSTS_Shield													16																																																							40::Water:melee																									
+_Boost_Shield_Resistance_Air	_BOOSTS_Shield													5						10																																																																										
+_Boost_Shield_Resistance_Air_Large	_BOOSTS_Shield													7						20																																																																										
+_Boost_Shield_Resistance_Air_Medium	_BOOSTS_Shield													6						15																																																																										
+_Boost_Shield_Resistance_Earth	_BOOSTS_Shield													5								10																																																																								
+_Boost_Shield_Resistance_Earth_Large	_BOOSTS_Shield													7								20																																																																								
+_Boost_Shield_Resistance_Earth_Medium	_BOOSTS_Shield													6								15																																																																								
+_Boost_Shield_Resistance_Fire	_BOOSTS_Shield													5					10																																																																											
+_Boost_Shield_Resistance_Fire_Large	_BOOSTS_Shield													7					20																																																																											
+_Boost_Shield_Resistance_Fire_Medium	_BOOSTS_Shield													6					15																																																																											
+_Boost_Shield_Resistance_Poison	_BOOSTS_Shield													5									10																																																																							
+_Boost_Shield_Resistance_Poison_Large	_BOOSTS_Shield													7									20																																																																							
+_Boost_Shield_Resistance_Poison_Medium	_BOOSTS_Shield													6									15																																																																							
+_Boost_Shield_Resistance_Water	_BOOSTS_Shield													5							10																																																																									
+_Boost_Shield_Resistance_Water_Large	_BOOSTS_Shield													7							20																																																																									
+_Boost_Shield_Resistance_Water_Medium	_BOOSTS_Shield													6							15																																																																									
+_Boost_Shield_Secondary_Perseverance	_BOOSTS_Shield													8																						1																														5																												
+_Boost_Shield_Secondary_Leadership	_BOOSTS_Shield													8																							1																													5																												
+_Boost_Shield_Secondary_PainReflection	_BOOSTS_Shield													8																								1																												5																												
+_Boost_Shield_Secondary_Accuracy	_BOOSTS_Shield													8																																																				5																												
+_Boost_Shield_Secondary_Dodge	_BOOSTS_Shield													8																																																					2																											
+_Boost_Shield_Secondary_Dodge_Large	_BOOSTS_Shield													10																																																					6																											
+_Boost_Shield_Secondary_Dodge_Medium	_BOOSTS_Shield													9																																																					4																											
+_Boost_Shield_Secondary_Initiative	_BOOSTS_Shield													6			4																																																																													
+_Boost_Shield_Secondary_Initiative_Large	_BOOSTS_Shield													8			8																																																																													
+_Boost_Shield_Secondary_Initiative_Medium	_BOOSTS_Shield													7			6																																																																													
+_Boost_Shield_Secondary_MovementSpeed	_BOOSTS_Shield													6		20																																																																														
+_Boost_Shield_Secondary_MovementSpeed_Large	_BOOSTS_Shield													8		40																																																																														
+_Boost_Shield_Secondary_MovementSpeed_Medium	_BOOSTS_Shield													7		30																																																																														
+_Boost_Shield_Secondary_Vitality	_BOOSTS_Shield													6																																														10																																		
+_Boost_Shield_Secondary_Vitality_Large	_BOOSTS_Shield													8																																														20																																		
+_Boost_Shield_Secondary_Vitality_Medium	_BOOSTS_Shield													7																																														15																																		
+_Boost_Shield_Secondary_BurnContact	_BOOSTS_Shield													6																																																															BurnContact																	
+_Boost_Shield_Secondary_PoisonContact	_BOOSTS_Shield													6																																																															PoisonContact																	
+_Boost_Shield_Secondary_ChillContact	_BOOSTS_Shield													6																																																															ChillContact																	
+_Boost_Shield_Special_Block_Shield	_BOOSTS_Shield										10			15																																																																																
+_Boost_Shield_Special_Block_Shield_Medium	_BOOSTS_Shield										15			20																																																																																
+_Boost_Shield_Special_Block_Shield_Large	_BOOSTS_Shield										20			17																																																																																
+_Boost_Shield_Skill_BouncingShield	_BOOSTS_Shield																																																																								Projectile_BouncingShield																					
+_Boost_Shield_Skill_Taunt	_BOOSTS_Shield																																																																								Shout_Taunt																					

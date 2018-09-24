@@ -34034,5 +34034,803 @@
         "name": "_Boost_Armor_Amulet_Rune_LOOT_Source_Orb",
         "parent": "_BOOSTS_Armor",
         "modifierType": "Boost"
+    },
+    {
+        "name": "_Shields",
+        "itemGroup": "Shields",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "NoShield",
+        "parent": "_Shields",
+        "modifierType": "Item",
+        "requirements": "Constitution 0",
+        "value": "0",
+        "weight": "0",
+        "movement": "0",
+        "initiative": "0",
+        "itemGroup": "Shields"
+    },
+    {
+        "name": "WPN_Shield",
+        "parent": "_Shields",
+        "comboCategory": "ShieldMetal",
+        "objectCategory": "Shield",
+        "itemGroup": "Shields",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_CraftedShield",
+        "parent": "_Shields",
+        "itemGroup": "WPN_CraftedShield",
+        "value": "10",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_UNIQUE_WithermooreShield",
+        "parent": "_Shields",
+        "itemGroup": "WithermooreShield",
+        "value": "280",
+        "extraProperties": "_Vitality_ShieldBoost",
+        "flags": "CrippledImmunity",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Wood_Shield_A_Round_Shield_CHEAT",
+        "parent": "_Shields",
+        "comboCategory": "ShieldWood",
+        "itemGroup": "Shields",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Arena_Shield_A",
+        "parent": "_Shields",
+        "itemGroup": "Shields",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Toy_WoodenShield",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Toy_WoodenShield",
+        "value": "20",
+        "weight": "3000",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Magister_Shield",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Shield_Magister_01",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "_CharacterCreationShields"
+    },
+    {
+        "name": "WPN_Cleric_Shield_Lizards",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Cleric_Shield_Lizards",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Cleric_Shield_Elves",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Cleric_Shield_Elves",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Cleric_Shield_Dwarves",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Cleric_Shield_Dwarves",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Cleric_Shield_Humans",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Cleric_Shield_Humans",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Conjurer_Shield_Lizards",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Conjurer_Shield_Lizards",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Conjurer_Shield_Elves",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Conjurer_Shield_Elves",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Conjurer_Shield_Dwarves",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Conjurer_Shield_Dwarves",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Conjurer_Shield_Humans",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Conjurer_Shield_Humans",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Fighter_Shield_Lizards",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Fighter_Shield_Lizards",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Fighter_Shield_Elves",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Fighter_Shield_Elves",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Fighter_Shield_Dwarves",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Fighter_Shield_Dwarves",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "WPN_Fighter_Shield_Humans",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Fighter_Shield_Humans",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "_SpecificEnemyShields"
+    },
+    {
+        "name": "_Shield_GEN_Bodyguard",
+        "parent": "_Shields",
+        "movement": "0",
+        "itemGroup": "Shields",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "initiative": "0"
+    },
+    {
+        "name": "_Shield_GEN_Human_A",
+        "parent": "_Shields",
+        "movement": "0",
+        "itemGroup": "Shields",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "initiative": "0"
+    },
+    {
+        "name": "_Shield_GEN_Human_B",
+        "parent": "_Shields",
+        "itemGroup": "WPN_HumanShield_01",
+        "movement": "0",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "initiative": "0"
+    },
+    {
+        "name": "_Shield_GEN_Dwarven_A",
+        "parent": "_Shields",
+        "movement": "0",
+        "itemGroup": "Shields",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "initiative": "0"
+    },
+    {
+        "name": "_Shield_GEN_Dwarven_B",
+        "parent": "_Shields",
+        "movement": "0",
+        "itemGroup": "Shields",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "initiative": "0"
+    },
+    {
+        "name": "_GEN_Magister_Shield",
+        "parent": "_Shields",
+        "itemGroup": "WPN_Shield_Magister_01",
+        "objectCategory": "Shield",
+        "modifierType": "Item",
+        "requirements": "Constitution 12",
+        "value": "60",
+        "weight": "5000",
+        "movement": "0",
+        "initiative": "0"
+    },
+    {
+        "name": "_BOOSTS_Shield",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Armour_Magical",
+        "parent": "_BOOSTS_Shield",
+        "value": "9",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Armour_Magical_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "13",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Armour_Magical_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "11",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Armour_Physical",
+        "parent": "_BOOSTS_Shield",
+        "value": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Armour_Physical_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Armour_Physical_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "10",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Armour_All",
+        "parent": "_BOOSTS_Shield",
+        "value": "10",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Armour_All_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "10",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Armour_All_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "10",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Primary_Constitution",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Primary_Constitution_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "18",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Primary_Constitution_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "14",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Primary_Strength",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Primary_Strength_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "18",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Primary_Strength_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "14",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Primary_Intelligence",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Primary_Intelligence_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "18",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Primary_Intelligence_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "14",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Air_Damage",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "reflection": "15::Air:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Earth_Damage",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "reflection": "15::Earth:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Fire_Damage",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "reflection": "15::Fire:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Physical_Damage",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "reflection": "15::Physical:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Piercing_Damage",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "reflection": "15::Piercing:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Water_Damage",
+        "parent": "_BOOSTS_Shield",
+        "value": "12",
+        "reflection": "15::Water:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Air_Damage_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "14",
+        "reflection": "30::Air:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Earth_Damage_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "14",
+        "reflection": "30::Earth:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Fire_Damage_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "14",
+        "reflection": "30::Fire:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Physical_Damage_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "14",
+        "reflection": "30::Physical:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Piercing_Damage_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "14",
+        "reflection": "30::Piercing:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Water_Damage_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "14",
+        "reflection": "30::Water:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Air_Damage_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "16",
+        "reflection": "40::Air:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Earth_Damage_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "16",
+        "reflection": "40::Earth:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Fire_Damage_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "16",
+        "reflection": "40::Fire:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Physical_Damage_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "16",
+        "reflection": "40::Physical:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Piercing_Damage_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "16",
+        "reflection": "40::Piercing:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Reflect_As_Water_Damage_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "16",
+        "reflection": "40::Water:melee",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Air",
+        "parent": "_BOOSTS_Shield",
+        "value": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Air_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "7",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Air_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Earth",
+        "parent": "_BOOSTS_Shield",
+        "value": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Earth_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "7",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Earth_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Fire",
+        "parent": "_BOOSTS_Shield",
+        "value": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Fire_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "7",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Fire_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Poison",
+        "parent": "_BOOSTS_Shield",
+        "value": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Poison_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "7",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Poison_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Water",
+        "parent": "_BOOSTS_Shield",
+        "value": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Water_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "7",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Resistance_Water_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Perseverance",
+        "parent": "_BOOSTS_Shield",
+        "value": "8",
+        "accuracyBoost": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Leadership",
+        "parent": "_BOOSTS_Shield",
+        "value": "8",
+        "leadership": "1",
+        "accuracyBoost": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_PainReflection",
+        "parent": "_BOOSTS_Shield",
+        "value": "8",
+        "accuracyBoost": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Accuracy",
+        "parent": "_BOOSTS_Shield",
+        "value": "8",
+        "accuracyBoost": "5",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Dodge",
+        "parent": "_BOOSTS_Shield",
+        "value": "8",
+        "dodgeBoost": "2",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Dodge_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "10",
+        "dodgeBoost": "6",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Dodge_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "9",
+        "dodgeBoost": "4",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Initiative",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "initiative": "4",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Initiative_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "8",
+        "initiative": "8",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Initiative_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "7",
+        "initiative": "6",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_MovementSpeed",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "movement": "20",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_MovementSpeed_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "8",
+        "movement": "40",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_MovementSpeed_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "7",
+        "movement": "30",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Vitality",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "vitalityBoost": "10",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Vitality_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "8",
+        "vitalityBoost": "20",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_Vitality_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "7",
+        "vitalityBoost": "15",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_BurnContact",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "flags": "BurnContact",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_PoisonContact",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "flags": "PoisonContact",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Secondary_ChillContact",
+        "parent": "_BOOSTS_Shield",
+        "value": "6",
+        "flags": "ChillContact",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Special_Block_Shield",
+        "parent": "_BOOSTS_Shield",
+        "value": "15",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Special_Block_Shield_Medium",
+        "parent": "_BOOSTS_Shield",
+        "value": "20",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Special_Block_Shield_Large",
+        "parent": "_BOOSTS_Shield",
+        "value": "17",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Skill_BouncingShield",
+        "parent": "_BOOSTS_Shield",
+        "modifierType": "Boost"
+    },
+    {
+        "name": "_Boost_Shield_Skill_Taunt",
+        "parent": "_BOOSTS_Shield",
+        "modifierType": "Boost"
     }
 ]

@@ -17,9 +17,14 @@ function extract(data) {
 
 	item.ingredients = getPropertyList('Object ', data);
 	item.results = getPropertyList('Result ', data);
-	item.name = item.results[0];
 	item.ingredientTypes = getPropertyList('Type ', data);
 	item.stats = data.PreviewStatsID;
+	item.name = item.results[0];		// not everything has a result. These special cases have their outpt defined on a different node
+
+	if (item.stats === '') item.stats = item.name;
+
+	if (item.results.length === 0) return null;
+
 	return item;
 }
 

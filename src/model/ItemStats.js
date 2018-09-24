@@ -7,7 +7,7 @@ module.exports = function (sequelize, Datatypes) {
 		name: Datatypes.STRING,
 		parent: Datatypes.STRING,
 		rootTemplate: Datatypes.STRING,
-		modifier: Datatypes.STRING,
+		modifierType: Datatypes.STRING,
 		value: Datatypes.INTEGER,
 		weight: Datatypes.INTEGER,
 		comboCategory: Datatypes.STRING,
@@ -27,7 +27,7 @@ module.exports = function (sequelize, Datatypes) {
 		waterResistance: Datatypes.INTEGER,
 		airResistance: Datatypes.INTEGER,
 		poisonResistance: Datatypes.INTEGER,
-		flags: Datatypes.INTEGER,
+		flags: Datatypes.STRING,
 		objectCategory: Datatypes.STRING,
 		ranged: Datatypes.INTEGER,
 		dualWielding: Datatypes.INTEGER,
@@ -57,13 +57,22 @@ module.exports = function (sequelize, Datatypes) {
 		reflection: Datatypes.INTEGER,
 		lifeSteal: Datatypes.INTEGER,
 		damage: Datatypes.INTEGER,
+		damageType: Datatypes.STRING,
 		statusEffect: Datatypes.STRING,
 		statusIcon: Datatypes.STRING,
 		statusMaterial: Datatypes.STRING,
 		isConsumable: Datatypes.STRING,
 		isFood: Datatypes.STRING,
+		armorDefenseValue: Datatypes.INTEGER,
+		magicArmorValue: Datatypes.INTEGER,
+		itemGroup: Datatypes.STRING,
+		tags: Datatypes.STRING,
+		extraProperties: Datatypes.STRING,
+		boosts: Datatypes.STRING,
+		previewIcon: Datatypes.STRING,
+		previewTooltip: Datatypes.STRING
 	}, {
-		freezeTableName: true
+		freezeTableName: true,
 	});
 
 	ItemStats.associate = (models) => {

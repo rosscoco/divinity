@@ -9,7 +9,7 @@ const itemCombos = require('./util/ItemComboParser');
 const itemStats = require('./util/ItemParser');
 
 const dataFolder = path.join(__dirname, '../../../data');
-const files = ['ItemStats', 'PotionStats', 'WeaponStats', 'ArmourStats'];
+const files = ['ItemStats', 'PotionStats', 'WeaponStats', 'ArmourStats', 'ShieldStats'];
 let fileIndex = 0;
 
 function getStatsIndexedByName() {
@@ -87,8 +87,8 @@ csvloader(dataFolder, 'ItemCombos', itemCombos)
 	.then(() => csvloader(dataFolder, files[fileIndex++], itemStats))
 	.then(() => csvloader(dataFolder, files[fileIndex++], itemStats))
 	.then(() => csvloader(dataFolder, files[fileIndex++], itemStats))
+	.then(() => csvloader(dataFolder, files[fileIndex++], itemStats))
 	.then(() => {
-		const itemIndex = getStatsIndexedByName();
 		loadAndModifyStatsFiles(updateItemsWithParentProperties);
 		loadAndModifyStatsFiles(updateItemDescriptions);
 		createSingleStatsFile();

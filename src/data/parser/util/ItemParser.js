@@ -4,7 +4,7 @@ const name = 'ItemStats';
 const objectProperties = ['Name', 'Parent', 'RootTemplate', 'ModifierType', 'Value', 'Weight', 'ComboCategory', 'Requirements',
 	'Strength', 'Finesse', 'Intelligence', 'Constitution', 'Memory', 'Wits', 'Vitality',
 	'Armor', 'PiercingResistance', 'PhysicalResistance', 'FireResistance', 'EarthResistance', 'WaterResistance', 'AirResistance', 'PoisonResistance',
-	'Flags', 'ObjectCategory'];
+	'Flags', 'ObjectCategory', 'PreviewIcon', 'PreviewTooltip'];
 
 const potionProperties = ['Ranged', 'DualWielding', 'PhysicalArmorMastery',
 	'Necromancy', 'Polymorph', 'Summoning', 'Sneaking', 'Thievery', 'Loremaster', 'Persuasion', 'Leadership', 'Luck', 'Sight', 'Initiative',
@@ -21,15 +21,6 @@ function extract(data) {
 	const copy = {};
 	const keys = Object.keys(data);
 
-
-	keys.forEach((prop) => {
-		if (propertyNames.indexOf(prop) !== -1
-			&& data[prop] !== ''
-			&& data[prop] !== undefined) {
-			const camelCase = prop.substr(0, 1).toLowerCase() + prop.substr(1);
-			copy[camelCase] = data[prop];
-		}
-	});
 
 	keys.forEach((prop) => {
 		if (propertyNames.indexOf(prop) !== -1

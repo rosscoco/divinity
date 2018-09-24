@@ -50,12 +50,6 @@ function getIngredientsForRecipe(ingredArr, dbRecipe, options) {
 function dbCreateRecipe(data, options) {
 	const recipeJson = data;
 
-	return db.ItemStats.findById(recipeJson.stats)
-		.then((result) => {
-			if (result === null) debugger;
-		});
-
-
 	return db.RecipeResult.create({
 		name: recipeJson.name, id: recipeJson.id, itemData: recipeJson.stats, ItemStatId: `${recipeJson.stats}`
 	}, options)
