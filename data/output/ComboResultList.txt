@@ -1,0 +1,174 @@
+1.		Arrow Or Shaft				ObjectCategories_ArrowShaft_Tooltip
+2.		Hammer				ObjectCategories_Hammer_Tooltip
+3.		Well				CraftingStations_Well_Tooltip
+4.		Wetstone				CraftingStations_Wetstone_Tooltip
+5.		Oven				CraftingStations_Oven_Tooltip
+6.		Anvil				CraftingStations_Anvil_Tooltip
+7.		Meat				ObjectCategories_Meat_Tooltip
+8.		Drudanae				ObjectCategories_Drudanae_Tooltip
+9.		Cutting Tool				ObjectCategories_CuttingTool_Tooltip
+10.		Air Resistance Potion				ObjectCategories_AirResistancePotion_Tooltip
+11.		Rock				ObjectCategories_Rock_Tooltip
+12.		Metal				ObjectCategories_Metal_Tooltip
+13.		Gold				ObjectCategories_Gold_Tooltip
+14.		Wood				ObjectCategories_Wood_Tooltip
+15.		Poison Potion				ObjectCategories_PotionPoison_Tooltip
+16.		Air Resistance Potion				ObjectCategories_PotionAirRes_Tooltip
+17.		Crossbow				ObjectCategories_Crossbow_Tooltip
+18.		Bow				ObjectCategories_Bow_Tooltip
+19.		Staff				ObjectCategories_Staff_Tooltip
+20.		Fishing Rod				ObjectCategories_FishingRod_Tooltip
+21.		Spear				ObjectCategories_Spear_Tooltip
+22.		Two-Handed Sword				ObjectCategories_TwoHandedSword_Tooltip
+23.		Two-Handed Axe				ObjectCategories_TwoHandedAxe_Tooltip
+24.		Club				ObjectCategories_Club_Tooltip
+25.		Axe				ObjectCategories_Axe_Tooltip
+26.		Sword				ObjectCategories_Sword_Tooltip
+27.		Dagger				ObjectCategories_Dagger_Tooltip
+28.		Knife				ObjectCategories_Knife_Tooltip
+29.		Metal Shield				ObjectCategories_ShieldMetal_Tooltip
+30.		Wooden Shield				ObjectCategories_ShieldWood_Tooltip
+31.		Fish				ObjectCategories_FoodFish_Tooltip
+32.		Mushroom				ObjectCategories_Mushrooms_Tooltip
+33.		Healing Potion				ObjectCategories_PotionHealing_Tooltip
+34.		Empty Wand				ObjectCategories_EmptyWand_Tooltip
+35.		Bone				ObjectCategories_Bone_Tooltip
+36.		Tooth				ObjectCategories_Tooth_Tooltip
+37.		Feather				ObjectCategories_Feather_Tooltip
+38.		Eye				ObjectCategories_Eye_Tooltip
+39.		Sinew				ObjectCategories_Sinew_Tooltip
+40.		Herb				ObjectCategories_Herbs_Tooltip
+41.		Boiling Pot				CraftingStations_BoilingPot_Tooltip
+42.		Beehive				CraftingStations_Beehive_Tooltip
+43.		Ring				ObjectCategories_Ring_Tooltip
+44.		Ruby				ObjectCategories_Ruby_Tooltip
+45.		Pearl				ObjectCategories_Pearl_Tooltip
+46.		Spoon				ObjectCategories_Spoon_Tooltip
+47.		Empty Cup				ObjectCategories_CupEmpty_Tooltip
+48.		Helmet				ObjectCategories_ArmorHelmet_Tooltip
+49.		Leather Helmet				ObjectCategories_LeatherHelmet_Tooltip
+50.		Bracer				ObjectCategories_ArmorGloves_Tooltip
+51.		Belt				ObjectCategories_ArmorBelt_Tooltip
+52.		Shoe				ObjectCategories_ArmorShoes_Tooltip
+53.		Garment				ObjectCategories_Garment_Tooltip
+54.		Robe				ObjectCategories_RobeArmor_Tooltip
+55.		Metal Armour				ObjectCategories_ArmorScale_Tooltip
+56.		Leather Armour				ObjectCategories_ArmorLeather_Tooltip
+57.		Cloth Armour				ObjectCategories_ClothArmor_Tooltip
+58.		Void-tainted Fish				ObjectCategories_FoodVoidwokenFish_Tooltip
+59.		Spinning Wheel				CraftingStations_SpinningWheel_Tooltip
+60.		Augmentor				ObjectCategories_Augmentor_Tooltip
+61.		Human Mask of the Shapeshifter				ObjectCategories_ShapeshifterMaskHuman_Tooltip
+62.		Dwarven Mask of the Shapeshifter				ObjectCategories_ShapeshifterMaskDwarf_Tooltip
+63.		Elven Mask of the Shapeshifter				ObjectCategories_ShapeshifterMaskElf_Tooltip
+64.		Lizard Mask of the Shapeshifter				ObjectCategories_ShapeshifterMaskLizard_Tooltip
+65.		Food				ObjectCategories_Food_Tooltip
+66.		Drink				ObjectCategories_Drink_Tooltip
+67.		Body Armour				ObjectCategories_Upperbody_Tooltip
+68.		Bracer				ObjectCategories_Gloves_Tooltip
+69.		Helmet				ObjectCategories_Helmet_Tooltip
+70.		Ring				ObjectCategories_ArmorRing_Tooltip
+71.		Amulet				ObjectCategories_ArmorAmulet_Tooltip
+72.		Leggings				ObjectCategories_Pants_Tooltip
+73.		Club				ObjectCategories_TwoHandedMaces_Tooltip
+74.		Aerotheurge Skillbook				ObjectCategories_SkillbookAir_Tooltip
+75.		Source Aerotheurge Skillbook				ObjectCategories_SkillbookAirSource_Tooltip
+76.		Geomancer Skillbook				ObjectCategories_SkillbookEarth_Tooltip
+77.		Source Geomancer Skillbook				ObjectCategories_SkillbookEarthSource_Tooltip
+78.		Pyrokinetic Skillbook				ObjectCategories_SkillbookFire_Tooltip
+79.		Source Pyrokinetic Skillbook				ObjectCategories_SkillbookFireSource_Tooltip
+80.		Hydrosophist Skillbook				ObjectCategories_SkillbookWater_Tooltip
+81.		Source Hydrosophist Skillbook				ObjectCategories_SkillbookWaterSource_Tooltip
+82.		Summoning Skillbook				ObjectCategories_SkillbookSummoning_Tooltip
+83.		Source Summoning Skillbook				ObjectCategories_SkillbookSummoningSource_Tooltip
+84.		Necromancy Skillbook				ObjectCategories_SkillbookNecromancy_Tooltip
+85.		Source Necromancy Skillbook				ObjectCategories_SkillbookNecromancySource_Tooltip
+86.		Polymorph Skillbook				ObjectCategories_SkillbookPolymorph_Tooltip
+87.		Source Polymorph Skillbook				ObjectCategories_SkillbookPolymorphSource_Tooltip
+88.		Huntsman Skillbook				ObjectCategories_SkillbookRanger_Tooltip
+89.		Source Huntsman Skillbook				ObjectCategories_SkillbookRangerSource_Tooltip
+90.		Warfare Skillbook				ObjectCategories_SkillbookWarrior_Tooltip
+91.		Source Warfare Skillbook				ObjectCategories_SkillbookWarriorSource_Tooltip
+92.		Scoundrel Skillbook				ObjectCategories_SkillbookRogue_Tooltip
+93.		Source Scoundrel Skillbook				ObjectCategories_SkillbookRogueSource_Tooltip
+94.		Cauldron				CraftingStations_Cauldron_Tooltip
+95.		Water Essence				ObjectCategories_EssenceWater_Tooltip
+96.		Shadow Essence				ObjectCategories_EssenceShadow_Tooltip
+97.		Life Essence				ObjectCategories_EssenceLife_Tooltip
+98.		Fire Essence				ObjectCategories_EssenceFire_Tooltip
+99.		Earth Essence				ObjectCategories_EssenceEarth_Tooltip
+100.		Air Essence				ObjectCategories_EssenceAir_Tooltip
+101.		Tormented Soul				ObjectCategories_SoulTormented_Tooltip
+102.		Antler				ObjectCategories_Antler_Tooltip
+103.		Chicken Foot				ObjectCategories_FootChicken_Tooltip
+104.		Bench Saw				CraftingStations_SawmillMachine_Tooltip
+105.		Oil Source				ItemCombinationProperty_Oil_Tooltip
+106.		Water Source				ItemCombinationProperty_Water_Tooltip
+107.		Poison Source				ItemCombinationProperty_Poison_Tooltip
+108.		Beer Source				ItemCombinationProperty_Beer_Tooltip
+109.		Honey Source				ItemCombinationProperty_Honey_Tooltip
+110.		Wine				ItemCombinationProperty_Wine_Tooltip
+111.		Milk				ItemCombinationProperty_Milk_Tooltip
+112.		Poisoned Food				LOOT_ClawFinger_A_Food_1
+113.		Poisoned Drink				LOOT_ClawFinger_A_Drinks_1
+114.		Poisoned Food				Poison_Food_1
+115.		Poisoned Drink				Poison_Drinks_1
+116.		Shiv				Anvil_LOOT_MetalShard_A_Hammer_1
+117.		Handmade Sword				Anvil_LOOT_Scraps_Metal_A_Hammer_1
+118.		Sharp Stone On A Stick				LOOT_WoodenStick_A_LOOT_PieceOfRock_A_1
+119.		Sharp Stone On A Big Branch				LOOT_WoodenBranch_A_LOOT_PieceOfRock_A_1
+120.		Makeshift Club				LOOT_WoodenBranch_A_PiecesOfRock_1
+121.		Twig With A String				LOOT_WoodenStick_A_LOOT_String_Bow_A_1
+122.		Toy Crossbow				LOOT_WoodenStick_A_LOOT_WoodenBranch_A_1
+123.		Shiv				LOOT_MetalShard_A_LOOT_Scraps_Cloth_A_1
+124.		Shiv				LOOT_MetalShard_A_LOOT_Scraps_Leather_A_1
+125.		Shiv				LOOT_MetalShard_A_LOOT_Handkerchief_A_1
+126.		Primitive Harpoon				LOOT_WoodenBranch_A_LOOT_MetalShard_A_1
+127.		Primitive Harpoon				LOOT_WoodenBranch_A_ArrowHead_1
+128.		Makeshift Club				LOOT_WoodenBranch_A_LOOT_Scraps_Cloth_A_1
+129.		Makeshift Club				LOOT_WoodenBranch_A_LOOT_Scraps_Leather_A_1
+130.		Improvised Staff				LOOT_WoodenBranch_A_HAR_Shell_1
+131.		Improvised Staff				LOOT_WoodenBranch_A_HAR_Shell_2
+132.		Improvised Staff				LOOT_WoodenBranch_A_HAR_Shell_3
+133.		Knife On A Stick				LOOT_WoodenStick_A_Dagger_1
+134.		Knife On A Stick				LOOT_WoodenStick_A_Knife_1
+135.		Primitive Harpoon				LOOT_WoodenBranch_A_Dagger_1
+136.		Primitive Harpoon				LOOT_WoodenBranch_A_Knife_1
+137.		Big Tongs Roped Together				TOOL_Tong_A_LOOT_Scraps_Cloth_A_1
+138.		Big Tongs Roped Together				TOOL_Tong_A_LOOT_Scraps_Leather_A_1
+139.		Improv Wand				LOOT_WoodenStick_A_LOOT_Skull_Bird_A_1
+140.		Improv Wand				LOOT_WoodenStick_A_LOOT_Skull_Bird_A_2
+141.		Improv Wand				LOOT_WoodenStick_A_LOOT_Skull_Bird_A_3
+142.		Improvised Wand				LOOT_WoodenStick_A_LOOT_Skull_Human_A_1
+143.		Improvised Wand				LOOT_WoodenStick_A_LOOT_Skull_Human_A_2
+144.		Improvised Wand				LOOT_WoodenStick_A_LOOT_Skull_Human_A_3
+145.		Improvised Wand				LOOT_WoodenStick_A_LOOT_Skull_Human_A_Ancient_1
+146.		Improvised Wand				LOOT_WoodenStick_A_LOOT_Skull_Human_A_Ancient_2
+147.		Improvised Wand				LOOT_WoodenStick_A_LOOT_Skull_Human_A_Ancient_3
+148.		Crossbow				LOOT_Ingred_CrossbowWithoutString_LOOT_String_Bow_A_1
+149.		Poisoned Knife				Poison_Knife_1
+150.		Poisoned Dagger				Poison_Dagger_1
+151.		Poisoned Sword				Poison_Sword_1
+152.		Poisoned Axe				Poison_Axe_1
+153.		Poisoned Spear				Poison_Spear_1
+154.		Poisoned Two Handed Sword				Poison_TwoHandedSword_1
+155.		Poisoned Two Handed Axe				Poison_TwoHandedAxe_1
+156.		Poisoned Two Handed Mace				Poison_TwoHandedMace_1
+157.		Poisoned Staff				Poison_Staff_1
+158.		Poisoned Club				Poison_Club_1
+159.		Poisoned Bow				Poison_Bow_1
+160.		Poisoned Crossbow				Poison_Crossbow_1
+161.		Handmade Shield				LOOT_Scraps_Metal_A_LOOT_Scraps_Wood_A_1
+162.		Handmade Cloth Shirt				LOOT_Needle_Thread_A_LOOT_Scraps_Cloth_A_1
+163.		Handmade Mage Armour				LOOT_Needle_Thread_A_LOOT_Scraps_Cloth_A_TOOL_Pouch_Dust_Pixie_A_1
+164.		Handmade Leather Armour				LOOT_Needle_Thread_A_LOOT_Scraps_Leather_A_1
+165.		Handmade Chain Armour				LOOT_Needle_Thread_A_LOOT_Scraps_Metal_A_1
+166.		Handmade Scale Armour				Anvil_LOOT_Scraps_Scale_A_1
+167.		Handmade Plate Armour				Anvil_LOOT_Scraps_Plate_A_1
+168.		Handmade Scale Armour				Anvil_LOOT_Scraps_Scale_A_Hammer_1
+169.		Handmade Plate Armour				Anvil_LOOT_Scraps_Plate_A_Hammer_1
+170.		Human Mask of the Shapeshifter				CON_BodyPart_Face_Human_LOOT_Source_Orb_1
+171.		Dwarven Mask of the Shapeshifter				CON_BodyPart_Face_Dwarf_LOOT_Source_Orb_1
+172.		Elven Mask of the Shapeshifter				CON_BodyPart_Face_Elf_LOOT_Source_Orb_1
+173.		Lizard Mask of the Shapeshifter				CON_BodyPart_Face_Lizard_LOOT_Source_Orb_1
+174.		Mask of the Shapeshifter				ARM_UniversalShapeshiftingMask_1

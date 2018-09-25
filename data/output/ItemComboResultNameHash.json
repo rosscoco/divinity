@@ -1,0 +1,832 @@
+{
+    "ObjectCategories_ArrowShaft_Tooltip": {
+        "name": "Arrow Or Shaft",
+        "handle": "h3ca0d8ebgca64g4170gaf5cg0bac103ec4fe",
+        "id": "ObjectCategories_ArrowShaft_Tooltip"
+    },
+    "ObjectCategories_Hammer_Tooltip": {
+        "name": "Hammer",
+        "handle": "h3fed16fcg3066g4120ga20fg7db55e3fcb92",
+        "id": "ObjectCategories_Hammer_Tooltip"
+    },
+    "CraftingStations_Well_Tooltip": {
+        "name": "Well",
+        "handle": "ha661d398gf6a8g4f00g9276gba6e54225169",
+        "id": "CraftingStations_Well_Tooltip"
+    },
+    "CraftingStations_Wetstone_Tooltip": {
+        "name": "Wetstone",
+        "handle": "h197b01f1g1d55g4425ga100g3b02802f7d9e",
+        "id": "CraftingStations_Wetstone_Tooltip"
+    },
+    "CraftingStations_Oven_Tooltip": {
+        "name": "Oven",
+        "handle": "hbd9d15d4g6b50g4758gb361g85d8d51e925d",
+        "id": "CraftingStations_Oven_Tooltip"
+    },
+    "CraftingStations_Anvil_Tooltip": {
+        "name": "Anvil",
+        "handle": "h197a584fg815bg4e4cg8a86g37e237080409",
+        "id": "CraftingStations_Anvil_Tooltip"
+    },
+    "ObjectCategories_Meat_Tooltip": {
+        "name": "Meat",
+        "handle": "hfa151a5bg6869g45a2gb6c0g2ea527709204",
+        "id": "ObjectCategories_Meat_Tooltip"
+    },
+    "ObjectCategories_Drudanae_Tooltip": {
+        "name": "Drudanae",
+        "handle": "hae87071dgd488g46a7g87c1g7dada5d429dc",
+        "id": "ObjectCategories_Drudanae_Tooltip"
+    },
+    "ObjectCategories_CuttingTool_Tooltip": {
+        "name": "Cutting Tool",
+        "handle": "hcf1bc722g9ca3g402fg8c87gdd31b70d9ecd",
+        "id": "ObjectCategories_CuttingTool_Tooltip"
+    },
+    "ObjectCategories_AirResistancePotion_Tooltip": {
+        "name": "Air Resistance Potion",
+        "handle": "h9b1542e0g3294g4efdgb57ega415a74bcb7e",
+        "id": "ObjectCategories_AirResistancePotion_Tooltip"
+    },
+    "ObjectCategories_Rock_Tooltip": {
+        "name": "Rock",
+        "handle": "h7a0044c0g29bdg4d6fgae02gd17713e7dd9c",
+        "id": "ObjectCategories_Rock_Tooltip"
+    },
+    "ObjectCategories_Metal_Tooltip": {
+        "name": "Metal",
+        "handle": "hf4f4e67bg4df8g4025ga0c7g6bb1426b71ca",
+        "id": "ObjectCategories_Metal_Tooltip"
+    },
+    "ObjectCategories_Gold_Tooltip": {
+        "name": "Gold",
+        "handle": "h6eacdca1g3d0fg49b4g9cc1gd1c8598e789a",
+        "id": "ObjectCategories_Gold_Tooltip"
+    },
+    "ObjectCategories_Wood_Tooltip": {
+        "name": "Wood",
+        "handle": "h70f8ca78gb1dcg4879ga529gecd66da78a0f",
+        "id": "ObjectCategories_Wood_Tooltip"
+    },
+    "ObjectCategories_PotionPoison_Tooltip": {
+        "name": "Poison Potion",
+        "handle": "h3a5b69e2gffd8g40f7ga70fgacce04a6201d",
+        "id": "ObjectCategories_PotionPoison_Tooltip"
+    },
+    "ObjectCategories_PotionAirRes_Tooltip": {
+        "name": "Air Resistance Potion",
+        "handle": "h9b1542e0g3294g4efdgb57ega415a74bcb7e",
+        "id": "ObjectCategories_PotionAirRes_Tooltip"
+    },
+    "ObjectCategories_Crossbow_Tooltip": {
+        "name": "Crossbow",
+        "handle": "h9b9b5c91g88e7g4c09g8b33g5ef85c5d9b1c",
+        "id": "ObjectCategories_Crossbow_Tooltip"
+    },
+    "ObjectCategories_Bow_Tooltip": {
+        "name": "Bow",
+        "handle": "h276276c5g13b4g4f6egb27ege785a3925e80",
+        "id": "ObjectCategories_Bow_Tooltip"
+    },
+    "ObjectCategories_Staff_Tooltip": {
+        "name": "Staff",
+        "handle": "h6a13394bg02ddg4af5g9fd4g50d5becd170a",
+        "id": "ObjectCategories_Staff_Tooltip"
+    },
+    "ObjectCategories_FishingRod_Tooltip": {
+        "name": "Fishing Rod",
+        "handle": "ha8177fc0g40c3g4e6dga8b3g1327b63a77db",
+        "id": "ObjectCategories_FishingRod_Tooltip"
+    },
+    "ObjectCategories_Spear_Tooltip": {
+        "name": "Spear",
+        "handle": "hcfd8a03fg7492g45e4gbe2bgead817352554",
+        "id": "ObjectCategories_Spear_Tooltip"
+    },
+    "ObjectCategories_TwoHandedSword_Tooltip": {
+        "name": "Two-Handed Sword",
+        "handle": "hf9a54deag0dfbg49e4gad34gfa9c28c843a9",
+        "id": "ObjectCategories_TwoHandedSword_Tooltip"
+    },
+    "ObjectCategories_TwoHandedAxe_Tooltip": {
+        "name": "Two-Handed Axe",
+        "handle": "h2fdeda9fgd07ag489bgab68g872500b23ea2",
+        "id": "ObjectCategories_TwoHandedAxe_Tooltip"
+    },
+    "ObjectCategories_Club_Tooltip": {
+        "name": "Club",
+        "handle": "heaca9279ge4c7g4aedg827bg85bce376b972",
+        "id": "ObjectCategories_Club_Tooltip"
+    },
+    "ObjectCategories_Axe_Tooltip": {
+        "name": "Axe",
+        "handle": "h42439ac8g67ddg48dag810fgf7319b62dc0d",
+        "id": "ObjectCategories_Axe_Tooltip"
+    },
+    "ObjectCategories_Sword_Tooltip": {
+        "name": "Sword",
+        "handle": "h551f1f28gb0c2g41dfg8a4bgdd0815f0c6f6",
+        "id": "ObjectCategories_Sword_Tooltip"
+    },
+    "ObjectCategories_Dagger_Tooltip": {
+        "name": "Dagger",
+        "handle": "hc356b264g0287g4a94g8b3cg7ba5ca54a8ec",
+        "id": "ObjectCategories_Dagger_Tooltip"
+    },
+    "ObjectCategories_Knife_Tooltip": {
+        "name": "Knife",
+        "handle": "h4f66223ag963dg47fdgb25agcd05978837e6",
+        "id": "ObjectCategories_Knife_Tooltip"
+    },
+    "ObjectCategories_ShieldMetal_Tooltip": {
+        "name": "Metal Shield",
+        "handle": "h9c4afaebgba9cg42a6g9dddg24728b9a63d1",
+        "id": "ObjectCategories_ShieldMetal_Tooltip"
+    },
+    "ObjectCategories_ShieldWood_Tooltip": {
+        "name": "Wooden Shield",
+        "handle": "h413dee2fg397ag4951ga439g13890e8ede61",
+        "id": "ObjectCategories_ShieldWood_Tooltip"
+    },
+    "ObjectCategories_FoodFish_Tooltip": {
+        "name": "Fish",
+        "handle": "h4dd1d123g7c56g4ae1gb559ga16fa8cc175b",
+        "id": "ObjectCategories_FoodFish_Tooltip"
+    },
+    "ObjectCategories_Mushrooms_Tooltip": {
+        "name": "Mushroom",
+        "handle": "hfa3fa918g1c80g4e03ga726g340ad13b66fa",
+        "id": "ObjectCategories_Mushrooms_Tooltip"
+    },
+    "ObjectCategories_PotionHealing_Tooltip": {
+        "name": "Healing Potion",
+        "handle": "hde98f5b0gac5bg49a8gbd5bg9ea96578fad8",
+        "id": "ObjectCategories_PotionHealing_Tooltip"
+    },
+    "ObjectCategories_EmptyWand_Tooltip": {
+        "name": "Empty Wand",
+        "handle": "hf0257160g8171g4030ga560g0c987739855c",
+        "id": "ObjectCategories_EmptyWand_Tooltip"
+    },
+    "ObjectCategories_Bone_Tooltip": {
+        "name": "Bone",
+        "handle": "h434863aag5fefg4918gaaefg138f2a2cacac",
+        "id": "ObjectCategories_Bone_Tooltip"
+    },
+    "ObjectCategories_Tooth_Tooltip": {
+        "name": "Tooth",
+        "handle": "h7b2e1cc1gb970g49a1gb7e4gb76a5c748490",
+        "id": "ObjectCategories_Tooth_Tooltip"
+    },
+    "ObjectCategories_Feather_Tooltip": {
+        "name": "Feather",
+        "handle": "h52f74ad8g9862g4344gb57agbdbbd1ee438e",
+        "id": "ObjectCategories_Feather_Tooltip"
+    },
+    "ObjectCategories_Eye_Tooltip": {
+        "name": "Eye",
+        "handle": "he6f858eagec09g4f83g9e49gcb8f74785e3f",
+        "id": "ObjectCategories_Eye_Tooltip"
+    },
+    "ObjectCategories_Sinew_Tooltip": {
+        "name": "Sinew",
+        "handle": "h8d29fd4eg7359g4643ga167g74c1105de955",
+        "id": "ObjectCategories_Sinew_Tooltip"
+    },
+    "ObjectCategories_Herbs_Tooltip": {
+        "name": "Herb",
+        "handle": "h2ab8cd1dge23bg4363g8ba1g8e32df695b11",
+        "id": "ObjectCategories_Herbs_Tooltip"
+    },
+    "CraftingStations_BoilingPot_Tooltip": {
+        "name": "Boiling Pot",
+        "handle": "h9f98e44cgbaf3g4009gae69gfce2f72f4949",
+        "id": "CraftingStations_BoilingPot_Tooltip"
+    },
+    "CraftingStations_Beehive_Tooltip": {
+        "name": "Beehive",
+        "handle": "h7871e55cg44e2g4422g8a03gbd75290bb1d9",
+        "id": "CraftingStations_Beehive_Tooltip"
+    },
+    "ObjectCategories_Ring_Tooltip": {
+        "name": "Ring",
+        "handle": "h9ae0a86cg482eg4aaaga779gf03d76c67eca",
+        "id": "ObjectCategories_Ring_Tooltip"
+    },
+    "ObjectCategories_Ruby_Tooltip": {
+        "name": "Ruby",
+        "handle": "h98208ee1g7856g48d2g9e7fgf857c9cac1ae",
+        "id": "ObjectCategories_Ruby_Tooltip"
+    },
+    "ObjectCategories_Pearl_Tooltip": {
+        "name": "Pearl",
+        "handle": "hbec40287g2cc5g4ea9g88edgbabdeddd5e4c",
+        "id": "ObjectCategories_Pearl_Tooltip"
+    },
+    "ObjectCategories_Spoon_Tooltip": {
+        "name": "Spoon",
+        "handle": "hbb9b27a4gd629g4073g9404g248cb7046b10",
+        "id": "ObjectCategories_Spoon_Tooltip"
+    },
+    "ObjectCategories_CupEmpty_Tooltip": {
+        "name": "Empty Cup",
+        "handle": "h0f307c94g6e1eg47a9g925ag9695e4f7e379",
+        "id": "ObjectCategories_CupEmpty_Tooltip"
+    },
+    "ObjectCategories_ArmorHelmet_Tooltip": {
+        "name": "Helmet",
+        "handle": "h6eda1a5eg324bg4205ga133g09dd85406be7",
+        "id": "ObjectCategories_ArmorHelmet_Tooltip"
+    },
+    "ObjectCategories_LeatherHelmet_Tooltip": {
+        "name": "Leather Helmet",
+        "handle": "hecb66c3cg7950g4fdcgb9e8g61b1b542ca43",
+        "id": "ObjectCategories_LeatherHelmet_Tooltip"
+    },
+    "ObjectCategories_ArmorGloves_Tooltip": {
+        "name": "Bracer",
+        "handle": "h53132fddge6abg40b2g998cg20fa81e8c74b",
+        "id": "ObjectCategories_ArmorGloves_Tooltip"
+    },
+    "ObjectCategories_ArmorBelt_Tooltip": {
+        "name": "Belt",
+        "handle": "h39f15817gdc51g43eagae63g129082e619fc",
+        "id": "ObjectCategories_ArmorBelt_Tooltip"
+    },
+    "ObjectCategories_ArmorShoes_Tooltip": {
+        "name": "Shoe",
+        "handle": "h907cce08g889dg44d1g95e2gdc690e1f0e9e",
+        "id": "ObjectCategories_ArmorShoes_Tooltip"
+    },
+    "ObjectCategories_Garment_Tooltip": {
+        "name": "Garment",
+        "handle": "hab84b062gc13bg412cg8dcag722808a94765",
+        "id": "ObjectCategories_Garment_Tooltip"
+    },
+    "ObjectCategories_RobeArmor_Tooltip": {
+        "name": "Robe",
+        "handle": "h97142332g5235g47a8g97eag073d6eb2baf3",
+        "id": "ObjectCategories_RobeArmor_Tooltip"
+    },
+    "ObjectCategories_ArmorScale_Tooltip": {
+        "name": "Metal Armour",
+        "handle": "h7d6bdecbgc14dg4877ga68dgd010ee75e3d1",
+        "id": "ObjectCategories_ArmorScale_Tooltip"
+    },
+    "ObjectCategories_ArmorLeather_Tooltip": {
+        "name": "Leather Armour",
+        "handle": "he4c0d973gbbc8g4a4egad5bgb290768f950e",
+        "id": "ObjectCategories_ArmorLeather_Tooltip"
+    },
+    "ObjectCategories_ClothArmor_Tooltip": {
+        "name": "Cloth Armour",
+        "handle": "h38c3c4d5g7befg44f4gaa4bgc3b24444495d",
+        "id": "ObjectCategories_ClothArmor_Tooltip"
+    },
+    "ObjectCategories_FoodVoidwokenFish_Tooltip": {
+        "name": "Void-tainted Fish",
+        "handle": "h62d5f147gbd5eg44dfg8b99g1f4afcfcd4f7",
+        "id": "ObjectCategories_FoodVoidwokenFish_Tooltip"
+    },
+    "CraftingStations_SpinningWheel_Tooltip": {
+        "name": "Spinning Wheel",
+        "handle": "hd2a2509ag86ecg42aagbf18gcc0939d4608c",
+        "id": "CraftingStations_SpinningWheel_Tooltip"
+    },
+    "ObjectCategories_Augmentor_Tooltip": {
+        "name": "Augmentor",
+        "handle": "h054929c7g190fg428dgab1cg1cd8c1d90f5d",
+        "id": "ObjectCategories_Augmentor_Tooltip"
+    },
+    "ObjectCategories_ShapeshifterMaskHuman_Tooltip": {
+        "name": "Human Mask of the Shapeshifter",
+        "handle": "hdaa5624ag35b3g45cfgb101gaaa09b03a6a4",
+        "id": "ObjectCategories_ShapeshifterMaskHuman_Tooltip"
+    },
+    "ObjectCategories_ShapeshifterMaskDwarf_Tooltip": {
+        "name": "Dwarven Mask of the Shapeshifter",
+        "handle": "hd4674f90g2d6dg48e8g90dfg3d3b6d853532",
+        "id": "ObjectCategories_ShapeshifterMaskDwarf_Tooltip"
+    },
+    "ObjectCategories_ShapeshifterMaskElf_Tooltip": {
+        "name": "Elven Mask of the Shapeshifter",
+        "handle": "h7de29e17g9d1eg4e31gb598g0084088cb06a",
+        "id": "ObjectCategories_ShapeshifterMaskElf_Tooltip"
+    },
+    "ObjectCategories_ShapeshifterMaskLizard_Tooltip": {
+        "name": "Lizard Mask of the Shapeshifter",
+        "handle": "hd0f18521g6c5eg49d5gaf8ag3a187d8c39ae",
+        "id": "ObjectCategories_ShapeshifterMaskLizard_Tooltip"
+    },
+    "ObjectCategories_Food_Tooltip": {
+        "name": "Food",
+        "handle": "h549a1fe1g1981g4c54gb63dgfc80e5d6ae1e",
+        "id": "ObjectCategories_Food_Tooltip"
+    },
+    "ObjectCategories_Drink_Tooltip": {
+        "name": "Drink",
+        "handle": "hbc359157g42aag4df2ga68fg69958c7e07f8",
+        "id": "ObjectCategories_Drink_Tooltip"
+    },
+    "ObjectCategories_Upperbody_Tooltip": {
+        "name": "Body Armour",
+        "handle": "hf886f214g4272g4db8g8eedg7f178b44a221",
+        "id": "ObjectCategories_Upperbody_Tooltip"
+    },
+    "ObjectCategories_Gloves_Tooltip": {
+        "name": "Bracer",
+        "handle": "h53132fddge6abg40b2g998cg20fa81e8c74b",
+        "id": "ObjectCategories_Gloves_Tooltip"
+    },
+    "ObjectCategories_Helmet_Tooltip": {
+        "name": "Helmet",
+        "handle": "h6eda1a5eg324bg4205ga133g09dd85406be7",
+        "id": "ObjectCategories_Helmet_Tooltip"
+    },
+    "ObjectCategories_ArmorRing_Tooltip": {
+        "name": "Ring",
+        "handle": "h9ae0a86cg482eg4aaaga779gf03d76c67eca",
+        "id": "ObjectCategories_ArmorRing_Tooltip"
+    },
+    "ObjectCategories_ArmorAmulet_Tooltip": {
+        "name": "Amulet",
+        "handle": "hca5a4a17g12e5g462dga0cegf2b67c9d042f",
+        "id": "ObjectCategories_ArmorAmulet_Tooltip"
+    },
+    "ObjectCategories_Pants_Tooltip": {
+        "name": "Leggings",
+        "handle": "haf707f39g1d87g4bafg98b1g7720783e4820",
+        "id": "ObjectCategories_Pants_Tooltip"
+    },
+    "ObjectCategories_TwoHandedMaces_Tooltip": {
+        "name": "Club",
+        "handle": "heaca9279ge4c7g4aedg827bg85bce376b972",
+        "id": "ObjectCategories_TwoHandedMaces_Tooltip"
+    },
+    "ObjectCategories_SkillbookAir_Tooltip": {
+        "name": "Aerotheurge Skillbook",
+        "handle": "hdf051999g17a3g48ceg94bag6eff86762479",
+        "id": "ObjectCategories_SkillbookAir_Tooltip"
+    },
+    "ObjectCategories_SkillbookAirSource_Tooltip": {
+        "name": "Source Aerotheurge Skillbook",
+        "handle": "h1bc9eb0dg8697g4e1fgaaccg26868d01bd15",
+        "id": "ObjectCategories_SkillbookAirSource_Tooltip"
+    },
+    "ObjectCategories_SkillbookEarth_Tooltip": {
+        "name": "Geomancer Skillbook",
+        "handle": "h77517a43g8427g4239gb45ag6ac38fc9d6bf",
+        "id": "ObjectCategories_SkillbookEarth_Tooltip"
+    },
+    "ObjectCategories_SkillbookEarthSource_Tooltip": {
+        "name": "Source Geomancer Skillbook",
+        "handle": "h8e6280e3g2ffcg4f57g9930g66300acd6335",
+        "id": "ObjectCategories_SkillbookEarthSource_Tooltip"
+    },
+    "ObjectCategories_SkillbookFire_Tooltip": {
+        "name": "Pyrokinetic Skillbook",
+        "handle": "hb50b76f8ge143g450agb2e9g14608cf64fbf",
+        "id": "ObjectCategories_SkillbookFire_Tooltip"
+    },
+    "ObjectCategories_SkillbookFireSource_Tooltip": {
+        "name": "Source Pyrokinetic Skillbook",
+        "handle": "h98f0c1fegca4dg48c6gaeb7g40270153b914",
+        "id": "ObjectCategories_SkillbookFireSource_Tooltip"
+    },
+    "ObjectCategories_SkillbookWater_Tooltip": {
+        "name": "Hydrosophist Skillbook",
+        "handle": "h50422e4eg0b3ag42e1gaadbg152f12794d87",
+        "id": "ObjectCategories_SkillbookWater_Tooltip"
+    },
+    "ObjectCategories_SkillbookWaterSource_Tooltip": {
+        "name": "Source Hydrosophist Skillbook",
+        "handle": "h7099d3e1g8a66g4dc3gbb03ga9e348d462c8",
+        "id": "ObjectCategories_SkillbookWaterSource_Tooltip"
+    },
+    "ObjectCategories_SkillbookSummoning_Tooltip": {
+        "name": "Summoning Skillbook",
+        "handle": "h922bcac2gad4dg406fg8a3eg732890644251",
+        "id": "ObjectCategories_SkillbookSummoning_Tooltip"
+    },
+    "ObjectCategories_SkillbookSummoningSource_Tooltip": {
+        "name": "Source Summoning Skillbook",
+        "handle": "h725f72d1g4d54g4f47ga0c0gf5d2f49c21f5",
+        "id": "ObjectCategories_SkillbookSummoningSource_Tooltip"
+    },
+    "ObjectCategories_SkillbookNecromancy_Tooltip": {
+        "name": "Necromancy Skillbook",
+        "handle": "h9e6eed8cgefe0g4cfcgbd68g1ecc81e95fd4",
+        "id": "ObjectCategories_SkillbookNecromancy_Tooltip"
+    },
+    "ObjectCategories_SkillbookNecromancySource_Tooltip": {
+        "name": "Source Necromancy Skillbook",
+        "handle": "h3363610cge870g40f6g9d1bgd50329742831",
+        "id": "ObjectCategories_SkillbookNecromancySource_Tooltip"
+    },
+    "ObjectCategories_SkillbookPolymorph_Tooltip": {
+        "name": "Polymorph Skillbook",
+        "handle": "h54de91cagd6eag40bbgb01bgaa0995b866e3",
+        "id": "ObjectCategories_SkillbookPolymorph_Tooltip"
+    },
+    "ObjectCategories_SkillbookPolymorphSource_Tooltip": {
+        "name": "Source Polymorph Skillbook",
+        "handle": "h023e71c7gc333g4d98gab7agc5e04c740b4c",
+        "id": "ObjectCategories_SkillbookPolymorphSource_Tooltip"
+    },
+    "ObjectCategories_SkillbookRanger_Tooltip": {
+        "name": "Huntsman Skillbook",
+        "handle": "he200d774g6c25g4f43g8260g6dae82ac6fea",
+        "id": "ObjectCategories_SkillbookRanger_Tooltip"
+    },
+    "ObjectCategories_SkillbookRangerSource_Tooltip": {
+        "name": "Source Huntsman Skillbook",
+        "handle": "h72821301g3391g4de5g9752g460cf3d598e6",
+        "id": "ObjectCategories_SkillbookRangerSource_Tooltip"
+    },
+    "ObjectCategories_SkillbookWarrior_Tooltip": {
+        "name": "Warfare Skillbook",
+        "handle": "h7eec725fg948dg4c5bg8f4bg2e690ccd2310",
+        "id": "ObjectCategories_SkillbookWarrior_Tooltip"
+    },
+    "ObjectCategories_SkillbookWarriorSource_Tooltip": {
+        "name": "Source Warfare Skillbook",
+        "handle": "heec06778gc663g454ega44cg7afb7f36d3b4",
+        "id": "ObjectCategories_SkillbookWarriorSource_Tooltip"
+    },
+    "ObjectCategories_SkillbookRogue_Tooltip": {
+        "name": "Scoundrel Skillbook",
+        "handle": "h16b12208g609fg4502g9298g7af1ae9cc94b",
+        "id": "ObjectCategories_SkillbookRogue_Tooltip"
+    },
+    "ObjectCategories_SkillbookRogueSource_Tooltip": {
+        "name": "Source Scoundrel Skillbook",
+        "handle": "head25f5fg6a51g4521g94faga9ad93dea81e",
+        "id": "ObjectCategories_SkillbookRogueSource_Tooltip"
+    },
+    "CraftingStations_Cauldron_Tooltip": {
+        "name": "Cauldron",
+        "handle": "h2791c9fbgb23ag46afg928fg0546f10c576d",
+        "id": "CraftingStations_Cauldron_Tooltip"
+    },
+    "ObjectCategories_EssenceWater_Tooltip": {
+        "name": "Water Essence",
+        "handle": "he0feec3bg199ag478ag8f8eg65b1fbcad2a9",
+        "id": "ObjectCategories_EssenceWater_Tooltip"
+    },
+    "ObjectCategories_EssenceShadow_Tooltip": {
+        "name": "Shadow Essence",
+        "handle": "h76c750d0g4cafg40f4gbe2bg4894ea7120cc",
+        "id": "ObjectCategories_EssenceShadow_Tooltip"
+    },
+    "ObjectCategories_EssenceLife_Tooltip": {
+        "name": "Life Essence",
+        "handle": "hf37a385ag3d1fg4b5egbf7agafaab4ce6d2e",
+        "id": "ObjectCategories_EssenceLife_Tooltip"
+    },
+    "ObjectCategories_EssenceFire_Tooltip": {
+        "name": "Fire Essence",
+        "handle": "hb01c3122gc71ag4239g8af5g50f27c1c91f3",
+        "id": "ObjectCategories_EssenceFire_Tooltip"
+    },
+    "ObjectCategories_EssenceEarth_Tooltip": {
+        "name": "Earth Essence",
+        "handle": "ha7a04d7ege254g4426gbb0dg3c68a0aa1b74",
+        "id": "ObjectCategories_EssenceEarth_Tooltip"
+    },
+    "ObjectCategories_EssenceAir_Tooltip": {
+        "name": "Air Essence",
+        "handle": "h90e77f6fg541bg40dfg8794g491bb6a5248b",
+        "id": "ObjectCategories_EssenceAir_Tooltip"
+    },
+    "ObjectCategories_SoulTormented_Tooltip": {
+        "name": "Tormented Soul",
+        "handle": "he779ed2dgd4b3g47a7g9ad7g024ed43366ef",
+        "id": "ObjectCategories_SoulTormented_Tooltip"
+    },
+    "ObjectCategories_Antler_Tooltip": {
+        "name": "Antler",
+        "handle": "ha27bb6a2g96f1g4927g8ffcg592ef64a4086",
+        "id": "ObjectCategories_Antler_Tooltip"
+    },
+    "ObjectCategories_FootChicken_Tooltip": {
+        "name": "Chicken Foot",
+        "handle": "ha29e9e83ge46bg49b8g8691gb7eb5b670566",
+        "id": "ObjectCategories_FootChicken_Tooltip"
+    },
+    "CraftingStations_SawmillMachine_Tooltip": {
+        "name": "Bench Saw",
+        "handle": "h313ffa7ag243eg49eeg8d73g8f7539fd1094",
+        "id": "CraftingStations_SawmillMachine_Tooltip"
+    },
+    "ItemCombinationProperty_Oil_Tooltip": {
+        "name": "Oil Source",
+        "handle": "h25b87b0dgb3e5g442fga073gf43bad735a4b",
+        "id": "ItemCombinationProperty_Oil_Tooltip"
+    },
+    "ItemCombinationProperty_Water_Tooltip": {
+        "name": "Water Source",
+        "handle": "he6cab649gb2bag4355gb3f7g2069bdd8e88d",
+        "id": "ItemCombinationProperty_Water_Tooltip"
+    },
+    "ItemCombinationProperty_Poison_Tooltip": {
+        "name": "Poison Source",
+        "handle": "h9baa51bcgcf64g4e5agbd7agd45129263e4d",
+        "id": "ItemCombinationProperty_Poison_Tooltip"
+    },
+    "ItemCombinationProperty_Beer_Tooltip": {
+        "name": "Beer Source",
+        "handle": "hf979e119gcf93g461cg8234g1b35dc40aa9d",
+        "id": "ItemCombinationProperty_Beer_Tooltip"
+    },
+    "ItemCombinationProperty_Honey_Tooltip": {
+        "name": "Honey Source",
+        "handle": "h87ef66acgf7e1g4098gb0d9gbed135f56ae0",
+        "id": "ItemCombinationProperty_Honey_Tooltip"
+    },
+    "ItemCombinationProperty_Wine_Tooltip": {
+        "name": "Wine",
+        "handle": "h0eeece03g4ca4g4fabgb39cgdb9ef182dce1",
+        "id": "ItemCombinationProperty_Wine_Tooltip"
+    },
+    "ItemCombinationProperty_Milk_Tooltip": {
+        "name": "Milk",
+        "handle": "h32f73598g012cg492bg8b6cg507721513f11",
+        "id": "ItemCombinationProperty_Milk_Tooltip"
+    },
+    "LOOT_ClawFinger_A_Food": {
+        "name": "Poisoned Food",
+        "handle": "hb364cf11g7c38g4b71g9ce1g33fcabb98458",
+        "id": "LOOT_ClawFinger_A_Food"
+    },
+    "LOOT_ClawFinger_A_Drinks": {
+        "name": "Poisoned Drink",
+        "handle": "hb6896dbeg1f94g4516gbdffg9c260c36d12b",
+        "id": "LOOT_ClawFinger_A_Drinks"
+    },
+    "Poison_Food": {
+        "name": "Poisoned Food",
+        "handle": "hb364cf11g7c38g4b71g9ce1g33fcabb98458",
+        "id": "Poison_Food"
+    },
+    "Poison_Drinks": {
+        "name": "Poisoned Drink",
+        "handle": "hb6896dbeg1f94g4516gbdffg9c260c36d12b",
+        "id": "Poison_Drinks"
+    },
+    "Anvil_LOOT_MetalShard_A_Hammer": {
+        "name": "Shiv",
+        "handle": "h3336be52ge359g40ccga987g886467ac49ee",
+        "id": "Anvil_LOOT_MetalShard_A_Hammer"
+    },
+    "Anvil_LOOT_Scraps_Metal_A_Hammer": {
+        "name": "Handmade Sword",
+        "handle": "hc53f6049gcc48g4212gaacdg90a7cac25083",
+        "id": "Anvil_LOOT_Scraps_Metal_A_Hammer"
+    },
+    "LOOT_WoodenStick_A_LOOT_PieceOfRock_A": {
+        "name": "Sharp Stone On A Stick",
+        "handle": "h15e9e276ga324g469dga2d7g405c1932211c",
+        "id": "LOOT_WoodenStick_A_LOOT_PieceOfRock_A"
+    },
+    "LOOT_WoodenBranch_A_LOOT_PieceOfRock_A": {
+        "name": "Sharp Stone On A Big Branch",
+        "handle": "h93bbebcbg4109g4e33gbb5cg95d0ee065bf1",
+        "id": "LOOT_WoodenBranch_A_LOOT_PieceOfRock_A"
+    },
+    "LOOT_WoodenBranch_A_PiecesOfRock": {
+        "name": "Makeshift Club",
+        "handle": "h2ae60677g721ag4976gad4egbc76c7a6725c",
+        "id": "LOOT_WoodenBranch_A_PiecesOfRock"
+    },
+    "LOOT_WoodenStick_A_LOOT_String_Bow_A": {
+        "name": "Twig With A String",
+        "handle": "h7a7635b9gc1c0g4c86g9d4ag533cdb672b89",
+        "id": "LOOT_WoodenStick_A_LOOT_String_Bow_A"
+    },
+    "LOOT_WoodenStick_A_LOOT_WoodenBranch_A": {
+        "name": "Toy Crossbow",
+        "handle": "h4a7d876cgbab5g4008gb8cfgfd7544b6c464",
+        "id": "LOOT_WoodenStick_A_LOOT_WoodenBranch_A"
+    },
+    "LOOT_MetalShard_A_LOOT_Scraps_Cloth_A": {
+        "name": "Shiv",
+        "handle": "h3336be52ge359g40ccga987g886467ac49ee",
+        "id": "LOOT_MetalShard_A_LOOT_Scraps_Cloth_A"
+    },
+    "LOOT_MetalShard_A_LOOT_Scraps_Leather_A": {
+        "name": "Shiv",
+        "handle": "h3336be52ge359g40ccga987g886467ac49ee",
+        "id": "LOOT_MetalShard_A_LOOT_Scraps_Leather_A"
+    },
+    "LOOT_MetalShard_A_LOOT_Handkerchief_A": {
+        "name": "Shiv",
+        "handle": "h3336be52ge359g40ccga987g886467ac49ee",
+        "id": "LOOT_MetalShard_A_LOOT_Handkerchief_A"
+    },
+    "LOOT_WoodenBranch_A_LOOT_MetalShard_A": {
+        "name": "Primitive Harpoon",
+        "handle": "h4794573eg5240g4fecgb6f4g92a71b206ba3",
+        "id": "LOOT_WoodenBranch_A_LOOT_MetalShard_A"
+    },
+    "LOOT_WoodenBranch_A_ArrowHead": {
+        "name": "Primitive Harpoon",
+        "handle": "h4794573eg5240g4fecgb6f4g92a71b206ba3",
+        "id": "LOOT_WoodenBranch_A_ArrowHead"
+    },
+    "LOOT_WoodenBranch_A_LOOT_Scraps_Cloth_A": {
+        "name": "Makeshift Club",
+        "handle": "h2ae60677g721ag4976gad4egbc76c7a6725c",
+        "id": "LOOT_WoodenBranch_A_LOOT_Scraps_Cloth_A"
+    },
+    "LOOT_WoodenBranch_A_LOOT_Scraps_Leather_A": {
+        "name": "Makeshift Club",
+        "handle": "h2ae60677g721ag4976gad4egbc76c7a6725c",
+        "id": "LOOT_WoodenBranch_A_LOOT_Scraps_Leather_A"
+    },
+    "LOOT_WoodenBranch_A_HAR_Shell": {
+        "name": "Improvised Staff",
+        "handle": "hc31c2dbbg76ebg4bd2gb151gd94c950b0855",
+        "id": "LOOT_WoodenBranch_A_HAR_Shell"
+    },
+    "LOOT_WoodenStick_A_Dagger": {
+        "name": "Knife On A Stick",
+        "handle": "h010f853bg4795g40eagab3bg32deb38110f7",
+        "id": "LOOT_WoodenStick_A_Dagger"
+    },
+    "LOOT_WoodenStick_A_Knife": {
+        "name": "Knife On A Stick",
+        "handle": "h010f853bg4795g40eagab3bg32deb38110f7",
+        "id": "LOOT_WoodenStick_A_Knife"
+    },
+    "LOOT_WoodenBranch_A_Dagger": {
+        "name": "Primitive Harpoon",
+        "handle": "h4794573eg5240g4fecgb6f4g92a71b206ba3",
+        "id": "LOOT_WoodenBranch_A_Dagger"
+    },
+    "LOOT_WoodenBranch_A_Knife": {
+        "name": "Primitive Harpoon",
+        "handle": "h4794573eg5240g4fecgb6f4g92a71b206ba3",
+        "id": "LOOT_WoodenBranch_A_Knife"
+    },
+    "TOOL_Tong_A_LOOT_Scraps_Cloth_A": {
+        "name": "Big Tongs Roped Together",
+        "handle": "hb6696c7ag5ea1g4b4fg9529ga9c9634426b7",
+        "id": "TOOL_Tong_A_LOOT_Scraps_Cloth_A"
+    },
+    "TOOL_Tong_A_LOOT_Scraps_Leather_A": {
+        "name": "Big Tongs Roped Together",
+        "handle": "hb6696c7ag5ea1g4b4fg9529ga9c9634426b7",
+        "id": "TOOL_Tong_A_LOOT_Scraps_Leather_A"
+    },
+    "LOOT_WoodenStick_A_LOOT_Skull_Bird_A": {
+        "name": "Improv Wand",
+        "handle": "h80b5d466g0177g4e0dg8a03g76edd62db585",
+        "id": "LOOT_WoodenStick_A_LOOT_Skull_Bird_A"
+    },
+    "LOOT_WoodenStick_A_LOOT_Skull_Human_A": {
+        "name": "Improvised Wand",
+        "handle": "h9b5ae3bcgfba3g44a0g846cg1fc459f4e103",
+        "id": "LOOT_WoodenStick_A_LOOT_Skull_Human_A"
+    },
+    "LOOT_WoodenStick_A_LOOT_Skull_Human_A_Ancient": {
+        "name": "Improvised Wand",
+        "handle": "h9b5ae3bcgfba3g44a0g846cg1fc459f4e103",
+        "id": "LOOT_WoodenStick_A_LOOT_Skull_Human_A_Ancient"
+    },
+    "LOOT_Ingred_CrossbowWithoutString_LOOT_String_Bow_A": {
+        "name": "Crossbow",
+        "handle": "h9b9b5c91g88e7g4c09g8b33g5ef85c5d9b1c",
+        "id": "LOOT_Ingred_CrossbowWithoutString_LOOT_String_Bow_A"
+    },
+    "Poison_Knife": {
+        "name": "Poisoned Knife",
+        "handle": "h069835e6gf80bg4657ga4fdgb4d4498cb60b",
+        "id": "Poison_Knife"
+    },
+    "Poison_Dagger": {
+        "name": "Poisoned Dagger",
+        "handle": "hec76e6ffgca6ag42e4g85eag76147732ae79",
+        "id": "Poison_Dagger"
+    },
+    "Poison_Sword": {
+        "name": "Poisoned Sword",
+        "handle": "ha6deb579gfce7g425eg8ba7gb20df46a0a53",
+        "id": "Poison_Sword"
+    },
+    "Poison_Axe": {
+        "name": "Poisoned Axe",
+        "handle": "hab0ccc04g5a64g4961ga324g22802c257bf7",
+        "id": "Poison_Axe"
+    },
+    "Poison_Spear": {
+        "name": "Poisoned Spear",
+        "handle": "hd60b9b22g20c6g4d7bg92ebgf7abf4235f97",
+        "id": "Poison_Spear"
+    },
+    "Poison_TwoHandedSword": {
+        "name": "Poisoned Two Handed Sword",
+        "handle": "h9d64698bgd7c3g4abcg94d8g1f97fa9f9804",
+        "id": "Poison_TwoHandedSword"
+    },
+    "Poison_TwoHandedAxe": {
+        "name": "Poisoned Two Handed Axe",
+        "handle": "hb6f55999g5a56g4d44ga30ag3512da9b182e",
+        "id": "Poison_TwoHandedAxe"
+    },
+    "Poison_TwoHandedMace": {
+        "name": "Poisoned Two Handed Mace",
+        "handle": "h72edbe2bg6368g4dc0g9833g5b17549a5d24",
+        "id": "Poison_TwoHandedMace"
+    },
+    "Poison_Staff": {
+        "name": "Poisoned Staff",
+        "handle": "h5aca2a78g3479g4004g906agc879ac2afb92",
+        "id": "Poison_Staff"
+    },
+    "Poison_Club": {
+        "name": "Poisoned Club",
+        "handle": "hb39246d0g76cbg47cfg8b12ga66a63b83469",
+        "id": "Poison_Club"
+    },
+    "Poison_Bow": {
+        "name": "Poisoned Bow",
+        "handle": "ha50e22aeg0c8ag4641g8788g9a3ad65feb39",
+        "id": "Poison_Bow"
+    },
+    "Poison_Crossbow": {
+        "name": "Poisoned Crossbow",
+        "handle": "h0779b774gffc7g4f5ega710g7448486e58ef",
+        "id": "Poison_Crossbow"
+    },
+    "LOOT_Scraps_Metal_A_LOOT_Scraps_Wood_A": {
+        "name": "Handmade Shield",
+        "handle": "h78356b82g7e13g408aga1fdg013b34b9f321",
+        "id": "LOOT_Scraps_Metal_A_LOOT_Scraps_Wood_A"
+    },
+    "LOOT_Needle_Thread_A_LOOT_Scraps_Cloth_A": {
+        "name": "Handmade Cloth Shirt",
+        "handle": "h23d388cfg18a9g47f6g8e9egc2c359732c3d",
+        "id": "LOOT_Needle_Thread_A_LOOT_Scraps_Cloth_A"
+    },
+    "LOOT_Needle_Thread_A_LOOT_Scraps_Cloth_A_TOOL_Pouch_Dust_Pixie_A": {
+        "name": "Handmade Mage Armour",
+        "handle": "hc89ab552g76a8g4612gb708g4380ff854a5b",
+        "id": "LOOT_Needle_Thread_A_LOOT_Scraps_Cloth_A_TOOL_Pouch_Dust_Pixie_A"
+    },
+    "LOOT_Needle_Thread_A_LOOT_Scraps_Leather_A": {
+        "name": "Handmade Leather Armour",
+        "handle": "hc737e828ge09bg45e2gaacfg8a1c460bbc36",
+        "id": "LOOT_Needle_Thread_A_LOOT_Scraps_Leather_A"
+    },
+    "LOOT_Needle_Thread_A_LOOT_Scraps_Metal_A": {
+        "name": "Handmade Chain Armour",
+        "handle": "h3de1945fg197ag4237g9f7eg260afa9ef4c0",
+        "id": "LOOT_Needle_Thread_A_LOOT_Scraps_Metal_A"
+    },
+    "Anvil_LOOT_Scraps_Scale_A": {
+        "name": "Handmade Scale Armour",
+        "handle": "h2556cf5ag369ag4fc9g9bedg8fe68f6c9033",
+        "id": "Anvil_LOOT_Scraps_Scale_A"
+    },
+    "Anvil_LOOT_Scraps_Plate_A": {
+        "name": "Handmade Plate Armour",
+        "handle": "h08b3a234g2dacg4ad1gb443g91ecb4ca4d1a",
+        "id": "Anvil_LOOT_Scraps_Plate_A"
+    },
+    "Anvil_LOOT_Scraps_Scale_A_Hammer": {
+        "name": "Handmade Scale Armour",
+        "handle": "h2556cf5ag369ag4fc9g9bedg8fe68f6c9033",
+        "id": "Anvil_LOOT_Scraps_Scale_A_Hammer"
+    },
+    "Anvil_LOOT_Scraps_Plate_A_Hammer": {
+        "name": "Handmade Plate Armour",
+        "handle": "h08b3a234g2dacg4ad1gb443g91ecb4ca4d1a",
+        "id": "Anvil_LOOT_Scraps_Plate_A_Hammer"
+    },
+    "CON_BodyPart_Face_Human_LOOT_Source_Orb": {
+        "name": "Human Mask of the Shapeshifter",
+        "handle": "hdaa5624ag35b3g45cfgb101gaaa09b03a6a4",
+        "id": "CON_BodyPart_Face_Human_LOOT_Source_Orb"
+    },
+    "CON_BodyPart_Face_Dwarf_LOOT_Source_Orb": {
+        "name": "Dwarven Mask of the Shapeshifter",
+        "handle": "hd4674f90g2d6dg48e8g90dfg3d3b6d853532",
+        "id": "CON_BodyPart_Face_Dwarf_LOOT_Source_Orb"
+    },
+    "CON_BodyPart_Face_Elf_LOOT_Source_Orb": {
+        "name": "Elven Mask of the Shapeshifter",
+        "handle": "h7de29e17g9d1eg4e31gb598g0084088cb06a",
+        "id": "CON_BodyPart_Face_Elf_LOOT_Source_Orb"
+    },
+    "CON_BodyPart_Face_Lizard_LOOT_Source_Orb": {
+        "name": "Lizard Mask of the Shapeshifter",
+        "handle": "hd0f18521g6c5eg49d5gaf8ag3a187d8c39ae",
+        "id": "CON_BodyPart_Face_Lizard_LOOT_Source_Orb"
+    },
+    "ARM_UniversalShapeshiftingMask": {
+        "name": "Mask of the Shapeshifter",
+        "handle": "hd02ac4e5g921fg4ee0g9529gcd36478267e9",
+        "id": "ARM_UniversalShapeshiftingMask"
+    }
+}

@@ -1,0 +1,1617 @@
+1.		Book				BOOK_Book_A
+2.		Book				BOOK_Book_B
+3.		Book				BOOK_Book_C
+4.		Book				BOOK_Book_D
+5.		Book				BOOK_Book_E
+6.		Sheet of Paper				BOOK_Paper_Sheet_A
+7.		Patty Cake, Patty Cake, Volume I				BOOK_RCP_Cooking1
+8.		Patty Cake, Patty Cake, Volume II				BOOK_RCP_Cooking2
+9.		Patty Cake, Patty Cake, Volume III				BOOK_RCP_Cooking3
+10.		Patty Cake, Patty Cake, Volume IV				BOOK_RCP_Cooking4
+11.		Patty Cake, Patty Cake, Volume V				BOOK_RCP_Cooking5
+12.		The Legionnaire Cookbook				BOOK_RCP_Legionnaire
+13.		The Adventurer's Field Guide, Volume XIV				BOOK_RCP_Survivor14
+14.		The Adventurer's Field Guide, Volume XVI				BOOK_RCP_Survivor16
+15.		The Adventurer's Field Guide, Volume XVIII				BOOK_RCP_Survivor18
+16.		The Adventurer's Field Guide, Volume XX				BOOK_RCP_Survivor20
+17.		The Adventurer's Field Guide, Volume V				BOOK_RCP_Survivor5
+18.		Voodoo Ghost Scroll				BOOK_Scroll_Voodoo_Ghost
+19.		Voodoo Skeleton Scroll				BOOK_Scroll_Voodoo_Skeleton
+20.		Voodoo Zombie Scroll				BOOK_Scroll_Voodoo_Zombie
+21.		Blank Air Skillbook				BOOK_Skill_Air_Blank_A
+22.		Blank Earth Skillbook				BOOK_Skill_Earth_Blank_A
+23.		Blank Fire Skillbook				BOOK_Skill_Fire_Blank_A
+24.		Blank Water Skillbook				BOOK_Skill_Water_Blank_A
+25.		Blank Necromancy Skillbook				BOOK_Skill_Witchcraft_Blank_A
+26.		Bottle of Beer				CON_Drink_Bottle_Beer_A
+27.		Poisoned Bottle of Beer				CON_Drink_Bottle_Beer_A_Poisoned
+28.		Bottle of Swirling Mud				CON_Drink_Bottle_Mud_A
+29.		Bottle of Water				CON_Drink_Bottle_Water_A
+30.		Poisoned Bottle of Water				CON_Drink_Bottle_Water_A_Poisoned
+31.		Bottle of Wine				CON_Drink_Bottle_Wine_A
+32.		Poisoned Bottle of Wine				CON_Drink_Bottle_Wine_A_Poisoned
+33.		Apple Juice				CON_Drink_Cup_A_Apple
+34.		Poisoned Cup of Apple Juice				CON_Drink_Cup_A_Apple_Poisoned
+35.		Empty Cup				CON_Drink_Cup_A_Empty
+36.		Milk				CON_Drink_Cup_A_Milk
+37.		Poisoned Cup of Milk				CON_Drink_Cup_A_Milk_Poisoned
+38.		Milk and Honey				CON_Drink_Cup_A_MilkHoney
+39.		Poisoned Cup of Honeyed Milk				CON_Drink_Cup_A_MilkHoney_Poisoned
+40.		Cup of Oil				SKILLBOOK_Air_MassBreathingBubbles
+41.		Orange Juice				CON_Drink_Cup_A_Orange
+42.		Poisoned Cup of Orange Juice				CON_Drink_Cup_A_Orange_Poisoned
+43.		Cup of Tea				CON_Drink_Cup_A_Tea
+44.		Poisoned Cup of Tea				CON_Drink_Cup_A_Tea_Poisoned
+45.		Cup of Water				CON_Drink_Cup_A_Water
+46.		Poisoned Cup of Water				CON_Drink_Cup_A_Water_Poisoned
+47.		Glass of Wine				CON_Drink_Glass_A_Wine
+48.		Poisoned Glass of Wine				CON_Drink_Glass_A_Wine_Poisoned
+49.		Ambrosia				CON_Drink_Mug_A_Ambrosia
+50.		Poisoned Mug of Ambrosia				CON_Drink_Mug_A_Ambrosia_Poisoned
+51.		Poisoned Mug of Beer				CON_Drink_Mug_A_Beer_Poisoned
+52.		Empty Mug				CON_Drink_Mug_A_Empty
+53.		Mug of Tea				CON_Drink_Mug_A_Tea
+54.		Poisoned Mug of Tea				CON_Drink_Mug_A_Tea_Poisoned
+55.		Mug of Beer				CON_Drink_Mug_Beer_A
+56.		Mug of Water				CON_Drink_Mug_Water_A
+57.		Poisoned Mug of Water				CON_Drink_Mug_Water_A_Poisoned
+58.		Mug of Wine				CON_Drink_Mug_Wine_A
+59.		Poisoned Mug of Wine				CON_Drink_Mug_Wine_A_Poisoned
+60.		Cheese Bread				CON_Food_Bread_Cheese_A
+61.		Poisoned Bread				CON_Food_Bread_Cheese_A_Poisoned
+62.		Carrot				CON_Food_Carrot_A
+63.		Poisoned Carrot				CON_Food_Carrot_A_Poisoned
+64.		Dinner				CON_Food_Dinner_A
+65.		Poisoned Dinner				CON_Food_Dinner_A_Poisoned
+66.		Cold Fries				CON_Food_Fries_Cold_A
+67.		Poisoned Cold Fries				CON_Food_Fries_Cold_A_Poisoned
+68.		Rivellon Fries				CON_Food_Fries_Rivellon_A
+69.		Poisoned Rivellon Fries				CON_Food_Fries_Rivellon_A_Poisoned
+70.		Jar of Honey				CON_Food_Honey_Jar_A
+71.		Poisoned Honey Jar				CON_Food_Honey_Jar_A_Poisoned
+72.		Raw Meat				CON_Food_Meat_Raw_A
+73.		Apple Pie				CON_Food_Pie_Apple_A
+74.		Poisoned Apple				CON_Food_Pie_Apple_A_Poisoned
+75.		Cyseal Fish Pie				CON_Food_Pie_Cyseal_A
+76.		Poisoned Cyseal Pie				CON_Food_Pie_Cyseal_A_Poisoned
+77.		Pizza				CON_Food_Pizza_A
+78.		Poisoned Pizza				CON_Food_Pizza_A_Poisoned
+79.		Potato				CON_Food_Potato_A
+80.		Poisoned Potato				CON_Food_Potato_A_Poisoned
+81.		Boiled Potato				CON_Food_Potato_Boiled_A
+82.		Poisoned Boiled Potato				CON_Food_Potato_Boiled_A_Poisoned
+83.		Mashed Potatoes				CON_Food_Potato_Mash_A
+84.		Poisoned Mashed Potatoes				CON_Food_Potato_Mash_A_Poisoned
+85.		Cold Mashed Potatoes				CON_Food_Potato_Mash_Cold_A
+86.		Poisoned Cold Mashed Potoatoes				CON_Food_Potato_Mash_Cold_A_Poisoned
+87.		Rotten Eggs				CON_Food_RottenEggs_A
+88.		Pumpkin Soup				CON_Food_Soup_Pumpkin_A
+89.		Poisoned Pumpkin Soup				CON_Food_Soup_Pumpkin_A_Poisoned
+90.		Dwarven Stew				CON_Food_Stew_Dwarven_A
+91.		Poisoned Dwarven Stew				CON_Food_Stew_Dwarven_A_Poisoned
+92.		Elven Stew				CON_Food_Stew_Elven_A
+93.		Poisoned Elven Stew				CON_Food_Stew_Elven_A_Poisoned
+94.		Tomato				CON_Food_Tomato_A
+95.		Poisoned Tomato				CON_Food_Tomato_A_Poisoned
+96.		Pot				ITEM_Ceramic_Pot_A
+97.		Poisoned Tomato Sauce				CON_Food_Tomato_Sauce_A_Poisoned
+98.		Fiery Heart				CON_Heart_Fiery
+99.		Augmentor				CON_Herb_Augmentor_A
+100.		Drudanae				CON_Herb_Drudanae
+101.		Farhangite				CON_Herb_Farhangite_A
+102.		Penny Bun Mushroom				CON_Herb_Mushroom_A
+103.		Bluegill Mushroom				CON_Herb_Mushroom_B
+104.		Fly Agaric Mushroom				CON_Herb_Mushroom_C
+105.		Earth Tongue Mushroom				CON_Herb_Mushroom_D
+106.		Guepinia Mushroom				CON_Herb_Mushroom_E
+107.		Blue Mushroom				CON_Herb_Mushroom_F
+108.		Jellyroom				CON_Herb_Mushroom_Jellyfish_A
+109.		Stardust Herb				CON_Herb_Stardust_A
+110.		Tea Herbs				CON_Herb_Tea_A
+111.		Whisperwood				CON_Herb_Whisperwood_A
+112.		Dough				CON_Ingred_Dough_A
+113.		Apple Pie Dough				CON_Ingred_Dough_Apple_A
+114.		Cheese Bread Dough				CON_Ingred_Dough_CheeseBread_A
+115.		Fish Pie Dough				CON_Ingred_Dough_Cyseal_A
+116.		Pizza Dough				CON_Ingred_Dough_Pizza_A
+117.		Porridge				CON_Porridge_A
+118.		Poisoned Porridge				CON_Porridge_A_Poisoned
+119.		Potato Porridge				CON_Porridge_Potato_A
+120.		Poisoned Potato Porridge				CON_Porridge_Potato_A_Poisoned
+121.		Small Air Resistance Potion				CON_Potion_Air_Res_A
+122.		Huge Air Resistance Potion				CON_Potion_Air_Res_Huge_A
+123.		Large Air Resistance Potion				CON_Potion_Air_Res_Large_A
+124.		Medium Air Resistance Potion				CON_Potion_Air_Res_Medium_A
+125.		Blood Rose Elixir				Quest_BlackRoseElixir
+126.		Debuff All Potion				CON_Potion_Debuf_All_A
+127.		Debuff Constitution Potion				CON_Potion_Debuf_Constitution_A
+128.		Debuff Dexterity Potion				CON_Potion_Debuf_Dexterity_A
+129.		Debuff Intelligence Potion				CON_Potion_Debuf_Intelligence_A
+130.		Debuff Perception Potion				CON_Potion_Debuf_Perception_A
+131.		Debuff Speed Potion				CON_Potion_Debuf_Speed_A
+132.		Debuff Strength Potion				CON_Potion_Debuf_Strength_A
+133.		Earth Resistance Potion				CON_Potion_Earth_Res_A
+134.		Huge Earth Resistance Potion				CON_Potion_Earth_Res_Huge_A
+135.		Large Earth Resistance Potion				CON_Potion_Earth_Res_Large_A
+136.		Medium Earth Resistance Potion				CON_Potion_Earth_Res_Medium_A
+137.		Empty Potion Bottle				CON_Potion_Empty_A
+138.		Fire Resistance Potion				CON_Potion_Fire_Res_A
+139.		Huge Fire Resistance Potion				CON_Potion_Fire_Res_Huge_A
+140.		Large Fire Resistance Potion				CON_Potion_Fire_Res_Large_A
+141.		Medium Fire Resistance Potion				CON_Potion_Fire_Res_Medium_A
+142.		Invisibility Potion				CON_Potion_Invisible_A
+143.		Large Invisibility Potion				CON_Potion_Invisible_Large_A
+144.		Medium Invisibility Potion				CON_Potion_Invisible_Medium_A
+145.		Small Poison Bottle				CON_Potion_Poison_A
+146.		Large Poison Bottle				CON_Potion_Poison_Large_A
+147.		Medium Poison Bottle				CON_Potion_Poison_Medium_A
+148.		Small Poison Resistance Potion				CON_Potion_Poison_Res_A
+149.		Huge Poison Resistance Potion				CON_Potion_Poison_Res_Huge_A
+150.		Large Poison Resistance Potion				CON_Potion_Poison_Res_Large_A
+151.		Medium Poison Resistance Potion				CON_Potion_Poison_Res_Medium_A
+152.		Telekinesis Potion				CON_Potion_Telekinesis_A
+153.		Large Telekinesis Potion				CON_Potion_Telekinesis_Large_A
+154.		Medium Telekinesis Potion				CON_Potion_Telekinesis_Medium_A
+155.		Water Resistance Potion				CON_Potion_Water_Res_A
+156.		Huge Water Resistance Potion				CON_Potion_Water_Res_Huge_A
+157.		Large Water Resistance Potion				CON_Potion_Water_Res_Large_A
+158.		Medium Water Resistance Potion				CON_Potion_Water_Res_Medium_A
+159.		Backpack				CONT_Backpack_A
+160.		Source Hunter Backpack				CONT_Backpack_A_SourceHunter
+161.		Barrel				CONT_Barrel_A
+162.		Lid of a Barrel				CONT_Barrel_A_Lid_A
+163.		Water Barrel				CONT_Barrel_A_Water
+164.		Oil Barrel				CONT_Barrel_Oil_A
+165.		Ooze Barrel				CONT_Barrel_Ooze_A
+166.		Sack				CONT_Grain_Sack_A
+167.		Vase				CONT_Vase_Greek
+168.		Crystal				Crystal
+169.		Warmachine				CYSBC_Pontius_Warmachine
+170.		Remote Control				CYS_UniversalController
+171.		Beehive				FARM_Beehive_A
+172.		Bird House				FARM_Birdhouse_A
+173.		Hen House				FARM_Chickenhouse_A
+174.		Scarecrow				FARM_Scarecrow
+175.		Straw				FARM_Straw
+176.		Apple				FOOD_Apple
+177.		Poisoned Apple				FOOD_Apple_Poisoned
+178.		Bread				FOOD_Bread
+179.		Poisoned Bread				FOOD_Bread_Poisoned
+180.		Cheese				FOOD_Cheese
+181.		Herring				FOOD_FishA
+182.		Poisoned Fish				FOOD_FishA_Poisoned
+183.		Red Snapper				FOOD_FishB
+184.		Poisoned Fish				FOOD_FishB_Poisoned
+185.		Chub Fish				FOOD_FishC
+186.		Poisoned Fish				FOOD_FishC_Poisoned
+187.		Plaice				FOOD_FishD
+188.		Poisoned Fish				FOOD_FishD_Poisoned
+189.		Mackerel				FOOD_FishE
+190.		Poisoned Fish				FOOD_FishE_Poisoned
+191.		Sailfish				FOOD_FishF
+192.		Poisoned Fish				FOOD_FishF_Poisoned
+193.		Ham				FOOD_Ham
+194.		Poisoned Ham				FOOD_Ham_Poisoned
+195.		Orange				FOOD_Orange
+196.		Poisoned Orange				FOOD_Orange_Poisoned
+197.		Pear				FOOD_Pear
+198.		Poisoned Pear				FOOD_Pear_Poisoned
+199.		Poisoned Cheese				FOOD_Poisoned_Cheese_A
+200.		Pumpkin				FOOD_Pumpkin
+201.		Pumpkin Peel				FOOD_Pumpkin_C
+202.		Poisoned Pumpkin Part				FOOD_Pumpkin_C_Poisoned
+203.		Poisoned Pumpkin				FOOD_Pumpkin_Poisoned
+204.		Pumpkin Part				FOOD_PumpkinPart
+205.		Poisoned Pumpkin Part				FOOD_PumpkinPart_Poisoned
+206.		Roasted Pork Dish				FOOD_RoastedPork
+207.		Poisoned Roasted Pork				FOOD_RoastedPork_Poisoned
+208.		Roasted Pork				FOOD_RoastedPorkWithCarrot
+209.		Beer barrel				FUR_Bar_Barrel_A_Beer_A
+210.		Wine barrel				FUR_Bar_Barrel_A_Wine_A
+211.		Mobile Kitchen				FUR_BoilingPot_A
+212.		Fireplace				FUR_Brew_Fireplace_A
+213.		Bucket with Milk				FUR_Bucket_A_Milk
+214.		Bucket with Water				FUR_Bucket_A_Water
+215.		Chest				FUR_Chest
+216.		Fork				FUR_Cutlery_Fork_A
+217.		Painting				FUR_Humans_Painting_L
+218.		Painting				FUR_Humans_Painting_K
+219.		Painting				FUR_Humans_Painting_J
+220.		Painting				FUR_Humans_Painting_I
+221.		Painting				FUR_Humans_Painting_H
+222.		Painting				FUR_Humans_Painting_G
+223.		Painting				FUR_Humans_Painting_F
+224.		Painting				FUR_Humans_Painting_E
+225.		Painting				FUR_Humans_Painting_D
+226.		Painting				FUR_Humans_Painting_C
+227.		Painting				FUR_Humans_Painting_B
+228.		Painting				FUR_Humans_Painting_A
+229.		Oven				FUR_Poor_Oven_A
+230.		Oven				FUR_Poor_Oven_B
+231.		Plate				ITEM_Ceramic_Plate_A
+232.		Washboard				FUR_WashBoard_A
+233.		Washing Tub				FUR_WashTub_A
+234.		Washing Tub with Washboard				FUR_WashTubBoard_A
+235.		Book				Gen_Book
+236.						Gen_Cloth
+237.		Container				Gen_Container_Indestructible
+238.		Container				Gen_Container_Strong
+239.		Container				Gen_Container_Weak
+240.		Corpse				Gen_Corpse_Heavy
+241.		Corpse				Gen_Corpse_Light
+242.		Corpse				Gen_Corpse_Medium
+243.		Ice Crystal				Gen_Crystall_Ice_Small
+244.		Door				Gen_Door_Cracked
+245.		Door				Gen_Door_Fortified
+246.		Door				Gen_Door_Indestructible
+247.		Door				Gen_Door_Normal
+248.		Door				Gen_Door_Strong
+249.		Door				Gen_Door_Weak
+250.						Gen_FireOnly
+251.						Gen_Glass
+252.						GEN_HeavyMetal
+253.						Gen_HeavyMetalLightSource
+254.						Gen_LightSource
+255.						Gen_Metal
+256.						Gen_Paper
+257.						Gen_PoisonousMushroom
+258.						Gen_QuestItem_A
+259.		Rock				Gen_SmallStone
+260.						Gen_Stone_Indestructible
+261.						Gen_Stone_Strong
+262.						Gen_Stone_Weak
+263.		Tub				Gen_Tub
+264.		Waypoint Shrine				Gen_WaypointShrine
+265.						Gen_Wood_Indestructible
+266.						Gen_Wood_Strong
+267.						Gen_Wood_Weak
+268.		Gold				Gold
+269.		Starfish				HAR_Fish_Star
+270.		Glowing Starfish				HAR_Fish_Star_Glowing
+271.		Pearl				HAR_Pearl_A
+272.		Shell				HAR_Shell
+273.		Gold				Huge_Gold
+274.		Gold				Huge_Gold_Big
+275.		Target				Hum_ArcheryTarget_F
+276.		Mill				Hum_WaterMillWheel_A
+277.		Well				Hum_Well_A
+278.		Fishbone				JUNK_FishSkeleton_A
+279.		Gold				InBetween_Gold
+280.		Gold				InBetween_Gold_Big
+281.		Bowl				ITEM_Bowl
+282.		Broken Bottle				ITEM_BrokenBottle
+283.		Cooking Pot				ITEM_CookingPot
+284.		Empty Bottle				ITEM_EmptyBottle
+285.		Light Gold Cup				ITEM_EmptyCupGold
+286.		Fake Arrow				ITEM_FakeArrow
+287.		Fake Dagger				ITEM_FakeDagger
+288.		Folded Shirts				ITEM_FoldedShirts
+289.		Juggling Apple				ITEM_JugglingApple
+290.		Juggling Mace				ITEM_JugglingMace
+291.		Juggling Orange				ITEM_JugglingOrange
+292.		Key				ITEM_Key
+293.		Log				ITEM_Log
+294.		Nine Inch Nails				ITEM_Nails
+295.		Pillow				ITEM_Pillow
+296.		Sneaking Crate				ITEM_Sneaking_Crate
+297.		Soap				ITEM_Soap
+298.		Spider Egg				ITEM_SpiderEggBoss
+299.		Spoon				ITEM_Spoon
+300.		Light Golden Teaspoon				ITEM_SpoonGold
+301.		Mortar And Pestle				LAB_MortarPestle_A
+302.		Gold				Large_Gold
+303.		Gold				Large_Gold_Big
+304.		Gold				Larger_Gold
+305.		Gold				Larger_Gold_Big
+306.		Antler				LOOT_Antler_A
+307.		Adult Antler				LOOT_Antler_A_Adult
+308.		Bone				LOOT_Bone_A
+309.		Iron Bone				LOOT_Bone_A_Iron
+310.		Min Vorr				LOOT_Charm_Orb_Min Vorr
+311.		Min Joph				LOOT_Charm_Orb_Min_Joph
+312.		Min Koor				LOOT_Charm_Orb_Min_Koor
+313.		Min Umn				LOOT_Charm_Orb_Min_Umn
+314.		Min Ydra				LOOT_Charm_Orb_Min_Ydra
+315.		Pag Joph				LOOT_Charm_Orb_Pag_Joph
+316.		Pag Koor				LOOT_Charm_Orb_Pag_Koor
+317.		Pag Umn				LOOT_Charm_Orb_Pag_Umn
+318.		Pag Vorr				LOOT_Charm_Orb_Pag_Vorr
+319.		Pag Ydra				LOOT_Charm_Orb_Pag_Ydra
+320.		Ser Joph				LOOT_Charm_Orb_Ser_Joph
+321.		Ser Koor				LOOT_Charm_Orb_Ser_Koor
+322.		Ser Umn				LOOT_Charm_Orb_Ser_Umn
+323.		Ser Vorr				LOOT_Charm_Orb_Ser_Vorr
+324.		Ser Ydra				LOOT_Charm_Orb_Ser_Ydra
+325.		Uru Joph				LOOT_Charm_Orb_Uru_Joph
+326.		Uru Koor				LOOT_Charm_Orb_Uru_Koor
+327.		Uru Umn				LOOT_Charm_Orb_Uru_Umn
+328.		Uru Vorr				LOOT_Charm_Orb_Uru_Vorr
+329.		Uru Ydra				LOOT_Charm_Orb_Uru_Ydra
+330.		Yit Joph				LOOT_Charm_Orb_Yit Joph
+331.		Yit Koor				LOOT_Charm_Orb_Yit Koor
+332.		Yit Umn				LOOT_Charm_Orb_Yit_Umn
+333.		Yit Vorr				LOOT_Charm_Orb_Yit_Vorr
+334.		Yit Ydra				LOOT_Charm_Orb_Yit_Ydra
+335.		Claw				LOOT_Claw_A
+336.		Sharp Claw				LOOT_Claw_A_Sharp
+337.		Crab's Claw				LOOT_Claw_Crab_A
+338.		Air Essence				LOOT_Essence_Air_A
+339.		Earth Essence				LOOT_Essence_Earth_A
+340.		Fire Essence				LOOT_Essence_Fire_A
+341.		Shadow Essence				LOOT_Essence_Shadow_A
+342.		Water Essence				LOOT_Essence_Water_A
+343.		Eye				LOOT_Eye_A
+344.		Creepy Eye				LOOT_Eye_A_Creepy
+345.		Feather				LOOT_Feather_A
+346.		Fancy Feather				LOOT_Feather_A_Fancy
+347.		Quill				LOOT_Feather_A_Quill_A
+348.		Flour				LOOT_Flour_A
+349.		Chicken Foot				LOOT_Foot_Chicken_A
+350.		Big Chicken Foot				LOOT_Foot_Chicken_A_Big
+351.		Crystal				LOOT_Gems_Crystal
+352.		Diamond				LOOT_Gems_Diamond
+353.		Giant Diamond				LOOT_Gems_Diamond_B
+354.		Malachite				LOOT_Gems_Malachite
+355.		Hair				LOOT_Hair_A
+356.		Animal Hide				LOOT_Hide_Animal_A
+357.		Crossbow Without Bowstring				LOOT_Ingred_CrossbowWithoutString
+358.		Ink Pot				LOOT_Ink_Pot_A
+359.		Ink Pot and Quill				LOOT_Ink_Pot_A_Quill_A
+360.		Jar				LOOT_Jar_A
+361.		Needle				LOOT_Needle_A
+362.		Needle and Thread				LOOT_Needle_Thread_A
+363.		Orc Tusk				LOOT_Orc_Tusk
+364.		Tenebrium Ore				LOOT_Ore_A_BlackRock_A
+365.		Iron Ore				LOOT_Ore_A_Iron_A
+366.		Silver Ore				LOOT_Ore_A_Silver_A
+367.		Tenebrium Bar				LOOT_OreBar_A_BlackRock_A
+368.		Iron Bar				LOOT_OreBar_A_Iron_A
+369.		Large Iron Bar				LOOT_OreBar_A_Iron_A_Large
+370.		Silver Bar				LOOT_OreBar_A_Silver_A
+371.		Steel Bar				LOOT_OreBar_A_Steel_A
+372.		Large Steel Bar				LOOT_OreBar_A_Steel_A_Large
+373.		Rabbit's Paw				LOOT_Paw_A_Rabbit_A
+374.		Lucky Rabbit Paw				LOOT_Paw_A_Rabbit_A_Lucky
+375.		Rope				LOOT_Rope_A
+376.		Ruby				LOOT_Ruby_A
+377.		Cloth Scraps				LOOT_Scraps_Cloth_A
+378.		Leather Scraps				LOOT_Scraps_Leather_A
+379.		Metal Scraps				LOOT_Scraps_Metal_A
+380.		Plate Scraps				LOOT_Scraps_Plate_A
+381.		Scale Scraps				LOOT_Scraps_Scale_A
+382.		Wood Chips				LOOT_Scraps_Wood_A
+383.		Mush of Wood				LOOT_Scraps_Wood_A_Mush
+384.		Sinew				LOOT_Sinew_A
+385.		Strong Sinew				LOOT_Sinew_A_Strong
+386.		Skull				LOOT_Skull_Human_A
+387.		Ancient Human Skull				LOOT_Skull_Human_A_Ancient
+388.		Tormented Soul				LOOT_Soul_Tormented_A
+389.		Whetstone				LOOT_Stone_A_Whet_A
+390.		Bowstring				LOOT_String_Bow_A
+391.		Rat's Tail				LOOT_Tail_A_Rat_A
+392.		Long Rat Tail				LOOT_Tail_A_Rat_A_Long
+393.		Thread				LOOT_Thread_A
+394.		Tooth				LOOT_Tooth_A
+395.		Sharp Tooth				LOOT_Tooth_A_Sharp
+396.		Tusk				LOOT_Tusk_A
+397.		Large Tusk				LOOT_Tusk_A_Large
+398.		Inert Wooden Wand				LOOT_Wand_A
+399.		Inert Clawed Wand				LOOT_Wand_B
+400.		Inert Elven Wand				LOOT_Wand_C
+401.		Inert Draconic Wand				LOOT_Wand_D
+402.		Wheat				LOOT_Wheat_A
+403.		Whetstone				LOOT_WhetStone_Wheel_A
+404.		Wool				LOOT_Wool_A
+405.		Yarn				LOOT_Yarn_A_Wool_A
+406.		Campfire				LTS_Campfire_A
+407.		Candle Holder				LTS_Rich_Candleholder_A
+408.		Fireplace				LTS_Smith_Fireplace_A
+409.						LUC_VoidCrystal
+410.						LUC_VoidCrystal_Weak
+411.		Ballista				MCH_Tesla_Ballista_A
+412.		Gold				Medium_Gold
+413.		Gold				Medium_Gold_Big
+414.		Axe Kit Part III: Grip				PART_DIY_Axe_Grip
+415.		Axe Kit Part II: Head				PART_DIY_Axe_Head
+416.		Axe Kit Part I: Shaft				PART_DIY_Axe_Shaft
+417.		Bow Kit Part II: Branch				PART_DIY_Bow_Branch
+418.		Bow Kit Part III: Handle				PART_DIY_Bow_Handle
+419.		Bow Kit Part I: String				PART_DIY_Bow_String
+420.		Staff Kit Part I: Branch				PART_DIY_Staff_Branch
+421.		Staff Kit Part II: Carving				PART_DIY_Staff_Carving
+422.		Staff Kit Part III: Gem				PART_DIY_Staff_Gem
+423.		Sword Kit Part III: Blade				PART_DIY_Sword_Blade
+424.		Sword Kit Part I: Guard				PART_DIY_Sword_Guard
+425.		Sword Kit Part II: Hilt				PART_DIY_Sword_Hilt
+426.		Gold				Pile_Of_Gold
+427.		Gold				Pile_Of_Gold_B
+428.		Gold				Pile_Of_Gold_Big
+429.		Gold				Pile_Of_Gold_Big_B
+430.		Gold				Pile_Of_Gold_Big_C
+431.		Gold				Pile_Of_Gold_Big_D
+432.		Gold				Pile_Of_Gold_C
+433.		Gold				Pile_Of_Gold_D
+434.		Potion				Potion
+435.		Healing Crystal				POTION_HealingCrystal
+436.		Huge Healing Potion				POTION_Huge_Healing_Potion
+437.		Large Constitution Potion				POTION_Large_Constitution_Potion
+438.		Large Dexterity Potion				POTION_Large_Dexterity_Potion
+439.		Large Healing Potion				POTION_Large_Healing_Potion
+440.		Large Intelligence Potion				POTION_Large_Intelligence_Potion
+441.		Large Perception Potion				POTION_Large_Perception_Potion
+442.		Large Resist All Potion				POTION_Large_ResistAll_Potion
+443.		Large Speed Potion				POTION_Large_Speed_Potion
+444.		Large Strength Potion				POTION_Large_Strength_Potion
+445.		Medium Constitution Potion				POTION_Medium_Constitution_Potion
+446.		Medium Dexterity Potion				POTION_Medium_Dexterity_Potion
+447.		Medium Healing Potion				POTION_Medium_Healing_Potion
+448.		Medium Intelligence Potion				POTION_Medium_Intelligence_Potion
+449.		Medium Perception Potion				POTION_Medium_Perception_Potion
+450.		Medium Resist All Potion				POTION_Medium_ResistAll_Potion
+451.		Medium Speed Potion				POTION_Medium_Speed_Potion
+452.		Medium Strength Potion				POTION_Medium_Strength_Potion
+453.		Minor Constitution Potion				POTION_Minor_Constitution_Potion
+454.		Minor Dexterity Potion				POTION_Minor_Dexterity_Potion
+455.		Minor Healing Potion				POTION_Minor_Healing_Potion
+456.		Minor Intelligence Potion				POTION_Minor_Intelligence_Potion
+457.		Minor Perception Potion				POTION_Minor_Perception_Potion
+458.		Minor Resist All Potion				POTION_Minor_ResistAll_Potion
+459.		Minor Speed Potion				POTION_Minor_Speed_Potion
+460.		Minor Strength Potion				POTION_Minor_Strength_Potion
+461.		Permanent Constitution Potion				POTION_Permanent_Constitution_Potion
+462.		Permanent Dexterity Potion				POTION_Permanent_Dexterity_Potion
+463.		Permanent Vitality Potion				POTION_Permanent_Healing_Potion
+464.		Permanent Intelligence Potion				POTION_Permanent_Intelligence_Potion
+465.		Permanent Perception Potion				POTION_Permanent_Perception_Potion
+466.		Permanent Speed Potion				POTION_Permanent_Speed_Potion
+467.		Permanent Strength Potion				POTION_Permanent_Strength_Potion
+468.						PUZ_Totem
+469.						QUEST_Item
+470.		Depleted Bloodstone				Quest_Stone_Star_Depleted_A
+471.						SCRIPT_Matriarch_Healing_Effect
+472.		Epidemic Of Fire Scroll				SCROLL_Projectile_InfectiousFlame
+473.		Ice Fan Scroll				SCROLL_Projectile_IceFan
+474.		Fireball Scroll				SCROLL_Fireball
+475.		Fortify Scroll				SCROLL_Fortify
+476.		Wildfire Scroll				SCROLL_Haste
+477.		Dust Blast Scroll				SCROLL_Projectile_DustBlast
+478.		Dimensional Bolt Scroll				SCROLL_Projectile_DimensionalBolt
+479.		Deploy Mass Traps Scroll				SCROLL_Projectile_DeployMassTraps
+480.		Chain Lightning Scroll				SCROLL_Projectile_ChainLightning
+481.		Resurrection Scroll				SCROLL_Resurrect
+482.		Charm Scroll				SCROLL_Ranger_Charm
+483.		Healing Ritual Scroll				SCROLL_Projectile_ChainHeal
+484.		Restoration Scroll				SCROLL_RegenerateStart
+485.		Teleportation Scroll				SCROLL_Teleportation
+486.		Blank Air Scroll				Scroll_Skill_Air_Blank_A
+487.		Blank Earth Scroll				Scroll_Skill_Earth_Blank_A
+488.		Blank Fire Scroll				Scroll_Skill_Fire_Blank_A
+489.		Blank Water Scroll				Scroll_Skill_Water_Blank_A
+490.		Blank Necromancy Scroll				Scroll_Skill_Witchcraft_Blank_A
+491.		Animal Scales				LOOT_Scales_Animal_A
+492.		Rain Scroll				SCROLL_Rain
+493.		Tornado Scroll				SCROLL_Tornado_1
+494.		Ability Skillbook				SKILLBOOK_AbilityPoint
+495.		Arrow Spray Skillbook				SKILLBOOK_Ranger_ArrowSpray
+496.		Tactical Retreat Skillbook				SKILLBOOK_Ranger_TacticalRetreat
+497.		Closed Circuit Skillbook				SKILLBOOK_Air_ElectricFence
+498.		Snipe Skillbook				SKILLBOOK_Ranger_Snipe
+499.		Marksman's Fang Skillbook				SKILLBOOK_Ranger_PiercingShot
+500.		Mark Skillbook				SKILLBOOK_Ranger_Mark
+501.		First Aid Skillbook				SKILLBOOK_Ranger_FirstAid
+502.		Nether Swap Skillbook				SKILLBOOK_Air_Netherswap
+503.		Ricochet Skillbook				SKILLBOOK_Ranger_Ricochet
+504.		Teleportation Skillbook				SKILLBOOK_Air_Teleportation_FreeFall
+505.		Electric Discharge Skillbook				SKILLBOOK_Air_LightningBolt
+506.		Infect Skillbook				SKILLBOOK_Necromancy_Infect
+507.		Decaying Touch Skillbook				SKILLBOOK_Necromancy_DecayingTouch
+508.		Mosquito Swarm Skillbook				SKILLBOOK_Necromancy_MosquitoSwarm
+509.		Blood Rain Skillbook				SKILLBOOK_Necromancy_RainOfBlood
+510.		Shackles of Pain Skillbook				SKILLBOOK_Necromancy_ShacklesOfPain
+511.		Blood Sucker Skillbook				SKILLBOOK_Necromancy_BloodBubble
+512.		Epidemic Of Fire Skillbook				SKILLBOOK_Fire_InfectiousFlame
+513.		Fireball Skillbook				SKILLBOOK_Fire_Fireball
+514.		Summon Fire Slug Skillbook				SKILLBOOK_Fire_FireSlug
+515.		Primary Skillbook				SKILLBOOK_StatPoint
+516.		Fireblood Skillbook				SKILLBOOK_Fire_Fireblood
+517.		Favourable Wind Skillbook				SKILLBOOK_Air_FavourableWind
+518.		Shocking Touch Skillbook				SKILLBOOK_Air_ShockingTouch
+519.		Onslaught Skillbook				SKILLBOOK_Warrior_Flurry
+520.		Spontaneous Combustion Skillbook				SKILLBOOK_Fire_SpontaneousCombustion
+521.		Whirlwind Skillbook				SKILLBOOK_Warrior_Whirlwind
+522.		Barbed Coat				SKILLBOOST_BarbedCoat
+523.		Blinded				SKILLBOOST_Blind
+524.		Air				SKILLBOOST_Blink
+525.		All Primary Stats Lowered				SKILLBOOST_DebuffAll
+526.		Constitution Lowered				SKILLBOOST_DebuffConstitution
+527.		Dexterity Lowered				SKILLBOOST_DebuffDexterity
+528.		Intelligence Lowered				SKILLBOOST_DebuffIntelligence
+529.		Perception Lowered				SKILLBOOST_DebuffPerception
+530.		Speed Lowered				SKILLBOOST_DebuffSpeed
+531.		Strength Lowered				SKILLBOOST_DebuffStrength
+532.		Willpower Loss				SKILLBOOST_DivineLight
+533.		Willpower Lowered				SKILLBOOST_DrainWillpower
+534.		Elemental Tortoise				SKILLBOOST_ElementalTortoise
+535.		Elemental Absorption				SKILLBOOST_EndureElements
+536.		Soulsapped				SKILLBOOST_Enervation
+537.		Farseer				SKILLBOOST_Farsight
+538.		Feared				SKILLBOOST_Fear
+539.		Immolated				SKILLBOOST_FireSurfaceSelf
+540.		Immune to Burning				SKILLBOOST_ImmuneToBurning
+541.		Immune to Electrifying				SKILLBOOST_ImmuneToElectrifying
+542.		Immune to Freezing				SKILLBOOST_ImmuneToFreezing
+543.		Immune to Poisoning				SKILLBOOST_ImmuneToPoisoning
+544.		Inspired				SKILLBOOST_Inspire
+545.		Encouraged				SKILLBOOST_InspireStart
+546.		Karma				SKILLBOOST_Karma
+547.		Resistances Nullified				SKILLBOOST_NullResistance
+548.		Leadership				SKILLBOOST_Leadership
+549.		Air Shield				SKILLBOOST_Shield_Air
+550.		Earth Shield				SKILLBOOST_Shield_Earth
+551.		Fire Shield				SKILLBOOST_Shield_Fire
+552.		Water Shield				SKILLBOOST_Shield_Water
+553.		Slowed				SKILLBOOST_Slowdown
+554.		Berserk				SKILLBOOST_SparkmasterBerserkAttack
+555.		Weak				SKILLBOOST_SparkmasterWeakenAttack
+556.		Lowered Armour				SKILLBOOST_Sunder
+557.		Oath of Desecration				SKILLBOOST_TargetedDamageBoost
+558.		Increased Wits				SKILLBOOST_BurnMyEyes
+559.		Treating Poison				SKILLBOOST_TreatPoisoning
+560.		Bitten				SKILLBOOST_VampiricTouch
+561.		Vitality Boosted				SKILLBOOST_WaterOfLife
+562.		Gold				Small_Gold
+563.		Gold				Small_Gold_Big
+564.		Marked For Death				Stats_AggroMarked
+565.		Air Immunity				Stats_AirImmunity
+566.		Air Immunity Aura				Stats_AirImmunity_Aura
+567.		Blessed				Stats_Blessed
+568.		Burning				Stats_Burning
+569.		Chilled				Stats_Chilled
+570.		Infected				Stats_CrawlingInfestation
+571.		Crippled				Stats_Crippled
+572.		Cursed				Stats_Cursed
+573.		Blood Infusion				Stats_Infusion_Blood
+574.		Decaying Touch				Stats_DecayingTouch
+575.		Diseased				Stats_Diseased
+576.		Drunk				Stats_Drunk
+577.		Earth Immunity				Stats_EarthImmunity
+578.		Earth Immunity Aura				Stats_EarthImmunity_Aura
+579.		Hovering				Stats_EtherealSoles
+580.		Fear				Stats_Fear
+581.		Fire Immunity				Stats_FireImmunity
+582.		Fire Immunity Aura				Stats_FireImmunity_Aura
+583.		Fortified				Stats_Fortified
+584.		Frozen				Stats_Frozen
+585.		Hasted				Stats_Hasted
+586.		Improved Initiative				Stats_ImprovedInitiative
+587.		Improved Initiative Aura				Stats_ImprovedInitiative_Aura
+588.		Infected				Stats_Infectious_Diseased
+589.		Lucky				Stats_Lucky
+590.		Grim Fate				Stats_MarkOfDeath
+591.		Remorse				Stats_Remorse
+592.		Shackled				Stats_ShacklesOfPain
+593.		Shackling				Stats_ShacklesOfPainCaster
+594.		Slowed				Stats_Slowed
+595.		Warm				Stats_Warm
+596.		Water Immunity				Stats_WaterImmunity
+597.		Water Immunity Aura				Stats_WaterImmunity_Aura
+598.		Weakened				Stats_Weak
+599.		Wet				Stats_Wet
+600.		Wind Walker				Stats_WindWalker
+601.		Black Fabric Dye				TOOL_Dye_Black
+602.		Blue Fabric Dye				TOOL_Dye_Blue
+603.		Green Fabric Dye				TOOL_Dye_Green
+604.		Mysterious Fabric Dye				TOOL_Dye_Mystery
+605.		Purple Fabric Dye				TOOL_Dye_Purple
+606.		Red Fabric Dye				TOOL_Dye_Red
+607.		White Fabric Dye				TOOL_Dye_White
+608.		Yellow Fabric Dye				TOOL_Dye_Yellow
+609.		Doll				TOOL_Figurine_Wood_A
+610.		Identifying Glass				TOOL_IdentifyingGlass
+611.		Intestines				TOOL_Intestines_A
+612.		Lockpicks				TOOL_Lockpick
+613.		Bonedust				TOOL_Pouch_Dust_Bone_A
+614.		Painting				FUR_Humans_Painting_Church_I
+615.		Livewood				ITEM_Log_Livewood
+616.		Pixie Dust				TOOL_Pouch_Dust_Pixie_A
+617.		Stardust				TOOL_Pouch_Dust_Star_A
+618.		Repair Hammer				TOOL_RepairHammer
+619.		Shovel				TOOL_Shovel_A
+620.		Anvil				TOOL_Smith_Anvil_A
+621.		Anvil				TOOL_Smith_Anvil_B
+622.		Pincers				TOOL_Tong_A
+623.		Disarm Toolkit				TOOL_Trap_DisarmToolkit
+624.		Inert Voodoo Doll				TOOL_VoodooDoll
+625.		Gold				Trader_Bank_Gold
+626.		Gold				Trader_Huge_Gold
+627.		Gold				Trader_Insane_Gold
+628.		Gold				Trader_Large_Gold
+629.		Gold				Trader_Medium_Gold
+630.		Gold				Trader_Small_Gold
+631.						TRAP_ElementalMine
+632.						TRAP_Gargoyle
+633.						TRAP_Mine
+634.						TRAP_Pit
+635.		Gold				Trader_DragonsLair_Gold
+636.		Teleporter Pyramid				UNIQUE_Pyramid
+637.		Arrow				WPN_Arrow_A
+638.		Charming Arrow				WPN_Arrow_Charming_A
+639.		Static Cloud Arrow				WPN_Arrow_Cloud_Static_A
+640.		Steamcloud Arrow				WPN_Arrow_Cloud_Steam_A
+641.		Cursing Arrow				WPN_Arrow_Debuff_All_A
+642.		Explosive Arrow				WPN_Arrow_Explosive_A
+643.		Fire Arrow				WPN_Arrow_Fire_A
+644.		Freezing Arrow				WPN_Arrow_Freezing_A
+645.		Knockdown Arrow				WPN_Arrow_KO_A
+646.		Poison Arrow				WPN_Arrow_Poison_A
+647.		Poisoncloud Arrow				WPN_Arrow_Poison_Cloud_A
+648.		Slowdown Arrow				WPN_Arrow_SlowDown_A
+649.		Smokescreen Arrow				WPN_Arrow_SmokeScreen_A
+650.		Stunning Arrow				WPN_Arrow_Stunning_A
+651.		Water Arrow				WPN_Arrow_Water_A
+652.		Arrowhead				WPN_ArrowHead_A
+653.		Knockdown Arrowhead				WPN_ArrowHead_Antler_A
+654.		Charming Arrowhead				WPN_ArrowHead_Charming_A
+655.		Explosive Arrowhead				WPN_ArrowHead_Explosive_A
+656.		Fire Arrowhead				WPN_ArrowHead_Fire_A
+657.		Freezing Arrowhead				WPN_ArrowHead_Freezing_A
+658.		Poisoned Arrowhead				WPN_ArrowHead_Poison_A
+659.		Poisoncloud Arrowhead				WPN_ArrowHead_Poison_Cloud_A
+660.		Blessed Water Arrowhead				WPN_ArrowHead_BlessedWater_A
+661.		Slowdown Arrowhead				WPN_ArrowHead_SlowDown_A
+662.		Smokescreen Arrowhead				WPN_ArrowHead_Smokescreen_A
+663.		Static Cloud Arrowhead				WPN_ArrowHead_Static_Could_A
+664.		Steamcloud Arrowhead				WPN_ArrowHead_Steam_A
+665.		Stunning Arrowhead				WPN_ArrowHead_Stunning_A
+666.		Arrow Shaft				WPN_ArrowShaft_A
+667.		Stunned				Stats_Stunned
+668.		Petrified				Stats_Petrified
+669.						END_VoidCrystal
+670.		Deaf				Stats_Deaf
+671.		Star Pebble				LOOT_Gems_StarPebble_A
+672.		Grapes				CON_Food_Grapes_A
+673.		Marked				Stats_Marked
+674.		Milk Jug				CON_Food_MilkJug_A
+675.		Stasis Fern				QUEST_Stasisfern
+676.		Life Essence				LOOT_Essence_Life_A
+677.		Corpse				Gen_UnstableCorpse
+678.		Armour-Piercing Grenade				GRN_Grenade_ArmorPiercing_A
+679.		Nailbomb Grenade				GRN_Grenade_Nailbomb_A
+680.		Flashbang Grenade				GRN_Grenade_Flashbang_A
+681.		Bottled Inferno				GRN_Grenade_Molotov_A
+682.		Cluster Grenade				GRN_Grenade_ClusterBomb_A
+683.		Love Grenade				GRN_Grenade_Love_A
+684.		Chemical Warfare Grenade				GRN_Grenade_ChemicalWarfare_A
+685.		Terror Grenade				GRN_Grenade_Terror_A
+686.		Frost Grenade				GRN_Grenade_Ice_A
+687.		Holy Hand Grenade				GRN_Grenade_Holy_A
+688.		Tremor Grenade				GRN_Grenade_Tremor_A
+689.		Taser Grenade				GRN_Grenade_Taser_A
+690.		Water Balloon				GRN_Grenade_WaterBalloon_A
+691.		Smoke Grenade				GRN_Grenade_SmokeBomb_A
+692.		Poison Cloud Grenade				GRN_Grenade_MustardGas_A
+693.		Oil Flask				GRN_Grenade_OilFlask_A
+694.		Poison Flask				GRN_Grenade_PoisonFlask_A
+695.						GLO_SentinelOn
+696.		Meat				QUEST_FunnyMeat
+697.						GLO_DrunkScript
+698.						Gen_Trap_Indestructible
+699.		Armor-Piercing Grenade				SKILLBOOK_Fire_FlamingDaggers
+700.		Decaying Foot				LOOT_BodyPart_H
+701.		Decaying Limb				LOOT_BodyPart_G
+702.		Decaying Body Part				LOOT_BodyPart_F
+703.		Decaying Limb				LOOT_BodyPart_E
+704.		Decaying Hand				LOOT_BodyPart_D
+705.		Decaying Body Part				LOOT_BodyPart_C
+706.		Decaying Head				LOOT_BodyPart_B
+707.		Decaying Torso				LOOT_BodyPart_A
+708.						GLO_SentinelOff
+709.		Taunted				Stats_Taunted
+710.		Elemental Immunity				Stats_ElementalImmunity
+711.		Elemental Immunity Aura				Stats_ElementalImmunity_Aura
+712.		Physical Immunity				Stats_PhysicalImmunity
+713.		Physical Immunity Aura				Stats_PhysicalImmunity_Aura
+714.		Oil-slicked				Stats_Oiled
+715.		Door				Gen_Door_Indestructible_Stone
+716.		Empty Canister				GRN_Ingredient_Cylinder_Empty_A
+717.		Empty Flask				GRN_Ingredient_Flask_Empty_A
+718.		Fuse				GRN_Ingredient_Fuse_A
+719.		Sovereign's Orb				GRN_Ingredient_Holy_Empty
+720.		Empty Perfume Bottle				GRN_Ingredient_Love_Empty_A
+721.		Empty Grenade				GRN_Ingredient_Round_Empty_A
+722.		Wine Barrel				FUR_Bar_Barrel_A_Wine_A_Poison
+723.						Gen_SpawnHole_Strong
+724.						Gen_SpawnHole_Weak
+725.		Container				Gen_Container_Indestructible_Metal
+726.		Stoup				PUZ_UnholyStoup
+727.		Bottle Filled With Oil				ITEM_BottleWithOil
+728.		Doctor				SKILLBOOST_Doctor
+729.		Noxious Bulb				ITEM_NoxiousBulb
+730.		First Aid				SKILLBOOST_FirstAid
+731.						Stats_DemonBomb
+732.		Beer Barrel				FUR_Bar_Barrel_A_Beer_A_Poison
+733.		Peace of Mind Skillbook				SKILLBOOK_Fire_BurnMyEyes
+734.		Haste Skillbook				SKILLBOOK_Fire_Haste
+735.		Stuck				Stats_Stuck
+736.		Favourable Wind				Stats_FavourableWind
+737.		Favourable Wind Aura				Stats_FavourableWind_Aura
+738.		Mug Of Blood				CON_Drink_Mug_A_Blood
+739.		Source Linked				Stats_SourceLinkRecipient
+740.		Source Linker				Stats_SourceLinkCaster
+741.		Life Channeling				Stats_LifeChanneling
+742.		Life Channeling Aura				Stats_LifeChanneling_Aura
+743.		Adrenaline				Stats_Adrenaline
+744.		Plate				ITEM_Rich_Plate_A
+745.		Plate				ITEM_Rich_Plate_B
+746.		Silver Plate				ITEM_Rich_Plate_A_Silver
+747.		Pitcher				ITEM_Rich_Pitcher_A
+748.		Gold				Neo_Gold_Reward_Step2_Tiny
+749.		Silver Cup				ITEM_Rich_Cup_A_Silver
+750.		Glass				ITEM_Rich_Glass_A
+751.		Silver Glass				ITEM_Rich_Glass_A_Silver
+752.		Jug				ITEM_Jug
+753.		Cutting Board				ITEM_CuttingBoard
+754.		Wheelbarrow				TOOL_Wheelbarrow
+755.		Eggs				CON_Food_Eggs_A
+756.		Berry Pie				CON_Food_BerryPie_A
+757.		Berry Pie				CON_Food_BerryPie_B
+758.		Poutine				CON_Food_Poutine_A
+759.		Stew				CON_Food_Stew_A
+760.		Tomato Sauce				CON_Food_TomatoSauce_A
+761.		Tomato Soup				CON_Food_Tomato_Soup_A
+762.		Body Part				CON_BodyPart_Dummy
+763.		|Well Fed|				CON_BodyPart_Heal
+764.		|Sick|				CON_BodyPart_Harm
+765.		|Water Infusion|				Stats_Infusion_Water
+766.		|Necrofire Infusion|				Stats_Infusion_Necrofire
+767.						Arena_WipeSP
+768.		|Magic Shell|				Stats_MagicShell
+769.		Void-tainted Yellow Ridgeback				FOOD_FishA_Voidwoken
+770.		Void-tainted Crimson Bream				FOOD_FishB_Voidwoken
+771.		Void-tainted Umber Monkfish				FOOD_FishC_Voidwoken
+772.		Void-tainted Plaice				FOOD_FishD_Voidwoken
+773.		Void-tainted Mackerel				FOOD_FishE_Voidwoken
+774.		Void-tainted Sailfish				FOOD_FishF_Voidwoken
+775.		Necrofire				Stats_Necrofire
+776.		Holy Fire				Stats_HolyFire
+777.		Source-Infused				Stats_SourceSurface
+778.		Blessed Source Infusion				Stats_SourceSurfaceBlessed
+779.		Void Infusion				Stats_SourceSurfaceCursed
+780.		Deathfog Crate				CONT_Crate_DeathFog_A
+781.		|Challenged|				Stats_Challenged
+782.		Enraged				Stats_Enraged
+783.		Rested				Stats_Rested
+784.		Suffocating				Stats_Suffocating
+785.		Poisoned				Stats_Poisoned
+786.		Acid				Stats_Acid
+787.		Charm				Stats_Charm
+788.		Uncanny Reflexes				Arena_Initiative_1
+789.						Arena_Initiative_2
+790.						Arena_Initiative_3
+791.						Arena_Initiative_4
+792.						Arena_Initiative_5
+793.						Arena_Initiative_6
+794.						Arena_Initiative_7
+795.						Arena_Initiative_8
+796.		Arena King				Arena_King
+797.		Sleeping				Stats_Sleeping
+798.		Regeneration				Stats_Regenerating
+799.		Knocked Down				Stats_KnockedDown
+800.		Clear-minded				Stats_ClearMinded
+801.		Fugitive				Stats_Fugitive
+802.		Disarmed				Stats_Disarmed
+803.		Charmed				Stats_StoryCharmed
+804.		Thick Of The Fight				Stats_Thick_Of_The_Fight
+805.		Chicken Claw Skillbook				SKILLBOOK_Polymorph_ChickenTouch
+806.		Couch				FUR_Couch_A
+807.		Bed				FUR_Bed_A
+808.		Small Magic Armour Potion				CON_Potion_MagicArmor_Boost_A
+809.		Medium Magic Armour Potion				CON_Potion_MagicArmor_Boost_Medium_A
+810.		Large Magic Armour Potion				CON_Potion_MagicArmor_Boost_Large_A
+811.		Chain Lightning Skillbook				SKILLBOOK_Air_ChainLightning
+812.		Tornado Skillbook				SKILLBOOK_Air_Tornado
+813.		Fortify Skillbook				SKILLBOOK_Earth_Fortify
+814.		Fossil Strike Skillbook				SKILLBOOK_Earth_PyroclasticRock
+815.		Contamination Skillbook				SKILLBOOK_Earth_Contamination
+816.		Impalement Skillbook				SKILLBOOK_Earth_RockSpikes
+817.		Arrow Storm Skillbook				SKILLBOOK_Ranger_RainOfArrows
+818.		Adrenaline Skillbook				SKILLBOOK_Rogue_Adrenaline
+819.		Sawtooth Knife Skillbook				SKILLBOOK_Rogue_SerratedEdge
+820.		Chloroform Skillbook				SKILLBOOK_Rogue_Choloroform
+821.		Throwing Knife Skillbook				SKILLBOOK_Rogue_ThrowingKnife
+822.		Backlash Skillbook				SKILLBOOK_Rogue_Vault
+823.		Wind-up Toy Skillbook				SKILLBOOK_Rogue_LaunchBomber
+824.		Cloak And Dagger Skillbook				SKILLBOOK_Rogue_CloakAndDagger
+825.		Water Arrowhead				WPN_ArrowHead_Water_A
+826.		Mortal Blow Skillbook				SKILLBOOK_Rogue_Fatality
+827.		Daggers Drawn Skillbook				SKILLBOOK_Rogue_DaggersDrawn
+828.		Blessed Oil Flask				GRN_Grenade_BlessedOilFlask_A
+829.		Battering Ram Skillbook				SKILLBOOK_Warrior_BatteringRam
+830.		Battle Stomp Skillbook				SKILLBOOK_Warrior_GroundSmash
+831.		Crippling Blow Skillbook				SKILLBOOK_Warrior_CripplingBlow
+832.		Enrage Skillbook				SKILLBOOK_Warrior_Enrage
+833.		Overpower Skillbook				SKILLBOOK_Warrior_Overpower
+834.		Phoenix Dive Skillbook				SKILLBOOK_Warrior_PhoenixDive
+835.		Cursed Poison Flask				GRN_Grenade_CursedPoisonFlask_A
+836.		Provoke Skillbook				SKILLBOOK_Warrior_Taunt
+837.		Rain Skillbook				SKILLBOOK_Water_Rain
+838.		Armour of Frost Skillbook				SKILLBOOK_Water_FrostyShell
+839.		Restoration Skillbook				SKILLBOOK_Water_Restoration
+840.		Winter Blast Skillbook				SKILLBOOK_Water_WinterBlast
+841.		Global Cooling Skillbook				SKILLBOOK_Water_GlobalCooling
+842.		Hail Strike Skillbook				SKILLBOOK_Water_HailStrike
+843.		Cursed Firebrand Grenade				GRN_Grenade_CursedMolotov_A
+844.		Artillery Plant Skillbook				SKILLBOOK_Earth_ArtilleryPlant
+845.		Feeding				Stats_Feeding
+846.		Bleeding				Stats_Bleeding
+847.		Garlic				CON_Food_Garlic
+848.		Lemon				CON_Food_Lemon_A
+849.		Pepper				CON_Food_Pepper_A
+850.		Salmon Pie				CON_Food_SalmonPie_A
+851.		Water Melon				CON_Food_WaterMelon
+852.		Healing Elixir				POTION_Healing_Elixir
+853.		Yarrow Flower				CON_Herb_YarrowFlower
+854.		Yarrow Flower				Stats_Yarrow_Flower
+855.		Healing Elixir				Stats_Healing_Elixir
+856.		Tombstone				Gen_TombStone
+857.		Blinding Radiance				Stats_Blinding_Radiance
+858.		Flesh Sacrifice				Stats_Flesh_Sacrifice
+859.		Short Stick				LOOT_WoodenStick_A
+860.		Long Branch				LOOT_WoodenBranch_A
+861.		Sharp Piece Of Metal				LOOT_MetalShard_A
+862.		Sharp Rock				LOOT_PieceOfRock_A
+863.		Fireblood				Stats_Fireblood
+864.		Steam Lance Skillbook				SKILLBOOK_Water_SteamLance
+865.		Hail Strike Scroll				SCROLL_HailStrike
+866.		Lightning Bolt Scroll				SCROLL_LighningBolt
+867.		Fossil Strike Scroll				SCROLL_FossilStrike
+868.		Zaikk's Talon				LOOT_ClawFinger_A
+869.						UNIQUE_Arena_Artifact
+870.		Amadouvier				CON_Nature_Mushroom_Amadouvier_A
+871.		Amethyst Deceiver				CON_Nature_Mushroom_AmethystDeceiver_A
+872.		Boletus				CON_Nature_Mushroom_Boletus_A
+873.		Calocera				CON_Nature_Mushroom_Calocera_A
+874.		Chanterelle				CON_Nature_Mushroom_Chanterelle_A
+875.		Wizard's Hat Agaric				CON_Nature_Mushroom_FlyAgaric_A
+876.		Puffball				CON_Nature_Mushroom_Puffball_A
+877.		Trumpet Of Death				CON_Nature_Mushroom_TrumpetOfDeath_A
+878.		Barrel				FUR_Bar_Barrel_Small_A
+879.		Poison Dart Skillbook				SKILLBOOK_Earth_PoisonDart
+880.		Magical Poison Dart Scroll				SCROLL_PoisonDart
+881.		Flaming Daggers Scroll				SCROLL_FlamingDaggers
+882.		Toy Wooden Block				LOOT_Toy_WoodenBlocks_D
+883.		Toy Wooden Block				LOOT_Toy_WoodenBlocks_C
+884.		Toy Wooden Block				LOOT_Toy_WoodenBlocks_B
+885.		Toy Wooden Block				LOOT_Toy_WoodenBlocks_A
+886.		Worn Teddy Bear				LOOT_Toy_TeddyBearWornOff
+887.		Teddy Bear				LOOT_Toy_TeddyBearClean
+888.		Infested				Stats_Infested
+889.		Bedroll				FUR_Humans_Camping_Sleepingbag_B
+890.		Barricade				Gen_WoodenBarricade
+891.		Resting				Stats_Resting
+892.		Drudanae				CON_Herb_Drudanae_Addict
+893.		Blood Rose				CON_Herb_BlackRose_A
+894.		Enlightenment				Stats_Herbmix_Enlightenment
+895.		Alertness				Stats_Herbmix_Alertness
+896.		Ferocity				Stats_Herbmix_Ferocity
+897.		Old Backpack				CONT_Backpack_Junk
+898.		Painting				FUR_Humans_Painting_M
+899.		Painting				FUR_Humans_Painting_N
+900.		Painting				FUR_Humans_Painting_O
+901.		Painting				FUR_Humans_Painting_P
+902.		Painting				FUR_Humans_Painting_Q
+903.		Painting				FUR_Humans_Painting_R
+904.		Painting				FUR_Humans_Painting_S
+905.		Painting				FUR_Humans_Painting_T
+906.		Painting				FUR_Humans_Painting_Tempest
+907.		Painting				FUR_Humans_Painting_HeroArmor
+908.		Painting				FUR_Humans_Painting_Leviathan
+909.		Painting				FUR_Humans_Painting_Apollo
+910.		Ignition Skillbook				SKILLBOOK_Fire_Ignition
+911.		Physical Armour Potion				CON_Potion_PhysicalArmor_Boost_A
+912.		Medium Physical Armour Potion				CON_Potion_PhysicalArmor_Boost_Medium_A
+913.		Large Physical Armour Potion				CON_Potion_PhysicalArmor_Boost_Large_A
+914.		Blinding Radiance Skillbook				SKILLBOOK_Air_BlindingRadiance
+915.		Meteor Shower Scroll				SCROLL_MeteorShower
+916.		Source Potion				POTION_Source_Potion
+917.		|Acid Spores Scroll|				SCROLL_AcidSpores
+918.		Hail Storm Scroll				SCROLL_HailStorm
+919.		Electric Fence Scroll				SCROLL_ElectricFence
+920.		Gold				GoldReward
+921.		Blitz Attack Skillbook				SKILLBOOK_Warrior_BlinkStrike
+922.		Healing Ritual Skillbook				SKILLBOOK_Water_ChainHeal
+923.		Courage				Stats_Herbmix_Courage
+924.		Chest				FUR_Chest_Arena_Big
+925.		Chest				FUR_Chest_Arena
+926.		Acid Spores Skillbook				SKILLBOOK_Earth_AcidSpores
+927.		Griff's Overpriced Drudanae				CON_Herb_Drudanae_Griff
+928.		Fang				LOOT_Fang_A
+929.		Lute				LOOT_Guitar_Lute_A
+930.		Orange				FOOD_Orange_Fake
+931.		Blinded				Stats_Blind
+932.		Permafrost				Stats_PermaFrost
+933.		Guardian Angel				Stats_Guardian_Angel_Aura
+934.		Guardian Angel				Stats_Guardian_Angel
+935.		Minor Healing Potion				POTION_Healing_Poisoned_Masked_Minor_A
+936.		Medium Healing Potion				POTION_Healing_Poisoned_Masked_Medium_A
+937.		Large Healing Potion				POTION_Healing_Poisoned_Masked_Large_A
+938.		Hot Kettle Fruit				FOOD_HotKettle_Fruit_A
+939.		Boon of Vengeance				Stats_LadyVengeance
+940.		Supercharged				Stats_Supercharge
+941.		Block Summon				Stats_BlockSummon
+942.		Soul Gateway				Stats_SoulGateway
+943.		Kill				Stats_Kill
+944.		Madness				Stats_Madness
+945.		Painting				FUR_Humans_Painting_Pig
+946.		Flower Pot				FUR_FlowerPot
+947.		Well				Hum_Well_A_Snow
+948.		Demonic Bargain				Stats_Demonic_Bargain
+949.		Damage When Moving				Stats_Damage_On_Move
+950.		Resist Death				Stats_Death_Resist
+951.		Coffin				CEM_Coffin
+952.		Weakened				Stats_Weakened
+953.		Fiery Malediction				Stats_LivingBomb_Buildup_A
+954.		Voidwoken Body Part				CON_BodyPart_Void
+955.		Small Bucket				FUR_Bucket_No_Helmet
+956.		Package				CONT_Humans_Citz_Package
+957.		Bag				CONT_Humans_Citz_Bag
+958.		Basket				CONT_Basket
+959.		Crate				CONT_Crate
+960.		Metal Crate				CONT_Crate_Metal
+961.		Steel Chest				CONT_Chest_Steel
+962.		Dwarf Statue				Stats_Dwarf_Statue_Aura
+963.		Dwarf Statue				Stats_Dwarf_Statue
+964.		Cow Meat				CON_Food_Meat_Cow_A
+965.		Ribs				CON_Food_Meat_Ribs_A
+966.		Bird Leg				CON_Food_Meat_BirdLeg_A
+967.		Giblets				CON_Food_Meat_Giblets_A
+968.		Rabbit Meat				CON_Food_Meat_RabbitMeat_A
+969.		Mutton				CON_Food_Meat_Mutton_A
+970.		|Floating|				Stats_Floating
+971.		Charm Voidwoken				SKILLBOOK_Source_VoidwokenCharm
+972.		Bench Saw				BLD_Humans_Sawmill_Machine
+973.		Improvised Shovel				TOOL_Shovel_Improvised_A
+974.		Unconscious				Stats_Unconscious
+975.		Blood Storm Scroll				SCROLL_Storm_Blood
+976.		| Summon Condor Familiar Scroll |				SCROLL_Summon_Condor
+977.		|Heart of Steel|				Stats_SteelSkin
+978.		|Fire Infusion|				Stats_Infusion_Fire
+979.		|Warp Infusion|				Stats_Infusion_Warp
+980.		|Shadow Infusion|				Stats_Infusion_Shadow
+981.		|Power Infusion|				Stats_Infusion_Power
+982.		|Ranged Infusion|				Stats_Infusion_Ranged
+983.		|Evading|				Stats_Evading
+984.						Stats_SparkMaster
+985.						Stats_SparkingSwings
+986.		Entangled				Stats_Entangled
+987.		Dazed				Stats_Dazed
+988.		Rose				CON_Herb_NormalRose_A
+989.		|Blessed Ice Infusion|				Stats_Infusion_Blessed_Ice
+990.		|Poison Infusion|				Stats_Infusion_Poison
+991.		|Acid Infusion|				Stats_Infusion_Acid
+992.		|Electric Infusion|				Stats_Infusion_Electric
+993.		|Cursed Electric Infusion|				Stats_Infusion_Cursed_Electric
+994.		Tied Up				Stats_Quest_TiedUp
+995.		Tentacle Lash Skillbook				SKILLBOOK_Polymorph_TentacleLash
+996.		Bull Horns Skillbook				SKILLBOOK_Polymorph_BullHorns
+997.		Chameleon Cloak Skillbook				SKILLBOOK_Polymorph_ChameleonSkin
+998.		Spread Your Wings Skillbook				SKILLBOOK_Polymorph_Wings
+999.		Heart of Steel Skillbook				SKILLBOOK_Polymorph_SteelSkin
+1000.		Skin Graft Skillbook				SKILLBOOK_Polymorph_ShedSkin
+1001.		Conjure Incarnate Skillbook				SKILLBOOK_Summoning_Incarnate
+1002.		Dimensional Bolt Skillbook				SKILLBOOK_Summoning_DimensionalBolt
+1003.		Elemental Totem Skillbook				SKILLBOOK_Summoning_TotemFromSurface
+1004.		Farsight Infusion Skillbook				SKILLBOOK_Summoning_RangedInfusion
+1005.		Power Infusion Skillbook				SKILLBOOK_Summoning_PowerInfusion
+1006.		Rallying Cry Skillbook				SKILLBOOK_Summoning_Harmony
+1007.		Supercharger Skillbook				SKILLBOOK_Summoning_Supercharge
+1008.		Fire Totem				TOTEM_Fire
+1009.		Wood Totem				TOTEM_Wood
+1010.		Water Totem				TOTEM_Water
+1011.		Air Totem				TOTEM_Air
+1012.		Poison Totem				TOTEM_Poison
+1013.		Shed Skin				Stats_Shed_Skin
+1014.		Desk				FUR_Desk
+1015.		Workbench				FUR_Workbench
+1016.		Spinning Wheel				FUR_SpinningWheel
+1017.		|Soul Bond|				Stats_Summoning_Ability
+1018.		Polymorphed				Stats_Polymorphed
+1019.		Bonecage				Stats_BoneCage
+1020.		Gold				Neo_Gold_Reward_Tiny
+1021.		Fiery Malediction				Stats_LivingBomb
+1022.		Gold				Neo_Gold_Reward_Small
+1023.		Gold				Neo_Gold_Reward_Medium
+1024.		Gold				Neo_Gold_Reward_Large
+1025.		Gold				Neo_Gold_Reward_Huge
+1026.		Gold				Neo_Gold_Reward_Insane
+1027.		Handkerchief				LOOT_Handkerchief_A
+1028.		|Horns|				Stats_Horns
+1029.		|Challenge Lost|				Stats_Challenge_Loss
+1030.		|Challenge Won|				Stats_Challenge_Win
+1031.		Spiderlegs				Stats_SpiderLegs
+1032.		Medusa's Head				Stats_MedusaHead
+1033.		|Deflecting|				Stats_Deflecting
+1034.		|Oil Infusion|				Stats_Infusion_Oil
+1035.						Gen_Weightless
+1036.		|Consumed Corpse|				Stats_BonePile
+1037.		Chest				FUR_Chest_Strong
+1038.		|Apotheosis|				Stats_Apotheosis
+1039.		|Farsight|				Stats_Farsight
+1040.		|Breathing Bubble|				Stats_BreathingBubble
+1041.		Crate				FUR_Blacksmith_Crate
+1042.		Shared Heal				Stats_HealSharing
+1043.		Sharing Heal				Stats_HealSharingCaster
+1044.		Deathwish				Stats_DeathWish
+1045.		Furnace				FUR_Kitchen_Furnace
+1046.		Medusa Head Skillbook				SKILLBOOK_Polymorph_MedusaHead
+1047.		Spider Legs Skillbook				SKILLBOOK_Polymorph_SpiderLegs
+1048.		Swap Ground Skillbook				SKILLBOOK_Polymorph_SwapGround
+1049.		Summon Oil Blob Skillbook				SKILLBOOK_Polymorph_LaunchOilBlob
+1050.		Forced Exchange Skillbook				SKILLBOOK_Polymorph_DemonicBargain
+1051.		Strip Resistance Skillbook				SKILLBOOK_Polymorph_StripResistance
+1052.		Equalize Skillbook				SKILLBOOK_Polymorph_Equalize
+1053.		Apotheosis Skillbook				SKILLBOOK_Polymorph_Apotheosis
+1054.		Planar Gateway Skillbook				SKILLBOOK_Summoning_PlanarGateway
+1055.		Shadow Infusion Skillbook				SKILLBOOK_Summoning_ShadowInfusion
+1056.		Cannibalize Skillbook				SKILLBOOK_Summoning_Cannibalize
+1057.		Soul Mate Skillbook				SKILLBOOK_Summoning_SoulMate
+1058.		Ethereal Storm Skillbook				SKILLBOOK_Summoning_Ethereal
+1059.		Warp Infusion Skillbook				SKILLBOOK_Summoning_WarpInfusion
+1060.		Dominate Mind Skillbook				SKILLBOOK_Summoning_Charm
+1061.		Close The Door Skillbook				SKILLBOOK_Summoning_CloseTheDoor
+1062.		Dazing Bolt Skillbook				SKILLBOOK_Air_DazingBolt
+1063.		Windwalker Skillbook				SKILLBOOK_Air_Windwalker
+1064.		| Apportation Scroll |				SCROLL_Target_Apportation
+1065.		Pressure Spike Skillbook				SKILLBOOK_Air_PressureSpike
+1066.		Superconductor Skillbook				SKILLBOOK_Air_Superconductor
+1067.		Thunder Storm Skillbook				SKILLBOOK_Air_Lightning
+1068.		Electric Infusion Skillbook				SKILLBOOK_Air_ElectricInfusion
+1069.		Cursed Electric Infusion Skillbook				SKILLBOOK_Air_CursedElectricInfusion
+1070.		Vacuum Touch Skillbook				SKILLBOOK_Air_VacuumTouch
+1071.		Vacuum Aura Skillbook				SKILLBOOK_Air_VacuumAura
+1072.		Breathing Bubble Skillbook				SKILLBOOK_Air_BreathingBubble
+1073.		Mass Breathing Bubbles Skillbook				SKILLBOOK_Air_MassBreathingBubbles
+1074.		Vaporize Skillbook				SKILLBOOK_Air_Vaporize
+1075.		Jellyfish Skin Skillbook				SKILLBOOK_Air_JellyfishSkin
+1076.		Smoke Cover Skillbook				SKILLBOOK_Air_SmokeCover
+1077.		Blessed Smoke Cloud Skillbook				SKILLBOOK_Air_BlessedSmokeCloud
+1078.		Uncanny Evasion Skillbook				SKILLBOOK_Air_EvasiveManeuver
+1079.		Evasion Aura Skillbook				SKILLBOOK_Air_EvasiveAura
+1080.		Mend Metal Skillbook				SKILLBOOK_Earth_MendMetal
+1081.		Worm Tremor Skillbook				SKILLBOOK_Earth_WormTremor
+1082.		Poison Wave Skillbook				SKILLBOOK_Earth_PoisonWave
+1083.		Reactive Armor Skillbook				SKILLBOOK_Earth_ReactiveArmor
+1084.		Earthquake Skillbook				SKILLBOOK_Earth_Earthquake
+1085.		Siphon Poison Skillbook				SKILLBOOK_Earth_SiphonPoison
+1086.		Living Wall Skillbook				SKILLBOOK_Earth_LivingWall
+1087.		Pyroclastic Eruption Skillbook				SKILLBOOK_Earth_PyroclasticEruption
+1088.		Poison Infusion Skillbook				SKILLBOOK_Earth_PoisonInfusion
+1089.		Acid Infusion Skillbook				SKILLBOOK_Earth_AcidInfusion
+1090.		Corrosive Touch Skillbook				SKILLBOOK_Earth_CorrosiveTouch
+1091.		Corrosive Spray Skillbook				SKILLBOOK_Earth_CorrosiveSpray
+1092.		Oily Carapace Skillbook				SKILLBOOK_Earth_OilyCarapace
+1093.		Mass Oily Carapace Skillbook				SKILLBOOK_Earth_MassOilyCarapace
+1094.		Oil Condenser Skillbook				SKILLBOOK_Earth_Condense
+1095.		Poisonous Skin Skillbook				SKILLBOOK_Earth_PoisonousSkin
+1096.		Venom Coating Skillbook				SKILLBOOK_Earth_VenomCoating
+1097.		Venomous Aura Skillbook				SKILLBOOK_Earth_VenomousAura
+1098.		Throw Dust Skillbook				SKILLBOOK_Earth_ThrowDust
+1099.		Dust Blast Skillbook				SKILLBOOK_Earth_DustBlast
+1100.		Supernova Skillbook				SKILLBOOK_Fire_Supernova
+1101.		Laser Ray Skillbook				SKILLBOOK_Fire_LaserRay
+1102.		Fire Whip Skillbook				SKILLBOOK_Fire_FireWhip
+1103.		Flaming Tongues Skillbook				SKILLBOOK_Fire_FlamingTongues
+1104.		Meteor Shower Skillbook				SKILLBOOK_Fire_MeteorShower
+1105.		Fire Brand Skillbook				SKILLBOOK_Fire_FireBrand
+1106.		Flaming Crescendo Skillbook				SKILLBOOK_Fire_FlamingCrescendo
+1107.		Fire Infusion Skillbook				SKILLBOOK_Fire_FireInfusion
+1108.		Necrofire Infusion Skillbook				SKILLBOOK_Fire_NecrofireInfusion
+1109.		Corpse Explosion Skillbook				SKILLBOOK_Fire_CorpseExplosion
+1110.		Mass Corpse Explosion Skillbook				SKILLBOOK_Fire_MassCorpseExplosion
+1111.		Sparking Swings Skillbook				SKILLBOOK_Fire_SparkingSwings
+1112.		Master of Sparks Skillbook				SKILLBOOK_Fire_MasterOfSparks
+1113.		Flaming Skin Skillbook				SKILLBOOK_Fire_FlamingSkin
+1114.		Sabotage Skillbook				SKILLBOOK_Fire_Sabotage
+1115.		Mass Sabotage Skillbook				SKILLBOOK_Fire_MassSabotage
+1116.		Explosive Trap Skillbook				SKILLBOOK_Fire_LaunchExplosiveTrap
+1117.		Deploy Mass Traps Skillbook				SKILLBOOK_Fire_DeployMassTraps
+1118.		Soothing Cold Skillbook				SKILLBOOK_Water_FrostAura
+1119.		Ice Fan Skillbook				SKILLBOOK_Water_IceFan
+1120.		Arcane Stitch Skillbook				SKILLBOOK_Water_ArcaneStitch
+1121.		Cryogenic Stasis Skillbook				SKILLBOOK_Water_CryogenicStasis
+1122.		Hail Attack Skillbook				SKILLBOOK_Water_HailAttack
+1123.		Shatter Skillbook				SKILLBOOK_Water_Shatter
+1124.		Ice Breaker Skillbook				SKILLBOOK_Water_IceBreaker
+1125.		Water Infusion Skillbook				SKILLBOOK_Water_WaterInfusion
+1126.		Blessed Ice Infusion Skillbook				SKILLBOOK_Water_IceInfusion
+1127.		Farsight Skillbook				SKILLBOOK_Ranger_Farsight
+1128.		Mass Cleanse Wounds Skillbook				SKILLBOOK_Water_MassCleanseWounds
+1129.		Cleanse Wounds Skillbook				SKILLBOOK_Water_CleanseWounds
+1130.		Healing Tears Skillbook				SKILLBOOK_Water_HealingTears
+1131.		Icy Skin Skillbook				SKILLBOOK_Water_IceSkin
+1132.		Vampiric Hunger Skillbook				SKILLBOOK_Water_VampiricHunger
+1133.		Vampiric Hunger Aura Skillbook				SKILLBOOK_Water_VampiricHungerAura
+1134.		Cryotherapy Skillbook				SKILLBOOK_Water_Cryotherapy
+1135.		Mass Cryotherapy Skillbook				SKILLBOOK_Water_MassCryotherapy
+1136.		Raise Bloated Corpse Skillbook				SKILLBOOK_Necromancy_BloatedCorpse
+1137.		Death Wish Skillbook				SKILLBOOK_Necromancy_DeathWish
+1138.		Black Shroud Skillbook				SKILLBOOK_Necromancy_BlackShroud
+1139.		Living on the Edge Skillbook				SKILLBOOK_Necromancy_DeathsDoor
+1140.		Raise Bonepile Skillbook				SKILLBOOK_Necromancy_BonePile
+1141.		Bone Cage Skillbook				SKILLBOOK_Necromancy_BoneCage
+1142.		Grasp of the Starved Skillbook				SKILLBOOK_Necromancy_GraspOfTheStarved
+1143.		Silencing Stare Skillbook				SKILLBOOK_Necromancy_SilencingStare
+1144.		Last Rites Skillbook				SKILLBOOK_Necromancy_LastRites
+1145.		Totems of the Necromancer Skillbook				SKILLBOOK_Necromancy_NecromancerTotems
+1146.		Bouncing Shield Skillbook				SKILLBOOK_Warrior_BouncingShield
+1147.		Challenge Skillbook				SKILLBOOK_Warrior_Challenge
+1148.		Guardian Angel Skillbook				SKILLBOOK_Warrior_GuardianAngel
+1149.		Thick of the Fight Skillbook				SKILLBOOK_Warrior_ThickOfTheFight
+1150.		Deflective Barrier Skillbook				SKILLBOOK_Warrior_DeflectiveBarrier
+1151.		Ballistic Shot Skillbook				SKILLBOOK_Ranger_BallisticShot
+1152.		Reaction Shot Skillbook				SKILLBOOK_Ranger_ReactionShot
+1153.		Barrage Skillbook				SKILLBOOK_Ranger_Multishot
+1154.		Sky Shot Skillbook				SKILLBOOK_Ranger_SkyShot
+1155.		Pin Down Skillbook				SKILLBOOK_Ranger_PinDown
+1156.		Elemental Arrowheads Skillbook				SKILLBOOK_Ranger_ElementalArrowheads
+1157.		Knee Breaker Skillbook				SKILLBOOK_Rogue_KneeBreaker
+1158.		Terrifying Cruelty Skillbook				SKILLBOOK_Rogue_TerrifyingCruelty
+1159.		Sleeping Arms Skillbook				SKILLBOOK_Rogue_SleepingArms
+1160.		Gag Order Skillbook				SKILLBOOK_Rogue_GagOrder
+1161.		Fan of Knives Skillbook				SKILLBOOK_Rogue_FanOfKnives
+1162.		Corrupted Blade Skillbook				SKILLBOOK_Rogue_CorruptedBlade
+1163.		Blood Storm Skillbook				SKILLBOOK_Water_BloodStorm
+1164.		Rat				Stats_Polymorphed_PuzzleRat
+1165.		Playing Dead				Stats_PlayDead
+1166.		Flaming Tongues				Stats_FlamingTongues
+1167.		Healing Tears				Stats_HealingTears
+1168.		Demonic Tutelage				Stats_DemonicTutelage
+1169.		Reactive Shot				Stats_ReactionShot
+1170.		Web				Stats_Web
+1171.		Fire Arrowhead				Stats_Arrowhead_Fire
+1172.		Water Arrowhead				Stats_Arrowhead_Water
+1173.		Poison Arrowhead				Stats_Arrowhead_Poison
+1174.		Stunning Arrowhead				Stats_Arrowhead_Electric
+1175.		Blood Arrowhead				Stats_Arrowhead_Blood
+1176.		Oil Arrowhead				Stats_Arrowhead_Oil
+1177.		Firebrand				Stats_FireBrand
+1178.		Venom Coated				Stats_VenomCoating
+1179.		Siphon Poison				Stats_SiphonPoison
+1180.		Void Howl				Stats_VoidHowl
+1181.						LOOT_Toy_Ball_Red_A
+1182.		Medium Masterwork Rune Of Power				LOOT_Rune_Masterwork_Medium_Framed_Power
+1183.		Small Masterwork Rune Of Power				LOOT_Rune_Masterwork_Small_Framed_Power
+1184.		Small Masterwork Rune				LOOT_Rune_Masterwork_Small
+1185.		Medium Masterwork Rune				LOOT_Rune_Masterwork_Medium
+1186.		Large Masterwork Rune				LOOT_Rune_Masterwork_Large
+1187.		Giant Masterwork Rune				LOOT_Rune_Masterwork_Giant
+1188.		Small Flame Rune				LOOT_Rune_Flame_Small
+1189.		Medium Flame Rune				LOOT_Rune_Flame_Medium
+1190.		Large Flame Rune				LOOT_Rune_Flame_Large
+1191.		Giant Flame Rune				LOOT_Rune_Flame_Giant
+1192.		Small Frost Rune				LOOT_Rune_Frost_Small
+1193.		Medium Frost Rune				LOOT_Rune_Frost_Medium
+1194.		Large Frost Rune				LOOT_Rune_Frost_Large
+1195.		Giant Frost Rune				LOOT_Rune_Frost_Giant
+1196.		Small Thunder Rune				LOOT_Rune_Thunder_Small
+1197.		Medium Thunder Rune				LOOT_Rune_Thunder_Medium
+1198.		Large Thunder Rune				LOOT_Rune_Thunder_Large
+1199.		Giant Thunder Rune				LOOT_Rune_Thunder_Giant
+1200.		Small Rock Rune				LOOT_Rune_Rock_Small
+1201.		Medium Rock Rune				LOOT_Rune_Rock_Medium
+1202.		Large Rock Rune				LOOT_Rune_Rock_Large
+1203.		Giant Rock Rune				LOOT_Rune_Rock_Giant
+1204.		Small Venom Rune				LOOT_Rune_Venom_Small
+1205.		Medium Venom Rune				LOOT_Rune_Venom_Medium
+1206.		Large Venom Rune				LOOT_Rune_Venom_Large
+1207.		Giant Venom Rune				LOOT_Rune_Venom_Giant
+1208.		Source Orb				LOOT_Source_Orb
+1209.		Painting				FUR_Humans_Painting_Church_J
+1210.		Small Flame Rune Of Power				LOOT_Rune_Flame_Small_Framed_Power
+1211.		Medium Flame Rune Of Power				LOOT_Rune_Flame_Medium_Framed_Power
+1212.		Large Flame Rune Of Power				LOOT_Rune_Flame_Large_Framed_Power
+1213.		Giant Flame Rune Of Power				LOOT_Rune_Flame_Giant_Framed_Power
+1214.		Small Frost Rune Of Power				LOOT_Rune_Frost_Small_Framed_Power
+1215.		Medium Frost Rune Of Power				LOOT_Rune_Frost_Medium_Framed_Power
+1216.		Large Frost Rune Of Power				LOOT_Rune_Frost_Large_Framed_Power
+1217.		Giant Frost Rune Of Power				LOOT_Rune_Frost_Giant_Framed_Power
+1218.		Small Thunder Rune Of Power				LOOT_Rune_Thunder_Small_Framed_Power
+1219.		Medium Thunder Rune Of Power				LOOT_Rune_Thunder_Medium_Framed_Power
+1220.		Large Thunder Rune Of Power				LOOT_Rune_Thunder_Large_Framed_Power
+1221.		Giant Thunder Rune Of Power				LOOT_Rune_Thunder_Giant_Framed_Power
+1222.		Small Rock Rune Of Power				LOOT_Rune_Rock_Small_Framed_Power
+1223.		Medium Rock Rune Of Power				LOOT_Rune_Rock_Medium_Framed_Power
+1224.		Large Rock Rune Of Power				LOOT_Rune_Rock_Large_Framed_Power
+1225.		Giant Rock Rune Of Power				LOOT_Rune_Rock_Giant_Framed_Power
+1226.		Small Venom Rune Of Power				LOOT_Rune_Venom_Small_Framed_Power
+1227.		Medium Venom Rune Of Power				LOOT_Rune_Venom_Medium_Framed_Power
+1228.		Large Venom Rune Of Power				LOOT_Rune_Venom_Large_Framed_Power
+1229.		Giant Venom Rune Of Power				LOOT_Rune_Venom_Giant_Framed_Power
+1230.		Mystical Small Flame Rune				LOOT_Rune_Flame_Small_Framed_Transforming
+1231.		Mystical Medium Flame Rune				LOOT_Rune_Flame_Medium_Framed_Transforming
+1232.		Mystical Large Flame Rune				LOOT_Rune_Flame_Large_Framed_Transforming
+1233.		Mystical Giant Flame Rune				LOOT_Rune_Flame_Giant_Framed_Transforming
+1234.		Mystical Small Frost Rune				LOOT_Rune_Frost_Small_Framed_Transforming
+1235.		Mystical Medium Frost Rune				LOOT_Rune_Frost_Medium_Framed_Transforming
+1236.		Mystical Large Frost Rune				LOOT_Rune_Frost_Large_Framed_Transforming
+1237.		Mystical Giant Frost Rune				LOOT_Rune_Frost_Giant_Framed_Transforming
+1238.		Mystical Small Thunder Rune				LOOT_Rune_Thunder_Small_Framed_Transforming
+1239.		Mystical Medium Thunder Rune				LOOT_Rune_Thunder_Medium_Framed_Transforming
+1240.		Mystical Large Thunder Rune				LOOT_Rune_Thunder_Large_Framed_Transforming
+1241.		Mystical Giant Thunder Rune				LOOT_Rune_Thunder_Giant_Framed_Transforming
+1242.		Mystical Small Rock Rune				LOOT_Rune_Rock_Small_Framed_Transforming
+1243.		Mystical Medium Rock Rune				LOOT_Rune_Rock_Medium_Framed_Transforming
+1244.		Mystical Large Rock Rune				LOOT_Rune_Rock_Large_Framed_Transforming
+1245.		Mystical Giant Rock Rune				LOOT_Rune_Rock_Giant_Framed_Transforming
+1246.		Mystical Small Venom Rune				LOOT_Rune_Venom_Small_Framed_Transforming
+1247.		Mystical Medium Venom Rune				LOOT_Rune_Venom_Medium_Framed_Transforming
+1248.		Mystical Large Venom Rune				LOOT_Rune_Venom_Large_Framed_Transforming
+1249.		Mystical Giant Venom Rune				LOOT_Rune_Venom_Giant_Framed_Transforming
+1250.		| Rain of Blood Scroll |				SCROLL_Rain_Blood
+1251.		Invisible				Stats_Invisible
+1252.		Large Masterwork Rune Of Power				LOOT_Rune_Masterwork_Large_Framed_Power
+1253.		Giant Masterwork Rune Of Power				LOOT_Rune_Masterwork_Giant_Framed_Power
+1254.		Deathfog Barrel				CONT_Barrel_DeathFog_A
+1255.		Lab Stuff				LOOT_Lab_Jar
+1256.		Blank Polymorph Skillbook				BOOK_Skill_Polymorph_Blank_A
+1257.		Mystical Small Masterwork Rune				LOOT_Rune_Masterwork_Small_Framed_Transforming
+1258.		Mystical Medium Masterwork Rune				LOOT_Rune_Masterwork_Medium_Framed_Transforming
+1259.		Mystical Large Masterwork Rune				LOOT_Rune_Masterwork_Large_Framed_Transforming
+1260.		Mystical Giant Masterwork Rune				LOOT_Rune_Masterwork_Giant_Framed_Transforming
+1261.						Gen_MetalGrate_Weak
+1262.		Fire Skin				Stats_FireSkin
+1263.		Ice Skin				Stats_IceSkin
+1264.		Poison Skin				Stats_PoisonSkin
+1265.		Electric Skin				Stats_ElectricSkin
+1266.		Strip Armor				Stats_Totem_Armor_Strip
+1267.		Explosive Trap Scroll				SCROLL_Projectile_LaunchExplosiveTrap
+1268.		Summon Oil Blob Scroll				SCROLL_Projectile_LaunchOilBlob
+1269.		Pyroclastic Eruption Scroll				SCROLL_Projectile_PyroclasticEruption
+1270.		Superconductor Scroll				SCROLL_Projectile_Superconductor
+1271.		Dazing Bolt Scroll				SCROLL_ProjectileStrike_DazingBolt
+1272.		Acid Infusion Scroll				SCROLL_Target_AcidInfusion
+1273.		Arcane Stitch Scroll				SCROLL_Target_ArcaneStitch
+1274.		Black Shroud Scroll				SCROLL_Target_BlackShroud
+1275.		Blood Sucker Scroll				SCROLL_Target_BloodBubble
+1276.		Peace of Mind Scroll				SCROLL_Target_BurnMyEyes
+1277.		Cannibalize Scroll				SCROLL_Target_Cannibalize
+1278.		Chicken Claw Scroll				SCROLL_Target_ChickenTouch
+1279.		Oil Condenser Scroll				SCROLL_Target_Condense
+1280.		Corpse Explosion Scroll				SCROLL_Target_CorpseExplosion
+1281.		Corrosive Touch Scroll				SCROLL_Target_CorrosiveTouch
+1282.		Cryogenic Stasis Scroll				SCROLL_Target_CryogenicStasis
+1283.		Cursed Electric Infusion Scroll				SCROLL_Target_CursedElectricInfusion
+1284.		Living on the Edge Scroll				SCROLL_Target_DeathsDoor
+1285.		Death Wish Scroll				SCROLL_Target_DeathWish
+1286.		Decaying Touch Scroll				SCROLL_Target_DecayingTouch
+1287.		Forced Exchange Scroll				SCROLL_Target_DemonicBargain
+1288.		Electric Infusion Scroll				SCROLL_Target_ElectricInfusion
+1289.		Equalize Scroll				SCROLL_Target_Equalize
+1290.		Fireblood Scroll				SCROLL_Target_Fireblood
+1291.		Fire Infusion Scroll				SCROLL_Target_FireInfusion
+1292.		Fire Whip Scroll				SCROLL_Target_FireWhip
+1293.		Flaming Crescendo Scroll				SCROLL_Target_FlamingCrescendo
+1294.		Armour of Frost Scroll				SCROLL_Target_FrostyShell
+1295.		Grasp of the Starved Scroll				SCROLL_Target_GraspOfTheStarved
+1296.		Rallying Cry Scroll				SCROLL_Target_Harmony
+1297.		Blessed Ice Infusion Scroll				SCROLL_Target_IceInfusion
+1298.		Infect Scroll				SCROLL_Target_Infect
+1299.		Mosquito Swarm Scroll				SCROLL_Target_MosquitoSwarm
+1300.		Necrofire Infusion Scroll				SCROLL_Target_NecrofireInfusion
+1301.		Poison Infusion Scroll				SCROLL_Target_PoisonInfusion
+1302.		Power Infusion Scroll				SCROLL_Target_PowerInfusion
+1303.		Pressure Spike Scroll				SCROLL_Target_PressureSpike
+1304.		Farsight Infusion Scroll				SCROLL_Target_RangedInfusion
+1305.		Impalement Scroll				SCROLL_Target_RockSpikes
+1306.		Shackles of Pain Scroll				SCROLL_Target_ShacklesOfPain
+1307.		Shadow Infusion Scroll				SCROLL_Target_ShadowInfusion
+1308.		Shocking Touch Scroll				SCROLL_Target_ShockingTouch
+1309.		Soul Mate Scroll				SCROLL_Target_SoulMate
+1310.		Source Vampirism Scroll				SCROLL_Target_SourceVampirism
+1311.		Spontaneous Combustion Scroll				SCROLL_Target_SpontaneousCombustion
+1312.		Cursed Cluster Grenade				GRN_Grenade_CursedClusterBomb_A
+1313.		Strip Resistance Scroll				SCROLL_Target_StripResistance
+1314.		Supercharger Scroll				SCROLL_Target_Supercharge
+1315.		Tentacle Lash Scroll				SCROLL_Target_TentacleLash
+1316.		Blessed Ice Grenade				GRN_Grenade_BlessedIce_A
+1317.		Vacuum Touch Scroll				SCROLL_Target_VacuumTouch
+1318.		Vaporize Scroll				SCROLL_Target_Vaporize
+1319.		Warp Infusion Scroll				SCROLL_Target_WarpInfusion
+1320.		Water Infusion Scroll				SCROLL_Target_WaterInfusion
+1321.		Windwalker Scroll				SCROLL_Target_Windwalker
+1322.		Winter Blast Scroll				SCROLL_Target_WinterBlast
+1323.		Worm Tremor Scroll				SCROLL_Target_WormTremor
+1324.		Corrosive Spray Scroll				SCROLL_Cone_CorrosiveSpray
+1325.		Dragon's Blaze Scroll				SCROLL_Cone_Flamebreath
+1326.		Shatter Scroll				SCROLL_Cone_Shatter
+1327.		Silencing Stare Scroll				SCROLL_Cone_SilencingStare
+1328.		Steam Lance Scroll				SCROLL_Cone_SteamLance
+1329.		Laser Ray Scroll				SCROLL_Zone_LaserRay
+1330.		Earthquake Scroll				SCROLL_Quake_Earthquake
+1331.		Thunder Storm Scroll				SCROLL_Storm_Lightning
+1332.		Ethereal Storm Scroll				SCROLL_Storm_Ethereal
+1333.		Living Wall Scroll				SCROLL_Wall_LivingWall
+1334.		Nether Swap Scroll				SCROLL_Teleportation_Netherswap
+1335.		Swap Ground Scroll				SCROLL_Teleportation_SwapGround
+1336.		Artillery Plant Scroll				SCROLL_Summon_ArtilleryPlant
+1337.		Raise Bloated Corpse Scroll				SCROLL_Summon_BloatedCorpse
+1338.		Raise Bonepile Scroll				SCROLL_Summon_BonePile
+1339.		Summon Familiar: Cat Scroll				SCROLL_Summon_Cat
+1340.		Summon Fire Slug Scroll				SCROLL_Summon_FireSlug
+1341.		Conjure Incarnate Scroll				SCROLL_Summon_Incarnate
+1342.		Planar Gateway Scroll				SCROLL_Summon_PlanarGateway
+1343.		Elemental Totem Scroll				SCROLL_Summon_TotemFromSurface
+1344.		Apotheosis Scroll				SCROLL_Shout_Apotheosis
+1345.		Blinding Radiance Scroll				SCROLL_Shout_BlindingRadiance
+1346.						Gen_TombLid
+1347.		Bone Cage Scroll				SCROLL_Shout_BoneCage
+1348.		Bull Horns Scroll				SCROLL_Shout_BullHorns
+1349.		Chameleon Cloak Scroll				SCROLL_Shout_ChameleonSkin
+1350.		Close The Door Scroll				SCROLL_Shout_CloseTheDoor
+1351.		Contamination Scroll				SCROLL_Shout_Contamination
+1352.		Favourable Wind Scroll				SCROLL_Shout_FavourableWind
+1353.		Fire Brand Scroll				SCROLL_Shout_FireBrand
+1354.		Flaming Skin Scroll				SCROLL_Shout_FlamingSkin
+1355.		Flaming Tongues Scroll				SCROLL_Shout_FlamingTongues
+1356.		Soothing Cold Scroll				SCROLL_Shout_FrostAura
+1357.		Global Cooling Scroll				SCROLL_Shout_GlobalCooling
+1358.		Healing Tears Scroll				SCROLL_Shout_HealingTears
+1359.		Ice Breaker Scroll				SCROLL_Shout_IceBreaker
+1360.		Icy Skin Scroll				SCROLL_Shout_IceSkin
+1361.		Ignition Scroll				SCROLL_Shout_Ignition
+1362.		Jellyfish Skin Scroll				SCROLL_Shout_JellyfishSkin
+1363.		Mass Corpse Explosion Scroll				SCROLL_Shout_MassCorpseExplosion
+1364.		Medusa Head Scroll				SCROLL_Shout_MedusaHead
+1365.		Mend Metal Scroll				SCROLL_Shout_MendMetal
+1366.		Totems of the Necromancer Scroll				SCROLL_Shout_NecromancerTotems
+1367.		Poisonous Skin Scroll				SCROLL_Shout_PoisonousSkin
+1368.		Poison Wave Scroll				SCROLL_Shout_PoisonWave
+1369.		Reactive Armor Scroll				SCROLL_Shout_ReactiveArmor
+1370.		Skin Graft Scroll				SCROLL_Shout_ShedSkin
+1371.		Siphon Poison Scroll				SCROLL_Shout_SiphonPoison
+1372.		Spider Legs Scroll				SCROLL_Shout_SpiderLegs
+1373.		Heart of Steel Scroll				SCROLL_Shout_SteelSkin
+1374.		| Apportation Skillbook |				SKILLBOOK_Air_Apportation
+1375.		Summon Familiar: Inner Demon Scroll				SCROLL_Shout_SummonInnerDemon
+1376.		Supernova Scroll				SCROLL_Shout_Supernova
+1377.		Vacuum Aura Scroll				SCROLL_Shout_VacuumAura
+1378.		Spread Your Wings Scroll				SCROLL_Shout_Wings
+1379.		Mending Metal				Stats_MendMetal
+1380.		Frost Aura				Stats_FrostAura
+1381.		Blessed Water Balloon				GRN_Grenade_WaterBlessedBalloon_A
+1382.		Cursed Fire Arrowhead				WPN_ArrowHead_CursedFire_A
+1383.		Cursed Fire Arrow				WPN_Arrow_CursedFire_A
+1384.		Blessed Water Arrow				WPN_Arrow_BlessedWater_A
+1385.		Blank Summoning Skillbook				BOOK_Skill_Summoning_Blank_A
+1386.		Mystical Rune Frame				LOOT_Rune_Frame_Transforming
+1387.		Rune Frame Of Power				LOOT_Rune_Frame_Power
+1388.		Arthropod Leg				LOOT_Leg_Anthropod_A
+1389.		Stoneskin Potion				CON_Potion_Stoneskin
+1390.		Potion Of Nimble Tumble				CON_Potion_NimbleTumble
+1391.		Potion Of Strong Will				CON_Potion_Will
+1392.		Potion Of Electric Skin				CON_Potion_ElectricSkin
+1393.		Extra Turn				Stats_ExtraTurn
+1394.						QUEST_BrokenShapeshiftingMask
+1395.		Painting				FUR_Humans_Painting_Worthless
+1396.		Gold				Tiny_Gold
+1397.		Last Rite				Stats_LastRites
+1398.						TRAP_SpikedFloor
+1399.		Shocked				Stats_Shocked
+1400.		Vampire				Stats_Vampirism
+1401.		Bark At The Rune: Pixie Dust				BOOK_RCP_Runecrafting_1
+1402.		Bark At The Rune: Flame Rune				BOOK_RCP_Runecrafting_2
+1403.		Bark At The Rune: Thunder Rune				BOOK_RCP_Runecrafting_3
+1404.		Bark At The Rune: Frost Rune				BOOK_RCP_Runecrafting_4
+1405.		Bark At The Rune: Rock Rune				BOOK_RCP_Runecrafting_5
+1406.		Bark At The Rune: Venom Rune				BOOK_RCP_Runecrafting_6
+1407.		Bark At The Rune: Masterwork Rune				BOOK_RCP_Runecrafting_7
+1408.		Bark At The Rune: On Rune Sizes				BOOK_RCP_Runecrafting_8
+1409.		Rhymes Of The Ranger, Part 1				BOOK_RCP_Arrows_1
+1410.		Rhymes Of The Ranger, Part 2				BOOK_RCP_Arrows_2
+1411.		Rhymes Of The Ranger, Part 3				BOOK_RCP_Arrows_3
+1412.		Rhymes Of The Ranger, Part 4				BOOK_RCP_Arrows_4
+1413.		Rhymes Of The Ranger, Part 5				BOOK_RCP_Arrows_5
+1414.		On Source Orbs, Part 1				BOOK_RCP_Magic_1
+1415.		On Source Orbs, Part 2				BOOK_RCP_Magic_2
+1416.		On Source Orbs, Part 3				BOOK_RCP_Magic_3
+1417.		Rhymes Of The Scribes, Part 1				BOOK_RCP_Magic_4
+1418.		Rhymes Of The Scribes, Part 2				BOOK_RCP_Magic_5
+1419.		Rhymes Of The Scribes, Part 3				BOOK_RCP_Magic_6
+1420.		Rhymes Of The Scribes, Part 4				BOOK_RCP_Magic_7
+1421.		Pilgrim's Shell				LOOT_Shell_B_PilgrimsShell
+1422.		Brew Colours: Fly Agaric Mushroom				BOOK_RCP_Potions_2
+1423.		True Brew: Penny Bun				BOOK_RCP_Potions_3
+1424.		True Brew: Whisperwood				BOOK_RCP_Potions_4
+1425.		True Brew: Amadouvier				BOOK_RCP_Potions_5
+1426.		True Brew: Guepinia				BOOK_RCP_Potions_6
+1427.		True Brew: Bluegill				BOOK_RCP_Potions_7
+1428.		True Brew: Jellyroom				BOOK_RCP_Potions_8
+1429.		True Brew: Earth Tongue				BOOK_RCP_Potions_9
+1430.		True Brew: Trumpet Of Death				BOOK_RCP_Potions_10
+1431.		True Brew: Amethyst Deceiver				BOOK_RCP_Potions_11
+1432.		An Official Rulebook On Archery				BOOK_RCP_Potions_12
+1433.		The Code Of Wizardry				BOOK_RCP_Potions_13
+1434.		True Brew: Farhangite				BOOK_RCP_Potions_14
+1435.		True Brew: Puffball				BOOK_RCP_Potions_15
+1436.		True Brew: Chanterelle				BOOK_RCP_Potions_16
+1437.		A Brewer's Appendix				BOOK_RCP_Potions_17
+1438.		True Brew: Augmentor				BOOK_RCP_Potions_18
+1439.		My Memoirs				BOOK_RCP_Grenades_1
+1440.		Razzle Dazzle: The Engineer's Approach				BOOK_RCP_Grenades_2
+1441.		Warfare				BOOK_RCP_Grenades_3
+1442.		Mutiny In A Bottle: The Firestorm Grenade				BOOK_RCP_Grenades_4
+1443.		Strike Terror Into Their Hearts				BOOK_RCP_Grenades_5
+1444.		A Grenadier's Journal				BOOK_RCP_Grenades_6
+1445.		Love Grenade				BOOK_RCP_Grenades_7
+1446.		The Holy Hand Grenade				BOOK_RCP_Grenades_8
+1447.		The War Machine's Companion				BOOK_RCP_Grenades_9
+1448.		Pearl From A Void Creature				HAR_Pearl_A_VW
+1449.		Malachite From A Void Creature				LOOT_Gems_Malachite_VW
+1450.		Ruby From A Void Creature				LOOT_Ruby_A_VW
+1451.		Crystal From A Void Creature				LOOT_Gems_Crystal_VW
+1452.		Diamond From A Void Creature				LOOT_Gems_Diamond_VW
+1453.		Big Diamond From A Void Creature				LOOT_Gems_Diamond_B_VW
+1454.						TRAP_SpikedWall
+1455.						Stats_Lie_Dying
+1456.		Possessed				Stats_Possessed
+1457.		|Cursed poison grenade|				BOOK_RCP_Grenades_10
+1458.						Stats_Polymorphed_ZombieChicken
+1459.		Gold				Neo_Gold_Reward_Step2_Small
+1460.		Gold				Neo_Gold_Reward_Step2_Medium
+1461.		Gold				Neo_Gold_Reward_Step2_Large
+1462.		Gold				Neo_Gold_Reward_Step2_Huge
+1463.		Gold				Neo_Gold_Reward_Step2_Insane
+1464.		Gold				Neo_Gold_Reward_Step3_Tiny
+1465.		Gold				Neo_Gold_Reward_Step3_Small
+1466.		Gold				Neo_Gold_Reward_Step3_Medium
+1467.		Gold				Neo_Gold_Reward_Step3_Large
+1468.		Gold				Neo_Gold_Reward_Step3_Huge
+1469.		Gold				Neo_Gold_Reward_Step3_Insane
+1470.		Gold				Neo_Gold_Reward_Step4_Tiny
+1471.		Gold				Neo_Gold_Reward_Step4_Small
+1472.		Gold				Neo_Gold_Reward_Step4_Medium
+1473.		Gold				Neo_Gold_Reward_Step4_Large
+1474.		Gold				Neo_Gold_Reward_Step4_Huge
+1475.		Gold				Neo_Gold_Reward_Step4_Insane
+1476.		High Tier Blank Summoning Skillbook				BOOK_Skill_Summoning_Blank_Step2_A
+1477.		High Tier Blank Polymorph Skillbook				BOOK_Skill_Polymorph_Blank_Step2_A
+1478.		High Tier Blank Necromancy Skillbook				BOOK_Skill_Witchcraft_Blank_Step2_A
+1479.		High Tier Blank Air Skillbook				BOOK_Skill_Air_Blank_Step2_A
+1480.		High Tier Blank Earth Skillbook				BOOK_Skill_Earth_Blank_Step2_A
+1481.		High Tier Blank Fire Skillbook				BOOK_Skill_Fire_Blank_Step2_A
+1482.		High Tier Blank Water Skillbook				BOOK_Skill_Water_Blank_Step2_A
+1483.		| High Quality Life Essence |				LOOT_Essence_Life_Step2_A
+1484.		| High Quality Air Essence |				LOOT_Essence_Air_Step2_A
+1485.		| High Quality Earth Essence |				LOOT_Essence_Earth_Step2_A
+1486.		| High Quality Fire Essence |				LOOT_Essence_Fire_Step2_A
+1487.		| High Quality Water Essence |				LOOT_Essence_Water_Step2_A
+1488.		| High Quality Shadow Essence |				LOOT_Essence_Shadow_Step2_A
+1489.		| High Quality Tormented Soul |				LOOT_Soul_Tormented_Step2_A
+1490.		| Alien Life Essence |				LOOT_Essence_Life_Step3_A
+1491.		| Alien Air Essence |				LOOT_Essence_Air_Step3_A
+1492.		| Alien Earth Essence |				LOOT_Essence_Earth_Step3_A
+1493.		| Alien Fire Essence |				LOOT_Essence_Fire_Step3_A
+1494.		| Alien Water Essence |				LOOT_Essence_Water_Step3_A
+1495.		| Alien Shadow Essence |				LOOT_Essence_Shadow_Step3_A
+1496.		| Alien Tormented Soul |				LOOT_Soul_Tormented_Step3_A
+1497.						Stats_Inactive
+1498.		Giant Healing Potion				POTION_Giant_Healing_Potion
+1499.		Giant Magic Armour Potion				CON_Potion_MagicArmor_Boost_Giant_A
+1500.		Gian Physical Armour Potion				CON_Potion_PhysicalArmor_Boost_Giant_A
+1501.		| High Quality Augmentor |				CON_Herb_Augmentor_Step2_A
+1502.		Gold				Tiny_Gold_2
+1503.		Gold				Tiny_Gold_3
+1504.		Pouch Of Superior Star Dust				TOOL_Pouch_Dust_Star_B
+1505.		Pouch Of Superior Pixie Dust				TOOL_Pouch_Dust_Pixie_B
+1506.		Superior Stardust Herb				CON_Herb_Stardust_B
+1507.		Huge Poison Vial				CON_Potion_Poison_Huge_A
+1508.		Giant Poison Vial				CON_Potion_Poison_Giant_A
+1509.		Poison Elixir				CON_Potion_Poison_Elixir
+1510.		Ultimate Augmentor Herb				CON_Herb_Augmentor_Step3_A
+1511.						ITEM_FluffySpear
+1512.		Curse Scroll				SCROLL_Curse
+1513.		Tiny Bird Skull				LOOT_Skull_Bird_A
+1514.		Slime				LOOT_Slime_A
+1515.		Voidwoken Spike				LOOT_VoidEggSpike_A
+1516.		| Demonic Celerity |				Stats_DemonicHasted
+1517.		Pain Aura				Stats_Quest_PainAura
+1518.		Alice Alisceon's Pain				Stats_Quest_PainStatus
+1519.						Stats_Encumbered_Partial
+1520.						Stats_Encumbered_Full
+1521.		Dirty Socks				LOOT_DirtySocks_A
+1522.		Panties				LOOT_Panties_A
+1523.		Bedlinen				LOOT_Bedlinen_Folded_A
+1524.		Clay				LOOT_Clay_A
+1525.		Candle				LOOT_Candle_A
+1526.		Eternal Artefact				LOOT_AtaraxianArtifacts_A
+1527.		Eternal Artefact				LOOT_AtaraxianArtifacts_B
+1528.		Eternal Artefact				LOOT_AtaraxianArtifacts_C
+1529.		Plague				Stats_Plague
+1530.		Hypercharged				Stats_Hypercharged
+1531.		Fancy Bottle of Beer				CON_Drink_Bottle_Beer_A_Fancy
+1532.		Expensive Wine				CON_Drink_Bottle_Wine_A_Expensive
+1533.		| Demonic Surfeit |				Stats_DemonicConsume
+1534.		Inner Demon				Stats_InnerDemon
+1535.		Faith Aura				Stats_Quest_FaithAura
+1536.		Faith				Stats_Quest_Faith
+1537.		Lemonade				CON_Drink_Cup_A_Lemonade
+1538.		Jug				ITEM_Jug_B
+1539.		Jug				ITEM_Jug_C
+1540.						Gen_Wood_VeryHeavy
+1541.		Eternal Tablet				FUR_Raanaar_Tablet_A
+1542.		Eternal Plate				FUR_Raanaar_Plate_A
+1543.		Eternal Cup				FUR_Raanaar_Cup_A
+1544.		Ball and Chain				FUR_Pris_Ballchain_A
+1545.						Gen_Stone_VeryHeavy
+1546.		Inner Demon Skillbook				SKILLBOOK_Summoning_InnerDemon
+1547.		Magic Barrier				Gen_MagicWall_Indestructible
+1548.		Silenced				Stats_Muted
+1549.		Fiery Malediction				Stats_LivingBomb_Buildup_B
+1550.		Dome Of Protection				Stats_ProtectionCircle
+1551.		Heater				FUR_LizardHeater
+1552.		Disembodied Hand				CON_BodyPart_Hand
+1553.		Bead				LOOT_SourcePuppet_Bead_A
+1554.		Goo				LOOT_Goo_SewerSpider_A
+1555.						BOOK_RCP_Clothes_1
+1556.						BOOK_RCP_Clothes_2
+1557.						BOOK_RCP_Food1
+1558.						BOOK_RCP_Food2
+1559.						BOOK_RCP_Magic_10
+1560.						BOOK_RCP_Magic_8
+1561.						BOOK_RCP_Magic_9
+1562.						BOOK_RCP_Runecrafting_9
+1563.						BOOK_RCP_Weapons_1
+1564.						BOOK_RCP_Weapons_2
+1565.						BOOK_RCP_Weapons_3
+1566.						BOOK_RCP_Weapons_4
+1567.						BOOK_RCP_Weapons_5
+1568.		Sourcebleeder				Stats_SourceBlood
+1569.		Poison Aura				Stats_Quest_PoisonAura
+1570.						UNIQUE_ARX_ToyScenery_Barrel
+1571.		Revered				Stats_Revered
+1572.						UNIQUE_ARX_ToyScenery_Chair_A
+1573.						UNIQUE_ARX_ToyScenery_DressingPanel_B
+1574.		Grounded				Stats_Grounded
+1575.		Huge Healing Potion				POTION_Healing_Poisoned_Masked_Huge_A
+1576.		Venom Aura				Stats_VenomAura
+1577.						Gen_Ballista_A
+1578.						CON_BodyPart_Face_Human
+1579.						CON_BodyPart_Face_Dwarf
+1580.						CON_BodyPart_Face_Elf
+1581.						CON_BodyPart_Face_Lizard
+1582.						Stats_PermanentDecay
+1583.						FUR_JewelleryBox
+1584.						LOOT_Jar_MindMaggot_A
+1585.						GRN_Grenade_MindMaggots_A
+1586.						BOOK_RCP_Grenades_MindMaggots
+1587.						BOOK_RCP_Magic_11
+1588.						BOOK_Surfaces
+1589.						BOOK_Humanity
+1590.						BOOK_PlayLucian
+1591.						BOOK_SillyBlanks
+1592.						BOOK_Troll
+1593.						BOOK_Arx01
+1594.						BOOK_Arx02
+1595.						BOOK_LucianDay
+1596.						BOOK_Lighthouse
+1597.						BOOK_Healer
+1598.						BOOK_Witch
+1599.						BOOK_Petrification
+1600.						BOOK_MIL_ElvenTrialBook
+1601.						BOOK_Phoenix
+1602.		Deflection Aura				Stats_Quest_DeflectingAura
+1603.						Stats_Quest_DW_ArenaDebuff
+1604.		Wordless Aura				Stats_Quest_SilenceAura
+1605.		Terror Aura				Stats_Quest_FearAura
+1606.						LOOT_Drudanae_Pipe
+1607.		Replenish Source				Stats_SourceReplenish
+1608.						CON_Food_Onion_A
+1609.						Gen_Letter
+1610.						CS_WitchCauldron_A
+1611.		Sunshine				Stats_Quest_Sunshine
+1612.						Stats_Quest_Overgrown
+1613.						Gen_CharCreationMirror
+1614.						UNI_PlanarGateway
+1615.						SCROLL_Target_Charm
+1616.						Gen_Cloth_Heavy
+1617.		Double Damage				Stats_DoubleDamage

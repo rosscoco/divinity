@@ -1,4 +1,4 @@
-const name = 'ItemCombos';
+
 
 function getPropertyList(property, fromNode) {
 	const ingredients = [];
@@ -19,7 +19,7 @@ function extract(data) {
 	item.results = getPropertyList('Result ', data);
 	item.ingredientTypes = getPropertyList('Type ', data);
 	item.stats = data.PreviewStatsID;
-	item.name = item.results[0];		// not everything has a result. These special cases have their outpt defined on a different node
+	item.name = item.results[0];		// eslint-disable-line prefer-destructuring
 
 	if (item.stats === '') item.stats = item.name;
 

@@ -6,27 +6,31 @@
         "intelligence": "3",
         "wits": "7",
         "accuracyBoost": "20",
-        "statusIcon": "Skill_Fire_BoostPerception"
+        "statusIcon": "Skill_Fire_BoostPerception",
+        "displayName": "Clear-minded"
     },
     {
         "name": "Stats_Crippled",
         "movementSpeedBoost": "-100",
         "dodgeBoost": "-30",
-        "statusIcon": "statIcons_Crippled"
+        "statusIcon": "statIcons_Crippled",
+        "displayName": "Crippled"
     },
     {
         "name": "Stats_Entangled",
         "movementSpeedBoost": "-100",
         "dodgeBoost": "-70",
         "flags": "Grounded;ThrownImmunity",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Entangled"
     },
     {
         "name": "Stats_Rested",
         "strength": "1",
         "finesse": "1",
         "intelligence": "1",
-        "statusIcon": "Skill_Water_FalseLife"
+        "statusIcon": "Skill_Water_FalseLife",
+        "displayName": "Rested"
     },
     {
         "name": "Stats_Cursed",
@@ -37,7 +41,8 @@
         "poisonResistance": "-15",
         "accuracyBoost": "-10",
         "dodgeBoost": "-30",
-        "statusIcon": "statIcons_Cursed"
+        "statusIcon": "statIcons_Cursed",
+        "displayName": "Cursed"
     },
     {
         "name": "Stats_Blessed",
@@ -48,91 +53,107 @@
         "poisonResistance": "15",
         "accuracyBoost": "20",
         "dodgeBoost": "10",
-        "statusIcon": "statIcons_Blessed"
+        "statusIcon": "statIcons_Blessed",
+        "displayName": "Blessed"
     },
     {
         "name": "Stats_Weak",
         "strength": "-5",
         "damageBoost": "-50",
-        "statusIcon": "statIcons_Weak"
+        "statusIcon": "statIcons_Weak",
+        "displayName": "Weakened"
     },
     {
         "name": "Stats_Slowed",
         "movementSpeedBoost": "-50",
         "dodgeBoost": "-30",
-        "statusIcon": "statIcons_Slowed"
+        "statusIcon": "statIcons_Slowed",
+        "displayName": "Slowed"
     },
     {
         "name": "Stats_Hasted",
         "movement": "200",
-        "statusIcon": "statIcons_Hasted"
+        "statusIcon": "statIcons_Hasted",
+        "displayName": "Hasted"
     },
     {
         "name": "Stats_DemonicHasted",
         "parent": "Stats_Hasted",
         "statusIcon": "statIcons_ferocity",
-        "movement": "200"
+        "movement": "200",
+        "displayName": "| Demonic Celerity |"
     },
     {
         "name": "Stats_Enraged",
-        "statusIcon": "statIcons_Raged"
+        "statusIcon": "statIcons_Raged",
+        "displayName": "Enraged"
     },
     {
         "name": "Stats_Lucky",
         "luck": "2",
-        "statusIcon": "statIcons_Lucky"
+        "statusIcon": "statIcons_Lucky",
+        "displayName": "Lucky"
     },
     {
         "name": "Stats_Diseased",
         "constitution": "-3",
         "damageBoost": "-35",
         "statusEffect": "RS3_FX_GP_Status_Diseased_01",
-        "statusIcon": "statIcons_Diseased"
+        "statusIcon": "statIcons_Diseased",
+        "displayName": "Diseased"
     },
     {
         "name": "Stats_Infectious_Diseased",
         "constitution": "-3",
         "damageBoost": "-35",
         "statusEffect": "RS3_FX_GP_Status_Infectious_01:Dummy_BodyFX",
-        "statusIcon": "statIcons_Infectious_Disease"
+        "statusIcon": "statIcons_Infectious_Disease",
+        "displayName": "Infected"
     },
     {
         "name": "Stats_Fortified",
         "armor": "40",
         "flags": "Grounded",
-        "statusIcon": "statIcons_Fortified"
+        "statusIcon": "statIcons_Fortified",
+        "displayName": "Fortified"
     },
     {
         "name": "Stats_MagicShell",
-        "magicArmor": "40"
+        "magicArmor": "40",
+        "displayName": "|Magic Shell|"
     },
     {
         "name": "Stats_Regenerating",
-        "statusIcon": "statIcons_Regenerate"
+        "statusIcon": "statIcons_Regenerate",
+        "displayName": "Regeneration"
     },
     {
         "name": "Stats_Warm",
         "fireResistance": "-15",
         "waterResistance": "10",
-        "statusIcon": "statIcons_Warm"
+        "statusIcon": "statIcons_Warm",
+        "displayName": "Warm"
     },
     {
         "name": "Stats_Burning",
         "fireResistance": "-15",
         "waterResistance": "10",
         "flags": "WebImmunity",
-        "statusIcon": "statIcons_Fire"
+        "statusIcon": "statIcons_Fire",
+        "displayName": "Burning"
     },
     {
         "name": "Stats_Necrofire",
         "fireResistance": "-20",
         "waterResistance": "10",
         "flags": "FreezeImmunity;ChilledImmunity;WetImmunity;WarmImmunity;WebImmunity",
-        "statusIcon": "statIcons_Necrofire"
+        "statusIcon": "statIcons_Necrofire",
+        "displayName": "Necrofire"
     },
     {
         "name": "Stats_Suffocating",
-        "statusIcon": "statIcons_Suffocating"
+        "statusIcon": "statIcons_Suffocating",
+        "displayName": "Suffocating"
     },
     {
         "name": "Stats_Unconscious",
@@ -142,24 +163,29 @@
         "armor": "-1000",
         "armorBoost": "-1000",
         "magicArmor": "-1000",
-        "magicArmorBoost": "-1000"
+        "magicArmorBoost": "-1000",
+        "displayName": "Unconscious"
     },
     {
-        "name": "Stats_Totem_Armor_Strip"
+        "name": "Stats_Totem_Armor_Strip",
+        "displayName": "Strip Armor"
     },
     {
         "name": "Stats_Poisoned",
-        "statusIcon": "statIcons_Poisoned"
+        "statusIcon": "statIcons_Poisoned",
+        "displayName": "Poisoned"
     },
     {
         "name": "Stats_Acid",
-        "statusIcon": "statIcons_Acid"
+        "statusIcon": "statIcons_Acid",
+        "displayName": "Acid"
     },
     {
         "name": "Stats_HolyFire",
         "fireResistance": "20",
         "flags": "WarmImmunity;BurnImmunity;WebImmunity",
-        "statusIcon": "statIcons_HolyFire"
+        "statusIcon": "statIcons_HolyFire",
+        "displayName": "Holy Fire"
     },
     {
         "name": "Stats_Chilled",
@@ -168,7 +194,8 @@
         "airResistance": "-10",
         "movementSpeedBoost": "-35",
         "dodgeBoost": "-30",
-        "statusIcon": "statIcons_Chill"
+        "statusIcon": "statIcons_Chill",
+        "displayName": "Chilled"
     },
     {
         "name": "Stats_Frozen",
@@ -176,7 +203,8 @@
         "waterResistance": "-20",
         "dodgeBoost": "-100",
         "flags": "FearImmunity;TauntedImmunity;SleepingImmunity;PoisonImmunity;BleedingImmunity;PetrifiedImmunity;StunImmunity;ShockedImmunity",
-        "statusIcon": "statIcons_Frozen"
+        "statusIcon": "statIcons_Frozen",
+        "displayName": "Frozen"
     },
     {
         "name": "Stats_PermaFrost",
@@ -188,14 +216,16 @@
         "piercingResistance": "100",
         "physicalResistance": "100",
         "flags": "FearImmunity;CharmImmunity;ShacklesOfPainImmunity;TauntedImmunity;SleepingImmunity;PoisonImmunity;BleedingImmunity;PetrifiedImmunity;StunImmunity;ShockedImmunity;BurnImmunity",
-        "statusIcon": "statIcons_Frozen"
+        "statusIcon": "statIcons_Frozen",
+        "displayName": "Permafrost"
     },
     {
         "name": "Stats_Wet",
         "fireResistance": "10",
         "waterResistance": "-10",
         "airResistance": "-20",
-        "statusIcon": "statIcons_Wet"
+        "statusIcon": "statIcons_Wet",
+        "displayName": "Wet"
     },
     {
         "name": "Stats_Drunk",
@@ -204,109 +234,129 @@
         "initiative": "-5",
         "accuracyBoost": "-5",
         "dodgeBoost": "5",
-        "statusIcon": "statIcons_Drunk"
+        "statusIcon": "statIcons_Drunk",
+        "displayName": "Drunk"
     },
     {
         "name": "Stats_Fear",
         "dodgeBoost": "-20",
-        "statusIcon": "statIcons_Frightened"
+        "statusIcon": "statIcons_Frightened",
+        "displayName": "Fear"
     },
     {
         "name": "Stats_Charm",
-        "statusIcon": "statIcons_Charmed"
+        "statusIcon": "statIcons_Charmed",
+        "displayName": "Charm"
     },
     {
         "name": "Stats_ShacklesOfPain",
         "statusEffect": "RS3_FX_GP_Status_Shackles_of_Pain_01:Dummy_BodyFX",
-        "statusIcon": "statIcons_ShacklesOfPain"
+        "statusIcon": "statIcons_ShacklesOfPain",
+        "displayName": "Shackled"
     },
     {
         "name": "Stats_ShacklesOfPainCaster",
-        "statusIcon": "statIcons_ShacklesOfPain"
+        "statusIcon": "statIcons_ShacklesOfPain",
+        "displayName": "Shackling"
     },
     {
         "name": "Stats_HealSharing",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Shared Heal"
     },
     {
         "name": "Stats_HealSharingCaster",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Sharing Heal"
     },
     {
         "name": "Stats_FavourableWind_Aura",
         "movement": "150",
-        "statusIcon": "statIcons_ImprovedInitiative"
+        "statusIcon": "statIcons_ImprovedInitiative",
+        "displayName": "Favourable Wind Aura"
     },
     {
         "name": "Stats_FavourableWind",
         "movement": "150",
-        "statusIcon": "statIcons_ImprovedInitiative"
+        "statusIcon": "statIcons_ImprovedInitiative",
+        "displayName": "Favourable Wind"
     },
     {
         "name": "Stats_ImprovedInitiative_Aura",
         "initiative": "10",
-        "statusIcon": "statIcons_ImprovedInitiative"
+        "statusIcon": "statIcons_ImprovedInitiative",
+        "displayName": "Improved Initiative Aura"
     },
     {
         "name": "Stats_ImprovedInitiative",
         "initiative": "10",
-        "statusIcon": "statIcons_ImprovedInitiative"
+        "statusIcon": "statIcons_ImprovedInitiative",
+        "displayName": "Improved Initiative"
     },
     {
         "name": "Stats_WindWalker",
         "airResistance": "40",
         "statusEffect": "RS3_FX_GP_Status_Windwalker_01:Dummy_BodyFX",
-        "statusIcon": "statIcons_WindWalker"
+        "statusIcon": "statIcons_WindWalker",
+        "displayName": "Wind Walker"
     },
     {
         "name": "Stats_FireImmunity",
         "fireResistance": "100",
         "flags": "BurnImmunity",
-        "statusIcon": "statIcons_Immune_Fire"
+        "statusIcon": "statIcons_Immune_Fire",
+        "displayName": "Fire Immunity"
     },
     {
         "name": "Stats_FireImmunity_Aura",
         "fireResistance": "100",
         "flags": "BurnImmunity",
-        "statusIcon": "statIcons_Immune_Fire_Aura"
+        "statusIcon": "statIcons_Immune_Fire_Aura",
+        "displayName": "Fire Immunity Aura"
     },
     {
         "name": "Stats_WaterImmunity",
         "waterResistance": "100",
         "flags": "FreezeImmunity",
-        "statusIcon": "statIcons_Immune_Water"
+        "statusIcon": "statIcons_Immune_Water",
+        "displayName": "Water Immunity"
     },
     {
         "name": "Stats_WaterImmunity_Aura",
         "waterResistance": "100",
         "flags": "FreezeImmunity",
-        "statusIcon": "statIcons_Immune_Water_Aura"
+        "statusIcon": "statIcons_Immune_Water_Aura",
+        "displayName": "Water Immunity Aura"
     },
     {
         "name": "Stats_EarthImmunity",
         "earthResistance": "100",
         "poisonResistance": "100",
         "flags": "PetrifiedImmunity;PoisonImmunity",
-        "statusIcon": "statIcons_Immune_Earth"
+        "statusIcon": "statIcons_Immune_Earth",
+        "displayName": "Earth Immunity"
     },
     {
         "name": "Stats_EarthImmunity_Aura",
         "earthResistance": "100",
         "poisonResistance": "100",
         "flags": "PetrifiedImmunity;PoisonImmunity",
-        "statusIcon": "statIcons_Immune_Earth_Aura"
+        "statusIcon": "statIcons_Immune_Earth_Aura",
+        "displayName": "Earth Immunity Aura"
     },
     {
         "name": "Stats_AirImmunity",
         "airResistance": "100",
         "flags": "StunImmunity;ShockedImmunity",
-        "statusIcon": "statIcons_Immune_Air"
+        "statusIcon": "statIcons_Immune_Air",
+        "displayName": "Air Immunity"
     },
     {
         "name": "Stats_AirImmunity_Aura",
         "airResistance": "100",
         "flags": "StunImmunity;ShockedImmunity",
-        "statusIcon": "statIcons_Immune_Air_Aura"
+        "statusIcon": "statIcons_Immune_Air_Aura",
+        "displayName": "Air Immunity Aura"
     },
     {
         "name": "Stats_ElementalImmunity",
@@ -316,7 +366,8 @@
         "airResistance": "100",
         "poisonResistance": "100",
         "flags": "BurnImmunity;FreezeImmunity;PetrifiedImmunity;StunImmunity;ShockedImmunity;PoisonImmunity",
-        "statusIcon": "statIcons_Immune_AllElements"
+        "statusIcon": "statIcons_Immune_AllElements",
+        "displayName": "Elemental Immunity"
     },
     {
         "name": "Stats_ElementalImmunity_Aura",
@@ -326,54 +377,65 @@
         "airResistance": "100",
         "poisonResistance": "100",
         "flags": "BurnImmunity;FreezeImmunity;PetrifiedImmunity;StunImmunity;ShockedImmunity;PoisonImmunity",
-        "statusIcon": "statIcons_Immune_AllElements_Aura"
+        "statusIcon": "statIcons_Immune_AllElements_Aura",
+        "displayName": "Elemental Immunity Aura"
     },
     {
         "name": "Stats_PhysicalImmunity",
         "physicalResistance": "100",
         "flags": "KnockdownImmunity",
-        "statusIcon": "statIcons_Immune_Physical"
+        "statusIcon": "statIcons_Immune_Physical",
+        "displayName": "Physical Immunity"
     },
     {
         "name": "Stats_PhysicalImmunity_Aura",
         "physicalResistance": "100",
         "flags": "KnockdownImmunity",
-        "statusIcon": "statIcons_Immune_Physical_Aura"
+        "statusIcon": "statIcons_Immune_Physical_Aura",
+        "displayName": "Physical Immunity Aura"
     },
     {
         "name": "Stats_EtherealSoles",
-        "statusIcon": "statIcons_EtherealSoles"
+        "statusIcon": "statIcons_EtherealSoles",
+        "displayName": "Hovering"
     },
     {
         "name": "Stats_Remorse",
-        "statusIcon": "statIcons_Remorse"
+        "statusIcon": "statIcons_Remorse",
+        "displayName": "Remorse"
     },
     {
         "name": "Stats_AggroMarked",
-        "statusIcon": "statIcons_AggroMarked"
+        "statusIcon": "statIcons_AggroMarked",
+        "displayName": "Marked For Death"
     },
     {
         "name": "Stats_DecayingTouch",
         "statusEffect": "RS3_FX_GP_Status_Decaying_01:Dummy_BodyFX",
-        "statusIcon": "statIcons_DecayingTouch"
+        "statusIcon": "statIcons_DecayingTouch",
+        "displayName": "Decaying Touch"
     },
     {
         "name": "Stats_CrawlingInfestation",
-        "statusIcon": "statIcons_CrawlingInfestation"
+        "statusIcon": "statIcons_CrawlingInfestation",
+        "displayName": "Infected"
     },
     {
         "name": "Stats_MarkOfDeath",
-        "statusIcon": "statIcons_MarkOfDeath"
+        "statusIcon": "statIcons_MarkOfDeath",
+        "displayName": "Grim Fate"
     },
     {
         "name": "Stats_Taunted",
-        "statusIcon": "statIcons_Taunted"
+        "statusIcon": "statIcons_Taunted",
+        "displayName": "Taunted"
     },
     {
         "name": "Stats_Oiled",
         "movementSpeedBoost": "-50",
         "dodgeBoost": "-30",
-        "statusIcon": "statIcons_Oiled"
+        "statusIcon": "statIcons_Oiled",
+        "displayName": "Oil-slicked"
     },
     {
         "name": "Stats_Petrified",
@@ -382,7 +444,8 @@
         "airResistance": "10",
         "dodgeBoost": "-100",
         "flags": "Grounded;FearImmunity;TauntedImmunity;SleepingImmunity;PoisonImmunity;BleedingImmunity;FreezeImmunity;StunImmunity;BurnImmunity;ChilledImmunity;WarmImmunity;KnockdownImmunity;ThrownImmunity",
-        "statusIcon": "statIcons_Petrified"
+        "statusIcon": "statIcons_Petrified",
+        "displayName": "Petrified"
     },
     {
         "name": "Stats_Stunned",
@@ -390,253 +453,305 @@
         "airResistance": "-15",
         "dodgeBoost": "-100",
         "flags": "FearImmunity;TauntedImmunity;SleepingImmunity;PetrifiedImmunity;FreezeImmunity",
-        "statusIcon": "statIcons_Stunned"
+        "statusIcon": "statIcons_Stunned",
+        "displayName": "Stunned"
     },
     {
         "name": "Stats_Shocked",
         "earthResistance": "10",
         "airResistance": "-15",
         "dodgeBoost": "-30",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Shocked"
     },
     {
         "name": "Stats_KnockedDown",
         "dodgeBoost": "-100",
         "flags": "FearImmunity;TauntedImmunity;SleepingImmunity",
-        "statusIcon": "statIcons_KnockedDown"
+        "statusIcon": "statIcons_KnockedDown",
+        "displayName": "Knocked Down"
     },
     {
         "name": "Stats_Sleeping",
         "dodgeBoost": "-100",
-        "statusIcon": "statIcons_Sleeping"
+        "statusIcon": "statIcons_Sleeping",
+        "displayName": "Sleeping"
     },
     {
         "name": "Stats_DemonBomb",
-        "statusIcon": "Item_WPN_Undead_Bomb"
+        "statusIcon": "Item_WPN_Undead_Bomb",
+        "displayName": ""
     },
     {
         "name": "Stats_Lie_Dying",
-        "movementSpeedBoost": "-100"
+        "movementSpeedBoost": "-100",
+        "displayName": ""
     },
     {
         "name": "Stats_Stuck",
         "movementSpeedBoost": "-100",
         "flags": "ThrownImmunity",
-        "statusIcon": "statIcons_ShacklesOfPain"
+        "statusIcon": "statIcons_ShacklesOfPain",
+        "displayName": "Stuck"
     },
     {
         "name": "Stats_SourceLinkRecipient",
-        "statusIcon": "statIcons_Sourcelinked"
+        "statusIcon": "statIcons_Sourcelinked",
+        "displayName": "Source Linked"
     },
     {
         "name": "Stats_SourceLinkCaster",
-        "statusIcon": "statIcons_Sourcelinked"
+        "statusIcon": "statIcons_Sourcelinked",
+        "displayName": "Source Linker"
     },
     {
         "name": "Stats_LifeChanneling",
         "vitalityPercentage": "10",
-        "statusIcon": "statIcons_Immune_AllElements"
+        "statusIcon": "statIcons_Immune_AllElements",
+        "displayName": "Life Channeling"
     },
     {
         "name": "Stats_LifeChanneling_Aura",
         "vitalityPercentage": "10",
-        "statusIcon": "statIcons_Immune_AllElements_Aura"
+        "statusIcon": "statIcons_Immune_AllElements_Aura",
+        "displayName": "Life Channeling Aura"
     },
     {
         "name": "Stats_Adrenaline",
         "statusEffect": "RS3_FX_GP_Status_Adrenaline_01:Dummy_BodyFX",
-        "statusIcon": "statIcons_Adrenaline"
+        "statusIcon": "statIcons_Adrenaline",
+        "displayName": "Adrenaline"
     },
     {
         "name": "Stats_SourceSurface",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Source-Infused"
     },
     {
         "name": "Stats_SourceSurfaceBlessed",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Blessed Source Infusion"
     },
     {
         "name": "Stats_SourceSurfaceCursed",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Void Infusion"
     },
     {
         "name": "Stats_StoryCharmed",
-        "statusIcon": "statIcons_Charmed"
+        "statusIcon": "statIcons_Charmed",
+        "displayName": "Charmed"
     },
     {
         "name": "Stats_Bleeding",
-        "statusIcon": "statIcons_Bleeding"
+        "statusIcon": "statIcons_Bleeding",
+        "displayName": "Bleeding"
     },
     {
         "name": "Stats_Marked",
         "dodgeBoost": "-100",
         "flags": "InvisibilityImmunity",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Marked"
     },
     {
         "name": "Stats_Blinding_Radiance",
         "airResistance": "20",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Blinding Radiance"
     },
     {
         "name": "Stats_Flesh_Sacrifice",
         "constitution": "-4",
         "damageBoost": "10",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Flesh Sacrifice"
     },
     {
         "name": "Stats_Fireblood",
-        "fireResistance": "-20"
+        "fireResistance": "-20",
+        "displayName": "Fireblood"
     },
     {
-        "name": "Stats_SourceBlood"
+        "name": "Stats_SourceBlood",
+        "displayName": "Sourcebleeder"
     },
     {
         "name": "Stats_Blind",
         "accuracyBoost": "-35",
-        "statusIcon": "statIcons_Blind"
+        "statusIcon": "statIcons_Blind",
+        "displayName": "Blinded"
     },
     {
         "name": "Stats_Supercharge",
-        "damageBoost": "100"
+        "damageBoost": "100",
+        "displayName": "Supercharged"
     },
     {
         "name": "Stats_BlockSummon",
-        "flags": "ProtectFromSummon"
+        "flags": "ProtectFromSummon",
+        "displayName": "Block Summon"
     },
     {
-        "name": "Stats_SoulGateway"
+        "name": "Stats_SoulGateway",
+        "displayName": "Soul Gateway"
     },
     {
         "name": "Stats_Kill",
-        "extraProperties": "DYING,100,-1,DoT"
+        "extraProperties": "DYING,100,-1,DoT",
+        "displayName": "Kill"
     },
     {
         "name": "Stats_Death_Resist",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Resist Death"
     },
     {
         "name": "Stats_Damage_On_Move",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Damage When Moving"
     },
     {
         "name": "Stats_Demonic_Bargain",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Demonic Bargain"
     },
     {
         "name": "Stats_Guardian_Angel",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Guardian Angel"
     },
     {
         "name": "Stats_Guardian_Angel_Aura",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Guardian Angel"
     },
     {
         "name": "Stats_Thick_Of_The_Fight",
         "damageBoost": "10",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Thick Of The Fight"
     },
     {
         "name": "Stats_Disarmed",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Disarmed"
     },
     {
         "name": "Stats_Floating",
-        "flags": "Floating"
+        "flags": "Floating",
+        "displayName": "|Floating|"
     },
     {
         "name": "Stats_Dazed",
-        "airResistance": "-20"
+        "airResistance": "-20",
+        "displayName": "Dazed"
     },
     {
         "name": "Stats_SteelSkin",
-        "armor": "30"
+        "armor": "30",
+        "displayName": "|Heart of Steel|"
     },
     {
         "name": "Stats_Evading",
         "movement": "100",
-        "dodgeBoost": "90"
+        "dodgeBoost": "90",
+        "displayName": "|Evading|"
     },
     {
         "name": "Stats_Infusion_Ranged",
         "damageBoost": "25",
-        "magicArmor": "40"
+        "magicArmor": "40",
+        "displayName": "|Ranged Infusion|"
     },
     {
         "name": "Stats_Infusion_Power",
         "damageBoost": "25",
-        "armor": "40"
+        "armor": "40",
+        "displayName": "|Power Infusion|"
     },
     {
         "name": "Stats_Infusion_Shadow",
         "movement": "100",
-        "damageBoost": "25"
+        "damageBoost": "25",
+        "displayName": "|Shadow Infusion|"
     },
     {
         "name": "Stats_Infusion_Warp",
         "dodgeBoost": "15",
-        "damageBoost": "25"
+        "damageBoost": "25",
+        "displayName": "|Warp Infusion|"
     },
     {
         "name": "Stats_Infusion_Fire",
         "fireResistance": "100",
         "waterResistance": "-20",
-        "flags": "BurnImmunity"
+        "flags": "BurnImmunity",
+        "displayName": "|Fire Infusion|"
     },
     {
         "name": "Stats_Infusion_Necrofire",
         "fireResistance": "130",
-        "waterResistance": "-20"
+        "waterResistance": "-20",
+        "displayName": "|Necrofire Infusion|"
     },
     {
         "name": "Stats_Infusion_Water",
         "fireResistance": "-20",
         "waterResistance": "100",
-        "flags": "FreezeImmunity"
+        "flags": "FreezeImmunity",
+        "displayName": "|Water Infusion|"
     },
     {
         "name": "Stats_Infusion_Blessed_Ice",
         "fireResistance": "-20",
         "waterResistance": "120",
-        "flags": "FreezeImmunity"
+        "flags": "FreezeImmunity",
+        "displayName": "|Blessed Ice Infusion|"
     },
     {
         "name": "Stats_Infusion_Poison",
         "airResistance": "-20",
         "poisonResistance": "100",
-        "flags": "PoisonImmunity"
+        "flags": "PoisonImmunity",
+        "displayName": "|Poison Infusion|"
     },
     {
         "name": "Stats_Infusion_Acid",
         "airResistance": "-20",
-        "poisonResistance": "120"
+        "poisonResistance": "120",
+        "displayName": "|Acid Infusion|"
     },
     {
         "name": "Stats_Infusion_Electric",
         "earthResistance": "-20",
         "airResistance": "100",
         "poisonResistance": "-20",
-        "flags": "StunImmunity;ShockedImmunity"
+        "flags": "StunImmunity;ShockedImmunity",
+        "displayName": "|Electric Infusion|"
     },
     {
         "name": "Stats_Infusion_Cursed_Electric",
         "earthResistance": "-20",
         "airResistance": "120",
         "poisonResistance": "-20",
-        "flags": "StunImmunity;ShockedImmunity"
+        "flags": "StunImmunity;ShockedImmunity",
+        "displayName": "|Cursed Electric Infusion|"
     },
     {
         "name": "Stats_Infusion_Blood",
         "necromancy": "5",
         "armorBoost": "15",
         "magicArmorBoost": "15",
-        "flags": "BleedingImmunity"
+        "flags": "BleedingImmunity",
+        "displayName": "Blood Infusion"
     },
     {
         "name": "Stats_Infusion_Oil",
         "earthResistance": "120",
         "airResistance": "-20",
-        "flags": "SlowedImmunity;PetrifiedImmunity"
+        "flags": "SlowedImmunity;PetrifiedImmunity",
+        "displayName": "|Oil Infusion|"
     },
     {
         "name": "Stats_Quest_TiedUp",
@@ -650,15 +765,18 @@
         "movementSpeedBoost": "-100",
         "dodgeBoost": "-100",
         "armorBoost": "-100",
-        "magicArmorBoost": "-100"
+        "magicArmorBoost": "-100",
+        "displayName": "Tied Up"
     },
     {
         "name": "Stats_Quest_Sunshine",
-        "fireResistance": "-10"
+        "fireResistance": "-10",
+        "displayName": "Sunshine"
     },
     {
         "name": "Stats_Quest_Overgrown",
-        "damageBoost": "200"
+        "damageBoost": "200",
+        "displayName": ""
     },
     {
         "name": "Stats_Quest_DW_ArenaDebuff",
@@ -668,85 +786,104 @@
         "constitution": "-3",
         "poisonResistance": "-50",
         "initiative": "-5",
-        "statusIcon": "statIcons_Poisoned"
+        "statusIcon": "statIcons_Poisoned",
+        "displayName": ""
     },
     {
-        "name": "Stats_Shed_Skin"
+        "name": "Stats_Shed_Skin",
+        "displayName": "Shed Skin"
     },
     {
         "name": "Stats_Summoning_Ability",
         "vitalityBoost": "10",
         "damageBoost": "10",
         "armorBoost": "10",
-        "magicArmorBoost": "10"
+        "magicArmorBoost": "10",
+        "displayName": "|Soul Bond|"
     },
     {
-        "name": "Stats_Polymorphed"
+        "name": "Stats_Polymorphed",
+        "displayName": "Polymorphed"
     },
     {
         "name": "Stats_Polymorphed_PuzzleRat",
-        "parent": "Stats_Polymorphed"
+        "parent": "Stats_Polymorphed",
+        "displayName": "Rat"
     },
     {
         "name": "Stats_Polymorphed_ZombieChicken",
         "parent": "Stats_Polymorphed",
-        "flags": "ChickenImmunity"
+        "flags": "ChickenImmunity",
+        "displayName": ""
     },
     {
         "name": "Stats_LivingBomb_Buildup_A",
-        "statusEffect": "RS3_FX_GP_Status_LivingBomb_Buildup_01,KeepRot:Dummy_BodyFX"
+        "statusEffect": "RS3_FX_GP_Status_LivingBomb_Buildup_01,KeepRot:Dummy_BodyFX",
+        "displayName": "Fiery Malediction"
     },
     {
         "name": "Stats_LivingBomb_Buildup_B",
-        "statusEffect": "RS3_FX_GP_Status_LivingBomb_Buildup_02,KeepRot:Dummy_BodyFX"
+        "statusEffect": "RS3_FX_GP_Status_LivingBomb_Buildup_02,KeepRot:Dummy_BodyFX",
+        "displayName": "Fiery Malediction"
     },
     {
         "name": "Stats_LivingBomb",
-        "extraProperties": "EXPLODE,100,0,Projectile_LivingBomb_Explosion;"
+        "extraProperties": "EXPLODE,100,0,Projectile_LivingBomb_Explosion;",
+        "displayName": "Fiery Malediction"
     },
     {
-        "name": "Stats_Horns"
+        "name": "Stats_Horns",
+        "displayName": "|Horns|"
     },
     {
         "name": "Stats_MedusaHead",
         "earthResistance": "50",
-        "flags": "PetrifiedImmunity"
+        "flags": "PetrifiedImmunity",
+        "displayName": "Medusa's Head"
     },
     {
-        "name": "Stats_SpiderLegs"
+        "name": "Stats_SpiderLegs",
+        "displayName": "Spiderlegs"
     },
     {
-        "name": "Stats_Challenged"
+        "name": "Stats_Challenged",
+        "displayName": "|Challenged|"
     },
     {
         "name": "Stats_Challenge_Loss",
         "damage": "2",
-        "damageType": "Piercing"
+        "damageType": "Piercing",
+        "displayName": "|Challenge Lost|"
     },
     {
         "name": "Stats_Challenge_Win",
         "damageBoost": "20",
         "armor": "40",
         "magicArmor": "40",
-        "extraProperties": "CHALLENGE_HEAL,100,0"
+        "extraProperties": "CHALLENGE_HEAL,100,0",
+        "displayName": "|Challenge Won|"
     },
     {
         "name": "Stats_Deflecting",
         "armor": "40",
-        "flags": "DeflectProjectiles"
+        "flags": "DeflectProjectiles",
+        "displayName": "|Deflecting|"
     },
     {
         "name": "Stats_BoneCage",
-        "armor": "20"
+        "armor": "20",
+        "displayName": "Bonecage"
     },
     {
         "name": "Stats_BonePile",
-        "damageBoost": "30"
+        "damageBoost": "30",
+        "displayName": "|Consumed Corpse|"
     },
     {
         "name": "Stats_DemonicConsume",
         "vitalityPercentage": "25",
-        "damageBoost": "30"
+        "damageBoost": "30",
+        "displayName": "| Demonic Surfeit |"
     },
     {
         "name": "Stats_Apotheosis",
@@ -755,146 +892,184 @@
         "intelligence": "3",
         "constitution": "3",
         "memory": "3",
-        "wits": "3"
+        "wits": "3",
+        "displayName": "|Apotheosis|"
     },
     {
-        "name": "Stats_Farsight"
+        "name": "Stats_Farsight",
+        "displayName": "|Farsight|"
     },
     {
         "name": "Stats_BreathingBubble",
-        "flags": "IgnoreClouds;SuffocatingImmunity;MuteImmunity"
+        "flags": "IgnoreClouds;SuffocatingImmunity;MuteImmunity",
+        "displayName": "|Breathing Bubble|"
     },
     {
         "name": "Stats_DeathWish",
-        "damageBoost": "100"
+        "damageBoost": "100",
+        "displayName": "Deathwish"
     },
     {
-        "name": "Stats_Madness"
+        "name": "Stats_Madness",
+        "displayName": "Madness"
     },
     {
-        "name": "Stats_PlayDead"
+        "name": "Stats_PlayDead",
+        "displayName": "Playing Dead"
     },
     {
-        "name": "Stats_FlamingTongues"
+        "name": "Stats_FlamingTongues",
+        "displayName": "Flaming Tongues"
     },
     {
-        "name": "Stats_HealingTears"
+        "name": "Stats_HealingTears",
+        "displayName": "Healing Tears"
     },
     {
-        "name": "Stats_DemonicTutelage"
+        "name": "Stats_DemonicTutelage",
+        "displayName": "Demonic Tutelage"
     },
     {
-        "name": "Stats_ReactionShot"
+        "name": "Stats_ReactionShot",
+        "displayName": "Reactive Shot"
     },
     {
         "name": "Stats_Grounded",
-        "flags": "Grounded;ThrownImmunity"
+        "flags": "Grounded;ThrownImmunity",
+        "displayName": "Grounded"
     },
     {
         "name": "Stats_Web",
         "movementSpeedBoost": "-100",
         "dodgeBoost": "-70",
-        "flags": "Grounded;ThrownImmunity"
+        "flags": "Grounded;ThrownImmunity",
+        "displayName": "Web"
     },
     {
-        "name": "Stats_Arrowhead_Fire"
+        "name": "Stats_Arrowhead_Fire",
+        "displayName": "Fire Arrowhead"
     },
     {
-        "name": "Stats_Arrowhead_Water"
+        "name": "Stats_Arrowhead_Water",
+        "displayName": "Water Arrowhead"
     },
     {
-        "name": "Stats_Arrowhead_Poison"
+        "name": "Stats_Arrowhead_Poison",
+        "displayName": "Poison Arrowhead"
     },
     {
-        "name": "Stats_Arrowhead_Electric"
+        "name": "Stats_Arrowhead_Electric",
+        "displayName": "Stunning Arrowhead"
     },
     {
-        "name": "Stats_Arrowhead_Blood"
+        "name": "Stats_Arrowhead_Blood",
+        "displayName": "Blood Arrowhead"
     },
     {
-        "name": "Stats_Arrowhead_Oil"
+        "name": "Stats_Arrowhead_Oil",
+        "displayName": "Oil Arrowhead"
     },
     {
-        "name": "Stats_FireBrand"
+        "name": "Stats_FireBrand",
+        "displayName": "Firebrand"
     },
     {
-        "name": "Stats_VenomCoating"
+        "name": "Stats_VenomCoating",
+        "displayName": "Venom Coated"
     },
     {
-        "name": "Stats_VenomAura"
+        "name": "Stats_VenomAura",
+        "displayName": "Venom Aura"
     },
     {
-        "name": "Stats_SiphonPoison"
+        "name": "Stats_SiphonPoison",
+        "displayName": "Siphon Poison"
     },
     {
-        "name": "Stats_SparkingSwings"
+        "name": "Stats_SparkingSwings",
+        "displayName": ""
     },
     {
-        "name": "Stats_SparkMaster"
+        "name": "Stats_SparkMaster",
+        "displayName": ""
     },
     {
-        "name": "Stats_Invisible"
+        "name": "Stats_Invisible",
+        "displayName": "Invisible"
     },
     {
         "name": "Stats_FireSkin",
         "fireResistance": "100",
         "waterResistance": "-30",
-        "flags": "BurnImmunity;WarmImmunity"
+        "flags": "BurnImmunity;WarmImmunity",
+        "displayName": "Fire Skin"
     },
     {
         "name": "Stats_IceSkin",
         "fireResistance": "-30",
         "waterResistance": "100",
-        "flags": "FreezeImmunity;ChilledImmunity"
+        "flags": "FreezeImmunity;ChilledImmunity",
+        "displayName": "Ice Skin"
     },
     {
         "name": "Stats_PoisonSkin",
         "earthResistance": "100",
         "airResistance": "-30",
         "poisonResistance": "100",
-        "flags": "PetrifiedImmunity;PoisonImmunity;SlowedImmunity;AcidImmunity"
+        "flags": "PetrifiedImmunity;PoisonImmunity;SlowedImmunity;AcidImmunity",
+        "displayName": "Poison Skin"
     },
     {
         "name": "Stats_ElectricSkin",
         "earthResistance": "-30",
         "airResistance": "100",
         "poisonResistance": "-30",
-        "flags": "StunImmunity;ShockedImmunity"
+        "flags": "StunImmunity;ShockedImmunity",
+        "displayName": "Electric Skin"
     },
     {
-        "name": "Stats_MendMetal"
+        "name": "Stats_MendMetal",
+        "displayName": "Mending Metal"
     },
     {
-        "name": "Stats_FrostAura"
+        "name": "Stats_FrostAura",
+        "displayName": "Frost Aura"
     },
     {
-        "name": "Stats_ExtraTurn"
+        "name": "Stats_ExtraTurn",
+        "displayName": "Extra Turn"
     },
     {
         "name": "Stats_LastRites",
         "damage": "2",
-        "damageType": "Piercing"
+        "damageType": "Piercing",
+        "displayName": "Last Rite"
     },
     {
         "name": "Stats_Vampirism",
-        "lifeSteal": "50"
+        "lifeSteal": "50",
+        "displayName": "Vampire"
     },
     {
         "name": "Stats_Possessed",
-        "flags": "TauntedImmunity;SleepingImmunity;MadnessImmunity;CharmImmunity;FearImmunity"
+        "flags": "TauntedImmunity;SleepingImmunity;MadnessImmunity;CharmImmunity;FearImmunity",
+        "displayName": "Possessed"
     },
     {
-        "name": "Stats_Infested"
+        "name": "Stats_Infested",
+        "displayName": "Infested"
     },
     {
         "name": "Stats_Inactive",
-        "sight": "-10000"
+        "sight": "-10000",
+        "displayName": ""
     },
     {
         "name": "Stats_Deaf",
         "wits": "-7",
         "accuracyBoost": "-20",
-        "dodgeBoost": "-30"
+        "dodgeBoost": "-30",
+        "displayName": "Deaf"
     },
     {
         "name": "Stats_VoidHowl",
@@ -903,7 +1078,8 @@
         "movement": "100",
         "chanceToHitBoost": "20",
         "accuracyBoost": "30",
-        "damageBoost": "80"
+        "damageBoost": "80",
+        "displayName": "Void Howl"
     },
     {
         "name": "Stats_Weakened",
@@ -914,17 +1090,21 @@
         "poisonResistance": "-50",
         "vitalityBoost": "-50",
         "armorBoost": "-50",
-        "magicArmorBoost": "-50"
+        "magicArmorBoost": "-50",
+        "displayName": "Weakened"
     },
     {
-        "name": "Stats_Quest_PainAura"
+        "name": "Stats_Quest_PainAura",
+        "displayName": "Pain Aura"
     },
     {
         "name": "Stats_Quest_PainStatus",
-        "fireResistance": "-50"
+        "fireResistance": "-50",
+        "displayName": "Alice Alisceon's Pain"
     },
     {
-        "name": "Stats_Quest_FaithAura"
+        "name": "Stats_Quest_FaithAura",
+        "displayName": "Faith Aura"
     },
     {
         "name": "Stats_Quest_Faith",
@@ -933,21 +1113,26 @@
         "intelligence": "3",
         "dodgeBoost": "10",
         "damageBoost": "50",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Faith"
     },
     {
-        "name": "Stats_Quest_PoisonAura"
+        "name": "Stats_Quest_PoisonAura",
+        "displayName": "Poison Aura"
     },
     {
-        "name": "Stats_Quest_DeflectingAura"
+        "name": "Stats_Quest_DeflectingAura",
+        "displayName": "Deflection Aura"
     },
     {
         "name": "Stats_Encumbered_Partial",
-        "movementSpeedBoost": "-50"
+        "movementSpeedBoost": "-50",
+        "displayName": ""
     },
     {
         "name": "Stats_Encumbered_Full",
-        "movementSpeedBoost": "-100"
+        "movementSpeedBoost": "-100",
+        "displayName": ""
     },
     {
         "name": "Stats_Plague",
@@ -957,25 +1142,30 @@
         "waterResistance": "-30",
         "airResistance": "-30",
         "poisonResistance": "-30",
-        "damageBoost": "-30"
+        "damageBoost": "-30",
+        "displayName": "Plague"
     },
     {
         "name": "Stats_Hypercharged",
         "movement": "300",
-        "damageBoost": "50"
+        "damageBoost": "50",
+        "displayName": "Hypercharged"
     },
     {
         "name": "Stats_InnerDemon",
         "intelligence": "4",
         "magicArmor": "50",
-        "flags": "FearImmunity"
+        "flags": "FearImmunity",
+        "displayName": "Inner Demon"
     },
     {
-        "name": "Stats_Muted"
+        "name": "Stats_Muted",
+        "displayName": "Silenced"
     },
     {
         "name": "Stats_Quest_SilenceAura",
-        "parent": "Stats_Muted"
+        "parent": "Stats_Muted",
+        "displayName": "Wordless Aura"
     },
     {
         "name": "Stats_ProtectionCircle",
@@ -983,27 +1173,33 @@
         "earthResistance": "10",
         "waterResistance": "10",
         "airResistance": "10",
-        "poisonResistance": "10"
+        "poisonResistance": "10",
+        "displayName": "Dome Of Protection"
     },
     {
-        "name": "Stats_Revered"
+        "name": "Stats_Revered",
+        "displayName": "Revered"
     },
     {
         "name": "Stats_PermanentDecay",
         "flags": "BlessedImmunity",
-        "statusEffect": "RS3_FX_GP_Status_Decaying_Permanent_01:Dummy_BodyFX"
+        "statusEffect": "RS3_FX_GP_Status_Decaying_Permanent_01:Dummy_BodyFX",
+        "displayName": ""
     },
     {
-        "name": "Stats_Quest_FearAura"
+        "name": "Stats_Quest_FearAura",
+        "displayName": "Terror Aura"
     },
     {
-        "name": "Stats_SourceReplenish"
+        "name": "Stats_SourceReplenish",
+        "displayName": "Replenish Source"
     },
     {
         "name": "Potion",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": "Potion"
     },
     {
         "name": "POTION_Healing_Poisoned_Masked_Minor_A",
@@ -1018,7 +1214,8 @@
         "isConsumable": "Yes",
         "description": "A potion that restores your vitality. It makes a soft tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Small",
-        "stats": "POTION_Healing_Poisoned_Masked_Minor_A"
+        "stats": "POTION_Healing_Poisoned_Masked_Minor_A",
+        "displayName": "Minor Healing Potion"
     },
     {
         "name": "POTION_Healing_Poisoned_Masked_Medium_A",
@@ -1033,7 +1230,8 @@
         "isConsumable": "Yes",
         "description": "A medium-sized potion that restores your vitality. It makes a soft, tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Medium",
-        "stats": "POTION_Healing_Poisoned_Masked_Medium_A"
+        "stats": "POTION_Healing_Poisoned_Masked_Medium_A",
+        "displayName": "Medium Healing Potion"
     },
     {
         "name": "POTION_Healing_Poisoned_Masked_Large_A",
@@ -1048,7 +1246,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized potion that restores your vitality. It makes a soft, tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Large",
-        "stats": "POTION_Healing_Poisoned_Masked_Large_A"
+        "stats": "POTION_Healing_Poisoned_Masked_Large_A",
+        "displayName": "Large Healing Potion"
     },
     {
         "name": "POTION_Healing_Poisoned_Masked_Huge_A",
@@ -1063,7 +1262,8 @@
         "isConsumable": "Yes",
         "description": "A very large-sized potion that restores your vitality. It makes a soft, tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Huge",
-        "stats": "POTION_Healing_Poisoned_Masked_Huge_A"
+        "stats": "POTION_Healing_Poisoned_Masked_Huge_A",
+        "displayName": "Huge Healing Potion"
     },
     {
         "name": "POTION_Source_Potion",
@@ -1075,7 +1275,8 @@
         "isConsumable": "Yes",
         "description": "Glistening with potential, this liquid Source is redolent of dawn dew. Drinking it will do more than quench your thirst; it will replenish your Source powers.",
         "icon": "Item_CON_PotionII_C_Empty_Huge",
-        "stats": "POTION_Source_Potion"
+        "stats": "POTION_Source_Potion",
+        "displayName": "Source Potion"
     },
     {
         "name": "POTION_Minor_Healing_Potion",
@@ -1089,7 +1290,8 @@
         "isConsumable": "Yes",
         "description": "A potion that restores your vitality. It makes a soft tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Small",
-        "stats": "POTION_Minor_Healing_Potion"
+        "stats": "POTION_Minor_Healing_Potion",
+        "displayName": "Minor Healing Potion"
     },
     {
         "name": "POTION_Medium_Healing_Potion",
@@ -1103,7 +1305,8 @@
         "isConsumable": "Yes",
         "description": "A medium-sized potion that restores your vitality. It makes a soft, tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Medium",
-        "stats": "POTION_Medium_Healing_Potion"
+        "stats": "POTION_Medium_Healing_Potion",
+        "displayName": "Medium Healing Potion"
     },
     {
         "name": "POTION_Large_Healing_Potion",
@@ -1117,7 +1320,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized potion that restores your vitality. It makes a soft, tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Large",
-        "stats": "POTION_Large_Healing_Potion"
+        "stats": "POTION_Large_Healing_Potion",
+        "displayName": "Large Healing Potion"
     },
     {
         "name": "POTION_Huge_Healing_Potion",
@@ -1131,7 +1335,8 @@
         "isConsumable": "Yes",
         "description": "A very large-sized potion that restores your vitality. It makes a soft, tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Huge",
-        "stats": "POTION_Huge_Healing_Potion"
+        "stats": "POTION_Huge_Healing_Potion",
+        "displayName": "Huge Healing Potion"
     },
     {
         "name": "POTION_Giant_Healing_Potion",
@@ -1145,7 +1350,8 @@
         "isConsumable": "Yes",
         "description": "A very, very large-sized potion that restores your vitality. It makes a soft, tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Giant",
-        "stats": "POTION_Giant_Healing_Potion"
+        "stats": "POTION_Giant_Healing_Potion",
+        "displayName": "Giant Healing Potion"
     },
     {
         "name": "POTION_Healing_Elixir",
@@ -1159,7 +1365,8 @@
         "isConsumable": "Yes",
         "description": "A healing elixir brewed with the yarrow flower. Supposedly superior to the common healing potion.",
         "icon": "Item_CON_PotionII_D_BloodRed_Large",
-        "stats": "POTION_Healing_Elixir"
+        "stats": "POTION_Healing_Elixir",
+        "displayName": "Healing Elixir"
     },
     {
         "name": "POTION_Permanent_Healing_Potion",
@@ -1171,7 +1378,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized potion that restores your vitality. It makes a soft, tinkling sound when you shake it.",
         "icon": "Item_CON_PotionII_A_Red_Large",
-        "stats": "POTION_Large_Healing_Potion"
+        "stats": "POTION_Large_Healing_Potion",
+        "displayName": "Permanent Vitality Potion"
     },
     {
         "name": "CON_Potion_MagicArmor_Boost_A",
@@ -1184,7 +1392,8 @@
         "isConsumable": "Yes",
         "description": "A potion that enchants and strengthens your magical armour.",
         "icon": "Item_CON_PotionII_A_Blue_Small",
-        "stats": "CON_Potion_MagicArmor_Boost_A"
+        "stats": "CON_Potion_MagicArmor_Boost_A",
+        "displayName": "Small Magic Armour Potion"
     },
     {
         "name": "CON_Potion_MagicArmor_Boost_Medium_A",
@@ -1197,7 +1406,8 @@
         "isConsumable": "Yes",
         "description": "A medium-sized potion that enchants and strengthens your magical armour.",
         "icon": "Item_CON_PotionII_A_Blue_Medium",
-        "stats": "CON_Potion_MagicArmor_Boost_Medium_A"
+        "stats": "CON_Potion_MagicArmor_Boost_Medium_A",
+        "displayName": "Medium Magic Armour Potion"
     },
     {
         "name": "CON_Potion_MagicArmor_Boost_Large_A",
@@ -1210,7 +1420,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized potion that enchants and strengthens your magical armour.",
         "icon": "Item_CON_PotionII_A_Blue_Large",
-        "stats": "CON_Potion_MagicArmor_Boost_Large_A"
+        "stats": "CON_Potion_MagicArmor_Boost_Large_A",
+        "displayName": "Large Magic Armour Potion"
     },
     {
         "name": "CON_Potion_MagicArmor_Boost_Giant_A",
@@ -1224,7 +1435,7 @@
         "description": "A very large-sized potion that enchants and strengthens your magical armour.",
         "icon": "Item_CON_PotionII_A_Blue_Huge",
         "stats": "CON_Potion_MagicArmor_Boost_Giant_A",
-        "displayName": "Large Magic Armour Potion"
+        "displayName": "Giant Magic Armour Potion"
     },
     {
         "name": "CON_Potion_PhysicalArmor_Boost_A",
@@ -1237,7 +1448,8 @@
         "isConsumable": "Yes",
         "description": "A potion that enchants and strengthens your physical armour.",
         "icon": "Item_CON_PotionII_A_Silver_Small",
-        "stats": "CON_Potion_PhysicalArmor_Boost_A"
+        "stats": "CON_Potion_PhysicalArmor_Boost_A",
+        "displayName": "Physical Armour Potion"
     },
     {
         "name": "CON_Potion_PhysicalArmor_Boost_Medium_A",
@@ -1250,7 +1462,8 @@
         "isConsumable": "Yes",
         "description": "A medium-sized potion that enchants and strengthens your physical armour.",
         "icon": "Item_CON_PotionII_A_Silver_Medium",
-        "stats": "CON_Potion_PhysicalArmor_Boost_Medium_A"
+        "stats": "CON_Potion_PhysicalArmor_Boost_Medium_A",
+        "displayName": "Medium Physical Armour Potion"
     },
     {
         "name": "CON_Potion_PhysicalArmor_Boost_Large_A",
@@ -1263,7 +1476,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized potion that enchants and strengthens your physical armour.",
         "icon": "Item_CON_PotionII_A_Silver_Large",
-        "stats": "CON_Potion_PhysicalArmor_Boost_Large_A"
+        "stats": "CON_Potion_PhysicalArmor_Boost_Large_A",
+        "displayName": "Large Physical Armour Potion"
     },
     {
         "name": "CON_Potion_PhysicalArmor_Boost_Giant_A",
@@ -1277,7 +1491,7 @@
         "description": "A very large-sized potion that enchants and strengthens your physical armour.",
         "icon": "Item_CON_PotionII_A_Silver_Huge",
         "stats": "CON_Potion_PhysicalArmor_Boost_Giant_A",
-        "displayName": "Large Physical Armour Potion"
+        "displayName": "Gian Physical Armour Potion"
     },
     {
         "name": "CON_Potion_Poison_A",
@@ -1293,7 +1507,8 @@
         "isConsumable": "Yes",
         "description": "Contrived from the scum of Rivellon's vilest troll's feet, witch's gums, and demon dung, this poison could take down an average-sized wollock.",
         "icon": "Item_CON_PotionII_A_Green_Small",
-        "stats": "CON_Potion_Poison_A"
+        "stats": "CON_Potion_Poison_A",
+        "displayName": "Small Poison Bottle"
     },
     {
         "name": "CON_Potion_Poison_Medium_A",
@@ -1309,7 +1524,8 @@
         "isConsumable": "Yes",
         "description": "Contrived from the scum of Rivellon's vilest troll's feet, witch's gums, and demon dung, this poison could take down a medium-sized wollock.",
         "icon": "Item_CON_PotionII_A_Green_Medium",
-        "stats": "CON_Potion_Poison_Medium_A"
+        "stats": "CON_Potion_Poison_Medium_A",
+        "displayName": "Medium Poison Bottle"
     },
     {
         "name": "CON_Potion_Poison_Large_A",
@@ -1325,7 +1541,8 @@
         "isConsumable": "Yes",
         "description": "Contrived from the scum of Rivellon's vilest troll's feet, witch's gums, and demon dung, this poison could take down a large-sized wollock.",
         "icon": "Item_CON_PotionII_A_Green_Large",
-        "stats": "CON_Potion_Poison_Large_A"
+        "stats": "CON_Potion_Poison_Large_A",
+        "displayName": "Large Poison Bottle"
     },
     {
         "name": "CON_Potion_Poison_Huge_A",
@@ -1341,7 +1558,8 @@
         "isConsumable": "Yes",
         "description": "Contrived from the scum of Rivellon's vilest troll's feet, witch's gums, and demon dung, this poison could take down a large-sized wollock.",
         "icon": "Item_CON_PotionII_A_Green_Huge",
-        "stats": "CON_Potion_Poison_Huge_A"
+        "stats": "CON_Potion_Poison_Huge_A",
+        "displayName": "Huge Poison Vial"
     },
     {
         "name": "CON_Potion_Poison_Giant_A",
@@ -1357,7 +1575,8 @@
         "isConsumable": "Yes",
         "description": "Contrived from the scum of Rivellon's vilest troll's feet, witch's gums, and demon dung, this poison could take down a large-sized wollock.",
         "icon": "Item_CON_PotionII_A_Green_Giant",
-        "stats": "CON_Potion_Poison_Giant_A"
+        "stats": "CON_Potion_Poison_Giant_A",
+        "displayName": "Giant Poison Vial"
     },
     {
         "name": "CON_Potion_Poison_Elixir",
@@ -1372,7 +1591,8 @@
         "isConsumable": "Yes",
         "description": "A poison elixir brewed with the yarrow flower. Supposedly superior to common poison.",
         "icon": "Item_CON_PotionII_D_LightGreen_Large",
-        "stats": "CON_Potion_Poison_Elixir"
+        "stats": "CON_Potion_Poison_Elixir",
+        "displayName": "Poison Elixir"
     },
     {
         "name": "POTION_Minor_Strength_Potion",
@@ -1384,7 +1604,8 @@
         "isConsumable": "Yes",
         "description": "This small-sized, strength-enhancing brew still smells of the troll whose sweat grants it its magical properties.",
         "icon": "Item_CON_PotionII_C_Orange_Small",
-        "stats": "POTION_Minor_Strength_Potion"
+        "stats": "POTION_Minor_Strength_Potion",
+        "displayName": "Minor Strength Potion"
     },
     {
         "name": "POTION_Medium_Strength_Potion",
@@ -1397,7 +1618,8 @@
         "isConsumable": "Yes",
         "description": "This medium-sized, strength-enhancing brew still smells of the troll whose sweat grants it its magical properties.",
         "icon": "Item_CON_PotionII_C_Orange_Medium",
-        "stats": "POTION_Medium_Strength_Potion"
+        "stats": "POTION_Medium_Strength_Potion",
+        "displayName": "Medium Strength Potion"
     },
     {
         "name": "POTION_Large_Strength_Potion",
@@ -1410,7 +1632,8 @@
         "isConsumable": "Yes",
         "description": "This large-sized, strength-enhancing brew still smells of the troll whose sweat grants it its magical properties.",
         "icon": "Item_CON_PotionII_C_Orange_Large",
-        "stats": "POTION_Large_Strength_Potion"
+        "stats": "POTION_Large_Strength_Potion",
+        "displayName": "Large Strength Potion"
     },
     {
         "name": "POTION_Permanent_Strength_Potion",
@@ -1422,7 +1645,8 @@
         "isConsumable": "Yes",
         "description": "This large-sized, strength-enhancing brew still smells of the troll whose sweat grants it its magical properties.",
         "icon": "Item_CON_PotionII_C_Orange_Large",
-        "stats": "POTION_Large_Strength_Potion"
+        "stats": "POTION_Large_Strength_Potion",
+        "displayName": "Permanent Strength Potion"
     },
     {
         "name": "POTION_Minor_Dexterity_Potion",
@@ -1434,7 +1658,8 @@
         "isConsumable": "Yes",
         "description": "A thick, cloudy drink that sharpens the Finesse of the drinker.",
         "icon": "Item_CON_PotionII_C_Yellow_Small",
-        "stats": "POTION_Minor_Dexterity_Potion"
+        "stats": "POTION_Minor_Dexterity_Potion",
+        "displayName": "Minor Dexterity Potion"
     },
     {
         "name": "POTION_Medium_Dexterity_Potion",
@@ -1447,7 +1672,8 @@
         "isConsumable": "Yes",
         "description": "A medium-sized, thick, and cloudy drink that sharpens the dexterity of the drinker.",
         "icon": "Item_CON_PotionII_C_Yellow_Medium",
-        "stats": "POTION_Medium_Dexterity_Potion"
+        "stats": "POTION_Medium_Dexterity_Potion",
+        "displayName": "Medium Dexterity Potion"
     },
     {
         "name": "POTION_Large_Dexterity_Potion",
@@ -1460,7 +1686,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized, thick, and cloudy drink that sharpens the dexterity of the drinker.",
         "icon": "Item_CON_PotionII_C_Yellow_Large",
-        "stats": "POTION_Large_Dexterity_Potion"
+        "stats": "POTION_Large_Dexterity_Potion",
+        "displayName": "Large Dexterity Potion"
     },
     {
         "name": "POTION_Permanent_Dexterity_Potion",
@@ -1472,7 +1699,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized, thick, and cloudy drink that sharpens the dexterity of the drinker.",
         "icon": "Item_CON_PotionII_C_Yellow_Large",
-        "stats": "POTION_Large_Dexterity_Potion"
+        "stats": "POTION_Large_Dexterity_Potion",
+        "displayName": "Permanent Dexterity Potion"
     },
     {
         "name": "POTION_Minor_Speed_Potion",
@@ -1484,7 +1712,8 @@
         "isConsumable": "Yes",
         "description": "Infused with falcons' tears, this elixir infuses its drinker with superior speed.",
         "icon": "Item_CON_PotionII_C_Purple_Small",
-        "stats": "POTION_Minor_Speed_Potion"
+        "stats": "POTION_Minor_Speed_Potion",
+        "displayName": "Minor Speed Potion"
     },
     {
         "name": "POTION_Medium_Speed_Potion",
@@ -1496,7 +1725,8 @@
         "isConsumable": "Yes",
         "description": "Infused with falcons' tears, this medium-sized elixir infuses its drinker with superior speed.",
         "icon": "Item_CON_PotionII_C_Purple_Medium",
-        "stats": "POTION_Medium_Speed_Potion"
+        "stats": "POTION_Medium_Speed_Potion",
+        "displayName": "Medium Speed Potion"
     },
     {
         "name": "POTION_Large_Speed_Potion",
@@ -1508,7 +1738,8 @@
         "isConsumable": "Yes",
         "description": "Infused with falcons' tears, this large-sized elixir infuses its drinker with superior speed.",
         "icon": "Item_CON_PotionII_C_Purple_Large",
-        "stats": "POTION_Large_Speed_Potion"
+        "stats": "POTION_Large_Speed_Potion",
+        "displayName": "Large Speed Potion"
     },
     {
         "name": "POTION_Permanent_Speed_Potion",
@@ -1520,7 +1751,8 @@
         "isConsumable": "Yes",
         "description": "Infused with falcons' tears, this large-sized elixir infuses its drinker with superior speed.",
         "icon": "Item_CON_PotionII_C_Purple_Large",
-        "stats": "POTION_Large_Speed_Potion"
+        "stats": "POTION_Large_Speed_Potion",
+        "displayName": "Permanent Speed Potion"
     },
     {
         "name": "POTION_Minor_Intelligence_Potion",
@@ -1532,7 +1764,8 @@
         "isConsumable": "Yes",
         "description": "This potion smells faintly of old books and is capable of boosting your intelligence.",
         "icon": "Item_CON_PotionII_C_Blue_Small",
-        "stats": "POTION_Minor_Intelligence_Potion"
+        "stats": "POTION_Minor_Intelligence_Potion",
+        "displayName": "Minor Intelligence Potion"
     },
     {
         "name": "POTION_Medium_Intelligence_Potion",
@@ -1545,7 +1778,8 @@
         "isConsumable": "Yes",
         "description": "This medium-sized potion smells faintly of old books and is capable of boosting your intelligence.",
         "icon": "Item_CON_PotionII_C_Blue_Medium",
-        "stats": "POTION_Medium_Intelligence_Potion"
+        "stats": "POTION_Medium_Intelligence_Potion",
+        "displayName": "Medium Intelligence Potion"
     },
     {
         "name": "POTION_Large_Intelligence_Potion",
@@ -1558,7 +1792,8 @@
         "isConsumable": "Yes",
         "description": "This large-sized potion smells faintly of old books and is capable of boosting your intelligence.",
         "icon": "Item_CON_PotionII_C_Blue_Large",
-        "stats": "POTION_Large_Intelligence_Potion"
+        "stats": "POTION_Large_Intelligence_Potion",
+        "displayName": "Large Intelligence Potion"
     },
     {
         "name": "POTION_Permanent_Intelligence_Potion",
@@ -1570,7 +1805,8 @@
         "isConsumable": "Yes",
         "description": "This large-sized potion smells faintly of old books and is capable of boosting your intelligence.",
         "icon": "Item_CON_PotionII_C_Blue_Large",
-        "stats": "POTION_Large_Intelligence_Potion"
+        "stats": "POTION_Large_Intelligence_Potion",
+        "displayName": "Permanent Intelligence Potion"
     },
     {
         "name": "POTION_Minor_Constitution_Potion",
@@ -1582,7 +1818,8 @@
         "isConsumable": "Yes",
         "description": "A small-sized potion that fortifies your constitution by scrubbing your insides from top to bottom.",
         "icon": "Item_CON_PotionII_C_Teal_Small",
-        "stats": "POTION_Minor_Constitution_Potion"
+        "stats": "POTION_Minor_Constitution_Potion",
+        "displayName": "Minor Constitution Potion"
     },
     {
         "name": "POTION_Medium_Constitution_Potion",
@@ -1595,7 +1832,8 @@
         "isConsumable": "Yes",
         "description": "A medium-sized potion that fortifies your constitution by scrubbing your insides from top to bottom.",
         "icon": "Item_CON_PotionII_C_Teal_Medium",
-        "stats": "POTION_Minor_Constitution_Potion"
+        "stats": "POTION_Minor_Constitution_Potion",
+        "displayName": "Medium Constitution Potion"
     },
     {
         "name": "POTION_Large_Constitution_Potion",
@@ -1608,7 +1846,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized potion that fortifies your constitution by scrubbing your insides from top to bottom.",
         "icon": "Item_CON_PotionII_C_Teal_Large",
-        "stats": "POTION_Minor_Constitution_Potion"
+        "stats": "POTION_Minor_Constitution_Potion",
+        "displayName": "Large Constitution Potion"
     },
     {
         "name": "POTION_Permanent_Constitution_Potion",
@@ -1620,7 +1859,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized potion that fortifies your constitution by scrubbing your insides from top to bottom.",
         "icon": "Item_CON_PotionII_C_Teal_Large",
-        "stats": "POTION_Minor_Constitution_Potion"
+        "stats": "POTION_Minor_Constitution_Potion",
+        "displayName": "Permanent Constitution Potion"
     },
     {
         "name": "POTION_Minor_Perception_Potion",
@@ -1632,7 +1872,8 @@
         "isConsumable": "Yes",
         "description": "The fluorescent liquid in this vial looks more radioactive than potable, but its affect on one's perception is undeniable.",
         "icon": "Item_CON_PotionII_C_Pink_Small",
-        "stats": "POTION_Minor_Perception_Potion"
+        "stats": "POTION_Minor_Perception_Potion",
+        "displayName": "Minor Perception Potion"
     },
     {
         "name": "POTION_Medium_Perception_Potion",
@@ -1645,7 +1886,8 @@
         "isConsumable": "Yes",
         "description": "The fluorescent liquid in this medium-sized vial looks more radioactive than potable, but its affect on one's perception is undeniable.",
         "icon": "Item_CON_PotionII_C_Pink_Medium",
-        "stats": "POTION_Medium_Perception_Potion"
+        "stats": "POTION_Medium_Perception_Potion",
+        "displayName": "Medium Perception Potion"
     },
     {
         "name": "POTION_Large_Perception_Potion",
@@ -1658,7 +1900,8 @@
         "isConsumable": "Yes",
         "description": "The fluorescent liquid in this large vial looks more radioactive than potable, but its affect on one's perception is undeniable.",
         "icon": "Item_CON_PotionII_C_Pink_Large",
-        "stats": "POTION_Large_Perception_Potion"
+        "stats": "POTION_Large_Perception_Potion",
+        "displayName": "Large Perception Potion"
     },
     {
         "name": "POTION_Permanent_Perception_Potion",
@@ -1670,7 +1913,8 @@
         "isConsumable": "Yes",
         "description": "The fluorescent liquid in this large vial looks more radioactive than potable, but its affect on one's perception is undeniable.",
         "icon": "Item_CON_PotionII_C_Pink_Large",
-        "stats": "POTION_Large_Perception_Potion"
+        "stats": "POTION_Large_Perception_Potion",
+        "displayName": "Permanent Perception Potion"
     },
     {
         "name": "CON_Potion_Fire_Res_A",
@@ -1682,7 +1926,8 @@
         "isConsumable": "Yes",
         "description": "A bright-smelling, spicy elixir capable of protecting you against pyrokinetic attacks.",
         "icon": "Item_CON_PotionII_B_Red_Small",
-        "stats": "CON_Potion_Fire_Res_A"
+        "stats": "CON_Potion_Fire_Res_A",
+        "displayName": "Fire Resistance Potion"
     },
     {
         "name": "CON_Potion_Fire_Res_Medium_A",
@@ -1695,7 +1940,8 @@
         "isConsumable": "Yes",
         "description": "A medium-sized, bright-smelling, spicy elixir capable of protecting you against pyrokinetic attacks.",
         "icon": "Item_CON_PotionII_B_Red_Medium",
-        "stats": "CON_Potion_Fire_Res_Medium_A"
+        "stats": "CON_Potion_Fire_Res_Medium_A",
+        "displayName": "Medium Fire Resistance Potion"
     },
     {
         "name": "CON_Potion_Fire_Res_Large_A",
@@ -1708,7 +1954,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized, bright-smelling, spicy elixir capable of protecting you against pyrokinetic attacks.",
         "icon": "Item_CON_PotionII_B_Red_Large",
-        "stats": "CON_Potion_Fire_Res_Large_A"
+        "stats": "CON_Potion_Fire_Res_Large_A",
+        "displayName": "Large Fire Resistance Potion"
     },
     {
         "name": "CON_Potion_Water_Res_A",
@@ -1720,7 +1967,8 @@
         "isConsumable": "Yes",
         "description": "This potion, a beautiful, swirling concoction smelling faintly of coconuts, grants resistance to water damage.",
         "icon": "Item_CON_PotionII_B_Teal_Small",
-        "stats": "CON_Potion_Water_Res_A"
+        "stats": "CON_Potion_Water_Res_A",
+        "displayName": "Water Resistance Potion"
     },
     {
         "name": "CON_Potion_Water_Res_Medium_A",
@@ -1733,7 +1981,8 @@
         "isConsumable": "Yes",
         "description": "This medium-sized potion, a beautiful, swirling concoction smelling faintly of coconuts, grants resistance to water damage.",
         "icon": "Item_CON_PotionII_B_Teal_Medium",
-        "stats": "CON_Potion_Water_Res_Medium_A"
+        "stats": "CON_Potion_Water_Res_Medium_A",
+        "displayName": "Medium Water Resistance Potion"
     },
     {
         "name": "CON_Potion_Water_Res_Large_A",
@@ -1746,7 +1995,8 @@
         "isConsumable": "Yes",
         "description": "This large potion, a beautiful, swirling concoction smelling faintly of coconuts, grants resistance to water damage.",
         "icon": "Item_CON_PotionII_B_Teal_Large",
-        "stats": "CON_Potion_Water_Res_Large_A"
+        "stats": "CON_Potion_Water_Res_Large_A",
+        "displayName": "Large Water Resistance Potion"
     },
     {
         "name": "CON_Potion_Air_Res_A",
@@ -1759,7 +2009,8 @@
         "isConsumable": "Yes",
         "description": "A potion capable of steeling you against the effects of air magic.",
         "icon": "Item_CON_PotionII_B_Purple_Small",
-        "stats": "CON_Potion_Air_Res_A"
+        "stats": "CON_Potion_Air_Res_A",
+        "displayName": "Small Air Resistance Potion"
     },
     {
         "name": "CON_Potion_Air_Res_Medium_A",
@@ -1773,7 +2024,8 @@
         "isConsumable": "Yes",
         "description": "A medium-sized potion capable of steeling you against the effects of air magic.",
         "icon": "Item_CON_PotionII_B_Purple_Medium",
-        "stats": "CON_Potion_Air_Res_Medium_A"
+        "stats": "CON_Potion_Air_Res_Medium_A",
+        "displayName": "Medium Air Resistance Potion"
     },
     {
         "name": "CON_Potion_Air_Res_Large_A",
@@ -1787,7 +2039,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized potion capable of steeling you against the effects of air magic.",
         "icon": "Item_CON_PotionII_B_Purple_Large",
-        "stats": "CON_Potion_Air_Res_Large_A"
+        "stats": "CON_Potion_Air_Res_Large_A",
+        "displayName": "Large Air Resistance Potion"
     },
     {
         "name": "CON_Potion_Poison_Res_A",
@@ -1799,7 +2052,8 @@
         "isConsumable": "Yes",
         "description": "This floral-scented potion is commonly called 'King's Pal'. It grants its drinker a gentle resistance to poisoning.",
         "icon": "Item_CON_PotionII_D_LightGreen_Small",
-        "stats": "CON_Potion_Poison_Res_A"
+        "stats": "CON_Potion_Poison_Res_A",
+        "displayName": "Small Poison Resistance Potion"
     },
     {
         "name": "CON_Potion_Poison_Res_Medium_A",
@@ -1812,7 +2066,8 @@
         "isConsumable": "Yes",
         "description": "This floral-scented potion is commonly called 'King's Pal'. It grants its drinker somewhat of a  resistance to poisoning.",
         "icon": "Item_CON_PotionII_D_LightGreen_Medium",
-        "stats": "CON_Potion_Poison_Res_Medium_A"
+        "stats": "CON_Potion_Poison_Res_Medium_A",
+        "displayName": "Medium Poison Resistance Potion"
     },
     {
         "name": "CON_Potion_Poison_Res_Large_A",
@@ -1825,7 +2080,8 @@
         "isConsumable": "Yes",
         "description": "This floral-scented potion is commonly called 'King's Pal'. It grants its drinker a considerable resistance to poisoning.",
         "icon": "Item_CON_PotionII_D_LightGreen_Large",
-        "stats": "CON_Potion_Poison_Res_Large_A"
+        "stats": "CON_Potion_Poison_Res_Large_A",
+        "displayName": "Large Poison Resistance Potion"
     },
     {
         "name": "CON_Potion_Earth_Res_A",
@@ -1837,7 +2093,8 @@
         "isConsumable": "Yes",
         "description": "A protective potion that can fortify you against geomantic attacks.",
         "icon": "Item_CON_PotionII_B_Orange_Small",
-        "stats": "CON_Potion_Earth_Res_A"
+        "stats": "CON_Potion_Earth_Res_A",
+        "displayName": "Earth Resistance Potion"
     },
     {
         "name": "CON_Potion_Earth_Res_Medium_A",
@@ -1850,7 +2107,8 @@
         "isConsumable": "Yes",
         "description": "A medium-sized protective potion that can fortify you against geomantic attacks.",
         "icon": "Item_CON_PotionII_B_Orange_Medium",
-        "stats": "CON_Potion_Earth_Res_Medium_A"
+        "stats": "CON_Potion_Earth_Res_Medium_A",
+        "displayName": "Medium Earth Resistance Potion"
     },
     {
         "name": "CON_Potion_Earth_Res_Large_A",
@@ -1863,7 +2121,8 @@
         "isConsumable": "Yes",
         "description": "A large-sized protective potion that can fortify you against geomantic attacks.",
         "icon": "Item_CON_PotionII_B_Orange_Large",
-        "stats": "CON_Potion_Earth_Res_Large_A"
+        "stats": "CON_Potion_Earth_Res_Large_A",
+        "displayName": "Large Earth Resistance Potion"
     },
     {
         "name": "POTION_Minor_ResistAll_Potion",
@@ -1879,7 +2138,8 @@
         "isConsumable": "Yes",
         "description": "This fortifying brew may reek of sour milk, but one gulp will grant you a minor resistance to all types of elemental magic.",
         "icon": "Item_CON_PotionII_D_Yellow_Small",
-        "stats": "POTION_Minor_ResistAll_Potion"
+        "stats": "POTION_Minor_ResistAll_Potion",
+        "displayName": "Minor Resist All Potion"
     },
     {
         "name": "POTION_Medium_ResistAll_Potion",
@@ -1896,7 +2156,8 @@
         "isConsumable": "Yes",
         "description": "This fortifying brew may reek of sour milk, but one gulp will grant you a minor resistance to all types of elemental magic.",
         "icon": "Item_CON_PotionII_D_Yellow_Medium",
-        "stats": "POTION_Minor_ResistAll_Potion"
+        "stats": "POTION_Minor_ResistAll_Potion",
+        "displayName": "Medium Resist All Potion"
     },
     {
         "name": "POTION_Large_ResistAll_Potion",
@@ -1913,7 +2174,8 @@
         "isConsumable": "Yes",
         "description": "This fortifying brew may reek of sour milk, but one gulp will grant you a minor resistance to all types of elemental magic.",
         "icon": "Item_CON_PotionII_D_Yellow_Large",
-        "stats": "POTION_Minor_ResistAll_Potion"
+        "stats": "POTION_Minor_ResistAll_Potion",
+        "displayName": "Large Resist All Potion"
     },
     {
         "name": "CON_Potion_Air_Res_Huge_A",
@@ -1927,7 +2189,8 @@
         "isConsumable": "Yes",
         "description": "A very large-sized potion capable of steeling you against the effects of air magic.",
         "icon": "Item_CON_PotionII_B_Purple_Huge",
-        "stats": "CON_Potion_Air_Res_Huge_A"
+        "stats": "CON_Potion_Air_Res_Huge_A",
+        "displayName": "Huge Air Resistance Potion"
     },
     {
         "name": "CON_Potion_Poison_Res_Huge_A",
@@ -1940,7 +2203,8 @@
         "isConsumable": "Yes",
         "description": "This floral-scented potion is commonly called 'King's Pal'. It grants its drinker a great resistance to poisoning.",
         "icon": "Item_CON_PotionII_D_LightGreen_Huge",
-        "stats": "CON_Potion_Poison_Res_Huge_A"
+        "stats": "CON_Potion_Poison_Res_Huge_A",
+        "displayName": "Huge Poison Resistance Potion"
     },
     {
         "name": "CON_Potion_Earth_Res_Huge_A",
@@ -1953,7 +2217,8 @@
         "isConsumable": "Yes",
         "description": "A very large-sized protective potion that can fortify you against geomantic attacks.",
         "icon": "Item_CON_PotionII_B_Orange_Huge",
-        "stats": "CON_Potion_Earth_Res_Huge_A"
+        "stats": "CON_Potion_Earth_Res_Huge_A",
+        "displayName": "Huge Earth Resistance Potion"
     },
     {
         "name": "CON_Potion_Water_Res_Huge_A",
@@ -1966,7 +2231,8 @@
         "isConsumable": "Yes",
         "description": "This very large potion, a beautiful, swirling concoction smelling faintly of coconuts, grants resistance to water damage.",
         "icon": "Item_CON_PotionII_B_Teal_Huge",
-        "stats": "CON_Potion_Water_Res_Huge_A"
+        "stats": "CON_Potion_Water_Res_Huge_A",
+        "displayName": "Huge Water Resistance Potion"
     },
     {
         "name": "CON_Potion_Fire_Res_Huge_A",
@@ -1979,7 +2245,8 @@
         "isConsumable": "Yes",
         "description": "A very large-sized, bright-smelling, spicy elixir capable of protecting you against pyrokinetic attacks.",
         "icon": "Item_CON_PotionII_B_Red_Huge",
-        "stats": "CON_Potion_Fire_Res_Huge_A"
+        "stats": "CON_Potion_Fire_Res_Huge_A",
+        "displayName": "Huge Fire Resistance Potion"
     },
     {
         "name": "CON_Potion_Invisible_A",
@@ -1992,7 +2259,8 @@
         "isConsumable": "Yes",
         "description": "This elixir temporarily coats you in an invisibility spell. The bottle appears to be empty, but...",
         "icon": "Item_CON_PotionII_B_Black_Small",
-        "stats": "CON_Potion_Invisible_A"
+        "stats": "CON_Potion_Invisible_A",
+        "displayName": "Invisibility Potion"
     },
     {
         "name": "CON_Potion_Invisible_Medium_A",
@@ -2006,7 +2274,8 @@
         "isConsumable": "Yes",
         "description": "This elixir temporarily coats you in an invisibility spell. The medium-sized bottle appears to be empty, but...",
         "icon": "Item_CON_PotionII_B_Black_Medium",
-        "stats": "CON_Potion_Invisible_Medium_A"
+        "stats": "CON_Potion_Invisible_Medium_A",
+        "displayName": "Medium Invisibility Potion"
     },
     {
         "name": "CON_Potion_Invisible_Large_A",
@@ -2019,7 +2288,8 @@
         "isConsumable": "Yes",
         "description": "This elixir temporarily coats you in an invisibility spell. The large bottle appears to be empty, but...",
         "icon": "Item_CON_PotionII_B_Black_Large",
-        "stats": "CON_Potion_Invisible_Large_A"
+        "stats": "CON_Potion_Invisible_Large_A",
+        "displayName": "Large Invisibility Potion"
     },
     {
         "name": "CON_Potion_Stoneskin",
@@ -2035,7 +2305,8 @@
         "isConsumable": "Yes",
         "description": "| Stoneskin potion description |",
         "icon": "Item_CON_PotionII_B_Black_Small",
-        "stats": "CON_Potion_Stoneskin"
+        "stats": "CON_Potion_Stoneskin",
+        "displayName": "Stoneskin Potion"
     },
     {
         "name": "CON_Potion_NimbleTumble",
@@ -2048,7 +2319,8 @@
         "isConsumable": "Yes",
         "description": "| Nimble Tumble potion description |",
         "icon": "Item_CON_PotionII_D_Black_Small",
-        "stats": "CON_Potion_NimbleTumble"
+        "stats": "CON_Potion_NimbleTumble",
+        "displayName": "Potion Of Nimble Tumble"
     },
     {
         "name": "CON_Potion_Will",
@@ -2061,7 +2333,8 @@
         "isConsumable": "Yes",
         "description": "| Potion of strong will description |",
         "icon": "Item_CON_PotionII_D_BloodRed_Small",
-        "stats": "CON_Potion_Will"
+        "stats": "CON_Potion_Will",
+        "displayName": "Potion Of Strong Will"
     },
     {
         "name": "CON_Potion_ElectricSkin",
@@ -2075,7 +2348,8 @@
         "isConsumable": "Yes",
         "description": "| Electric skin potion description |",
         "icon": "Item_CON_PotionII_A_Blue_Huge",
-        "stats": "CON_Potion_ElectricSkin"
+        "stats": "CON_Potion_ElectricSkin",
+        "displayName": "Potion Of Electric Skin"
     },
     {
         "name": "CON_Potion_Telekinesis_A",
@@ -2087,7 +2361,8 @@
         "isConsumable": "Yes",
         "description": "This bottle, containing a potion capable of granting telekinesis to its drinker, seems to jump within your hand.",
         "icon": "Item_CON_PotionII_B_Blue_Small",
-        "stats": "CON_Potion_Telekinesis_A"
+        "stats": "CON_Potion_Telekinesis_A",
+        "displayName": "Telekinesis Potion"
     },
     {
         "name": "CON_Potion_Telekinesis_Medium_A",
@@ -2098,7 +2373,8 @@
         "isConsumable": "Yes",
         "description": "This bottle, containing a medium-sized potion capable of granting telekinesis to its drinker, seems to jump within your hand.",
         "icon": "Item_CON_PotionII_B_Blue_Medium",
-        "stats": "CON_Potion_Telekinesis_Medium_A"
+        "stats": "CON_Potion_Telekinesis_Medium_A",
+        "displayName": "Medium Telekinesis Potion"
     },
     {
         "name": "CON_Potion_Telekinesis_Large_A",
@@ -2109,7 +2385,8 @@
         "isConsumable": "Yes",
         "description": "This bottle, containing a large-sized potion capable of granting telekinesis to its drinker, seems to jump within your hand.",
         "icon": "Item_CON_PotionII_B_Blue_Large",
-        "stats": "CON_Potion_Telekinesis_Large_A"
+        "stats": "CON_Potion_Telekinesis_Large_A",
+        "displayName": "Large Telekinesis Potion"
     },
     {
         "name": "CON_Potion_Debuf_Strength_A",
@@ -2121,7 +2398,8 @@
         "isConsumable": "Yes",
         "description": "A vile-scented draught capable of softening your strength.",
         "icon": "Item_LAB_Bottle_B",
-        "stats": "CON_Potion_Debuf_Strength_A"
+        "stats": "CON_Potion_Debuf_Strength_A",
+        "displayName": "Debuff Strength Potion"
     },
     {
         "name": "CON_Potion_Debuf_Dexterity_A",
@@ -2133,7 +2411,8 @@
         "isConsumable": "Yes",
         "description": "A vile-scented draught capable of weighing down your dexterity.",
         "icon": "Item_LAB_Bottle_B",
-        "stats": "CON_Potion_Debuf_Dexterity_A"
+        "stats": "CON_Potion_Debuf_Dexterity_A",
+        "displayName": "Debuff Dexterity Potion"
     },
     {
         "name": "CON_Potion_Debuf_Intelligence_A",
@@ -2145,7 +2424,8 @@
         "isConsumable": "Yes",
         "description": "A vile-scented draught capable of dulling your intelligence.",
         "icon": "Item_LAB_Bottle_B",
-        "stats": "CON_Potion_Debuf_Intelligence_A"
+        "stats": "CON_Potion_Debuf_Intelligence_A",
+        "displayName": "Debuff Intelligence Potion"
     },
     {
         "name": "CON_Potion_Debuf_Constitution_A",
@@ -2157,7 +2437,8 @@
         "isConsumable": "Yes",
         "description": "A vile-scented draught capable of draining your constitution.",
         "icon": "Item_LAB_Bottle_B",
-        "stats": "CON_Potion_Debuf_Constitution_A"
+        "stats": "CON_Potion_Debuf_Constitution_A",
+        "displayName": "Debuff Constitution Potion"
     },
     {
         "name": "CON_Potion_Debuf_Speed_A",
@@ -2168,7 +2449,8 @@
         "isConsumable": "Yes",
         "description": "A vile-scented draught capable of dialling your speed down to 'tortoise'.",
         "icon": "Item_LAB_Bottle_B",
-        "stats": "CON_Potion_Debuf_Speed_A"
+        "stats": "CON_Potion_Debuf_Speed_A",
+        "displayName": "Debuff Speed Potion"
     },
     {
         "name": "CON_Potion_Debuf_Perception_A",
@@ -2180,7 +2462,8 @@
         "isConsumable": "Yes",
         "description": "A vile-scented draught capable of dimming your perception.",
         "icon": "Item_LAB_Bottle_B",
-        "stats": "CON_Potion_Debuf_Perception_A"
+        "stats": "CON_Potion_Debuf_Perception_A",
+        "displayName": "Debuff Perception Potion"
     },
     {
         "name": "CON_Potion_Debuf_All_A",
@@ -2196,7 +2479,8 @@
         "isConsumable": "Yes",
         "description": "A vile-scented draught capable of enfeebling you completely.",
         "icon": "Item_LAB_Bottle_B",
-        "stats": "CON_Potion_Debuf_All_A"
+        "stats": "CON_Potion_Debuf_All_A",
+        "displayName": "Debuff All Potion"
     },
     {
         "name": "GLO_SentinelOff",
@@ -2204,7 +2488,8 @@
         "sight": "-1000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "GLO_SentinelOn",
@@ -2212,7 +2497,8 @@
         "sight": "1000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "Arena_Initiative_1",
@@ -2220,7 +2506,8 @@
         "initiative": "10000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": "Uncanny Reflexes"
     },
     {
         "name": "Arena_Initiative_2",
@@ -2228,7 +2515,8 @@
         "initiative": "9000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "Arena_Initiative_3",
@@ -2236,7 +2524,8 @@
         "initiative": "8000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "Arena_Initiative_4",
@@ -2244,7 +2533,8 @@
         "initiative": "7000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "Arena_Initiative_5",
@@ -2252,7 +2542,8 @@
         "initiative": "6000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "Arena_Initiative_6",
@@ -2260,7 +2551,8 @@
         "initiative": "5000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "Arena_Initiative_7",
@@ -2268,7 +2560,8 @@
         "initiative": "4000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "Arena_Initiative_8",
@@ -2276,7 +2569,8 @@
         "initiative": "3000",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "GLO_DrunkScript",
@@ -2284,7 +2578,8 @@
         "extraProperties": "DRUNK,100,10",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
         "name": "Quest_BlackRoseElixir",
@@ -2301,7 +2596,7 @@
         "isConsumable": "Yes",
         "icon": "Item_CON_PotionII_D_Black_Large",
         "stats": "Quest_BlackRoseElixir",
-        "displayName": "Attar of the Blood Rose"
+        "displayName": "Blood Rose Elixir"
     },
     {
         "name": "LOOT_Source_Orb",
@@ -2313,12 +2608,8 @@
         "isConsumable": "Yes",
         "description": "Glowing brightly with a spectral blue brilliance, it almost hurts to gaze at it too long. This Source Orb can be used to gain a Source Point, or used in place of a rune on your equipment, or used as an ingredient in special crafting recipes. Use it wisely!",
         "icon": "Item_LOOT_Source_Orb",
-        "stats": "LOOT_Source_Orb"
-    },
-    {
-        "name": "_ComboPotions",
-        "isConsumable": "Yes",
-        "isFood": "Yes"
+        "stats": "LOOT_Source_Orb",
+        "displayName": "Source Orb"
     },
     {
         "name": "CON_Herb_Mushroom_A",
@@ -2333,7 +2624,8 @@
         "isFood": "Yes",
         "description": "A standard forest mushroom, rumoured by elder Wayfarers to possess healing powers.",
         "icon": "Item_CON_Herb_Mushroom_A",
-        "stats": "CON_Herb_Mushroom_A"
+        "stats": "CON_Herb_Mushroom_A",
+        "displayName": "Penny Bun Mushroom"
     },
     {
         "name": "CON_Herb_Mushroom_C",
@@ -2348,7 +2640,8 @@
         "isFood": "Yes",
         "description": "Just a friendly little poisonous toadstool, minding its own business.",
         "icon": "Item_CON_Herb_Mushroom_C",
-        "stats": "CON_Herb_Mushroom_C"
+        "stats": "CON_Herb_Mushroom_C",
+        "displayName": "Fly Agaric Mushroom"
     },
     {
         "name": "CON_Herb_Whisperwood_A",
@@ -2363,7 +2656,8 @@
         "isFood": "Yes",
         "description": "Elven elders claim that those who can understand the secrets whispered by this herb will be protected by the blessing of Tir-Cendelius himself.",
         "icon": "Item_CON_Herb_Whisperwood",
-        "stats": "CON_Herb_Whisperwood_A"
+        "stats": "CON_Herb_Whisperwood_A",
+        "displayName": "Whisperwood"
     },
     {
         "name": "CON_Nature_Mushroom_Amadouvier_A",
@@ -2378,7 +2672,8 @@
         "isFood": "Yes",
         "description": "Likened to armour for its scaly appearance, Amadouvier is a particularly tough strain of fungus, highly sought after by potion brewers.",
         "icon": "Item_CON_Nature_Mushroom_Amadouvier_A",
-        "stats": "CON_Nature_Mushroom_Amadouvier_A"
+        "stats": "CON_Nature_Mushroom_Amadouvier_A",
+        "displayName": "Amadouvier"
     },
     {
         "name": "CON_Herb_Mushroom_B",
@@ -2393,7 +2688,8 @@
         "isFood": "Yes",
         "description": "Bluegill mushrooms often flourish close to water, where they can be seen bunched together conspiratorially.",
         "icon": "Item_CON_Herb_Mushroom_B",
-        "stats": "CON_Herb_Mushroom_B"
+        "stats": "CON_Herb_Mushroom_B",
+        "displayName": "Bluegill Mushroom"
     },
     {
         "name": "CON_Herb_Mushroom_Jellyfish_A",
@@ -2408,7 +2704,8 @@
         "isFood": "Yes",
         "description": "Children's stories tell that the origin of this mushroom's glow comes from being struck by lightning. Of course, modern scholars laugh at such tales. But their laughter rings hollow, for even they don't know why the jellyroom glows.",
         "icon": "Item_CON_Herb_Mushroom_B",
-        "stats": "CON_Herb_Mushroom_Jellyfish_A"
+        "stats": "CON_Herb_Mushroom_Jellyfish_A",
+        "displayName": "Jellyroom"
     },
     {
         "name": "CON_Herb_Mushroom_D",
@@ -2423,7 +2720,8 @@
         "isFood": "Yes",
         "description": "This invasive fungus is sturdier than a rock, so much so that it was used as armour by elves of ancient times.",
         "icon": "Item_CON_Herb_Mushroom_D",
-        "stats": "CON_Herb_Mushroom_D"
+        "stats": "CON_Herb_Mushroom_D",
+        "displayName": "Earth Tongue Mushroom"
     },
     {
         "name": "CON_Herb_Mushroom_E",
@@ -2438,7 +2736,8 @@
         "isFood": "Yes",
         "description": "A vibrant and robust species, this mushroom is a prized ingredient of fire alchemists.",
         "icon": "Item_CON_Herb_Mushroom_E",
-        "stats": "CON_Herb_Mushroom_E"
+        "stats": "CON_Herb_Mushroom_E",
+        "displayName": "Guepinia Mushroom"
     },
     {
         "name": "CON_Herb_Augmentor_A",
@@ -2453,7 +2752,8 @@
         "isFood": "Yes",
         "description": "This plant is widely valued for its decorative property, but potion brewers know better.",
         "icon": "Item_CON_Herb_Augmentor_Step1_A",
-        "stats": "CON_Herb_Augmentor_A"
+        "stats": "CON_Herb_Augmentor_A",
+        "displayName": "Augmentor"
     },
     {
         "name": "CON_Herb_Augmentor_Step2_A",
@@ -2468,7 +2768,8 @@
         "isFood": "Yes",
         "description": "This plant is widely valued for its decorative property, but potion brewers know better.",
         "icon": "Item_CON_Herb_Augmentor_Step2_A",
-        "stats": "CON_Herb_Augmentor_Step2_A"
+        "stats": "CON_Herb_Augmentor_Step2_A",
+        "displayName": "| High Quality Augmentor |"
     },
     {
         "name": "CON_Herb_Augmentor_Step3_A",
@@ -2483,7 +2784,8 @@
         "isFood": "Yes",
         "description": "This plant is widely valued for its decorative property, but potion brewers know better.",
         "icon": "Item_CON_Herb_Augmentor_Step3_A",
-        "stats": "CON_Herb_Augmentor_Step3_A"
+        "stats": "CON_Herb_Augmentor_Step3_A",
+        "displayName": "Ultimate Augmentor Herb"
     },
     {
         "name": "CON_Herb_Farhangite_A",
@@ -2498,7 +2800,8 @@
         "isFood": "Yes",
         "description": "Hard as nails and twice as chewy, this rare plant thrives on the tears of exhausted adventurers.",
         "icon": "Item_CON_Herb_Farhangite",
-        "stats": "CON_Herb_Farhangite_A"
+        "stats": "CON_Herb_Farhangite_A",
+        "displayName": "Farhangite"
     },
     {
         "name": "CON_Nature_Mushroom_AmethystDeceiver_A",
@@ -2513,7 +2816,8 @@
         "isFood": "Yes",
         "description": "This unusually strong mushroom has an unusually strong taste to match.",
         "icon": "Item_CON_Nature_Mushroom_AmethystDeceiver_A",
-        "stats": "CON_Nature_Mushroom_AmethystDeceiver_A"
+        "stats": "CON_Nature_Mushroom_AmethystDeceiver_A",
+        "displayName": "Amethyst Deceiver"
     },
     {
         "name": "CON_Nature_Mushroom_Boletus_A",
@@ -2528,7 +2832,8 @@
         "isFood": "Yes",
         "description": "Often chewed by archers before battle to still their shaking hands, this mushroom is colloquially known as \"Hunter's Breakfast\".",
         "icon": "Item_CON_Nature_Mushroom_Boletus_A",
-        "stats": "CON_Nature_Mushroom_Boletus_A"
+        "stats": "CON_Nature_Mushroom_Boletus_A",
+        "displayName": "Boletus"
     },
     {
         "name": "CON_Nature_Mushroom_Calocera_A",
@@ -2543,7 +2848,8 @@
         "isFood": "Yes",
         "description": "A mushroom that's notoriously forbidden in most wizard universities.",
         "icon": "Item_CON_Nature_Mushroom_Calocera_A",
-        "stats": "CON_Nature_Mushroom_Calocera_A"
+        "stats": "CON_Nature_Mushroom_Calocera_A",
+        "displayName": "Calocera"
     },
     {
         "name": "CON_Nature_Mushroom_Chanterelle_A",
@@ -2559,7 +2865,8 @@
         "isFood": "Yes",
         "description": "Hard to see unless you look at it out of the corner of your eye. It's as if this mushroom is desperately trying to go unnoticed.",
         "icon": "Item_CON_Nature_Mushroom_Chanterelle_A",
-        "stats": "CON_Nature_Mushroom_Chanterelle_A"
+        "stats": "CON_Nature_Mushroom_Chanterelle_A",
+        "displayName": "Chanterelle"
     },
     {
         "name": "CON_Nature_Mushroom_Puffball_A",
@@ -2574,7 +2881,8 @@
         "isFood": "Yes",
         "description": "Legend holds that these mushrooms are the eyeballs of the dead, poking up from the earth to see what they are missing in their graves.",
         "icon": "Item_CON_Nature_Mushroom_Puffball_A",
-        "stats": "CON_Nature_Mushroom_Puffball_A"
+        "stats": "CON_Nature_Mushroom_Puffball_A",
+        "displayName": "Puffball"
     },
     {
         "name": "CON_Nature_Mushroom_TrumpetOfDeath_A",
@@ -2593,7 +2901,8 @@
         "isFood": "Yes",
         "description": "A rare breed of plant that is often seen as a harbinger of doom for others, though it can survive all types of weather itself. Cultivated as a household shrub by the fearless.",
         "icon": "Item_CON_Nature_Mushroom_TrumpetOfDeath_A",
-        "stats": "CON_Nature_Mushroom_TrumpetOfDeath_A"
+        "stats": "CON_Nature_Mushroom_TrumpetOfDeath_A",
+        "displayName": "Trumpet Of Death"
     },
     {
         "name": "CON_Herb_Mushroom_F",
@@ -2608,7 +2917,8 @@
         "isFood": "Yes",
         "description": "A luminous fungus that thrives anywhere it can bask in the silvery light of the moon.",
         "icon": "Item_CON_Herb_Mushroom_F",
-        "stats": "CON_Herb_Mushroom_F"
+        "stats": "CON_Herb_Mushroom_F",
+        "displayName": "Blue Mushroom"
     },
     {
         "name": "CON_Nature_Mushroom_FlyAgaric_A",
@@ -2622,12 +2932,8 @@
         "isFood": "Yes",
         "description": "Just like a wizard's hat, this mushroom can hold more within it than meets the untrained eye.",
         "icon": "Item_CON_Nature_Mushroom_FlyAgaric_A",
-        "stats": "CON_Nature_Mushroom_FlyAgaric_A"
-    },
-    {
-        "name": "_ComboStuff",
-        "isConsumable": "Yes",
-        "isFood": "Yes"
+        "stats": "CON_Nature_Mushroom_FlyAgaric_A",
+        "displayName": "Wizard's Hat Agaric"
     },
     {
         "name": "CON_Herb_Drudanae",
@@ -2645,7 +2951,8 @@
         "isFood": "Yes",
         "description": "A controlled, highly addictive substance  capable of altering human consciousness.",
         "icon": "Item_CON_Herb_Drudanae_A",
-        "stats": "CON_Herb_Drudanae"
+        "stats": "CON_Herb_Drudanae",
+        "displayName": "Drudanae"
     },
     {
         "name": "LOOT_Drudanae_Pipe",
@@ -2661,7 +2968,7 @@
         "isFood": "Yes",
         "icon": "Item_FUR_Lizards_Drudanae_Pipe_A",
         "stats": "LOOT_Drudanae_Pipe",
-        "displayName": "Drudanae Pipe"
+        "displayName": ""
     },
     {
         "name": "CON_Herb_Drudanae_Griff",
@@ -2678,7 +2985,8 @@
         "isFood": "Yes",
         "description": "A controlled, highly addictive substance  capable of altering human consciousness.",
         "icon": "Item_CON_Herb_Drudanae_A",
-        "stats": "CON_Herb_Drudanae"
+        "stats": "CON_Herb_Drudanae",
+        "displayName": "Griff's Overpriced Drudanae"
     },
     {
         "name": "CON_Herb_Drudanae_Addict",
@@ -2695,7 +3003,8 @@
         "isFood": "Yes",
         "description": "A controlled, highly addictive substance  capable of altering human consciousness.",
         "icon": "Item_CON_Herb_Drudanae_A",
-        "stats": "CON_Herb_Drudanae"
+        "stats": "CON_Herb_Drudanae",
+        "displayName": "Drudanae"
     },
     {
         "name": "CON_Herb_YarrowFlower",
@@ -2711,7 +3020,8 @@
         "isFood": "Yes",
         "description": "A pretty flower that grows like a weed in the lost and hidden corners of the world.",
         "icon": "Item_CON_Herb_YarrowFlower",
-        "stats": "CON_Herb_YarrowFlower"
+        "stats": "CON_Herb_YarrowFlower",
+        "displayName": "Yarrow Flower"
     },
     {
         "name": "CON_Herb_BlackRose_A",
@@ -2730,7 +3040,8 @@
         "isFood": "Yes",
         "description": "A rare rose that grows only in killing fields. The crimson petals smell like putrescent flesh and filthy outhouses.",
         "icon": "Item_CON_Herb_BloodRose_A",
-        "stats": "CON_Herb_BlackRose_A"
+        "stats": "CON_Herb_BlackRose_A",
+        "displayName": "Blood Rose"
     },
     {
         "name": "CON_Herb_NormalRose_A",
@@ -2744,7 +3055,8 @@
         "isFood": "Yes",
         "description": "The delicate scent of this rose's velvety petals is the perfect tonic for a road-weary adventurer's senses.",
         "icon": "Item_CON_Herb_BloodRose_A",
-        "stats": "CON_Herb_NormalRose_A"
+        "stats": "CON_Herb_NormalRose_A",
+        "displayName": "Rose"
     },
     {
         "name": "LOOT_Wheat_A",
@@ -2759,7 +3071,8 @@
         "isFood": "Yes",
         "description": "Grown in the Rivellonian Grain Belt, this wheat smells like the warm, earthy ground that grew it. Can be ground into a fine, high-quality flour.",
         "icon": "Item_LOOT_Wheat_A",
-        "stats": "LOOT_Wheat_A"
+        "stats": "LOOT_Wheat_A",
+        "displayName": "Wheat"
     },
     {
         "name": "LOOT_Bone_A",
@@ -2774,7 +3087,8 @@
         "isFood": "Yes",
         "description": "Most organic matter can be turned to purposes dark or light. Use with caution.",
         "icon": "Item_LOOT_Bone_A",
-        "stats": "LOOT_Bone_A"
+        "stats": "LOOT_Bone_A",
+        "displayName": "Bone"
     },
     {
         "name": "TOOL_Intestines_A",
@@ -2788,7 +3102,8 @@
         "isFood": "Yes",
         "description": "They slip through your fingers, leaving a slimy, pungent and oddly warm residue. Wait, why are you touching them?",
         "icon": "Item_TOOL_Intestines_A",
-        "stats": "TOOL_Intestines_A"
+        "stats": "TOOL_Intestines_A",
+        "displayName": "Intestines"
     },
     {
         "name": "CON_Food_Eggs_A",
@@ -2803,7 +3118,8 @@
         "isFood": "Yes",
         "description": "Some poor chicken went through a lot for this.",
         "icon": "Item_CON_Food_Eggs_A",
-        "stats": "CON_Food_Eggs_A"
+        "stats": "CON_Food_Eggs_A",
+        "displayName": "Eggs"
     },
     {
         "name": "CON_Food_RottenEggs_A",
@@ -2817,7 +3133,8 @@
         "isFood": "Yes",
         "description": "Hide under the desk of anyone who's rude to you for guaranteed last laughs.",
         "icon": "Item_CON_Food_RottenEggs_A",
-        "stats": "CON_Food_RottenEggs_A"
+        "stats": "CON_Food_RottenEggs_A",
+        "displayName": "Rotten Eggs"
     },
     {
         "name": "CON_Herb_Tea_A",
@@ -2832,12 +3149,8 @@
         "isFood": "Yes",
         "description": "Steeped in water, it makes a highly-prized drink with earthy, calming properties.",
         "icon": "Item_CON_Herb_Tea_A",
-        "stats": "CON_Herb_Tea_A"
-    },
-    {
-        "name": "_ComboFood",
-        "isConsumable": "Yes",
-        "isFood": "Yes"
+        "stats": "CON_Herb_Tea_A",
+        "displayName": "Tea Herbs"
     },
     {
         "name": "CON_Ingred_Dough_A",
@@ -2851,7 +3164,8 @@
         "isFood": "Yes",
         "description": "Like a newborn babe, this dough's potential is as vast as the imagination itself.",
         "icon": "Item_CON_Ingred_Dough_A",
-        "stats": "CON_Ingred_Dough_A"
+        "stats": "CON_Ingred_Dough_A",
+        "displayName": "Dough"
     },
     {
         "name": "CON_Ingred_Dough_Apple_A",
@@ -2865,7 +3179,8 @@
         "isFood": "Yes",
         "description": "This dough is fairly bursting with its desire to be baked into a warm, comforting apple pie.",
         "icon": "Item_CON_Ingred_Dough_Apple_A",
-        "stats": "CON_Ingred_Dough_Apple_A"
+        "stats": "CON_Ingred_Dough_Apple_A",
+        "displayName": "Apple Pie Dough"
     },
     {
         "name": "CON_Ingred_Dough_Pizza_A",
@@ -2879,7 +3194,8 @@
         "isFood": "Yes",
         "description": "This moist, fragrant dough is primed for a date with an oven.",
         "icon": "Item_CON_Ingred_Dough_Pizza_A",
-        "stats": "CON_Ingred_Dough_Pizza_A"
+        "stats": "CON_Ingred_Dough_Pizza_A",
+        "displayName": "Pizza Dough"
     },
     {
         "name": "CON_Ingred_Dough_CheeseBread_A",
@@ -2893,7 +3209,8 @@
         "isFood": "Yes",
         "description": "Equal parts savoury, soft, and tempting. Bake to bring it to crispy perfection.",
         "icon": "Item_CON_Ingred_Dough_CheeseBread_A",
-        "stats": "CON_Ingred_Dough_CheeseBread_A"
+        "stats": "CON_Ingred_Dough_CheeseBread_A",
+        "displayName": "Cheese Bread Dough"
     },
     {
         "name": "CON_Ingred_Dough_Cyseal_A",
@@ -2907,7 +3224,8 @@
         "isFood": "Yes",
         "description": "It turns out you're no better at cooking than the Cysealians.",
         "icon": "Item_CON_Ingred_Dough_Cyseal_A",
-        "stats": "CON_Ingred_Dough_Cyseal_A"
+        "stats": "CON_Ingred_Dough_Cyseal_A",
+        "displayName": "Fish Pie Dough"
     },
     {
         "name": "CON_Food_Pie_Apple_A",
@@ -2923,7 +3241,8 @@
         "isFood": "Yes",
         "description": "The signature dessert of the Dukedom of Ferol, apple pie is commonly referred to as 'Ferol tart' by locals.",
         "icon": "Item_CON_Food_Apple_Pie_A",
-        "stats": "CON_Food_Pie_Apple_A"
+        "stats": "CON_Food_Pie_Apple_A",
+        "displayName": "Apple Pie"
     },
     {
         "name": "CON_Food_BerryPie_A",
@@ -2940,7 +3259,8 @@
         "isFood": "Yes",
         "description": "Almost sweeter than your teeth can handle, this form of berry pie is commonly eaten by joyous pilgrims on their arrival in Arx for Lucian's Day.",
         "icon": "Item_CON_Food_BerryPie_A",
-        "stats": "CON_Food_BerryPie_A"
+        "stats": "CON_Food_BerryPie_A",
+        "displayName": "Berry Pie"
     },
     {
         "name": "CON_Food_BerryPie_B",
@@ -2957,7 +3277,8 @@
         "isFood": "Yes",
         "description": "Known as Amadia's Gift, this heavenly pie delights all who taste its sweet berry jam and marzipan crust.",
         "icon": "Item_CON_Food_BerryPie_A",
-        "stats": "CON_Food_BerryPie_B"
+        "stats": "CON_Food_BerryPie_B",
+        "displayName": "Berry Pie"
     },
     {
         "name": "CON_Food_Pizza_A",
@@ -2973,7 +3294,8 @@
         "isFood": "Yes",
         "description": "Widely considered a variation on the fare served in the Hall of Echoes.",
         "icon": "Item_CON_Food_Pizza_A",
-        "stats": "CON_Food_Pizza_A"
+        "stats": "CON_Food_Pizza_A",
+        "displayName": "Pizza"
     },
     {
         "name": "CON_Food_Bread_Cheese_A",
@@ -2989,7 +3311,8 @@
         "isFood": "Yes",
         "description": "It'll go straight to your thighs, but it's worth every dimple.",
         "icon": "Item_CON_Food_Bread_Cheese_A",
-        "stats": "CON_Food_Bread_Cheese_A"
+        "stats": "CON_Food_Bread_Cheese_A",
+        "displayName": "Cheese Bread"
     },
     {
         "name": "CON_Food_Potato_Boiled_A",
@@ -3004,7 +3327,8 @@
         "isFood": "Yes",
         "description": "A humble but satisfying meal for the adventurer on the go.",
         "icon": "Item_CON_Food_Potato_A_Boiled",
-        "stats": "CON_Food_Potato_Boiled_A"
+        "stats": "CON_Food_Potato_Boiled_A",
+        "displayName": "Boiled Potato"
     },
     {
         "name": "CON_Food_Poutine_A",
@@ -3021,7 +3345,8 @@
         "isFood": "Yes",
         "description": "Widely considered a variation on the fare served in the Hall of Echoes.",
         "icon": "Item_CON_Food_Poutine_A",
-        "stats": "CON_Food_Poutine_A"
+        "stats": "CON_Food_Poutine_A",
+        "displayName": "Poutine"
     },
     {
         "name": "CON_Food_Pie_Cyseal_A",
@@ -3036,7 +3361,8 @@
         "isFood": "Yes",
         "description": "A regional specialty known to make foreigners lose their faith in the gods.",
         "icon": "Item_CON_Food_Pie_Cyseal_A",
-        "stats": "CON_Food_Pie_Cyseal_A"
+        "stats": "CON_Food_Pie_Cyseal_A",
+        "displayName": "Cyseal Fish Pie"
     },
     {
         "name": "CON_Food_Fries_Cold_A",
@@ -3050,7 +3376,8 @@
         "isFood": "Yes",
         "description": "A promising pile of cut potatoes, only a bit of hot oil away from perfection.",
         "icon": "Item_CON_Food_Fries_Cold_A",
-        "stats": "CON_Food_Fries_Cold_A"
+        "stats": "CON_Food_Fries_Cold_A",
+        "displayName": "Cold Fries"
     },
     {
         "name": "CON_Food_Fries_Rivellon_A",
@@ -3066,7 +3393,8 @@
         "isFood": "Yes",
         "description": "With Rivellon fries at the ready, you'll have more friends than the man with many cheeses.",
         "icon": "Item_CON_Food_Fries_Rivellon_A",
-        "stats": "CON_Food_Fries_Rivellon_A"
+        "stats": "CON_Food_Fries_Rivellon_A",
+        "displayName": "Rivellon Fries"
     },
     {
         "name": "CON_Food_Potato_Mash_Cold_A",
@@ -3080,7 +3408,8 @@
         "isFood": "Yes",
         "description": "Halfway to greatness; a little heat will take this simple meal to new heights.",
         "icon": "Item_CON_Food_Potato_Mash_Cold_A",
-        "stats": "CON_Food_Potato_Mash_Cold_A"
+        "stats": "CON_Food_Potato_Mash_Cold_A",
+        "displayName": "Cold Mashed Potatoes"
     },
     {
         "name": "CON_Food_Potato_Mash_A",
@@ -3096,7 +3425,8 @@
         "isFood": "Yes",
         "description": "A stick-to-your-bones, warm-you-through sort of meal.",
         "icon": "Item_CON_Food_Potato_Mash_A",
-        "stats": "CON_Food_Potato_Mash_A"
+        "stats": "CON_Food_Potato_Mash_A",
+        "displayName": "Mashed Potatoes"
     },
     {
         "name": "CON_Food_Dinner_A",
@@ -3112,7 +3442,8 @@
         "isFood": "Yes",
         "description": "Best served to a pleasant companion alongside a  glass of something fresh.",
         "icon": "Item_CON_Food_Dinner_A",
-        "stats": "CON_Food_Dinner_A"
+        "stats": "CON_Food_Dinner_A",
+        "displayName": "Dinner"
     },
     {
         "name": "CON_Food_Stew_A",
@@ -3128,7 +3459,8 @@
         "isFood": "Yes",
         "description": "This simple, gristly dish is considered a fine dessert among Dwarven circles.",
         "icon": "Item_CON_Food_Stew_A",
-        "stats": "CON_Food_Stew_A"
+        "stats": "CON_Food_Stew_A",
+        "displayName": "Stew"
     },
     {
         "name": "QUEST_FunnyMeat",
@@ -3145,7 +3477,7 @@
         "description": "This simple, gristly dish is considered a fine dessert among Dwarven circles.",
         "icon": "Item_CON_Food_Stew_A",
         "stats": "QUEST_FunnyMeat",
-        "displayName": "Meaty Stew"
+        "displayName": "Meat"
     },
     {
         "name": "CON_Food_Stew_Dwarven_A",
@@ -3161,7 +3493,8 @@
         "isFood": "Yes",
         "description": "This simple, gristly dish is considered a fine dessert among Dwarven circles.",
         "icon": "Item_CON_Food_Stew_A",
-        "stats": "CON_Food_Stew_Dwarven_A"
+        "stats": "CON_Food_Stew_Dwarven_A",
+        "displayName": "Dwarven Stew"
     },
     {
         "name": "CON_Food_Soup_Pumpkin_A",
@@ -3177,7 +3510,8 @@
         "isFood": "Yes",
         "description": "Rich, creamy, and comfortingly warm.",
         "icon": "Item_CON_Food_Soup_A",
-        "stats": "CON_Food_Soup_Pumpkin_A"
+        "stats": "CON_Food_Soup_Pumpkin_A",
+        "displayName": "Pumpkin Soup"
     },
     {
         "name": "CON_Food_Stew_Elven_A",
@@ -3193,7 +3527,8 @@
         "isFood": "Yes",
         "description": "Packed full of vegetables and unflavoured broth, this meal is typically served at Elven weddings and birthday celebrations.",
         "icon": "Item_CON_Food_Stew_B",
-        "stats": "CON_Food_Stew_Elven_A"
+        "stats": "CON_Food_Stew_Elven_A",
+        "displayName": "Elven Stew"
     },
     {
         "name": "CON_Food_Honey_Jar_A",
@@ -3210,7 +3545,8 @@
         "isFood": "Yes",
         "description": "Made by bees descended from the great and ancient Queen Lysandra.",
         "icon": "Item_CON_Food_HoneyPot_A",
-        "stats": "CON_Food_Honey_Jar_A"
+        "stats": "CON_Food_Honey_Jar_A",
+        "displayName": "Jar of Honey"
     },
     {
         "name": "CON_Porridge_A",
@@ -3226,7 +3562,8 @@
         "isFood": "Yes",
         "description": "Breakfast is the most important meal of the day. Eat up!",
         "icon": "Item_CON_Food_Porridge_A",
-        "stats": "CON_Porridge_A"
+        "stats": "CON_Porridge_A",
+        "displayName": "Porridge"
     },
     {
         "name": "CON_Porridge_Potato_A",
@@ -3242,7 +3579,8 @@
         "isFood": "Yes",
         "description": "Considered a beverage by the hale and suicidal Dwarves of the frozen north.",
         "icon": "Item_CON_Food_Porridge_Potato_A",
-        "stats": "CON_Porridge_Potato_A"
+        "stats": "CON_Porridge_Potato_A",
+        "displayName": "Potato Porridge"
     },
     {
         "name": "CON_Drink_Cup_A_Apple",
@@ -3258,7 +3596,8 @@
         "isFood": "Yes",
         "description": "Fresh, sweet, and icy-cold.",
         "icon": "Item_CON_Drink_Cup_A_Green",
-        "stats": "CON_Drink_Cup_A_Apple"
+        "stats": "CON_Drink_Cup_A_Apple",
+        "displayName": "Apple Juice"
     },
     {
         "name": "CON_Drink_Cup_A_Orange",
@@ -3274,7 +3613,8 @@
         "isFood": "Yes",
         "description": "A cup a day keeps the scurvy at bay.",
         "icon": "Item_CON_Drink_Cup_A_Orange",
-        "stats": "CON_Drink_Cup_A_Orange"
+        "stats": "CON_Drink_Cup_A_Orange",
+        "displayName": "Orange Juice"
     },
     {
         "name": "CON_Drink_Cup_A_Milk",
@@ -3289,7 +3629,8 @@
         "isFood": "Yes",
         "description": "Still warm from the udder.",
         "icon": "Item_CON_Drink_Cup_A_White",
-        "stats": "CON_Drink_Cup_A_Milk"
+        "stats": "CON_Drink_Cup_A_Milk",
+        "displayName": "Milk"
     },
     {
         "name": "CON_Food_MilkJug_A",
@@ -3320,7 +3661,8 @@
         "isFood": "Yes",
         "description": "Legend has it that the Hall of Echoes runs with rivers of this sweet elixir.",
         "icon": "Item_CON_Drink_Cup_A_White",
-        "stats": "CON_Drink_Cup_A_MilkHoney"
+        "stats": "CON_Drink_Cup_A_MilkHoney",
+        "displayName": "Milk and Honey"
     },
     {
         "name": "CON_Drink_Cup_A_Oil",
@@ -3336,7 +3678,8 @@
         "isFood": "Yes",
         "description": "Avoid belching near open flames after consumption.",
         "icon": "Item_CON_Drink_Cup_A_Black",
-        "stats": "CON_Drink_Cup_A_Oil"
+        "stats": "CON_Drink_Cup_A_Oil",
+        "displayName": "Cup of Oil"
     },
     {
         "name": "ITEM_BottleWithOil",
@@ -3352,7 +3695,8 @@
         "isFood": "Yes",
         "description": "A fine vintage, especially for a craft arsonist.",
         "icon": "Item_GRN_Bottle",
-        "stats": "ITEM_BottleWithOil"
+        "stats": "ITEM_BottleWithOil",
+        "displayName": "Bottle Filled With Oil"
     },
     {
         "name": "CON_Drink_Mug_A_Ambrosia",
@@ -3366,7 +3710,8 @@
         "isFood": "Yes",
         "description": "This so-called 'drink of the gods' smells more like a demon's jock strap.",
         "icon": "Item_CON_Drink_Mug_A_Ambrosia",
-        "stats": "CON_Drink_Mug_A_Ambrosia"
+        "stats": "CON_Drink_Mug_A_Ambrosia",
+        "displayName": "Ambrosia"
     },
     {
         "name": "CON_Food_Pie_Apple_A_Poisoned",
@@ -3381,7 +3726,8 @@
         "isFood": "Yes",
         "description": "Go on and have a slice. You deserve a long, long, long rest.",
         "icon": "Item_CON_Food_Apple_Pie_A",
-        "stats": "CON_Food_Pie_Apple_A_Poisoned"
+        "stats": "CON_Food_Pie_Apple_A_Poisoned",
+        "displayName": "Poisoned Apple"
     },
     {
         "name": "CON_Food_Pizza_A_Poisoned",
@@ -3396,7 +3742,8 @@
         "isFood": "Yes",
         "description": "Widely considered a variation on the fare served in the Hall of Echoes, though not even the gods could withstand this much deadly poison.",
         "icon": "Item_CON_Food_Pizza_A",
-        "stats": "CON_Food_Pizza_A_Poisoned"
+        "stats": "CON_Food_Pizza_A_Poisoned",
+        "displayName": "Poisoned Pizza"
     },
     {
         "name": "CON_Food_Bread_Cheese_A_Poisoned",
@@ -3411,7 +3758,8 @@
         "isFood": "Yes",
         "description": "It'd go straight to your thighs, but you'll die before it gets there.",
         "icon": "Item_CON_Food_Bread_Cheese_A",
-        "stats": "CON_Food_Bread_Cheese_A_Poisoned"
+        "stats": "CON_Food_Bread_Cheese_A_Poisoned",
+        "displayName": "Poisoned Bread"
     },
     {
         "name": "CON_Food_Potato_Boiled_A_Poisoned",
@@ -3426,7 +3774,8 @@
         "isFood": "Yes",
         "description": "A humble but noxious meal for the adventurer on the go.",
         "icon": "Item_CON_Food_Potato_A_Boiled",
-        "stats": "CON_Food_Potato_Boiled_A_Poisoned"
+        "stats": "CON_Food_Potato_Boiled_A_Poisoned",
+        "displayName": "Poisoned Boiled Potato"
     },
     {
         "name": "CON_Food_Pie_Cyseal_A_Poisoned",
@@ -3441,7 +3790,8 @@
         "isFood": "Yes",
         "description": "A poisoned fish pie? Talk about adding insult to injury.",
         "icon": "Item_CON_Food_Pie_Cyseal_A",
-        "stats": "CON_Food_Pie_Cyseal_A_Poisoned"
+        "stats": "CON_Food_Pie_Cyseal_A_Poisoned",
+        "displayName": "Poisoned Cyseal Pie"
     },
     {
         "name": "CON_Food_Fries_Cold_A_Poisoned",
@@ -3456,7 +3806,8 @@
         "isFood": "Yes",
         "description": "A promising pile of cut, poisoned potatoes, only a bit of hot oil away from becoming the perfect weapon.",
         "icon": "Item_CON_Food_Fries_Cold_A",
-        "stats": "CON_Food_Fries_Cold_A_Poisoned"
+        "stats": "CON_Food_Fries_Cold_A_Poisoned",
+        "displayName": "Poisoned Cold Fries"
     },
     {
         "name": "CON_Food_Fries_Rivellon_A_Poisoned",
@@ -3471,7 +3822,8 @@
         "isFood": "Yes",
         "description": "With poisoned Rivellon fries at the ready, you'll have more dead friends than the man with many poisoned cheeses.",
         "icon": "Item_CON_Food_Fries_Rivellon_A",
-        "stats": "CON_Food_Fries_Rivellon_A_Poisoned"
+        "stats": "CON_Food_Fries_Rivellon_A_Poisoned",
+        "displayName": "Poisoned Rivellon Fries"
     },
     {
         "name": "CON_Food_Potato_Mash_Cold_A_Poisoned",
@@ -3486,7 +3838,8 @@
         "isFood": "Yes",
         "description": "Halfway to greatness; a little heat will take this poisoned meal to new heights.",
         "icon": "Item_CON_Food_Potato_Mash_Cold_A",
-        "stats": "CON_Food_Potato_Mash_Cold_A_Poisoned"
+        "stats": "CON_Food_Potato_Mash_Cold_A_Poisoned",
+        "displayName": "Poisoned Cold Mashed Potoatoes"
     },
     {
         "name": "CON_Food_Potato_Mash_A_Poisoned",
@@ -3501,7 +3854,8 @@
         "isFood": "Yes",
         "description": "A stick-to-your-bones, kill-you-dead sort of meal.",
         "icon": "Item_CON_Food_Potato_Mash_A",
-        "stats": "CON_Food_Potato_Mash_A_Poisoned"
+        "stats": "CON_Food_Potato_Mash_A_Poisoned",
+        "displayName": "Poisoned Mashed Potatoes"
     },
     {
         "name": "CON_Food_Dinner_A_Poisoned",
@@ -3516,7 +3870,8 @@
         "isFood": "Yes",
         "description": "Best served to a lifelong nemesis you've lulled into your confidences.",
         "icon": "Item_CON_Food_Dinner_A",
-        "stats": "CON_Food_Dinner_A_Poisoned"
+        "stats": "CON_Food_Dinner_A_Poisoned",
+        "displayName": "Poisoned Dinner"
     },
     {
         "name": "CON_Food_Stew_Dwarven_A_Poisoned",
@@ -3531,7 +3886,8 @@
         "isFood": "Yes",
         "description": "This simple, gristly dish is considered a fine dessert among Dwarves who want to murder each other.",
         "icon": "Item_CON_Food_Stew_A",
-        "stats": "CON_Food_Stew_Dwarven_A_Poisoned"
+        "stats": "CON_Food_Stew_Dwarven_A_Poisoned",
+        "displayName": "Poisoned Dwarven Stew"
     },
     {
         "name": "CON_Food_Soup_Pumpkin_A_Poisoned",
@@ -3546,7 +3902,8 @@
         "isFood": "Yes",
         "description": "Rich, creamy, and comfortingly deadly.",
         "icon": "Item_CON_Food_Soup_A",
-        "stats": "CON_Food_Soup_Pumpkin_A_Poisoned"
+        "stats": "CON_Food_Soup_Pumpkin_A_Poisoned",
+        "displayName": "Poisoned Pumpkin Soup"
     },
     {
         "name": "CON_Food_Stew_Elven_A_Poisoned",
@@ -3561,7 +3918,8 @@
         "isFood": "Yes",
         "description": "Packed full of vegetables and poisoned broth, this meal is typically served by Elves who just can't stand each other a minute longer.",
         "icon": "Item_CON_Food_Stew_B",
-        "stats": "CON_Food_Stew_Elven_A_Poisoned"
+        "stats": "CON_Food_Stew_Elven_A_Poisoned",
+        "displayName": "Poisoned Elven Stew"
     },
     {
         "name": "CON_Food_Honey_Jar_A_Poisoned",
@@ -3576,7 +3934,8 @@
         "isFood": "Yes",
         "description": "Made by bees descended from the great and ancient Queen Lysandra, then infused with deadly poison.",
         "icon": "Item_CON_Food_HoneyPot_A",
-        "stats": "CON_Food_Honey_Jar_A_Poisoned"
+        "stats": "CON_Food_Honey_Jar_A_Poisoned",
+        "displayName": "Poisoned Honey Jar"
     },
     {
         "name": "CON_Porridge_A_Poisoned",
@@ -3591,7 +3950,8 @@
         "isFood": "Yes",
         "description": "It's got everything you need to start a day of Source-smashing on the wrong foot.",
         "icon": "Item_CON_Food_Porridge_A",
-        "stats": "CON_Porridge_A_Poisoned"
+        "stats": "CON_Porridge_A_Poisoned",
+        "displayName": "Poisoned Porridge"
     },
     {
         "name": "CON_Porridge_Potato_A_Poisoned",
@@ -3606,7 +3966,8 @@
         "isFood": "Yes",
         "description": "Considered a beverage by the hale and suicidal Dwarves of the frozen north.",
         "icon": "Item_CON_Food_Porridge_Potato_A",
-        "stats": "CON_Porridge_Potato_A_Poisoned"
+        "stats": "CON_Porridge_Potato_A_Poisoned",
+        "displayName": "Poisoned Potato Porridge"
     },
     {
         "name": "CON_Drink_Cup_A_Apple_Poisoned",
@@ -3621,7 +3982,8 @@
         "isFood": "Yes",
         "description": "Keep out of reach of thirsty children.",
         "icon": "Item_CON_Drink_Cup_A_Green",
-        "stats": "CON_Drink_Cup_A_Apple_Poisoned"
+        "stats": "CON_Drink_Cup_A_Apple_Poisoned",
+        "displayName": "Poisoned Cup of Apple Juice"
     },
     {
         "name": "CON_Drink_Cup_A_Orange_Poisoned",
@@ -3636,7 +3998,8 @@
         "isFood": "Yes",
         "description": "Like watching a beautiful sunset just before getting shot in the neck with a poison dart.",
         "icon": "Item_CON_Drink_Cup_A_Orange",
-        "stats": "CON_Drink_Cup_A_Orange_Poisoned"
+        "stats": "CON_Drink_Cup_A_Orange_Poisoned",
+        "displayName": "Poisoned Cup of Orange Juice"
     },
     {
         "name": "CON_Drink_Cup_A_Milk_Poisoned",
@@ -3651,7 +4014,8 @@
         "isFood": "Yes",
         "description": "That cow must've hated you pretty badly.",
         "icon": "Item_CON_Drink_Cup_A_White",
-        "stats": "CON_Drink_Cup_A_Milk_Poisoned"
+        "stats": "CON_Drink_Cup_A_Milk_Poisoned",
+        "displayName": "Poisoned Cup of Milk"
     },
     {
         "name": "CON_Drink_Cup_A_MilkHoney_Poisoned",
@@ -3666,7 +4030,8 @@
         "isFood": "Yes",
         "description": "One of these ingredients does not belong.",
         "icon": "Item_CON_Drink_Cup_A_White",
-        "stats": "CON_Drink_Cup_A_MilkHoney_Poisoned"
+        "stats": "CON_Drink_Cup_A_MilkHoney_Poisoned",
+        "displayName": "Poisoned Cup of Honeyed Milk"
     },
     {
         "name": "CON_Drink_Mug_A_Ambrosia_Poisoned",
@@ -3681,7 +4046,8 @@
         "isFood": "Yes",
         "description": "As if this devilish brew weren't noxious enough as it was...",
         "icon": "Item_CON_Drink_Mug_A_Ambrosia",
-        "stats": "CON_Drink_Mug_A_Ambrosia_Poisoned"
+        "stats": "CON_Drink_Mug_A_Ambrosia_Poisoned",
+        "displayName": "Poisoned Mug of Ambrosia"
     },
     {
         "name": "CON_Drink_Mug_A_Blood",
@@ -3696,12 +4062,8 @@
         "isFood": "Yes",
         "description": "It's an acquired taste.",
         "icon": "Item_CON_Drink_Cup_A_Red",
-        "stats": "CON_Drink_Mug_A_Blood"
-    },
-    {
-        "name": "_Food",
-        "isConsumable": "Yes",
-        "isFood": "Yes"
+        "stats": "CON_Drink_Mug_A_Blood",
+        "displayName": "Mug Of Blood"
     },
     {
         "name": "HAR_Shell",
@@ -3716,7 +4078,8 @@
         "isFood": "Yes",
         "description": "Although this shell is small and unassuming, a haunting past digestive experience urges you to cook it thoroughly before eating.",
         "icon": "Item_HAR_Shell_A",
-        "stats": "HAR_Shell"
+        "stats": "HAR_Shell",
+        "displayName": "Shell"
     },
     {
         "name": "CON_Food_Carrot_A",
@@ -3732,7 +4095,8 @@
         "isFood": "Yes",
         "description": "A humble and steadfast vegetable.",
         "icon": "Item_CON_Food_Carrot_A",
-        "stats": "CON_Food_Carrot_A"
+        "stats": "CON_Food_Carrot_A",
+        "displayName": "Carrot"
     },
     {
         "name": "CON_Food_Onion_A",
@@ -3749,7 +4113,7 @@
         "description": "A humble and steadfast vegetable.",
         "icon": "Item_CON_Food_Onion_A",
         "stats": "CON_Food_Onion_A",
-        "displayName": "Onion"
+        "displayName": ""
     },
     {
         "name": "CON_Food_Potato_A",
@@ -3765,7 +4129,8 @@
         "isFood": "Yes",
         "description": "Cook it. Cut it. Eat it. Love it.",
         "icon": "Item_CON_Food_Potato_A",
-        "stats": "CON_Food_Potato_A"
+        "stats": "CON_Food_Potato_A",
+        "displayName": "Potato"
     },
     {
         "name": "FOOD_Apple",
@@ -3781,7 +4146,8 @@
         "isFood": "Yes",
         "description": "What could possibly be more wholesome?",
         "icon": "Item_CON_Food_Apple_A",
-        "stats": "FOOD_Apple"
+        "stats": "FOOD_Apple",
+        "displayName": "Apple"
     },
     {
         "name": "CON_Food_Garlic",
@@ -3799,7 +4165,8 @@
         "isFood": "Yes",
         "description": "Hardy wayfarers will wax lyrical on the many esoteric uses of garlic. Truth is, they just like the taste of it roasted.",
         "icon": "Item_CON_Food_Garlic_A",
-        "stats": "CON_Food_Garlic"
+        "stats": "CON_Food_Garlic",
+        "displayName": "Garlic"
     },
     {
         "name": "CON_Food_Grapes_A",
@@ -3814,7 +4181,8 @@
         "isFood": "Yes",
         "description": "Delicious. But every grape you eat now is a mouthful of wine stolen from your future self, so hide the stalks.",
         "icon": "Item_CON_Food_Grapes_A",
-        "stats": "CON_Food_Grapes_A"
+        "stats": "CON_Food_Grapes_A",
+        "displayName": "Grapes"
     },
     {
         "name": "CON_Food_Lemon_A",
@@ -3829,7 +4197,8 @@
         "isFood": "Yes",
         "description": "They say lemons are good for scurvy, but you're pretty sure 'they' are a lemon-growing farming collective.",
         "icon": "Item_CON_Food_Lemon_A",
-        "stats": "CON_Food_Lemon_A"
+        "stats": "CON_Food_Lemon_A",
+        "displayName": "Lemon"
     },
     {
         "name": "CON_Food_Pepper_A",
@@ -3843,7 +4212,8 @@
         "isConsumable": "Yes",
         "isFood": "Yes",
         "icon": "Item_CON_Food_Pepper_A",
-        "stats": "CON_Food_Pepper_A"
+        "stats": "CON_Food_Pepper_A",
+        "displayName": "Pepper"
     },
     {
         "name": "CON_Food_SalmonPie_A",
@@ -3859,7 +4229,8 @@
         "isFood": "Yes",
         "description": "Unless cooked by a wizard of a chef, this regional specialty could make even the devout lose their faith in the Seven.",
         "icon": "Item_CON_Food_Pie_Cyseal_A",
-        "stats": "CON_Food_SalmonPie_A"
+        "stats": "CON_Food_SalmonPie_A",
+        "displayName": "Salmon Pie"
     },
     {
         "name": "CON_Food_WaterMelon",
@@ -3875,7 +4246,8 @@
         "isFood": "Yes",
         "description": "Nothing like watermelon for a taste of summer... and a mouthful of bees.",
         "icon": "Item_CON_Food_Watermelon_A",
-        "stats": "CON_Food_WaterMelon"
+        "stats": "CON_Food_WaterMelon",
+        "displayName": "Water Melon"
     },
     {
         "name": "CON_Food_Tomato_A",
@@ -3891,7 +4263,8 @@
         "isFood": "Yes",
         "description": "Mother nature's most versatile fruit. Equally tasty raw, cooked, or smashed to bits and splashed on something else.",
         "icon": "Item_CON_Food_Tomato_A",
-        "stats": "CON_Food_Tomato_A"
+        "stats": "CON_Food_Tomato_A",
+        "displayName": "Tomato"
     },
     {
         "name": "CON_Food_TomatoSauce_A",
@@ -3907,7 +4280,8 @@
         "isFood": "Yes",
         "description": "A simple vintage with notes of almond, cinnamon, and the winemaker's wasted youth.",
         "icon": "Item_CON_Food_TomatoSauce_A",
-        "stats": "CON_Food_TomatoSauce_A"
+        "stats": "CON_Food_TomatoSauce_A",
+        "displayName": "Tomato Sauce"
     },
     {
         "name": "CON_Food_Tomato_Soup_A",
@@ -3924,7 +4298,8 @@
         "isFood": "Yes",
         "description": "The result of a blessed union between tomato and hammer.",
         "icon": "Item_CON_Food_Soup_A",
-        "stats": "CON_Food_Tomato_Soup_A"
+        "stats": "CON_Food_Tomato_Soup_A",
+        "displayName": "Tomato Soup"
     },
     {
         "name": "FOOD_Bread",
@@ -3940,7 +4315,8 @@
         "isFood": "Yes",
         "description": "Sun-soaked grains baked with love into a golden loaf.",
         "icon": "Item_CON_Food_Bread_A",
-        "stats": "FOOD_Bread"
+        "stats": "FOOD_Bread",
+        "displayName": "Bread"
     },
     {
         "name": "FOOD_Cheese",
@@ -3957,7 +4333,8 @@
         "isFood": "Yes",
         "description": "With cheese in either hand, anything is possible.",
         "icon": "Item_CON_Food_Cheese_B",
-        "stats": "FOOD_Cheese"
+        "stats": "FOOD_Cheese",
+        "displayName": "Cheese"
     },
     {
         "name": "FOOD_FishA",
@@ -3973,7 +4350,8 @@
         "isFood": "Yes",
         "description": "Is it just you, or is its eye.... Following you?",
         "icon": "Item_CON_Food_Fish_A",
-        "stats": "FOOD_FishA"
+        "stats": "FOOD_FishA",
+        "displayName": "Herring"
     },
     {
         "name": "FOOD_FishB",
@@ -3989,7 +4367,8 @@
         "isFood": "Yes",
         "description": "A healthy specimen fresh-caught from the seas around Cyseal.",
         "icon": "Item_CON_Food_Fish_B",
-        "stats": "FOOD_FishB"
+        "stats": "FOOD_FishB",
+        "displayName": "Red Snapper"
     },
     {
         "name": "FOOD_FishC",
@@ -4005,7 +4384,8 @@
         "isFood": "Yes",
         "description": "It smells like hell, but it tastes like not starving to death.",
         "icon": "Item_CON_Food_Fish_C",
-        "stats": "FOOD_FishC"
+        "stats": "FOOD_FishC",
+        "displayName": "Chub Fish"
     },
     {
         "name": "FOOD_FishD",
@@ -4021,7 +4401,8 @@
         "isFood": "Yes",
         "description": "Hopefully it tastes better than it looks.",
         "icon": "Item_CON_Food_Fish_D",
-        "stats": "FOOD_FishD"
+        "stats": "FOOD_FishD",
+        "displayName": "Plaice"
     },
     {
         "name": "FOOD_FishE",
@@ -4037,7 +4418,8 @@
         "isFood": "Yes",
         "description": "It seems to cry out to be made into Cyseal pie.",
         "icon": "Item_CON_Food_Fish_E",
-        "stats": "FOOD_FishE"
+        "stats": "FOOD_FishE",
+        "displayName": "Mackerel"
     },
     {
         "name": "FOOD_FishF",
@@ -4052,7 +4434,8 @@
         "isFood": "Yes",
         "description": "It's sailed all the seven seas; your belly is the last frontier.",
         "icon": "Item_CON_Food_Fish_F",
-        "stats": "FOOD_FishF"
+        "stats": "FOOD_FishF",
+        "displayName": "Sailfish"
     },
     {
         "name": "FOOD_Ham",
@@ -4068,7 +4451,8 @@
         "isFood": "Yes",
         "description": "Looks like it could be pork meat... or is it wollock?",
         "icon": "Item_CON_Food_Ham_A",
-        "stats": "FOOD_Ham"
+        "stats": "FOOD_Ham",
+        "displayName": "Ham"
     },
     {
         "name": "FOOD_Orange",
@@ -4084,7 +4468,8 @@
         "isFood": "Yes",
         "description": "Cultivated and exported from the equator by expert Lizard horticulturists. ",
         "icon": "Item_CON_Food_Orange_A",
-        "stats": "FOOD_Orange"
+        "stats": "FOOD_Orange",
+        "displayName": "Orange"
     },
     {
         "name": "FOOD_Orange_Fake",
@@ -4097,7 +4482,8 @@
         "isFood": "Yes",
         "description": "Cultivated and exported from the equator by expert Lizard horticulturists. ",
         "icon": "Item_CON_Food_Orange_A",
-        "stats": "FOOD_Orange"
+        "stats": "FOOD_Orange",
+        "displayName": "Orange"
     },
     {
         "name": "FOOD_Pear",
@@ -4113,7 +4499,8 @@
         "isFood": "Yes",
         "description": "After the Great Pear Famine, this small fruit is considered a delicacy among elite circles.",
         "icon": "Item_CON_Food_Pear_A",
-        "stats": "FOOD_Pear"
+        "stats": "FOOD_Pear",
+        "displayName": "Pear"
     },
     {
         "name": "CON_Food_Meat_Raw_A",
@@ -4131,7 +4518,7 @@
         "description": "A chunky slab of bloody meat.",
         "icon": "Item_CON_Food_Meat_Deer_A",
         "stats": "CON_Food_Meat_Raw_A",
-        "displayName": "Raw Red Meat"
+        "displayName": "Raw Meat"
     },
     {
         "name": "CON_Food_Meat_Cow_A",
@@ -4149,7 +4536,7 @@
         "description": "Sear to seal in all those delicious juices.",
         "icon": "Item_CON_Food_Meat_Cow_A",
         "stats": "CON_Food_Meat_Raw_A",
-        "displayName": "Raw Slice Of Meat"
+        "displayName": "Cow Meat"
     },
     {
         "name": "CON_Food_Meat_Ribs_A",
@@ -4167,7 +4554,7 @@
         "description": "Cooked Driftwood-style over an open flame, this meat is crispy-on-the-outside and tender-on-the-inside perfection.",
         "icon": "Item_CON_Food_Meat_Boar_A",
         "stats": "CON_Food_Meat_Ribs_A",
-        "displayName": "Raw Ribs"
+        "displayName": "Ribs"
     },
     {
         "name": "CON_Food_Meat_BirdLeg_A",
@@ -4185,7 +4572,7 @@
         "description": "Sear to seal in all those delicious juices.",
         "icon": "Item_CON_Food_Meat_Chicken_A",
         "stats": "CON_Food_Meat_BirdLeg_A",
-        "displayName": "Raw Bird Leg"
+        "displayName": "Bird Leg"
     },
     {
         "name": "CON_Food_Meat_Giblets_A",
@@ -4203,7 +4590,7 @@
         "description": "This could have been anything that was once inside something. Or someone...",
         "icon": "Item_CON_Food_Meat_Goose_A",
         "stats": "CON_Food_Meat_Giblets_A",
-        "displayName": "Raw Lumpy Giblets"
+        "displayName": "Giblets"
     },
     {
         "name": "CON_Food_Meat_RabbitMeat_A",
@@ -4221,7 +4608,7 @@
         "description": "Sear to seal in all those delicious juices.",
         "icon": "Item_CON_Food_Meat_Rabbit_A",
         "stats": "CON_Food_Meat_RabbitMeat_A",
-        "displayName": "Raw Rabbit Meat"
+        "displayName": "Rabbit Meat"
     },
     {
         "name": "CON_Food_Meat_Mutton_A",
@@ -4239,7 +4626,7 @@
         "description": "Sear to seal in all those delicious juices.",
         "icon": "Item_CON_Food_Meat_Sheep_A",
         "stats": "CON_Food_Meat_Mutton_A",
-        "displayName": "Raw Mutton"
+        "displayName": "Mutton"
     },
     {
         "name": "FOOD_Pumpkin",
@@ -4254,7 +4641,8 @@
         "isFood": "Yes",
         "description": "A perfect, orange globe of possibilities.",
         "icon": "Item_CON_Food_Vegetable_Pumpkin_A",
-        "stats": "FOOD_Pumpkin"
+        "stats": "FOOD_Pumpkin",
+        "displayName": "Pumpkin"
     },
     {
         "name": "FOOD_PumpkinPart",
@@ -4268,7 +4656,8 @@
         "isFood": "Yes",
         "description": "Someone's already pillaged this pumpkin's treasures.",
         "icon": "Item_CON_Food_Vegetable_Pumpkin_A",
-        "stats": "FOOD_PumpkinPart"
+        "stats": "FOOD_PumpkinPart",
+        "displayName": "Pumpkin Part"
     },
     {
         "name": "FOOD_Pumpkin_C",
@@ -4282,7 +4671,8 @@
         "isFood": "Yes",
         "description": "Useless.",
         "icon": "Item_CON_Food_Vegetable_Pumpkin_C",
-        "stats": "FOOD_Pumpkin_C"
+        "stats": "FOOD_Pumpkin_C",
+        "displayName": "Pumpkin Peel"
     },
     {
         "name": "FOOD_RoastedPork",
@@ -4298,7 +4688,8 @@
         "isFood": "Yes",
         "description": "It's almost kind of cute, in a terribly morbid sort of way.",
         "icon": "Item_CON_Food_RoastedPork_B",
-        "stats": "FOOD_RoastedPork"
+        "stats": "FOOD_RoastedPork",
+        "displayName": "Roasted Pork Dish"
     },
     {
         "name": "FOOD_RoastedPorkWithCarrot",
@@ -4315,7 +4706,8 @@
         "isFood": "Yes",
         "description": "It's almost kind of cute, in a terribly morbid sort of way.",
         "icon": "Item_CON_Food_RoastedPork_A",
-        "stats": "FOOD_RoastedPorkWithCarrot"
+        "stats": "FOOD_RoastedPorkWithCarrot",
+        "displayName": "Roasted Pork"
     },
     {
         "name": "POTION_HealingCrystal",
@@ -4329,7 +4721,8 @@
         "isFood": "Yes",
         "description": "A sparkling stone that winks at you when the light catches it. No, don't wink back.",
         "icon": "Item_CON_Crystal_A_Heal",
-        "stats": "POTION_HealingCrystal"
+        "stats": "POTION_HealingCrystal",
+        "displayName": "Healing Crystal"
     },
     {
         "name": "LOOT_Ink_Pot_A",
@@ -4343,7 +4736,8 @@
         "isFood": "Yes",
         "description": "A jet-black ink made of ground soot and animal glue, awaiting only a quill to unleash its full potential.",
         "icon": "Item_LOOT_Ink_Pot_A",
-        "stats": "LOOT_Ink_Pot_A"
+        "stats": "LOOT_Ink_Pot_A",
+        "displayName": "Ink Pot"
     },
     {
         "name": "FOOD_Poisoned_Cheese_A",
@@ -4358,7 +4752,8 @@
         "isFood": "Yes",
         "description": "With poisoned cheese in either hand, anything is possible (except living long enough to see your next birthday).",
         "icon": "Item_CON_Food_Cheese_B",
-        "stats": "FOOD_Poisoned_Cheese_A"
+        "stats": "FOOD_Poisoned_Cheese_A",
+        "displayName": "Poisoned Cheese"
     },
     {
         "name": "CON_Food_Carrot_A_Poisoned",
@@ -4371,7 +4766,8 @@
         "isFood": "Yes",
         "description": "A humble, steadfast, and deadly vegetable.",
         "icon": "Item_CON_Food_Carrot_A",
-        "stats": "CON_Food_Carrot_A_Poisoned"
+        "stats": "CON_Food_Carrot_A_Poisoned",
+        "displayName": "Poisoned Carrot"
     },
     {
         "name": "CON_Food_Potato_A_Poisoned",
@@ -4384,7 +4780,8 @@
         "isFood": "Yes",
         "description": "Cook it. Cut it. Eat it. Die.",
         "icon": "Item_CON_Food_Potato_A",
-        "stats": "CON_Food_Potato_A_Poisoned"
+        "stats": "CON_Food_Potato_A_Poisoned",
+        "displayName": "Poisoned Potato"
     },
     {
         "name": "FOOD_Apple_Poisoned",
@@ -4399,7 +4796,8 @@
         "isFood": "Yes",
         "description": "Preferred weapon of jealous hags and fratricidal worms.",
         "icon": "Item_CON_Food_Apple_A",
-        "stats": "FOOD_Apple_Poisoned"
+        "stats": "FOOD_Apple_Poisoned",
+        "displayName": "Poisoned Apple"
     },
     {
         "name": "CON_Food_Tomato_A_Poisoned",
@@ -4414,7 +4812,8 @@
         "isFood": "Yes",
         "description": "Mother nature's most versatile, deadly fruit. Equally tasty raw, cooked, or smashed to bits and splashed on something else.",
         "icon": "Item_CON_Food_Tomato_A",
-        "stats": "CON_Food_Tomato_A_Poisoned"
+        "stats": "CON_Food_Tomato_A_Poisoned",
+        "displayName": "Poisoned Tomato"
     },
     {
         "name": "FOOD_Bread_Poisoned",
@@ -4429,7 +4828,8 @@
         "isFood": "Yes",
         "description": "Sun-soaked grains baked with hatred into a poisoned loaf.",
         "icon": "Item_CON_Food_Bread_A",
-        "stats": "FOOD_Bread_Poisoned"
+        "stats": "FOOD_Bread_Poisoned",
+        "displayName": "Poisoned Bread"
     },
     {
         "name": "FOOD_FishA_Poisoned",
@@ -4444,7 +4844,8 @@
         "isFood": "Yes",
         "description": "And you thought it smelled bad before...",
         "icon": "Item_CON_Food_Fish_A",
-        "stats": "FOOD_FishA_Poisoned"
+        "stats": "FOOD_FishA_Poisoned",
+        "displayName": "Poisoned Fish"
     },
     {
         "name": "FOOD_FishB_Poisoned",
@@ -4459,7 +4860,8 @@
         "isFood": "Yes",
         "description": "And you thought it smelled bad before...",
         "icon": "Item_CON_Food_Fish_B",
-        "stats": "FOOD_FishB_Poisoned"
+        "stats": "FOOD_FishB_Poisoned",
+        "displayName": "Poisoned Fish"
     },
     {
         "name": "FOOD_FishC_Poisoned",
@@ -4474,7 +4876,8 @@
         "isFood": "Yes",
         "description": "And you thought it smelled bad before...",
         "icon": "Item_CON_Food_Fish_C",
-        "stats": "FOOD_FishC_Poisoned"
+        "stats": "FOOD_FishC_Poisoned",
+        "displayName": "Poisoned Fish"
     },
     {
         "name": "FOOD_FishD_Poisoned",
@@ -4489,7 +4892,8 @@
         "isFood": "Yes",
         "description": "And you thought it smelled bad before...",
         "icon": "Item_CON_Food_Fish_D",
-        "stats": "FOOD_FishD_Poisoned"
+        "stats": "FOOD_FishD_Poisoned",
+        "displayName": "Poisoned Fish"
     },
     {
         "name": "FOOD_FishE_Poisoned",
@@ -4504,7 +4908,8 @@
         "isFood": "Yes",
         "description": "And you thought it smelled bad before...",
         "icon": "Item_CON_Food_Fish_E",
-        "stats": "FOOD_FishE_Poisoned"
+        "stats": "FOOD_FishE_Poisoned",
+        "displayName": "Poisoned Fish"
     },
     {
         "name": "FOOD_FishF_Poisoned",
@@ -4519,7 +4924,8 @@
         "isFood": "Yes",
         "description": "And you thought it smelled bad before...",
         "icon": "Item_CON_Food_Fish_E",
-        "stats": "FOOD_FishF_Poisoned"
+        "stats": "FOOD_FishF_Poisoned",
+        "displayName": "Poisoned Fish"
     },
     {
         "name": "FOOD_Ham_Poisoned",
@@ -4534,7 +4940,8 @@
         "isFood": "Yes",
         "description": "Looks like it could be pork meat... or is it wollock? Well, no matter; you'll die shortly after eating it either way.",
         "icon": "Item_CON_Food_Ham_A",
-        "stats": "FOOD_Ham_Poisoned"
+        "stats": "FOOD_Ham_Poisoned",
+        "displayName": "Poisoned Ham"
     },
     {
         "name": "FOOD_Orange_Poisoned",
@@ -4549,7 +4956,8 @@
         "isFood": "Yes",
         "description": "Cultivated and exported from the equator by expert Lizard horticulturists before being corrupted by poison.",
         "icon": "Item_CON_Food_Orange_A",
-        "stats": "FOOD_Orange_Poisoned"
+        "stats": "FOOD_Orange_Poisoned",
+        "displayName": "Poisoned Orange"
     },
     {
         "name": "FOOD_Pear_Poisoned",
@@ -4564,7 +4972,8 @@
         "isFood": "Yes",
         "description": "After the Great Pear Famine, this small fruit is considered a delicacy among elite circles. In its present condition, it could easily take out an entire bridge party.",
         "icon": "Item_CON_Food_Pear_A",
-        "stats": "FOOD_Pear_Poisoned"
+        "stats": "FOOD_Pear_Poisoned",
+        "displayName": "Poisoned Pear"
     },
     {
         "name": "FOOD_Pumpkin_Poisoned",
@@ -4579,7 +4988,8 @@
         "isFood": "Yes",
         "description": "A perfect, orange death-globe of possibilities.",
         "icon": "Item_CON_Food_Vegetable_Pumpkin_A",
-        "stats": "FOOD_Pumpkin_Poisoned"
+        "stats": "FOOD_Pumpkin_Poisoned",
+        "displayName": "Poisoned Pumpkin"
     },
     {
         "name": "FOOD_PumpkinPart_Poisoned",
@@ -4594,7 +5004,8 @@
         "isFood": "Yes",
         "description": "Someone's already pillaged and poisoned this pumpkin's treasures.",
         "icon": "Item_CON_Food_Vegetable_Pumpkin_A",
-        "stats": "FOOD_PumpkinPart_Poisoned"
+        "stats": "FOOD_PumpkinPart_Poisoned",
+        "displayName": "Poisoned Pumpkin Part"
     },
     {
         "name": "FOOD_Pumpkin_C_Poisoned",
@@ -4609,7 +5020,8 @@
         "isFood": "Yes",
         "description": "Consume for a dose of essential vitamins and poison, or find another use for it.",
         "icon": "Item_CON_Food_Vegetable_Pumpkin_C",
-        "stats": "FOOD_Pumpkin_C_Poisoned"
+        "stats": "FOOD_Pumpkin_C_Poisoned",
+        "displayName": "Poisoned Pumpkin Part"
     },
     {
         "name": "FOOD_RoastedPork_Poisoned",
@@ -4624,7 +5036,8 @@
         "isFood": "Yes",
         "description": "It's almost kind of cute, in a terribly morbid, deadly sort of way.",
         "icon": "Item_CON_Food_RoastedPork_A",
-        "stats": "FOOD_RoastedPork_Poisoned"
+        "stats": "FOOD_RoastedPork_Poisoned",
+        "displayName": "Poisoned Roasted Pork"
     },
     {
         "name": "CON_Food_Tomato_Sauce_A_Poisoned",
@@ -4639,7 +5052,8 @@
         "isFood": "Yes",
         "description": "The result of a blessed union between tomato, hammer, and poison.",
         "icon": "Item_CON_Food_Tomato_Sauce_A",
-        "stats": "CON_Food_Tomato_Sauce_A_Poisoned"
+        "stats": "CON_Food_Tomato_Sauce_A_Poisoned",
+        "displayName": "Poisoned Tomato Sauce"
     },
     {
         "name": "CON_BodyPart_Hand",
@@ -4648,7 +5062,8 @@
         "value": "0",
         "statusIcon": "Item_LOOT_BodyPart_A",
         "isConsumable": "Yes",
-        "isFood": "Yes"
+        "isFood": "Yes",
+        "displayName": "Disembodied Hand"
     },
     {
         "name": "CON_BodyPart_Dummy",
@@ -4657,7 +5072,8 @@
         "value": "0",
         "statusIcon": "Item_LOOT_BodyPart_A",
         "isConsumable": "Yes",
-        "isFood": "Yes"
+        "isFood": "Yes",
+        "displayName": "Body Part"
     },
     {
         "name": "CON_BodyPart_Heal",
@@ -4667,7 +5083,8 @@
         "extraProperties": "BODYPART_HEAL,100,3",
         "statusIcon": "Item_LOOT_BodyPart_A",
         "isConsumable": "Yes",
-        "isFood": "Yes"
+        "isFood": "Yes",
+        "displayName": "|Well Fed|"
     },
     {
         "name": "CON_BodyPart_Harm",
@@ -4679,7 +5096,8 @@
         "extraProperties": "DISEASED,100,4",
         "statusIcon": "Item_LOOT_BodyPart_A",
         "isConsumable": "Yes",
-        "isFood": "Yes"
+        "isFood": "Yes",
+        "displayName": "|Sick|"
     },
     {
         "name": "CON_BodyPart_Void",
@@ -4689,7 +5107,8 @@
         "weight": "1000",
         "value": "0",
         "damage": "1",
-        "damageType": "Poison"
+        "damageType": "Poison",
+        "displayName": "Voidwoken Body Part"
     },
     {
         "name": "CON_BodyPart_Face_Human",
@@ -4699,7 +5118,8 @@
         "value": "0",
         "statusIcon": "Item_LOOT_BodyPart_A",
         "isConsumable": "Yes",
-        "isFood": "Yes"
+        "isFood": "Yes",
+        "displayName": ""
     },
     {
         "name": "CON_BodyPart_Face_Dwarf",
@@ -4709,7 +5129,8 @@
         "value": "0",
         "statusIcon": "Item_LOOT_BodyPart_A",
         "isConsumable": "Yes",
-        "isFood": "Yes"
+        "isFood": "Yes",
+        "displayName": ""
     },
     {
         "name": "CON_BodyPart_Face_Elf",
@@ -4719,7 +5140,8 @@
         "value": "0",
         "statusIcon": "Item_LOOT_BodyPart_A",
         "isConsumable": "Yes",
-        "isFood": "Yes"
+        "isFood": "Yes",
+        "displayName": ""
     },
     {
         "name": "CON_BodyPart_Face_Lizard",
@@ -4729,7 +5151,8 @@
         "value": "0",
         "statusIcon": "Item_LOOT_BodyPart_A",
         "isConsumable": "Yes",
-        "isFood": "Yes"
+        "isFood": "Yes",
+        "displayName": ""
     },
     {
         "name": "FOOD_FishA_Voidwoken",
@@ -4745,7 +5168,8 @@
         "isConsumable": "Yes",
         "isFood": "Yes",
         "icon": "Item_CON_Food_Fish_A",
-        "stats": "FOOD_FishA_Voidwoken"
+        "stats": "FOOD_FishA_Voidwoken",
+        "displayName": "Void-tainted Yellow Ridgeback"
     },
     {
         "name": "FOOD_FishB_Voidwoken",
@@ -4759,7 +5183,8 @@
         "damageType": "Poison",
         "extraProperties": "DISEASED,100,4; SMELLY,10, 10; TargetCreateSurface,1,-1,BloodCursed, 100;",
         "icon": "Item_CON_Food_Fish_B",
-        "stats": "FOOD_FishB_Voidwoken"
+        "stats": "FOOD_FishB_Voidwoken",
+        "displayName": "Void-tainted Crimson Bream"
     },
     {
         "name": "FOOD_FishC_Voidwoken",
@@ -4773,7 +5198,8 @@
         "damageType": "Poison",
         "extraProperties": "DISEASED,100,4; SMELLY,10, 10; TargetCreateSurface,1,-1,BloodCursed, 100;",
         "icon": "Item_CON_Food_Fish_C",
-        "stats": "FOOD_FishC_Voidwoken"
+        "stats": "FOOD_FishC_Voidwoken",
+        "displayName": "Void-tainted Umber Monkfish"
     },
     {
         "name": "FOOD_FishD_Voidwoken",
@@ -4788,7 +5214,8 @@
         "extraProperties": "DISEASED,100,4; SMELLY,10, 10; TargetCreateSurface,1,-1,BloodCursed, 100;",
         "description": "And you thought it smelled bad before...",
         "icon": "Item_CON_Food_Fish_D",
-        "stats": "FOOD_FishD_Voidwoken"
+        "stats": "FOOD_FishD_Voidwoken",
+        "displayName": "Void-tainted Plaice"
     },
     {
         "name": "FOOD_FishE_Voidwoken",
@@ -4803,7 +5230,8 @@
         "extraProperties": "DISEASED,100,4; SMELLY,10, 10; TargetCreateSurface,1,-1,BloodCursed, 100;",
         "description": "And you thought it smelled bad before...",
         "icon": "Item_CON_Food_Fish_E",
-        "stats": "FOOD_FishE_Voidwoken"
+        "stats": "FOOD_FishE_Voidwoken",
+        "displayName": "Void-tainted Mackerel"
     },
     {
         "name": "FOOD_FishF_Voidwoken",
@@ -4819,7 +5247,8 @@
         "isFood": "Yes",
         "description": "And you thought it smelled bad before...",
         "icon": "Item_CON_Food_Fish_E",
-        "stats": "FOOD_FishF_Voidwoken"
+        "stats": "FOOD_FishF_Voidwoken",
+        "displayName": "Void-tainted Sailfish"
     },
     {
         "name": "FOOD_HotKettle_Fruit_A",
@@ -4832,12 +5261,8 @@
         "isFood": "Yes",
         "description": "| Special Fruit from the Kettle Plant, it is rumored that it adds fire inside anyone who will eat it |",
         "icon": "Item_CON_Food_HotKettle_A",
-        "stats": "FOOD_HotKettle_Fruit_A"
-    },
-    {
-        "name": "_Drink",
-        "isConsumable": "Yes",
-        "isFood": "Yes"
+        "stats": "FOOD_HotKettle_Fruit_A",
+        "displayName": "Hot Kettle Fruit"
     },
     {
         "name": "CON_Drink_Bottle_Beer_A",
@@ -4854,7 +5279,8 @@
         "isFood": "Yes",
         "description": "Brewed to perfection in one of Rivellon's oldest monasteries.",
         "icon": "Item_CON_Drink_Bottle_Beer_A",
-        "stats": "CON_Drink_Bottle_Beer_A"
+        "stats": "CON_Drink_Bottle_Beer_A",
+        "displayName": "Bottle of Beer"
     },
     {
         "name": "CON_Drink_Bottle_Beer_A_Fancy",
@@ -4869,7 +5295,8 @@
         "isFood": "Yes",
         "description": "Brewed to perfection in one of Rivellon's oldest monasteries.",
         "icon": "Item_CON_Drink_Bottle_Beer_A",
-        "stats": "CON_Drink_Bottle_Beer_A"
+        "stats": "CON_Drink_Bottle_Beer_A",
+        "displayName": "Fancy Bottle of Beer"
     },
     {
         "name": "CON_Drink_Bottle_Wine_A",
@@ -4885,7 +5312,8 @@
         "isFood": "Yes",
         "description": "A simple vintage with notes of almond, cinnamon, and the winemaker's wasted youth.",
         "icon": "Item_CON_Drink_Bottle_Wine_A",
-        "stats": "CON_Drink_Bottle_Wine_A"
+        "stats": "CON_Drink_Bottle_Wine_A",
+        "displayName": "Bottle of Wine"
     },
     {
         "name": "CON_Drink_Bottle_Wine_A_Expensive",
@@ -4900,7 +5328,8 @@
         "isFood": "Yes",
         "description": "A simple vintage with notes of almond, cinnamon, and the winemaker's wasted youth.",
         "icon": "Item_CON_Drink_Bottle_Wine_A",
-        "stats": "CON_Drink_Bottle_Wine_A"
+        "stats": "CON_Drink_Bottle_Wine_A",
+        "displayName": "Expensive Wine"
     },
     {
         "name": "CON_Drink_Bottle_Water_A",
@@ -4915,7 +5344,8 @@
         "isFood": "Yes",
         "description": "It's water. Putting it in a bottle doesn't make it any fancier.",
         "icon": "Item_CON_Drink_Bottle_Water_A",
-        "stats": "CON_Drink_Bottle_Water_A"
+        "stats": "CON_Drink_Bottle_Water_A",
+        "displayName": "Bottle of Water"
     },
     {
         "name": "CON_Drink_Mug_Beer_A",
@@ -4932,7 +5362,8 @@
         "isFood": "Yes",
         "description": "A heady brew with a layer of thick, creamy foam.",
         "icon": "Item_CON_Drink_Mug_A_Beer",
-        "stats": "CON_Drink_Mug_Beer_A"
+        "stats": "CON_Drink_Mug_Beer_A",
+        "displayName": "Mug of Beer"
     },
     {
         "name": "CON_Drink_Mug_Wine_A",
@@ -4948,7 +5379,8 @@
         "isFood": "Yes",
         "description": "For the refined oenophile.",
         "icon": "Item_CON_Drink_Mug_A_Red",
-        "stats": "CON_Drink_Mug_Wine_A"
+        "stats": "CON_Drink_Mug_Wine_A",
+        "displayName": "Mug of Wine"
     },
     {
         "name": "CON_Drink_Mug_Water_A",
@@ -4963,7 +5395,8 @@
         "isFood": "Yes",
         "description": "A hydrated adventurer is a happy adventurer.",
         "icon": "Item_CON_Drink_Mug_A_Blue",
-        "stats": "CON_Drink_Mug_Water_A"
+        "stats": "CON_Drink_Mug_Water_A",
+        "displayName": "Mug of Water"
     },
     {
         "name": "CON_Drink_Cup_A_Water",
@@ -4977,7 +5410,8 @@
         "isFood": "Yes",
         "description": "Just the thing for that dry spot at the back of your throat.",
         "icon": "Item_CON_Drink_Cup_A_Water",
-        "stats": "CON_Drink_Cup_A_Water"
+        "stats": "CON_Drink_Cup_A_Water",
+        "displayName": "Cup of Water"
     },
     {
         "name": "CON_Drink_Glass_A_Wine",
@@ -4992,7 +5426,8 @@
         "isFood": "Yes",
         "description": "A simple vintage with notes of almond, cinnamon, and the winemaker's wasted youth.",
         "icon": "Item_CON_Drink_Rich_Cup_A_Red",
-        "stats": "CON_Drink_Glass_A_Wine"
+        "stats": "CON_Drink_Glass_A_Wine",
+        "displayName": "Glass of Wine"
     },
     {
         "name": "CON_Drink_Mug_A_Tea",
@@ -5006,7 +5441,8 @@
         "isFood": "Yes",
         "description": "A gentle blend of nettles and eastern herbs calms as it refreshes.",
         "icon": "Item_CON_Drink_Mug_A_Brown",
-        "stats": "CON_Drink_Mug_A_Tea"
+        "stats": "CON_Drink_Mug_A_Tea",
+        "displayName": "Mug of Tea"
     },
     {
         "name": "CON_Drink_Cup_A_Tea",
@@ -5021,7 +5457,8 @@
         "isFood": "Yes",
         "description": "Best enjoyed near the hearth on a rainy day.",
         "icon": "Itemt_CON_Drink_Cup_A_Tea",
-        "stats": "CON_Drink_Cup_A_Tea"
+        "stats": "CON_Drink_Cup_A_Tea",
+        "displayName": "Cup of Tea"
     },
     {
         "name": "CON_Drink_Cup_A_Lemonade",
@@ -5052,7 +5489,8 @@
         "isFood": "Yes",
         "description": "Gods rest your poor, dear liver.",
         "icon": "Item_FUR_Bottle_A",
-        "stats": "CON_Drink_Bottle_Beer_A_Poisoned"
+        "stats": "CON_Drink_Bottle_Beer_A_Poisoned",
+        "displayName": "Poisoned Bottle of Beer"
     },
     {
         "name": "CON_Drink_Bottle_Wine_A_Poisoned",
@@ -5067,7 +5505,8 @@
         "isFood": "Yes",
         "description": "For a fancy party that'll really knock 'em dead.",
         "icon": "Item_CON_Drink_Bottle_Wine_A",
-        "stats": "CON_Drink_Bottle_Wine_A_Poisoned"
+        "stats": "CON_Drink_Bottle_Wine_A_Poisoned",
+        "displayName": "Poisoned Bottle of Wine"
     },
     {
         "name": "CON_Drink_Bottle_Water_A_Poisoned",
@@ -5082,7 +5521,8 @@
         "isFood": "Yes",
         "description": "It'll quench your thirst for being alive.",
         "icon": "Item_CON_Drink_Bottle_Water_A",
-        "stats": "CON_Drink_Bottle_Water_A_Poisoned"
+        "stats": "CON_Drink_Bottle_Water_A_Poisoned",
+        "displayName": "Poisoned Bottle of Water"
     },
     {
         "name": "CON_Drink_Mug_Wine_A_Poisoned",
@@ -5097,7 +5537,8 @@
         "isFood": "Yes",
         "description": "For a fancy party that'll really knock 'em dead.",
         "icon": "Item_CON_Drink_Mug_A_Red",
-        "stats": "CON_Drink_Mug_Wine_A_Poisoned"
+        "stats": "CON_Drink_Mug_Wine_A_Poisoned",
+        "displayName": "Poisoned Mug of Wine"
     },
     {
         "name": "CON_Drink_Mug_Water_A_Poisoned",
@@ -5112,7 +5553,8 @@
         "isFood": "Yes",
         "description": "This noxious drink will quench your thirst for being alive.",
         "icon": "Item_CON_Drink_Mug_A_Blue",
-        "stats": "CON_Drink_Mug_Water_A_Poisoned"
+        "stats": "CON_Drink_Mug_Water_A_Poisoned",
+        "displayName": "Poisoned Mug of Water"
     },
     {
         "name": "CON_Drink_Cup_A_Water_Poisoned",
@@ -5127,7 +5569,8 @@
         "isFood": "Yes",
         "description": "It'll quench your thirst for being alive.",
         "icon": "Item_CON_Drink_Cup_A_Water",
-        "stats": "CON_Drink_Cup_A_Water_Poisoned"
+        "stats": "CON_Drink_Cup_A_Water_Poisoned",
+        "displayName": "Poisoned Cup of Water"
     },
     {
         "name": "CON_Drink_Mug_A_Beer_Poisoned",
@@ -5142,7 +5585,8 @@
         "isFood": "Yes",
         "description": "Gods rest your poor, dear liver.",
         "icon": "Item_CON_Drink_Mug_A_Beer",
-        "stats": "CON_Drink_Mug_A_Beer_Poisoned"
+        "stats": "CON_Drink_Mug_A_Beer_Poisoned",
+        "displayName": "Poisoned Mug of Beer"
     },
     {
         "name": "CON_Drink_Glass_A_Wine_Poisoned",
@@ -5157,7 +5601,8 @@
         "isFood": "Yes",
         "description": "For a fancy party that'll really knock 'em dead.",
         "icon": "Item_CON_Drink_Rich_Cup_A_Red",
-        "stats": "CON_Drink_Glass_A_Wine_Poisoned"
+        "stats": "CON_Drink_Glass_A_Wine_Poisoned",
+        "displayName": "Poisoned Glass of Wine"
     },
     {
         "name": "CON_Drink_Mug_A_Tea_Poisoned",
@@ -5172,7 +5617,8 @@
         "isFood": "Yes",
         "description": "Granny's favourite murder weapon.",
         "icon": "Item_CON_Drink_Mug_A_Brown",
-        "stats": "CON_Drink_Mug_A_Tea_Poisoned"
+        "stats": "CON_Drink_Mug_A_Tea_Poisoned",
+        "displayName": "Poisoned Mug of Tea"
     },
     {
         "name": "CON_Drink_Cup_A_Tea_Poisoned",
@@ -5187,7 +5633,8 @@
         "isFood": "Yes",
         "description": "Granny's favourite murder weapon.",
         "icon": "Itemt_CON_Drink_Cup_A_Tea",
-        "stats": "CON_Drink_Cup_A_Tea_Poisoned"
+        "stats": "CON_Drink_Cup_A_Tea_Poisoned",
+        "displayName": "Poisoned Cup of Tea"
     },
     {
         "name": "CON_Drink_Bottle_Mud_A",
@@ -5200,7 +5647,8 @@
         "isFood": "Yes",
         "description": "Brewed to perfection in one of Rivellon's oldest swamps.",
         "icon": "Item_CON_Drink_Bottle_Mud_A",
-        "stats": "CON_Drink_Bottle_Mud_A"
+        "stats": "CON_Drink_Bottle_Mud_A",
+        "displayName": "Bottle of Swirling Mud"
     },
     {
         "name": "CON_Heart_Fiery",
@@ -5214,7 +5662,8 @@
         "isFood": "Yes",
         "description": "A magical heart fired in the forges of the dwarflands whose wind-blown flames can never be extinguished.",
         "icon": "Item_Quest_Heart_A",
-        "stats": "CON_Heart_Fiery"
+        "stats": "CON_Heart_Fiery",
+        "displayName": "Fiery Heart"
     },
     {
         "name": "TOOL_Dye_Mystery",
@@ -5227,7 +5676,8 @@
         "isFood": "Yes",
         "description": "A magical, mysterious dye that can turn mere cloth scraps into something ... out of this world!",
         "icon": "Item_TOOL_Dye_Black",
-        "stats": "TOOL_Dye_Mystery"
+        "stats": "TOOL_Dye_Mystery",
+        "displayName": "Mysterious Fabric Dye"
     },
     {
         "name": "TOOL_Dye_Black",
@@ -5240,7 +5690,8 @@
         "isFood": "Yes",
         "description": "Molten midnight, dark as an endless witching hour.",
         "icon": "Item_TOOL_Dye_Black",
-        "stats": "TOOL_Dye_Black"
+        "stats": "TOOL_Dye_Black",
+        "displayName": "Black Fabric Dye"
     },
     {
         "name": "TOOL_Dye_Blue",
@@ -5253,7 +5704,8 @@
         "isFood": "Yes",
         "description": "A deep turquoise pigment, vibrant as the harbour of Cyseal. Sniff it; it even smells like the sea. Ugh.",
         "icon": "Item_TOOL_Dye_Blue",
-        "stats": "TOOL_Dye_Blue"
+        "stats": "TOOL_Dye_Blue",
+        "displayName": "Blue Fabric Dye"
     },
     {
         "name": "TOOL_Dye_Green",
@@ -5266,7 +5718,8 @@
         "isFood": "Yes",
         "description": "A luxurious dye, pressed from the grasses of Luculla Forest.",
         "icon": "Item_TOOL_Dye_Green",
-        "stats": "TOOL_Dye_Green"
+        "stats": "TOOL_Dye_Green",
+        "displayName": "Green Fabric Dye"
     },
     {
         "name": "TOOL_Dye_Purple",
@@ -5279,7 +5732,8 @@
         "isFood": "Yes",
         "description": "Harvested from the rarest sea snails, this is a dye fit for kings.",
         "icon": "Item_TOOL_Dye_Purple",
-        "stats": "TOOL_Dye_Purple"
+        "stats": "TOOL_Dye_Purple",
+        "displayName": "Purple Fabric Dye"
     },
     {
         "name": "TOOL_Dye_Red",
@@ -5293,7 +5747,8 @@
         "isFood": "Yes",
         "description": "A richly-hued dye siphoned from the blood of thousands of locusts. ",
         "icon": "Item_TOOL_Dye_Red",
-        "stats": "TOOL_Dye_Red"
+        "stats": "TOOL_Dye_Red",
+        "displayName": "Red Fabric Dye"
     },
     {
         "name": "TOOL_Dye_White",
@@ -5306,7 +5761,8 @@
         "isFood": "Yes",
         "description": "Smoking ominously, this dye will bleach anything to the hue of bone.",
         "icon": "Item_TOOL_Dye_White",
-        "stats": "TOOL_Dye_White"
+        "stats": "TOOL_Dye_White",
+        "displayName": "White Fabric Dye"
     },
     {
         "name": "TOOL_Dye_Yellow",
@@ -5319,10 +5775,8 @@
         "isFood": "Yes",
         "description": "A kiss of sunlight, the brightest burnishing for your equipment.",
         "icon": "Item_TOOL_Dye_Yellow",
-        "stats": "TOOL_Dye_Yellow"
-    },
-    {
-        "name": "_SkillBoost"
+        "stats": "TOOL_Dye_Yellow",
+        "displayName": "Yellow Fabric Dye"
     },
     {
         "name": "SKILLBOOST_Leadership",
@@ -5333,49 +5787,57 @@
         "airResistance": "3",
         "poisonResistance": "3",
         "dodgeBoost": "2",
-        "statusIcon": "statIcons_Leadership"
+        "statusIcon": "statIcons_Leadership",
+        "displayName": "Leadership"
     },
     {
         "name": "SKILLBOOST_Karma",
         "parent": "_SkillBoost",
-        "statusIcon": "Skill_Ranger_SurvivorsKarma"
+        "statusIcon": "Skill_Ranger_SurvivorsKarma",
+        "displayName": "Karma"
     },
     {
         "name": "SKILLBOOST_Doctor",
         "parent": "_SkillBoost",
-        "statusIcon": "Skill_Ranger_Doctor"
+        "statusIcon": "Skill_Ranger_Doctor",
+        "displayName": "Doctor"
     },
     {
         "name": "SKILLBOOST_FirstAid",
         "parent": "_SkillBoost",
         "vitality": "100",
-        "statusIcon": "Skill_Ranger_FirstAid"
+        "statusIcon": "Skill_Ranger_FirstAid",
+        "displayName": "First Aid"
     },
     {
         "name": "SKILLBOOST_WaterOfLife",
         "parent": "_SkillBoost",
         "constitution": "2",
-        "statusIcon": "Skill_Water_FalseLife"
+        "statusIcon": "Skill_Water_FalseLife",
+        "displayName": "Vitality Boosted"
     },
     {
         "name": "SKILLBOOST_Blink",
         "parent": "_SkillBoost",
         "physicalResistance": "50",
         "statusIcon": "Skill_Rogue_Blink",
-        "statusMaterial": "8aaf92ee-5cec-48e7-b739-47c0f3f611b5"
+        "statusMaterial": "8aaf92ee-5cec-48e7-b739-47c0f3f611b5",
+        "displayName": "Air"
     },
     {
         "name": "SKILLBOOST_TargetedDamageBoost",
         "parent": "_SkillBoost",
         "damageBoost": "40",
-        "statusIcon": "Skill_Source_BoostDamage"
+        "statusIcon": "Skill_Source_BoostDamage",
+        "displayName": "Oath of Desecration"
     },
     {
         "name": "SKILLBOOST_Farsight",
         "parent": "_SkillBoost",
         "sight": "1000",
         "accuracyBoost": "50",
-        "statusIcon": "Skill_Ranger_Farseer"
+        "statusIcon": "Skill_Ranger_Farseer",
+        "displayName": "Farseer"
     },
     {
         "name": "SKILLBOOST_EndureElements",
@@ -5384,28 +5846,33 @@
         "earthResistance": "25",
         "waterResistance": "25",
         "airResistance": "25",
-        "statusIcon": "Skill_Ranger_Endure"
+        "statusIcon": "Skill_Ranger_Endure",
+        "displayName": "Elemental Absorption"
     },
     {
         "name": "SKILLBOOST_BurnMyEyes",
         "parent": "_SkillBoost",
         "wits": "2",
-        "statusIcon": "Skill_Fire_BoostPerception"
+        "statusIcon": "Skill_Fire_BoostPerception",
+        "displayName": "Increased Wits"
     },
     {
         "name": "SKILLBOOST_VampiricTouch",
         "parent": "_SkillBoost",
-        "vitalityPercentage": "15"
+        "vitalityPercentage": "15",
+        "displayName": "Bitten"
     },
     {
         "name": "SKILLBOOST_DrainWillpower",
         "parent": "_SkillBoost",
-        "statusIcon": "Skill_Source_DrainWillpower"
+        "statusIcon": "Skill_Source_DrainWillpower",
+        "displayName": "Willpower Lowered"
     },
     {
         "name": "SKILLBOOST_DivineLight",
         "parent": "_SkillBoost",
-        "statusIcon": "Skill_Warrior_DivineLight"
+        "statusIcon": "Skill_Warrior_DivineLight",
+        "displayName": "Willpower Loss"
     },
     {
         "name": "SKILLBOOST_Enervation",
@@ -5420,7 +5887,8 @@
         "waterResistance": "-50",
         "airResistance": "-50",
         "poisonResistance": "-50",
-        "statusIcon": "Skill_Source_Enervation"
+        "statusIcon": "Skill_Source_Enervation",
+        "displayName": "Soulsapped"
     },
     {
         "name": "SKILLBOOST_Inspire",
@@ -5429,7 +5897,8 @@
         "finesse": "1",
         "intelligence": "1",
         "constitution": "2",
-        "statusIcon": "Skill_Warrior_Inspire"
+        "statusIcon": "Skill_Warrior_Inspire",
+        "displayName": "Inspired"
     },
     {
         "name": "SKILLBOOST_InspireStart",
@@ -5438,7 +5907,8 @@
         "finesse": "2",
         "intelligence": "2",
         "constitution": "3",
-        "statusIcon": "Skill_Warrior_Inspire"
+        "statusIcon": "Skill_Warrior_Inspire",
+        "displayName": "Encouraged"
     },
     {
         "name": "SKILLBOOST_NullResistance",
@@ -5448,66 +5918,77 @@
         "waterResistance": "-50",
         "airResistance": "-50",
         "poisonResistance": "-50",
-        "statusIcon": "Skill_Source_NullifyResistance"
+        "statusIcon": "Skill_Source_NullifyResistance",
+        "displayName": "Resistances Nullified"
     },
     {
         "name": "SKILLBOOST_Fear",
         "parent": "_SkillBoost",
-        "statusIcon": "Skill_Source_Fear"
+        "statusIcon": "Skill_Source_Fear",
+        "displayName": "Feared"
     },
     {
         "name": "SKILLBOOST_Sunder",
         "parent": "_SkillBoost",
         "armor": "-50",
-        "statusIcon": "Item_WPN_ArrowHead_Silver_A"
+        "statusIcon": "Item_WPN_ArrowHead_Silver_A",
+        "displayName": "Lowered Armour"
     },
     {
         "name": "SKILLBOOST_Blind",
         "parent": "_SkillBoost",
         "wits": "-5",
         "sight": "-1500",
-        "extraProperties": "BLIND,100,3"
+        "extraProperties": "BLIND,100,3",
+        "displayName": "Blinded"
     },
     {
         "name": "SKILLBOOST_Slowdown",
         "parent": "_SkillBoost",
         "movement": "-5",
-        "statusIcon": "Skill_Air_Slow"
+        "statusIcon": "Skill_Air_Slow",
+        "displayName": "Slowed"
     },
     {
         "name": "SKILLBOOST_DebuffStrength",
         "parent": "_SkillBoost",
         "strength": "-3",
-        "statusIcon": "Item_WPN_Arrow_Debuf_Strength_A"
+        "statusIcon": "Item_WPN_Arrow_Debuf_Strength_A",
+        "displayName": "Strength Lowered"
     },
     {
         "name": "SKILLBOOST_DebuffDexterity",
         "parent": "_SkillBoost",
         "finesse": "-3",
-        "statusIcon": "Item_WPN_Arrow_Debuf_Dexterity_A"
+        "statusIcon": "Item_WPN_Arrow_Debuf_Dexterity_A",
+        "displayName": "Dexterity Lowered"
     },
     {
         "name": "SKILLBOOST_DebuffIntelligence",
         "parent": "_SkillBoost",
         "intelligence": "-3",
-        "statusIcon": "Item_WPN_Arrow_Debuf_Intelligence_A"
+        "statusIcon": "Item_WPN_Arrow_Debuf_Intelligence_A",
+        "displayName": "Intelligence Lowered"
     },
     {
         "name": "SKILLBOOST_DebuffConstitution",
         "parent": "_SkillBoost",
         "constitution": "-3",
-        "statusIcon": "Item_WPN_Arrow_Debuf_Constitution_A"
+        "statusIcon": "Item_WPN_Arrow_Debuf_Constitution_A",
+        "displayName": "Constitution Lowered"
     },
     {
         "name": "SKILLBOOST_DebuffSpeed",
         "parent": "_SkillBoost",
-        "statusIcon": "Item_WPN_Arrow_Debuf_Speed_A"
+        "statusIcon": "Item_WPN_Arrow_Debuf_Speed_A",
+        "displayName": "Speed Lowered"
     },
     {
         "name": "SKILLBOOST_DebuffPerception",
         "parent": "_SkillBoost",
         "wits": "-3",
-        "statusIcon": "Item_WPN_Arrow_Debuf_Perception_A"
+        "statusIcon": "Item_WPN_Arrow_Debuf_Perception_A",
+        "displayName": "Perception Lowered"
     },
     {
         "name": "SKILLBOOST_DebuffAll",
@@ -5517,7 +5998,8 @@
         "intelligence": "-2",
         "constitution": "-2",
         "wits": "-2",
-        "statusIcon": "Item_WPN_Arrow_Debuf_All_A"
+        "statusIcon": "Item_WPN_Arrow_Debuf_All_A",
+        "displayName": "All Primary Stats Lowered"
     },
     {
         "name": "SKILLBOOST_SparkmasterBerserkAttack",
@@ -5525,7 +6007,8 @@
         "constitution": "2",
         "accuracyBoost": "25",
         "damageBoost": "50",
-        "statusIcon": "Skill_Warrior_Inspire"
+        "statusIcon": "Skill_Warrior_Inspire",
+        "displayName": "Berserk"
     },
     {
         "name": "SKILLBOOST_SparkmasterWeakenAttack",
@@ -5533,7 +6016,8 @@
         "constitution": "-2",
         "accuracyBoost": "-25",
         "damageBoost": "-50",
-        "statusIcon": "Skill_Warrior_Fear"
+        "statusIcon": "Skill_Warrior_Fear",
+        "displayName": "Weak"
     },
     {
         "name": "SKILLBOOST_ImmuneToFreezing",
@@ -5541,7 +6025,8 @@
         "fireResistance": "-25",
         "waterResistance": "25",
         "flags": "FreezeImmunity;FreezeContact",
-        "statusIcon": "Skill_Water_ImmuneToBurning"
+        "statusIcon": "Skill_Water_ImmuneToBurning",
+        "displayName": "Immune to Freezing"
     },
     {
         "name": "SKILLBOOST_ImmuneToBurning",
@@ -5549,7 +6034,8 @@
         "fireResistance": "25",
         "waterResistance": "-25",
         "flags": "BurnImmunity;BurnContact",
-        "statusIcon": "Skill_Fire_ImmuneToFreezing"
+        "statusIcon": "Skill_Fire_ImmuneToFreezing",
+        "displayName": "Immune to Burning"
     },
     {
         "name": "SKILLBOOST_ImmuneToElectrifying",
@@ -5557,38 +6043,44 @@
         "earthResistance": "-25",
         "airResistance": "25",
         "flags": "StunImmunity;ShockedImmunity;StunContact",
-        "statusIcon": "Skill_Air_ImmuneToElectrified"
+        "statusIcon": "Skill_Air_ImmuneToElectrified",
+        "displayName": "Immune to Electrifying"
     },
     {
         "name": "SKILLBOOST_ImmuneToPoisoning",
         "parent": "_SkillBoost",
         "poisonResistance": "25",
         "flags": "PoisonImmunity;PoisonContact",
-        "statusIcon": "Skill_Earth_ImmuneToPoisoned"
+        "statusIcon": "Skill_Earth_ImmuneToPoisoned",
+        "displayName": "Immune to Poisoning"
     },
     {
         "name": "SKILLBOOST_Shield_Water",
         "parent": "_SkillBoost",
         "fireResistance": "-25",
-        "flags": "FreezeImmunity"
+        "flags": "FreezeImmunity",
+        "displayName": "Water Shield"
     },
     {
         "name": "SKILLBOOST_Shield_Air",
         "parent": "_SkillBoost",
         "earthResistance": "-25",
-        "flags": "StunImmunity;ShockedImmunity"
+        "flags": "StunImmunity;ShockedImmunity",
+        "displayName": "Air Shield"
     },
     {
         "name": "SKILLBOOST_Shield_Fire",
         "parent": "_SkillBoost",
         "waterResistance": "-25",
-        "flags": "BurnImmunity"
+        "flags": "BurnImmunity",
+        "displayName": "Fire Shield"
     },
     {
         "name": "SKILLBOOST_Shield_Earth",
         "parent": "_SkillBoost",
         "airResistance": "-25",
-        "flags": "PetrifiedImmunity"
+        "flags": "PetrifiedImmunity",
+        "displayName": "Earth Shield"
     },
     {
         "name": "SKILLBOOST_ElementalTortoise",
@@ -5598,26 +6090,30 @@
         "waterResistance": "40",
         "airResistance": "40",
         "movementSpeedBoost": "-40",
-        "statusIcon": "Skill_Warrior_ElementalTortoise"
+        "statusIcon": "Skill_Warrior_ElementalTortoise",
+        "displayName": "Elemental Tortoise"
     },
     {
         "name": "SKILLBOOST_BarbedCoat",
         "parent": "_SkillBoost",
         "accuracyBoost": "-25",
         "reflection": "50::Piercing:melee",
-        "statusIcon": "Skill_Warrior_BarbedCoat"
+        "statusIcon": "Skill_Warrior_BarbedCoat",
+        "displayName": "Barbed Coat"
     },
     {
         "name": "SKILLBOOST_FireSurfaceSelf",
         "parent": "_SkillBoost",
         "fireResistance": "30",
-        "statusIcon": "Skill_Fire_FireSurfaceSelf"
+        "statusIcon": "Skill_Fire_FireSurfaceSelf",
+        "displayName": "Immolated"
     },
     {
         "name": "SKILLBOOST_TreatPoisoning",
         "parent": "_SkillBoost",
         "poisonResistance": "100",
-        "statusIcon": "Skill_Ranger_TreatPoisoning"
+        "statusIcon": "Skill_Ranger_TreatPoisoning",
+        "displayName": "Treating Poison"
     },
     {
         "name": "SCRIPT_Matriarch_Healing_Effect",
@@ -5625,55 +6121,67 @@
         "vitality": "6",
         "weight": "250",
         "value": "20",
-        "isConsumable": "Yes"
+        "isConsumable": "Yes",
+        "displayName": ""
     },
     {
-        "name": "Arena_WipeSP"
+        "name": "Arena_WipeSP",
+        "displayName": ""
     },
     {
         "name": "Arena_King",
         "constitution": "10",
         "vitalityBoost": "50",
-        "vitalityPercentage": "100"
+        "vitalityPercentage": "100",
+        "displayName": "Arena King"
     },
     {
         "name": "Stats_Fugitive",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Fugitive"
     },
     {
         "name": "Stats_Feeding",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Feeding"
     },
     {
         "name": "Stats_Yarrow_Flower",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Yarrow Flower"
     },
     {
         "name": "Stats_Healing_Elixir",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Healing Elixir"
     },
     {
         "name": "Stats_Resting",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Resting"
     },
     {
         "name": "Stats_Herbmix_Courage",
         "constitution": "6",
-        "statusIcon": "Item_QUEST_Herbmix_Courage"
+        "statusIcon": "Item_QUEST_Herbmix_Courage",
+        "displayName": "Courage"
     },
     {
         "name": "Stats_Herbmix_Ferocity",
-        "statusIcon": "Item_QUEST_Herbmix_Ferocity"
+        "statusIcon": "Item_QUEST_Herbmix_Ferocity",
+        "displayName": "Ferocity"
     },
     {
         "name": "Stats_Herbmix_Alertness",
         "wits": "6",
-        "statusIcon": "Item_QUEST_Herbmix_Alertness"
+        "statusIcon": "Item_QUEST_Herbmix_Alertness",
+        "displayName": "Alertness"
     },
     {
         "name": "Stats_Herbmix_Enlightenment",
         "intelligence": "6",
-        "statusIcon": "Item_QUEST_Herbmix_Enlightenment"
+        "statusIcon": "Item_QUEST_Herbmix_Enlightenment",
+        "displayName": "Enlightenment"
     },
     {
         "name": "Stats_LadyVengeance",
@@ -5684,23 +6192,27 @@
         "waterResistance": "20",
         "airResistance": "20",
         "poisonResistance": "20",
-        "dodgeBoost": "10"
+        "dodgeBoost": "10",
+        "displayName": "Boon of Vengeance"
     },
     {
         "name": "Stats_Dwarf_Statue",
         "dodgeBoost": "5",
         "armorBoost": "20",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Dwarf Statue"
     },
     {
         "name": "Stats_Dwarf_Statue_Aura",
         "dodgeBoost": "5",
         "armorBoost": "20",
-        "statusIcon": "unknown"
+        "statusIcon": "unknown",
+        "displayName": "Dwarf Statue"
     },
     {
         "name": "Stats_DoubleDamage",
         "damageBoost": "100",
-        "statusIcon": "statIcons_DoubleDamage"
+        "statusIcon": "statIcons_DoubleDamage",
+        "displayName": "Double Damage"
     }
 ]
