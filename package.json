@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dbseed": "node src/scripts/seed/index.js",
+    "query": "node src/scripts/seed/testDbQueries.js",
     "parser": "node src/data/parser/index.js"
   },
   "dependencies": {
@@ -32,4 +33,3 @@
   "author": "",
   "license": "ISC"
 }
-
