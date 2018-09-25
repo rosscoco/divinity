@@ -785,6 +785,11 @@
         "displayName": "Gold"
     },
     {
+        "name": "_Generics",
+        "modifierType": "Item",
+        "flags": "BleedingImmunity;SleepingImmunity;PoisonImmunity;SlowedImmunity;KnockdownImmunity;CrippledImmunity;BlindImmunity;FearImmunity;CharmImmunity"
+    },
+    {
         "name": "LOOT_Handkerchief_A",
         "parent": "_Generics",
         "rootTemplate": "06116808-84b0-4532-8f5c-7cc3347ee365",
@@ -1694,6 +1699,9 @@
         "displayName": "Bowstring"
     },
     {
+        "name": "_RAANAAR"
+    },
+    {
         "name": "FUR_Raanaar_Tablet_A",
         "parent": "_Generics",
         "rootTemplate": "70e9517a-6dba-4956-8a36-8fd6f4c0f386",
@@ -1733,6 +1741,9 @@
         "icon": "Item_FUR_Raanaar_Cup_A",
         "stats": "FUR_Raanaar_Cup_A",
         "displayName": "Eternal Cup"
+    },
+    {
+        "name": "_PRECIOUS_ITEMS"
     },
     {
         "name": "ITEM_SpoonGold",
@@ -2038,6 +2049,12 @@
         "icon": "Item_LOOT_Gems_Diamond_B_Black",
         "stats": "LOOT_Gems_Diamond_B_VW",
         "displayName": "Big Diamond From A Void Creature"
+    },
+    {
+        "name": "_Paintings",
+        "modifierType": "Item",
+        "constitution": "10",
+        "flags": "StunImmunity;PoisonImmunity;CharmImmunity;FearImmunity;KnockdownImmunity;MuteImmunity;BleedingImmunity;CrippledImmunity;BlindImmunity;WeakImmunity;SlowedImmunity;DiseasedImmunity;InfectiousDiseasedImmunity"
     },
     {
         "name": "FUR_Humans_Painting_Worthless",
@@ -2439,6 +2456,9 @@
         "displayName": "Painting"
     },
     {
+        "name": "_SCROLL_INGREDIENTS_EA"
+    },
+    {
         "name": "BOOK_Paper_Sheet_A",
         "parent": "_Generics",
         "rootTemplate": "f0872b5d-ee7a-43f9-a63e-e3200abdb1a3",
@@ -2810,6 +2830,9 @@
         "displayName": "Animal Scales"
     },
     {
+        "name": "_SCROLL_INGREDIENTS_SCROLLS_NOT_EA"
+    },
+    {
         "name": "LOOT_Sinew_A_Strong",
         "parent": "_Generics",
         "rootTemplate": "6b23aa78-c822-4e57-b561-779a3bb1dc8e",
@@ -2953,6 +2976,9 @@
         "icon": "Item_LOOT_Goo_SewerSpider_A",
         "stats": "LOOT_Goo_SewerSpider_A",
         "displayName": "Goo"
+    },
+    {
+        "name": "_INGREDIENTS_LATE"
     },
     {
         "name": "LOOT_Jar_MindMaggot_A",
@@ -3216,6 +3242,9 @@
         "icon": "Item_BOOK_Scroll_Fire_A",
         "stats": "Scroll_Skill_Fire_Blank_A",
         "displayName": "Blank Fire Scroll"
+    },
+    {
+        "name": "_RARE_INGREDIENTS"
     },
     {
         "name": "TOOL_Pouch_Dust_Bone_A",
@@ -3820,6 +3849,9 @@
         "icon": "Item_LOOT_Soul_Step3_A",
         "stats": "LOOT_Soul_Tormented_Step3_A",
         "displayName": "| Alien Tormented Soul |"
+    },
+    {
+        "name": "_Commons_And_Gens"
     },
     {
         "name": "CONT_Barrel_A_Lid_A",
@@ -5992,6 +6024,9 @@
         "displayName": "Coffin"
     },
     {
+        "name": "_Toys"
+    },
+    {
         "name": "LOOT_Toy_TeddyBearClean",
         "parent": "_Generics",
         "rootTemplate": "efcc0a71-7952-4c9c-b890-02acf577862c",
@@ -6128,6 +6163,13 @@
         "icon": "Portrait_FUR_Humans_Rich_DressingPanel_A",
         "stats": "UNIQUE_ARX_ToyScenery_DressingPanel_B",
         "displayName": ""
+    },
+    {
+        "name": "_Grenades",
+        "modifierType": "Item",
+        "value": "120",
+        "weight": "1000",
+        "flags": "BleedingImmunity;SleepingImmunity;PoisonImmunity"
     },
     {
         "name": "GRN_Grenade_ArmorPiercing_A",
@@ -6546,6 +6588,12 @@
         "icon": "Item_GRN_Love_Empty",
         "stats": "GRN_Ingredient_Love_Empty_A",
         "displayName": "Empty Perfume Bottle"
+    },
+    {
+        "name": "_Arrows",
+        "modifierType": "Item",
+        "constitution": "0",
+        "flags": "Arrow;BleedingImmunity;SleepingImmunity;PoisonImmunity"
     },
     {
         "name": "WPN_ArrowShaft_A",
@@ -7037,6 +7085,12 @@
         "displayName": "Cursing Arrow"
     },
     {
+        "name": "_Runes",
+        "modifierType": "Item",
+        "weight": "100",
+        "constitution": "0"
+    },
+    {
         "name": "LOOT_Rune_Masterwork_Small",
         "parent": "_Runes",
         "rootTemplate": "8a53fce8-01b2-42e6-bdd5-1aa370d74eb6",
@@ -7399,6 +7453,11 @@
         "icon": "Item_LOOT_Rune_Frame_Mystic",
         "stats": "LOOT_Rune_Frame_Transforming",
         "displayName": "Mystical Rune Frame"
+    },
+    {
+        "name": "_Runes_Framed",
+        "weight": "200",
+        "constitution": "0"
     },
     {
         "name": "LOOT_Rune_Flame_Small_Framed_Power",
@@ -8034,6 +8093,13 @@
         "displayName": "Mystical Giant Masterwork Rune"
     },
     {
+        "name": "_OrbCharms",
+        "parent": "_Runes",
+        "modifierType": "Item",
+        "weight": "100",
+        "constitution": "0"
+    },
+    {
         "name": "LOOT_Charm_Orb_Uru_Umn",
         "parent": "_OrbCharms",
         "rootTemplate": "3d962fcb-aa1b-49dd-8804-784dd62ce26a",
@@ -8309,6 +8375,13 @@
         "displayName": "Yit Vorr"
     },
     {
+        "name": "_TrapObjects",
+        "weight": "50000",
+        "constitution": "1",
+        "poisonResistance": "100",
+        "flags": "BleedingImmunity;SleepingImmunity;PoisonImmunity"
+    },
+    {
         "name": "TRAP_ElementalMine",
         "parent": "_TrapObjects",
         "fireResistance": "100",
@@ -8384,6 +8457,14 @@
         "poisonResistance": "100",
         "flags": "BleedingImmunity;SleepingImmunity;PoisonImmunity",
         "displayName": ""
+    },
+    {
+        "name": "_Skillbooks",
+        "modifierType": "Item",
+        "value": "200",
+        "weight": "500",
+        "constitution": "0",
+        "flags": "BleedingImmunity;SleepingImmunity;PoisonImmunity"
     },
     {
         "name": "SKILLBOOK_Air_ShockingTouch",
@@ -11711,6 +11792,10 @@
         "displayName": "Mass Cryotherapy Skillbook"
     },
     {
+        "name": "_Unique",
+        "constitution": "0"
+    },
+    {
         "name": "UNIQUE_Arena_Artifact",
         "parent": "_Unique",
         "rootTemplate": "f1c32199-bee5-4c1f-abdc-29eee9614b34",
@@ -11778,6 +11863,13 @@
         "icon": "Item_QUEST_Shapeshifter_Mask_A_Broken",
         "stats": "QUEST_BrokenShapeshiftingMask",
         "displayName": ""
+    },
+    {
+        "name": "_Scrolls",
+        "modifierType": "Item",
+        "weight": "20",
+        "constitution": "0",
+        "flags": "BleedingImmunity;SleepingImmunity;PoisonImmunity"
     },
     {
         "name": "SCROLL_Curse",
@@ -13744,6 +13836,13 @@
         "displayName": "Spread Your Wings Scroll"
     },
     {
+        "name": "_RecipeBooks",
+        "value": "5",
+        "weight": "50",
+        "constitution": "0",
+        "flags": "BleedingImmunity;SleepingImmunity;PoisonImmunity"
+    },
+    {
         "name": "BOOK_RCP_Runecrafting_1",
         "parent": "_RecipeBooks",
         "rootTemplate": "c11b601d-f28a-466f-b2e2-cc6bbb48122e",
@@ -14611,6 +14710,13 @@
         "displayName": ""
     },
     {
+        "name": "_Lorebooks",
+        "value": "5",
+        "weight": "100",
+        "constitution": "0",
+        "flags": "BleedingImmunity;SleepingImmunity;PoisonImmunity"
+    },
+    {
         "name": "BOOK_Surfaces",
         "parent": "_Lorebooks",
         "rootTemplate": "5212771d-7321-44a2-bf14-aacf3a4ea08c",
@@ -14798,6 +14904,9 @@
         "displayName": ""
     },
     {
+        "name": "_OldRecipeBooks"
+    },
+    {
         "name": "BOOK_RCP_Cooking2",
         "parent": "_Generics",
         "rootTemplate": "5a897944-7ce7-4812-804e-bdd30f5536ef",
@@ -14918,6 +15027,9 @@
         "displayName": "The Legionnaire Cookbook"
     },
     {
+        "name": "_NonMagicalWands"
+    },
+    {
         "name": "LOOT_Wand_A",
         "parent": "_Generics",
         "rootTemplate": "446f1b0a-2e30-40d9-b72c-b52c7634c8c5",
@@ -14966,6 +15078,13 @@
         "modifierType": "Item",
         "flags": "BleedingImmunity;SleepingImmunity;PoisonImmunity;SlowedImmunity;KnockdownImmunity;CrippledImmunity;BlindImmunity;FearImmunity;CharmImmunity",
         "displayName": "Inert Draconic Wand"
+    },
+    {
+        "name": "_Totems",
+        "modifierType": "Item",
+        "value": "0",
+        "weight": "500",
+        "constitution": "2"
     },
     {
         "name": "TOTEM_Fire",

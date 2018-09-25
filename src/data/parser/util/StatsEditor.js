@@ -6,7 +6,7 @@ const dataFolder = path.join(__dirname, './../../../../data');
 
 // IMPORTED JSON FILES
 const _ITEMNAMES = require('../../../../data/output/ItemNamesHash.json');
-const _RECIPENAMES = require('../../../../data/output/ItemComboResultNameHash.json');
+// const _RECIPENAMES = require('../../../../data/output/ItemComboResultNameHash.json');
 
 let inputFileNames;
 
@@ -16,11 +16,12 @@ function validateItemNames(allItemStats) {
 
 	allItemStats.forEach((details) => {
 		const itemName = details.name;
-		const newDetails = {};
+		// const newDetails = {};
 		if (_ITEMNAMES.hasOwnProperty(itemName)) {
-			Object.assign(newDetails, details);
-			newDetails.displayName = _ITEMNAMES[itemName].name;
-			found.push(newDetails);
+			// Object.assign(newDetails, details);
+			// newDetails.displayName = _ITEMNAMES[itemName].name;
+			// found.push(newDetails);
+			details.displayName = _ITEMNAMES[itemName].name;
 		} else {
 			notFound.push(details.name);
 		}
@@ -29,7 +30,7 @@ function validateItemNames(allItemStats) {
 	console.log(`Updating item display names from ItemNamesHash.json. Found ${found.length}/${found.length + notFound.length}`);
 	console.log(notFound);
 
-	return found;
+	return allItemStats;
 }
 
 

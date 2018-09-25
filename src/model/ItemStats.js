@@ -5,6 +5,7 @@ module.exports = function (sequelize, Datatypes) {
 			primaryKey: true
 		},
 		name: Datatypes.STRING,
+		displayName: Datatypes.STRING,
 		parent: Datatypes.STRING,
 		rootTemplate: Datatypes.STRING,
 		modifierType: Datatypes.STRING,

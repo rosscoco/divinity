@@ -2612,6 +2612,11 @@
         "displayName": "Source Orb"
     },
     {
+        "name": "_ComboPotions",
+        "isConsumable": "Yes",
+        "isFood": "Yes"
+    },
+    {
         "name": "CON_Herb_Mushroom_A",
         "parent": "_ComboPotions",
         "rootTemplate": "0106e3c1-bd81-4118-8a28-59c6dc941feb",
@@ -2936,6 +2941,11 @@
         "displayName": "Wizard's Hat Agaric"
     },
     {
+        "name": "_ComboStuff",
+        "isConsumable": "Yes",
+        "isFood": "Yes"
+    },
+    {
         "name": "CON_Herb_Drudanae",
         "parent": "_ComboStuff",
         "rootTemplate": "84ce1dfa-12b1-4b37-8907-aa7301f1edbf",
@@ -3151,6 +3161,11 @@
         "icon": "Item_CON_Herb_Tea_A",
         "stats": "CON_Herb_Tea_A",
         "displayName": "Tea Herbs"
+    },
+    {
+        "name": "_ComboFood",
+        "isConsumable": "Yes",
+        "isFood": "Yes"
     },
     {
         "name": "CON_Ingred_Dough_A",
@@ -4064,6 +4079,11 @@
         "icon": "Item_CON_Drink_Cup_A_Red",
         "stats": "CON_Drink_Mug_A_Blood",
         "displayName": "Mug Of Blood"
+    },
+    {
+        "name": "_Food",
+        "isConsumable": "Yes",
+        "isFood": "Yes"
     },
     {
         "name": "HAR_Shell",
@@ -5265,6 +5285,11 @@
         "displayName": "Hot Kettle Fruit"
     },
     {
+        "name": "_Drink",
+        "isConsumable": "Yes",
+        "isFood": "Yes"
+    },
+    {
         "name": "CON_Drink_Bottle_Beer_A",
         "parent": "_Drink",
         "rootTemplate": "db0fab18-da5b-402c-8680-13a18163e7f8",
@@ -5777,6 +5802,9 @@
         "icon": "Item_TOOL_Dye_Yellow",
         "stats": "TOOL_Dye_Yellow",
         "displayName": "Yellow Fabric Dye"
+    },
+    {
+        "name": "_SkillBoost"
     },
     {
         "name": "SKILLBOOST_Leadership",
