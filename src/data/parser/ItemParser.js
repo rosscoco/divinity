@@ -16,11 +16,12 @@ const armourProperties = ['Requirements', 'ArmorDefenseValue', 'ArmorBoost', 'Ma
 
 const weaponProperties = ['ItemGroup', 'ModifierType', 'ComboCategory', 'Tags', 'ExtraProperties', 'Flags', 'Boosts'].concat(objectProperties);
 
+const categoryProperties = ['Type', 'Icon', 'Tooltip', 'Comment'];
+
 function extract(data) {
-	const propertyNames = objectProperties.concat(potionProperties).concat(armourProperties).concat(weaponProperties);
+	const propertyNames = objectProperties.concat(potionProperties).concat(armourProperties).concat(weaponProperties).concat(categoryProperties);
 	const copy = {};
 	const keys = Object.keys(data);
-
 
 	keys.forEach((prop) => {
 		if (propertyNames.indexOf(prop) !== -1

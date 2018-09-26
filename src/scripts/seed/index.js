@@ -1,4 +1,3 @@
-/* eslint-disable no-await-in-loop */
 
 
 const db = require('../../model/db');
@@ -10,6 +9,7 @@ const createIngredients = require('./ingredient');
 
 // const ITEMDETAILS = require('../../data/output/ItemGUID.json');
 
+console.log('Syncing db');
 
 db.sequelize.sync({
 	force: true
@@ -27,3 +27,7 @@ db.sequelize.sync({
 			console.log(err);
 		});
 });
+
+// // .catch((e) => {
+// // 	console.log(e);
+// });

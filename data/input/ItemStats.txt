@@ -1,6 +1,5 @@
 Name	Parent	RootTemplate	ModifierType	Act	Level	UseAPCost	Value	Weight	ComboCategory	Requirements	Strength	Finesse	Intelligence	Constitution	Memory	Wits	Vitality	Armor	PiercingResistance	PhysicalResistance	FireResistance	EarthResistance	WaterResistance	AirResistance	PoisonResistance	Flags	InventoryTab	AddToBottomBar	IgnoredByAI	RuneLevel	RuneEffectWeapon	RuneEffectUpperbody	RuneEffectAmulet	ObjectCategory	MinAmount	MaxAmount	Priority	Unique	MinLevel	MaxLevel	Comment	
 Crystal			Crystal				85	1000																																		
-Gold			Item	1			0	0																		BleedingImmunity;SleepingImmunity;PoisonImmunity	Misc															
 Trader_Small_Gold	Gold	1c3c9c74-34a1-4685-989e-410dc080be6f			1																													Trader Gold	400	600	1		1	3		
 Trader_Medium_Gold	Gold	1c3c9c74-34a1-4685-989e-410dc080be6f			4																													Trader Gold	700	1100	1		4	6		
 Trader_Large_Gold	Gold	1c3c9c74-34a1-4685-989e-410dc080be6f			7																													Trader Gold	1200	1800	1		7	8		

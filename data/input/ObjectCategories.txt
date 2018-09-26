@@ -1,0 +1,93 @@
+Name	Type	Icon	Tooltip	Comment	
+ClothArmor	ObjectCategories	Item_ARM_Cloth_A_Torso	Cloth Armour		
+ArmorLeather	ObjectCategories	Item_ARM_Leather_A_Torso	Leather Armour		
+ArmorScale	ObjectCategories	Item_ARM_Metal_A_Torso	Metal Armour		
+RobeArmor	ObjectCategories	Item_ARM_Robe_A_Torso	Robe		
+Garment	ObjectCategories	Item_ARM_Garment_A	Garment		
+ArmorShoes	ObjectCategories	Item_ARM_Metal_A_Boots	Shoe		
+ArmorBelt	ObjectCategories	Item_ARM_Leather_Belt_A	Belt		
+ArmorGloves	ObjectCategories	Item_ARM_Leather_A_Bracers	Bracer		
+LeatherHelmet	ObjectCategories	Item_ARM_Leather_A_Helmet	Leather Helmet		
+ArmorHelmet	ObjectCategories	Item_ARM_Leather_A_Helmet	Helmet		
+Upperbody	ObjectCategories	Item_ARM_Leather_A_Torso	Body Armour		
+Gloves	ObjectCategories	Item_ARM_Leather_A_Bracers	Bracer		
+Helmet	ObjectCategories	Item_ARM_Leather_A_Helmet	Helmet		
+ArmorRing	ObjectCategories	Item_LOOT_Gold_Ring_A	Ring		
+ArmorAmulet	ObjectCategories	Item_LOOT_MagicAmulet_Red	Amulet		
+Pants	ObjectCategories	Item_EQ_Armor_Mage_Lowerbody_B	Leggings		
+CupEmpty	ObjectCategories	Item_CON_Drink_Cup_A_Empty	Empty Cup		
+Spoon	ObjectCategories	Item_FUR_Cutlery_Spoon_A	Spoon		
+Pearl	ObjectCategories	Item_HAR_Pearl_A	Pearl		
+Ruby	ObjectCategories	Item_LOOT_Ruby_A	Ruby		
+Ring	ObjectCategories	Item_LOOT_Gold_Ring_A	Ring		
+Herbs	ObjectCategories	Item_CON_Herb_Augmentor_A	Herb		
+Sinew	ObjectCategories	Item_LOOT_String_A	Sinew		
+Eye	ObjectCategories	Item_LOOT_Eye_A	Eye		
+Feather	ObjectCategories	Item_LOOT_Feather_A	Feather		
+Tooth	ObjectCategories	Item_LOOT_Tooth_A	Tooth		
+Bone	ObjectCategories	Item_LOOT_Bone_A	Bone		
+EmptyWand	ObjectCategories	Item_WPN_Wand_A	Empty Wand		
+PotionHealing	ObjectCategories	Item_CON_Potion_A_Red_Mini	Healing Potion		
+Mushrooms	ObjectCategories	Item_CON_Herb_Mushroom_A	Mushroom		
+Food	ObjectCategories	Item_CON_Food_Dinner_A	Food		
+Drink	ObjectCategories	Itemt_CON_Drink_Cup_A_Tea	Drink		
+FoodFish	ObjectCategories	Item_CON_Food_Fish_A	Fish		
+ShieldWood	ObjectCategories	Item_WPN_Wood_Shield_A	Wooden Shield		
+ShieldMetal	ObjectCategories	Item_WPN_Metal_Shield_A	Metal Shield		
+Knife	ObjectCategories	Item_FUR_Cutlery_Knife_A	Knife		
+Dagger	ObjectCategories	Item_WPN_Dagger_A	Dagger		
+Sword	ObjectCategories	Item_WPN_Sword_A	Sword		
+Axe	ObjectCategories	Item_WPN_Axe_A	Axe		
+Club	ObjectCategories	Item_WPN_Trolls_Club_A	Club		
+TwoHandedAxe	ObjectCategories	Item_WPN_2H_Axe_A	Two-Handed Axe		
+TwoHandedSword	ObjectCategories	Item_WPN_2H_Sword_A	Two-Handed Sword		
+TwoHandedMaces	ObjectCategories	Item_WPN_Trolls_Club_A	Club		
+Spear	ObjectCategories	Item_WPN_Spear_A	Spear		
+FishingRod	ObjectCategories	Item_HAR_FishingRod_ABC	Fishing Rod		
+Staff	ObjectCategories	Item_WPN_Human_Normal_2H_Staff_A	Staff		
+Bow	ObjectCategories	Item_WPN_Bow_A	Bow		
+Crossbow	ObjectCategories	Item_WPN_Human_Normal_Crossbow_A	Crossbow		
+PotionAirRes	ObjectCategories	Item_CON_Potion_Debuff_A_Purple	Air Resistance Potion		
+PotionPoison	ObjectCategories	Item_CON_Potion_A_Green_Mini	Poison Potion		
+ArrowShaft	ObjectCategories	Item_WPN_ArrowShaft_A	Arrow Or Shaft		
+FoodVoidwokenFish	ObjectCategories	Item_CON_Food_Fish_D	Void-tainted Fish		
+SkillbookAir	ObjectCategories	Item_BOOK_Spellbook_Air_A	Aerotheurge Skillbook		
+SkillbookAirSource	ObjectCategories	Item_BOOK_Spellbook_Air_A_SourceGlow	Source Aerotheurge Skillbook		
+SkillbookEarth	ObjectCategories	Item_BOOK_Spellbook_Earth_A	Geomancer Skillbook		
+SkillbookEarthSource	ObjectCategories	Item_BOOK_Spellbook_Earth_A_SourceGlow	Source Geomancer Skillbook		
+SkillbookFire	ObjectCategories	Item_BOOK_Spellbook_Fire_A	Pyrokinetic Skillbook		
+SkillbookFireSource	ObjectCategories	Item_BOOK_Spellbook_Fire_A_SourceGlow	Source Pyrokinetic Skillbook		
+SkillbookWater	ObjectCategories	Item_BOOK_Spellbook_Water_A	Hydrosophist Skillbook		
+SkillbookWaterSource	ObjectCategories	Item_BOOK_Spellbook_Water_A_SourceGlow	Source Hydrosophist Skillbook		
+SkillbookSummoning	ObjectCategories	Item_BOOK_Spellbook_Summoning_A	Summoning Skillbook		
+SkillbookSummoningSource	ObjectCategories	Item_BOOK_Spellbook_Summoning_SourceGlow	Source Summoning Skillbook		
+SkillbookNecromancy	ObjectCategories	Item_BOOK_Spellbook_Decay_A	Necromancy Skillbook		
+SkillbookNecromancySource	ObjectCategories	Item_BOOK_Spellbook_Decay_A_SourceGlow	Source Necromancy Skillbook		
+SkillbookPolymorph	ObjectCategories	Item_BOOK_Spellbook_Polymorph_A	Polymorph Skillbook		
+SkillbookPolymorphSource	ObjectCategories	Item_BOOK_Spellbook_Polymorph_A_SourceGlow	Source Polymorph Skillbook		
+SkillbookRanger	ObjectCategories	Item_BOOK_Spellbook_Ranger_A	Huntsman Skillbook		
+SkillbookRangerSource	ObjectCategories	Item_BOOK_Spellbook_Ranger_A_SourceGlow	Source Huntsman Skillbook		
+SkillbookWarrior	ObjectCategories	Item_BOOK_Spellbook_Warrior_A	Warfare Skillbook		
+SkillbookWarriorSource	ObjectCategories	Item_BOOK_Spellbook_Warrior_A_SourceGlow	Source Warfare Skillbook		
+SkillbookRogue	ObjectCategories	Item_BOOK_Spellbook_Rogue_A	Scoundrel Skillbook		
+SkillbookRogueSource	ObjectCategories	Item_BOOK_Spellbook_Rogue_A_SourceGlow	Source Scoundrel Skillbook		
+Wood	ObjectCategories	Portrait_Gen_Woodpile_A	Wood		
+Gold	ObjectCategories	Item_FUR_Rich_Cup_A	Gold		
+Metal	ObjectCategories	Item_LOOT_Scraps_Metal_A	Metal		
+Rock	ObjectCategories	Item_LOOT_Ore_BlackRock_A	Rock		
+AirResistancePotion	ObjectCategories	Item_CON_PotionII_B_Purple_Small	Air Resistance Potion		
+CuttingTool	ObjectCategories	Item_WPN_Tool_PocketKnife_1H_A	Cutting Tool		
+Drudanae	ObjectCategories	Item_CON_Herb_Drudanae_ABC	Drudanae		
+Meat	ObjectCategories	Item_CON_Food_Meat_Deer_A	Meat		
+Hammer	ObjectCategories	Item_TOOL_Hammer_A	Hammer		
+Augmentor	ObjectCategories	Item_CON_Herb_Augmentor_A	Augmentor		
+ShapeshifterMaskHuman	ObjectCategories	Item_EQ_Shapeshifter_Mask_A_Human	Human Mask of the Shapeshifter		
+ShapeshifterMaskDwarf	ObjectCategories	Item_EQ_Shapeshifter_Mask_A_Dwarf	Dwarven Mask of the Shapeshifter		
+ShapeshifterMaskElf	ObjectCategories	Item_EQ_Shapeshifter_Mask_A_Elf	Elven Mask of the Shapeshifter		
+ShapeshifterMaskLizard	ObjectCategories	Item_EQ_Shapeshifter_Mask_A_Lizard	Lizard Mask of the Shapeshifter		
+EssenceAir	ObjectCategories	LOOT_Essence_Air_Step2_A	Any Air Essence		
+EssenceEarth	ObjectCategories	LOOT_Essence_Earth_Step2_A	Any Earth Essence		
+EssenceFire	ObjectCategories	LOOT_Essence_Fire_Step2_A	Any Fire Essence		
+EssenceLife	ObjectCategories	LOOT_Essence_Life_Step2_A	Any Life Essence		
+EssenceShadow	ObjectCategories	LOOT_Essence_Shadow_Step2_A	Any Shadow Essence		
+EssenceWater	ObjectCategories	LOOT_Essence_Water_Step2_A	Any Water Essence		

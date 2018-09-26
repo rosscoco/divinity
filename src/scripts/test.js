@@ -1,52 +1,17 @@
-function parseIngredients() {
-	const ingredients = {};
+const fs = require('fs');
+const stats = require('../../data/output/ItemStatsMerged.json');
 
-	_RECIPES.forEach((recipeJSON) => {
-		if (recipeJSON.ingredients.length === 0) return;
-		for (let i = 0; i < recipeJSON.ingredients.length; i++) {
-			ingredients[recipeJSON.ingredients[i]] = {
-				name: recipeJSON.ingredients[i],
-				type: recipeJSON.ingredientTypes[i]
-			};
-		}
-	});
+const found = {};
 
-	db.Ingredient.bulkCreate(Object.values(ingredients))
-		.then(() => {
-			console.log('Created Ingredients');
-		});
-}
+stats.forEach((item) => {
+	if (found[item.name]) found[item.name]++;
+	else found[item.name] = 1;
+});
 
+const keys = Object.keys(found);
 
-async function parseRecipes(){
-	db.sequelize.transaction((t) => {
-		const promiseList = [];
-		let recipeJson = {};
-		let recipeName;
-		for (let i = 0; i < _RECIPES.length; i++) {
-			recipeJson = _RECIPES[i];
-			recipeName = { name: recipeJson.results[0] };
+keys.forEach((key) => {
+	if (found[key] > 1) console.log(key);
+});
 
-			const p = getIngredientsForRecipe(recipeJson.ingredients)
-				.then((ingredArr) => {
-					return new Promise((res,rej)=>{
-						const ingredients = ingredArr;
-						RecipeResult.create(recipeName, { transaction: t })
-							.then((recipe)=> res(recipe,ingredients));
-					})
-					.then((recipe,ingredients)=>{
-						ingredients.forEach((data) => {
-							res(createdRecipe.setIngredients(data.id, { transaction: t }));
-						});
-					})
-
-				promiseList.push(p);
-			})
-
-			return Promise.all(createRecipes)
-			.then((noidea) => {
-				console.log('Success???');
-			});
-		}
-	})
-}
+fs.writeFileSync('./List.txt', JSON.stringify(found, null, 4));

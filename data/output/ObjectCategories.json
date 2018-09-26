@@ -1,0 +1,554 @@
+[
+    {
+        "name": "ClothArmor",
+        "type": "ObjectCategories",
+        "displayName": "Cloth Armour",
+        "previewIcon": "Item_ARM_Cloth_A_Torso"
+    },
+    {
+        "name": "ArmorLeather",
+        "type": "ObjectCategories",
+        "displayName": "Leather Armour",
+        "previewIcon": "Item_ARM_Leather_A_Torso"
+    },
+    {
+        "name": "ArmorScale",
+        "type": "ObjectCategories",
+        "displayName": "Metal Armour",
+        "previewIcon": "Item_ARM_Metal_A_Torso"
+    },
+    {
+        "name": "RobeArmor",
+        "type": "ObjectCategories",
+        "displayName": "Robe",
+        "previewIcon": "Item_ARM_Robe_A_Torso"
+    },
+    {
+        "name": "Garment",
+        "type": "ObjectCategories",
+        "displayName": "Garment",
+        "previewIcon": "Item_ARM_Garment_A"
+    },
+    {
+        "name": "ArmorShoes",
+        "type": "ObjectCategories",
+        "displayName": "Shoe",
+        "previewIcon": "Item_ARM_Metal_A_Boots"
+    },
+    {
+        "name": "ArmorBelt",
+        "type": "ObjectCategories",
+        "displayName": "Belt",
+        "previewIcon": "Item_ARM_Leather_Belt_A"
+    },
+    {
+        "name": "ArmorGloves",
+        "type": "ObjectCategories",
+        "displayName": "Bracer",
+        "previewIcon": "Item_ARM_Leather_A_Bracers"
+    },
+    {
+        "name": "LeatherHelmet",
+        "type": "ObjectCategories",
+        "displayName": "Leather Helmet",
+        "previewIcon": "Item_ARM_Leather_A_Helmet"
+    },
+    {
+        "name": "ArmorHelmet",
+        "type": "ObjectCategories",
+        "displayName": "Helmet",
+        "previewIcon": "Item_ARM_Leather_A_Helmet"
+    },
+    {
+        "name": "Upperbody",
+        "type": "ObjectCategories",
+        "displayName": "Body Armour",
+        "previewIcon": "Item_ARM_Leather_A_Torso"
+    },
+    {
+        "name": "Gloves",
+        "type": "ObjectCategories",
+        "displayName": "Bracer",
+        "previewIcon": "Item_ARM_Leather_A_Bracers"
+    },
+    {
+        "name": "Helmet",
+        "type": "ObjectCategories",
+        "displayName": "Helmet",
+        "previewIcon": "Item_ARM_Leather_A_Helmet"
+    },
+    {
+        "name": "ArmorRing",
+        "type": "ObjectCategories",
+        "displayName": "Ring",
+        "previewIcon": "Item_LOOT_Gold_Ring_A"
+    },
+    {
+        "name": "ArmorAmulet",
+        "type": "ObjectCategories",
+        "displayName": "Amulet",
+        "previewIcon": "Item_LOOT_MagicAmulet_Red"
+    },
+    {
+        "name": "Pants",
+        "type": "ObjectCategories",
+        "displayName": "Leggings",
+        "previewIcon": "Item_EQ_Armor_Mage_Lowerbody_B"
+    },
+    {
+        "name": "CupEmpty",
+        "type": "ObjectCategories",
+        "displayName": "Empty Cup",
+        "previewIcon": "Item_CON_Drink_Cup_A_Empty"
+    },
+    {
+        "name": "Spoon",
+        "type": "ObjectCategories",
+        "displayName": "Spoon",
+        "previewIcon": "Item_FUR_Cutlery_Spoon_A"
+    },
+    {
+        "name": "Pearl",
+        "type": "ObjectCategories",
+        "displayName": "Pearl",
+        "previewIcon": "Item_HAR_Pearl_A"
+    },
+    {
+        "name": "Ruby",
+        "type": "ObjectCategories",
+        "displayName": "Ruby",
+        "previewIcon": "Item_LOOT_Ruby_A"
+    },
+    {
+        "name": "Ring",
+        "type": "ObjectCategories",
+        "displayName": "Ring",
+        "previewIcon": "Item_LOOT_Gold_Ring_A"
+    },
+    {
+        "name": "Herbs",
+        "type": "ObjectCategories",
+        "displayName": "Herb",
+        "previewIcon": "Item_CON_Herb_Augmentor_A"
+    },
+    {
+        "name": "Sinew",
+        "type": "ObjectCategories",
+        "displayName": "Sinew",
+        "previewIcon": "Item_LOOT_String_A"
+    },
+    {
+        "name": "Eye",
+        "type": "ObjectCategories",
+        "displayName": "Eye",
+        "previewIcon": "Item_LOOT_Eye_A"
+    },
+    {
+        "name": "Feather",
+        "type": "ObjectCategories",
+        "displayName": "Feather",
+        "previewIcon": "Item_LOOT_Feather_A"
+    },
+    {
+        "name": "Tooth",
+        "type": "ObjectCategories",
+        "displayName": "Tooth",
+        "previewIcon": "Item_LOOT_Tooth_A"
+    },
+    {
+        "name": "Bone",
+        "type": "ObjectCategories",
+        "displayName": "Bone",
+        "previewIcon": "Item_LOOT_Bone_A"
+    },
+    {
+        "name": "EmptyWand",
+        "type": "ObjectCategories",
+        "displayName": "Empty Wand",
+        "previewIcon": "Item_WPN_Wand_A"
+    },
+    {
+        "name": "PotionHealing",
+        "type": "ObjectCategories",
+        "displayName": "Healing Potion",
+        "previewIcon": "Item_CON_Potion_A_Red_Mini"
+    },
+    {
+        "name": "Mushrooms",
+        "type": "ObjectCategories",
+        "displayName": "Mushroom",
+        "previewIcon": "Item_CON_Herb_Mushroom_A"
+    },
+    {
+        "name": "Food",
+        "type": "ObjectCategories",
+        "displayName": "Food",
+        "previewIcon": "Item_CON_Food_Dinner_A"
+    },
+    {
+        "name": "Drink",
+        "type": "ObjectCategories",
+        "displayName": "Drink",
+        "previewIcon": "Itemt_CON_Drink_Cup_A_Tea"
+    },
+    {
+        "name": "FoodFish",
+        "type": "ObjectCategories",
+        "displayName": "Fish",
+        "previewIcon": "Item_CON_Food_Fish_A"
+    },
+    {
+        "name": "ShieldWood",
+        "type": "ObjectCategories",
+        "displayName": "Wooden Shield",
+        "previewIcon": "Item_WPN_Wood_Shield_A"
+    },
+    {
+        "name": "ShieldMetal",
+        "type": "ObjectCategories",
+        "displayName": "Metal Shield",
+        "previewIcon": "Item_WPN_Metal_Shield_A"
+    },
+    {
+        "name": "Knife",
+        "type": "ObjectCategories",
+        "displayName": "Knife",
+        "previewIcon": "Item_FUR_Cutlery_Knife_A"
+    },
+    {
+        "name": "Dagger",
+        "type": "ObjectCategories",
+        "displayName": "Dagger",
+        "previewIcon": "Item_WPN_Dagger_A"
+    },
+    {
+        "name": "Sword",
+        "type": "ObjectCategories",
+        "displayName": "Sword",
+        "previewIcon": "Item_WPN_Sword_A"
+    },
+    {
+        "name": "Axe",
+        "type": "ObjectCategories",
+        "displayName": "Axe",
+        "previewIcon": "Item_WPN_Axe_A"
+    },
+    {
+        "name": "Club",
+        "type": "ObjectCategories",
+        "displayName": "Club",
+        "previewIcon": "Item_WPN_Trolls_Club_A"
+    },
+    {
+        "name": "TwoHandedAxe",
+        "type": "ObjectCategories",
+        "displayName": "Two-Handed Axe",
+        "previewIcon": "Item_WPN_2H_Axe_A"
+    },
+    {
+        "name": "TwoHandedSword",
+        "type": "ObjectCategories",
+        "displayName": "Two-Handed Sword",
+        "previewIcon": "Item_WPN_2H_Sword_A"
+    },
+    {
+        "name": "TwoHandedMaces",
+        "type": "ObjectCategories",
+        "displayName": "Club",
+        "previewIcon": "Item_WPN_Trolls_Club_A"
+    },
+    {
+        "name": "Spear",
+        "type": "ObjectCategories",
+        "displayName": "Spear",
+        "previewIcon": "Item_WPN_Spear_A"
+    },
+    {
+        "name": "FishingRod",
+        "type": "ObjectCategories",
+        "displayName": "Fishing Rod",
+        "previewIcon": "Item_HAR_FishingRod_ABC"
+    },
+    {
+        "name": "Staff",
+        "type": "ObjectCategories",
+        "displayName": "Staff",
+        "previewIcon": "Item_WPN_Human_Normal_2H_Staff_A"
+    },
+    {
+        "name": "Bow",
+        "type": "ObjectCategories",
+        "displayName": "Bow",
+        "previewIcon": "Item_WPN_Bow_A"
+    },
+    {
+        "name": "Crossbow",
+        "type": "ObjectCategories",
+        "displayName": "Crossbow",
+        "previewIcon": "Item_WPN_Human_Normal_Crossbow_A"
+    },
+    {
+        "name": "PotionAirRes",
+        "type": "ObjectCategories",
+        "displayName": "Air Resistance Potion",
+        "previewIcon": "Item_CON_Potion_Debuff_A_Purple"
+    },
+    {
+        "name": "PotionPoison",
+        "type": "ObjectCategories",
+        "displayName": "Poison Potion",
+        "previewIcon": "Item_CON_Potion_A_Green_Mini"
+    },
+    {
+        "name": "ArrowShaft",
+        "type": "ObjectCategories",
+        "displayName": "Arrow Or Shaft",
+        "previewIcon": "Item_WPN_ArrowShaft_A"
+    },
+    {
+        "name": "FoodVoidwokenFish",
+        "type": "ObjectCategories",
+        "displayName": "Void-tainted Fish",
+        "previewIcon": "Item_CON_Food_Fish_D"
+    },
+    {
+        "name": "SkillbookAir",
+        "type": "ObjectCategories",
+        "displayName": "Aerotheurge Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Air_A"
+    },
+    {
+        "name": "SkillbookAirSource",
+        "type": "ObjectCategories",
+        "displayName": "Source Aerotheurge Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Air_A_SourceGlow"
+    },
+    {
+        "name": "SkillbookEarth",
+        "type": "ObjectCategories",
+        "displayName": "Geomancer Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Earth_A"
+    },
+    {
+        "name": "SkillbookEarthSource",
+        "type": "ObjectCategories",
+        "displayName": "Source Geomancer Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Earth_A_SourceGlow"
+    },
+    {
+        "name": "SkillbookFire",
+        "type": "ObjectCategories",
+        "displayName": "Pyrokinetic Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Fire_A"
+    },
+    {
+        "name": "SkillbookFireSource",
+        "type": "ObjectCategories",
+        "displayName": "Source Pyrokinetic Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Fire_A_SourceGlow"
+    },
+    {
+        "name": "SkillbookWater",
+        "type": "ObjectCategories",
+        "displayName": "Hydrosophist Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Water_A"
+    },
+    {
+        "name": "SkillbookWaterSource",
+        "type": "ObjectCategories",
+        "displayName": "Source Hydrosophist Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Water_A_SourceGlow"
+    },
+    {
+        "name": "SkillbookSummoning",
+        "type": "ObjectCategories",
+        "displayName": "Summoning Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Summoning_A"
+    },
+    {
+        "name": "SkillbookSummoningSource",
+        "type": "ObjectCategories",
+        "displayName": "Source Summoning Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Summoning_SourceGlow"
+    },
+    {
+        "name": "SkillbookNecromancy",
+        "type": "ObjectCategories",
+        "displayName": "Necromancy Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Decay_A"
+    },
+    {
+        "name": "SkillbookNecromancySource",
+        "type": "ObjectCategories",
+        "displayName": "Source Necromancy Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Decay_A_SourceGlow"
+    },
+    {
+        "name": "SkillbookPolymorph",
+        "type": "ObjectCategories",
+        "displayName": "Polymorph Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Polymorph_A"
+    },
+    {
+        "name": "SkillbookPolymorphSource",
+        "type": "ObjectCategories",
+        "displayName": "Source Polymorph Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Polymorph_A_SourceGlow"
+    },
+    {
+        "name": "SkillbookRanger",
+        "type": "ObjectCategories",
+        "displayName": "Huntsman Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Ranger_A"
+    },
+    {
+        "name": "SkillbookRangerSource",
+        "type": "ObjectCategories",
+        "displayName": "Source Huntsman Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Ranger_A_SourceGlow"
+    },
+    {
+        "name": "SkillbookWarrior",
+        "type": "ObjectCategories",
+        "displayName": "Warfare Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Warrior_A"
+    },
+    {
+        "name": "SkillbookWarriorSource",
+        "type": "ObjectCategories",
+        "displayName": "Source Warfare Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Warrior_A_SourceGlow"
+    },
+    {
+        "name": "SkillbookRogue",
+        "type": "ObjectCategories",
+        "displayName": "Scoundrel Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Rogue_A"
+    },
+    {
+        "name": "SkillbookRogueSource",
+        "type": "ObjectCategories",
+        "displayName": "Source Scoundrel Skillbook",
+        "previewIcon": "Item_BOOK_Spellbook_Rogue_A_SourceGlow"
+    },
+    {
+        "name": "Wood",
+        "type": "ObjectCategories",
+        "displayName": "Wood",
+        "previewIcon": "Portrait_Gen_Woodpile_A"
+    },
+    {
+        "name": "Gold",
+        "type": "ObjectCategories",
+        "displayName": "Gold",
+        "previewIcon": "Item_FUR_Rich_Cup_A"
+    },
+    {
+        "name": "Metal",
+        "type": "ObjectCategories",
+        "displayName": "Metal",
+        "previewIcon": "Item_LOOT_Scraps_Metal_A"
+    },
+    {
+        "name": "Rock",
+        "type": "ObjectCategories",
+        "displayName": "Rock",
+        "previewIcon": "Item_LOOT_Ore_BlackRock_A"
+    },
+    {
+        "name": "AirResistancePotion",
+        "type": "ObjectCategories",
+        "displayName": "Air Resistance Potion",
+        "previewIcon": "Item_CON_PotionII_B_Purple_Small"
+    },
+    {
+        "name": "CuttingTool",
+        "type": "ObjectCategories",
+        "displayName": "Cutting Tool",
+        "previewIcon": "Item_WPN_Tool_PocketKnife_1H_A"
+    },
+    {
+        "name": "Drudanae",
+        "type": "ObjectCategories",
+        "displayName": "Drudanae",
+        "previewIcon": "Item_CON_Herb_Drudanae_ABC"
+    },
+    {
+        "name": "Meat",
+        "type": "ObjectCategories",
+        "displayName": "Meat",
+        "previewIcon": "Item_CON_Food_Meat_Deer_A"
+    },
+    {
+        "name": "Hammer",
+        "type": "ObjectCategories",
+        "displayName": "Hammer",
+        "previewIcon": "Item_TOOL_Hammer_A"
+    },
+    {
+        "name": "Augmentor",
+        "type": "ObjectCategories",
+        "displayName": "Augmentor",
+        "previewIcon": "Item_CON_Herb_Augmentor_A"
+    },
+    {
+        "name": "ShapeshifterMaskHuman",
+        "type": "ObjectCategories",
+        "displayName": "Human Mask of the Shapeshifter",
+        "previewIcon": "Item_EQ_Shapeshifter_Mask_A_Human"
+    },
+    {
+        "name": "ShapeshifterMaskDwarf",
+        "type": "ObjectCategories",
+        "displayName": "Dwarven Mask of the Shapeshifter",
+        "previewIcon": "Item_EQ_Shapeshifter_Mask_A_Dwarf"
+    },
+    {
+        "name": "ShapeshifterMaskElf",
+        "type": "ObjectCategories",
+        "displayName": "Elven Mask of the Shapeshifter",
+        "previewIcon": "Item_EQ_Shapeshifter_Mask_A_Elf"
+    },
+    {
+        "name": "ShapeshifterMaskLizard",
+        "type": "ObjectCategories",
+        "displayName": "Lizard Mask of the Shapeshifter",
+        "previewIcon": "Item_EQ_Shapeshifter_Mask_A_Lizard"
+    },
+    {
+        "name": "EssenceAir",
+        "type": "ObjectCategories",
+        "displayName": "Any Air Essence",
+        "previewIcon": "LOOT_Essence_Air_Step2_A"
+    },
+    {
+        "name": "EssenceEarth",
+        "type": "ObjectCategories",
+        "displayName": "Any Earth Essence",
+        "previewIcon": "LOOT_Essence_Earth_Step2_A"
+    },
+    {
+        "name": "EssenceFire",
+        "type": "ObjectCategories",
+        "displayName": "Any Fire Essence",
+        "previewIcon": "LOOT_Essence_Fire_Step2_A"
+    },
+    {
+        "name": "EssenceLife",
+        "type": "ObjectCategories",
+        "displayName": "Any Life Essence",
+        "previewIcon": "LOOT_Essence_Life_Step2_A"
+    },
+    {
+        "name": "EssenceShadow",
+        "type": "ObjectCategories",
+        "displayName": "Any Shadow Essence",
+        "previewIcon": "LOOT_Essence_Shadow_Step2_A"
+    },
+    {
+        "name": "EssenceWater",
+        "type": "ObjectCategories",
+        "displayName": "Any Water Essence",
+        "previewIcon": "LOOT_Essence_Water_Step2_A"
+    }
+]

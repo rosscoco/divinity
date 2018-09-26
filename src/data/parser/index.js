@@ -8,7 +8,7 @@ const itemStats = require('./ItemParser');
 const StatsEditor = require('./util/StatsEditor');
 
 const dataFolder = path.join(__dirname, '../../../data');
-const files = ['ItemStats', 'PotionStats', 'WeaponStats', 'ArmourStats', 'ShieldStats'];
+const files = ['ItemStats', 'PotionStats', 'WeaponStats', 'ArmourStats', 'ShieldStats', 'ObjectCategories'];
 // const files = ['ItemStats'];
 // const fileIndex = 0;
 
@@ -23,5 +23,6 @@ csvloader(dataFolder, 'ItemCombos', itemCombos)
 		StatsEditor.itemsInheritParentStats(files);
 		StatsEditor.importDescriptionData(files);
 		StatsEditor.localizeItemNames(files);
+		StatsEditor.convertCategoriesToItems(files);
 		StatsEditor.exportMergedStats(files);
 	});

@@ -33,6 +33,21 @@ function validateItemNames(allItemStats) {
 	return allItemStats;
 }
 
+function convertCategoriesToItems() {
+	const loadedFile = fs.readFileSync(path.join(dataFolder, 'output', 'ObjectCategories.json'), 'utf-8');
+	const data = JSON.parse(loadedFile);
+	data.forEach((stats) => {
+		stats.displayName = stats.tooltip;
+		stats.previewIcon = stats.icon;
+		delete stats.tooltip;
+		delete stats.icon;
+	});
+
+	fs.writeFileSync(path.join(dataFolder, 'output', 'ObjectCategories.json'), JSON.stringify(data, null, 4));
+
+	return data;
+}
+
 
 function getStatsIndexedByName(files) {
 	let combinedData = [];
@@ -120,5 +135,5 @@ function localizeItemNames(files) {
 }
 
 module.exports = {
-	itemsInheritParentStats, importDescriptionData, localizeItemNames, exportMergedStats
+	itemsInheritParentStats, importDescriptionData, localizeItemNames, exportMergedStats, convertCategoriesToItems
 };

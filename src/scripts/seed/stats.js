@@ -21,5 +21,9 @@ module.exports = function (sequelize, itemData) {
 	db = sequelize;
 	ITEMSTATS = itemData;
 
-	return createItemStats();
+	return createItemStats()
+		.catch((err) => {
+			debugger;
+			console.log(err);
+		});
 };

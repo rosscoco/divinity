@@ -14,37 +14,53 @@ function forceRecipeIds(jsonArr) {
 	return newJson;
 }
 
-function dbJoinIngredientsToRecipe(data, options) {
-	const promises = [];
-	data.ingredients.forEach((ingredient) => {
-		const p = data.recipe.addIngredient(ingredient.id, options)
-			.catch((err) => {
-				console.log(`Error setting recipe ingredient ${err}`);
-			});
-		promises.push(p);
+// function dbJoinIngredientsToRecipe(data, options) {
+// 	const promises = [];
+// 	data.ingredients.forEach((ingredient) => {
+// 		const p = data.recipe.addIngredient(ingredient.id, options)
+// 			.catch((err) => {
+// 				console.log(`Error setting recipe ingredient ${err}`);
+// 			});
+// 		promises.push(p);
+// 	});
+// 	return Promise.all(promises);
+// }
+
+
+// function getIngredientsForRecipe(ingredArr, dbRecipe, options) {
+// 	const recipe = dbRecipe;
+// 	return new Promise((resolve, reject) => {
+// 		db.Ingredient.findAll({
+// 			where: {
+// 				name: {
+// 					[Op.or]: ingredArr	// Sequelize OR clause
+// 				}
+// 			}
+// 		}, options).then((ingredients) => {
+// 			if (ingredients.length === 0) reject(new Error('No Ingredients found for recipe'));
+// 			resolve({ ingredients, recipe });
+// 		});
+// 	})
+// 		.catch((err) => {
+// 			debugger;
+// 			console.log(err);
+// 		});
+// }
+
+function assignIngredients(toRecipe, data, options) {
+	const setList = [];
+	const recipeJson = data;
+
+	recipeJson.ingredients.forEach((ing) => {
+		setList.push(toRecipe.addIngredient(ing, options));
+		// setList.push(db.ItemStats.findById(ing)
+		// 	.then((dbIng) => {
+		// 		console.log('!');
+		// 		dbIng.setResult(toRecipe.id);
+		// 	}));
 	});
-	return Promise.all(promises);
-}
 
-
-function getIngredientsForRecipe(ingredArr, dbRecipe, options) {
-	const recipe = dbRecipe;
-	return new Promise((resolve, reject) => {
-		db.Ingredient.findAll({
-			where: {
-				name: {
-					[Op.or]: ingredArr	// Sequelize OR clause
-				}
-			}
-		}, options).then((ingredients) => {
-			if (ingredients.length === 0) reject(new Error('No Ingredients found for recipe'));
-			resolve({ ingredients, recipe });
-		});
-	})
-		.catch((err) => {
-			debugger;
-			console.log(err);
-		});
+	return Promise.all(setList);
 }
 
 function dbCreateRecipe(data, options) {
@@ -54,9 +70,12 @@ function dbCreateRecipe(data, options) {
 		name: recipeJson.name, id: recipeJson.id, itemData: recipeJson.stats, ItemStatId: `${recipeJson.stats}`
 	}, options)
 		// .then(dbRecipe => dbRecipe.setItemStats(recipeJson.stats, { options }))
-		.then(dbRecipe => getIngredientsForRecipe(recipeJson.ingredients, dbRecipe, options))
-		.then(ingredients => dbJoinIngredientsToRecipe(ingredients, options))
-		.then()
+		// .then(dbRecipe => getIngredientsForRecipe(recipeJson.ingredients, dbRecipe, options))
+		// .then(ingredients => dbJoinIngredientsToRecipe(ingredients, options))
+		.then((dbRecipe) => {
+			console.log('!!');
+			return assignIngredients(dbRecipe, recipeJson, options);
+		})
 		.catch((err) => {
 			debugger;
 			console.log(err);
