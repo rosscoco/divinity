@@ -77,7 +77,7 @@ module.exports = function (sequelize, Datatypes) {
 	});
 
 	ItemStats.associate = (models) => {
-		models.ItemStats.belongsToMany(models.RecipeResult, { through: 'Recipe', as: 'result' });
+		models.ItemStats.belongsToMany(models.RecipeResult, { through: 'Recipe', as: 'Result' });
 		// models.ItemStats.hasMany(models.Ingredient);
 	};
 

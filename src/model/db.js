@@ -7,24 +7,6 @@ const basename = path.basename(__filename);
 
 const db = {};
 
-// const logger = winston.createLogger({
-// 	transports: [
-// 		new winston.transports.File({
-// 			level: 'silly',
-// 			filename: path.join(__dirname, 'all-logs.log'),
-// 			handleExceptions: true,
-// 			json: true,
-// 			maxsize: 5242880, // 5MB
-// 			maxFiles: 5,
-// 			colorize: false
-// 		}),
-// 		new winston.transports.Console({
-// 			level: 'debug',
-// 			colorize: true
-// 		}),
-// 	],
-// 	exitOnError: false
-// });
 
 const sequelize = new Sequelize('db', 'user', 'pass', {
 	host: 'localhost',
